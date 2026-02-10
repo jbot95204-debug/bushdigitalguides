@@ -1,0 +1,107 @@
+{{ define "main" }}
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    <h1>Guides that <span>actually help.</span></h1>
+    <p>Practical Australian books on solar, property, gardening, and business. No corporate waffle. No filler. Just stuff that works.</p>
+    <a href="/books/" class="btn btn-primary">Browse the Books</a>
+  </div>
+</section>
+
+<!-- Books Section -->
+<section class="section">
+  <div class="container">
+    <div class="section-title">
+      <h2>The Library</h2>
+      <p style="color: var(--gray-600);">Four books. Four topics. One rule: be genuinely useful.</p>
+    </div>
+    <div class="book-grid">
+
+      <a href="/books/off-grid-but-online/" class="book-card">
+        <div class="book-card-cover" style="background: linear-gradient(135deg, #2d5016, #4a7c28);">🔆</div>
+        <div class="book-card-body">
+          <h3>Off-Grid but Online</h3>
+          <p>The Australian guide to self-sufficient living with modern tech. Solar, batteries, water, internet — all of it.</p>
+          <div class="book-card-meta">
+            <span>📖 72,000 words</span>
+            <span>📑 24 chapters</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="/books/automate-everything/" class="book-card">
+        <div class="book-card-cover" style="background: linear-gradient(135deg, #1e40af, #3b82f6);">⚡</div>
+        <div class="book-card-body">
+          <h3>Automate Everything</h3>
+          <p>The small business owner's guide to working less and earning more. For tradies, consultants, and anyone drowning in admin.</p>
+          <div class="book-card-meta">
+            <span>📖 37,000 words</span>
+            <span>📑 17 chapters</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="/books/set-and-forget/" class="book-card">
+        <div class="book-card-cover" style="background: linear-gradient(135deg, #15803d, #22c55e);">🌱</div>
+        <div class="book-card-body">
+          <h3>Set and Forget</h3>
+          <p>The Aussie guide to automated gardening. Smart irrigation, sensors, and tech for people who'd rather be on the couch.</p>
+          <div class="book-card-meta">
+            <span>📖 91,000 words</span>
+            <span>📑 22 chapters</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="/books/value-add-property-playbook/" class="book-card">
+        <div class="book-card-cover" style="background: linear-gradient(135deg, #9a3412, #ea580c);">🏠</div>
+        <div class="book-card-body">
+          <h3>The Value-Add Property Playbook</h3>
+          <p>Granny flats, subdivisions, dual occs & creative strategies. Real data, real numbers, real Australian markets.</p>
+          <div class="book-card-meta">
+            <span>📖 62,000 words</span>
+            <span>📑 15 chapters</span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- Latest Blog Posts -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-title">
+      <h2>Latest from the Blog</h2>
+      <p style="color: var(--gray-600);">Free guides, market updates, and the stuff that didn't fit in the books.</p>
+    </div>
+    <div class="blog-grid">
+      {{ range first 6 (where .Site.RegularPages "Section" "blog") }}
+      <a href="{{ .Permalink }}" class="blog-card">
+        <div class="blog-card-meta">{{ .Date.Format "2 Jan 2006" }} {{ with .Params.book }}· {{ . }}{{ end }}</div>
+        <h3>{{ .Title }}</h3>
+        <p>{{ .Description }}</p>
+        {{ range .Params.tags }}<span class="tag">{{ . }}</span>{{ end }}
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- Email Signup -->
+<section class="section">
+  <div class="container">
+    <div class="signup-box">
+      <h2>Get the good stuff first.</h2>
+      <p>New guides, market updates, and free resources. No spam — just genuinely useful emails, a few times a month.</p>
+      <form name="newsletter" method="POST" data-netlify="true" class="signup-form">
+        <input type="email" name="email" placeholder="your@email.com" required>
+        <button type="submit" class="btn btn-primary">Sign Up</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+{{ end }}

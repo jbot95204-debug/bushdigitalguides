@@ -1,0 +1,78 @@
+baseURL = 'https://bushdigitalguides.com.au/'
+languageCode = 'en-au'
+title = 'Bush Digital Guides'
+theme = 'bdg'
+
+[params]
+  description = "Practical Australian guides for real people. Solar, property, gardening, business automation."
+  tagline = "No fluff. Just guides that actually help."
+  author = "Bush Digital Guides"
+  email = "hello@bushdigitalguides.com.au"
+
+[params.books]
+  [params.books.offgrid]
+    title = "Off-Grid but Online"
+    subtitle = "The Australian Guide to Self-Sufficient Living with Modern Tech"
+    slug = "off-grid-but-online"
+    words = "72,000"
+    chapters = "24"
+    price = "$6.99 USD"
+    color = "#2d5016"
+    emoji = "🔆"
+    kdpLink = "#"
+  [params.books.automation]
+    title = "Automate Everything"  
+    subtitle = "The Small Business Owner's Guide to Working Less and Earning More"
+    slug = "automate-everything"
+    words = "37,000"
+    chapters = "17"
+    price = "$4.99 USD"
+    color = "#1e40af"
+    emoji = "⚡"
+    kdpLink = "#"
+  [params.books.gardening]
+    title = "Set and Forget"
+    subtitle = "The Aussie Guide to Automated Gardening"
+    slug = "set-and-forget"
+    words = "91,000"
+    chapters = "22"
+    price = "$6.99 USD"
+    color = "#15803d"
+    emoji = "🌱"
+    kdpLink = "#"
+  [params.books.property]
+    title = "The Value-Add Property Playbook"
+    subtitle = "Granny Flats, Subdivisions, Dual Occs & Creative Strategies to Build Wealth Faster"
+    slug = "value-add-property-playbook"
+    words = "62,000"
+    chapters = "15"
+    price = "$6.99 USD"
+    color = "#9a3412"
+    emoji = "🏠"
+    kdpLink = "#"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Books"
+    url = "/books/"
+    weight = 2
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 3
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

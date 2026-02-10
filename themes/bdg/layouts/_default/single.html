@@ -1,0 +1,64 @@
+{{ define "main" }}
+
+{{ if eq .Section "blog" }}
+<!-- Blog Post -->
+<section class="post-header">
+  <h1>{{ .Title }}</h1>
+  <div class="post-meta">{{ .Date.Format "2 January 2006" }} · {{ .ReadingTime }} min read {{ with .Params.book }}· 📚 {{ . }}{{ end }}</div>
+</section>
+<article class="post-content">
+  {{ .Content }}
+  
+  {{ with .Params.book }}
+  <div class="post-book-cta">
+    <div class="emoji">📚</div>
+    <div>
+      <strong>Want the full guide?</strong> This post covers just a slice of what's in <em>{{ . }}</em>.
+      {{ with $.Params.bookLink }}<a href="{{ . }}">Check out the full book →</a>{{ end }}
+    </div>
+  </div>
+  {{ end }}
+</article>
+
+{{ else if eq .Section "books" }}
+<!-- Book Landing Page -->
+<section class="book-hero" style="background: linear-gradient(135deg, {{ with .Params.color }}{{ . }}{{ else }}#0f172a{{ end }}, {{ with .Params.colorEnd }}{{ . }}{{ else }}#1e293b{{ end }});">
+  <div class="container">
+    <div class="book-hero-inner">
+      <div class="book-hero-text">
+        <h1>{{ .Title }}</h1>
+        <p class="subtitle">{{ .Params.subtitle }}</p>
+        <div class="meta">
+          <span>📖 {{ .Params.words }} words</span>
+          <span>📑 {{ .Params.chapters }} chapters</span>
+          <span>✍️ Bush Digital Guides</span>
+        </div>
+        {{ with .Params.kdpLink }}<a href="{{ . }}" class="btn btn-primary">Buy on Amazon — {{ $.Params.price }}</a>{{ end }}
+      </div>
+      <div>
+        <div class="book-cover-placeholder" style="background: rgba(255,255,255,0.1);">
+          {{ .Params.emoji }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="content-narrow">
+    {{ .Content }}
+  </div>
+</section>
+
+{{ else }}
+<!-- Default Single -->
+<section class="post-header">
+  <h1>{{ .Title }}</h1>
+</section>
+<section class="section">
+  <div class="content-narrow">
+    {{ .Content }}
+  </div>
+</section>
+{{ end }}
+
+{{ end }}
