@@ -1,67 +1,97 @@
 {{ define "main" }}
 
-<!-- Hero -->
+<!-- Hero — Clean, bold, James Clear style -->
 <section class="hero">
   <div class="container">
-    <h1>Guides that <span>actually help.</span></h1>
-    <p>Practical Australian books on solar, property, gardening, and business. No corporate waffle. No filler. Just stuff that works.</p>
-    <a href="/books/" class="btn btn-primary">Browse the Books</a>
+    <h1>Practical guides for people who <em>actually do things.</em></h1>
+    <p class="lead">Four Australian books on solar, property, gardening, and business automation. No filler. No fluff. Just stuff that works.</p>
+    <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
+      <a href="/books/" class="btn btn-primary">Browse the Books →</a>
+      <a href="/blog/" class="btn btn-outline">Read the Blog</a>
+    </div>
   </div>
 </section>
 
+<!-- Stats Bar -->
+<div class="container">
+  <div class="stats-row">
+    <div class="stat">
+      <div class="stat-number">4</div>
+      <div class="stat-label">Books</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">262k</div>
+      <div class="stat-label">Words Written</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">78</div>
+      <div class="stat-label">Chapters</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">0</div>
+      <div class="stat-label">Filler Pages</div>
+    </div>
+  </div>
+</div>
+
 <!-- Books Section -->
-<section class="section">
+<section class="books-section">
   <div class="container">
-    <div class="section-title">
-      <h2>The Library</h2>
-      <p style="color: var(--gray-600);">Four books. Four topics. One rule: be genuinely useful.</p>
+    <div class="section-header">
+      <div class="section-label">The Library</div>
+      <h2>Books that earn their page count.</h2>
+      <p>Every chapter, every statistic, every recommendation — researched, sourced, and written for Australian conditions.</p>
     </div>
     <div class="book-grid">
 
       <a href="/books/off-grid-but-online/" class="book-card">
-        <div class="book-card-cover" style="background: linear-gradient(135deg, #2d5016, #4a7c28);">🔆</div>
+        <div class="book-card-cover" style="background: linear-gradient(145deg, #1a3a0a, #2d5016);">🔆</div>
         <div class="book-card-body">
           <h3>Off-Grid but Online</h3>
-          <p>The Australian guide to self-sufficient living with modern tech. Solar, batteries, water, internet — all of it.</p>
+          <div class="subtitle">Self-sufficient living with modern tech</div>
+          <div class="excerpt">Solar, batteries, water, internet — everything you need to go off-grid without going offline. Written for Australian conditions.</div>
           <div class="book-card-meta">
-            <span>📖 72,000 words</span>
-            <span>📑 24 chapters</span>
+            <span>72k words</span>
+            <span>24 chapters</span>
           </div>
         </div>
       </a>
 
       <a href="/books/automate-everything/" class="book-card">
-        <div class="book-card-cover" style="background: linear-gradient(135deg, #1e40af, #3b82f6);">⚡</div>
+        <div class="book-card-cover" style="background: linear-gradient(145deg, #1e3a8a, #2563eb);">⚡</div>
         <div class="book-card-body">
           <h3>Automate Everything</h3>
-          <p>The small business owner's guide to working less and earning more. For tradies, consultants, and anyone drowning in admin.</p>
+          <div class="subtitle">Work less. Earn more. Stop drowning in admin.</div>
+          <div class="excerpt">For tradies, consultants, and small business owners who'd rather do actual work than chase invoices at 10pm.</div>
           <div class="book-card-meta">
-            <span>📖 37,000 words</span>
-            <span>📑 17 chapters</span>
+            <span>37k words</span>
+            <span>17 chapters</span>
           </div>
         </div>
       </a>
 
       <a href="/books/set-and-forget/" class="book-card">
-        <div class="book-card-cover" style="background: linear-gradient(135deg, #15803d, #22c55e);">🌱</div>
+        <div class="book-card-cover" style="background: linear-gradient(145deg, #064e3b, #059669);">🌱</div>
         <div class="book-card-body">
           <h3>Set and Forget</h3>
-          <p>The Aussie guide to automated gardening. Smart irrigation, sensors, and tech for people who'd rather be on the couch.</p>
+          <div class="subtitle">The Aussie guide to automated gardening</div>
+          <div class="excerpt">Smart irrigation, soil sensors, and Home Assistant automations. Every drop counts when you're gardening in Australia.</div>
           <div class="book-card-meta">
-            <span>📖 91,000 words</span>
-            <span>📑 22 chapters</span>
+            <span>91k words</span>
+            <span>22 chapters</span>
           </div>
         </div>
       </a>
 
       <a href="/books/value-add-property-playbook/" class="book-card">
-        <div class="book-card-cover" style="background: linear-gradient(135deg, #9a3412, #ea580c);">🏠</div>
+        <div class="book-card-cover" style="background: linear-gradient(145deg, #7c2d12, #c2410c);">🏠</div>
         <div class="book-card-body">
           <h3>The Value-Add Property Playbook</h3>
-          <p>Granny flats, subdivisions, dual occs & creative strategies. Real data, real numbers, real Australian markets.</p>
+          <div class="subtitle">Granny flats, subdivisions & creative strategies</div>
+          <div class="excerpt">Real data, real case studies, real Australian markets. Including the NDIS chapter everyone needs to read before investing.</div>
           <div class="book-card-meta">
-            <span>📖 62,000 words</span>
-            <span>📑 15 chapters</span>
+            <span>62k words</span>
+            <span>15 chapters</span>
           </div>
         </div>
       </a>
@@ -70,35 +100,40 @@
   </div>
 </section>
 
-<!-- Latest Blog Posts -->
-<section class="section section-alt">
+<!-- Blog Section -->
+<section class="blog-section">
   <div class="container">
-    <div class="section-title">
-      <h2>Latest from the Blog</h2>
-      <p style="color: var(--gray-600);">Free guides, market updates, and the stuff that didn't fit in the books.</p>
+    <div class="section-header">
+      <div class="section-label">From the Blog</div>
+      <h2>Free guides & market updates</h2>
+      <p>The stuff that didn't fit in the books — plus timely updates on rules, rebates, and rates.</p>
     </div>
     <div class="blog-grid">
       {{ range first 6 (where .Site.RegularPages "Section" "blog") }}
       <a href="{{ .Permalink }}" class="blog-card">
-        <div class="blog-card-meta">{{ .Date.Format "2 Jan 2006" }} {{ with .Params.book }}· {{ . }}{{ end }}</div>
+        <div class="date">{{ .Date.Format "2 Jan 2006" }}</div>
         <h3>{{ .Title }}</h3>
         <p>{{ .Description }}</p>
-        {{ range .Params.tags }}<span class="tag">{{ . }}</span>{{ end }}
+        <span class="read-more">Read more →</span>
       </a>
       {{ end }}
+    </div>
+    <div style="text-align: center; margin-top: 40px;">
+      <a href="/blog/" class="btn btn-outline btn-sm">View all posts →</a>
     </div>
   </div>
 </section>
 
-<!-- Email Signup -->
-<section class="section">
+<!-- Newsletter -->
+<section class="newsletter-section">
   <div class="container">
-    <div class="signup-box">
+    <div class="newsletter-inner">
+      <div class="section-label">Stay in the loop</div>
       <h2>Get the good stuff first.</h2>
-      <p>New guides, market updates, and free resources. No spam — just genuinely useful emails, a few times a month.</p>
-      <form name="newsletter" method="POST" data-netlify="true" class="signup-form">
+      <p>New guides, market updates, and free resources. No spam — just genuinely useful emails, a couple of times a month.</p>
+      <form name="newsletter" method="POST" data-netlify="true" class="newsletter-form">
         <input type="email" name="email" placeholder="your@email.com" required>
-        <button type="submit" class="btn btn-primary">Sign Up</button>
+        <button type="submit" class="btn btn-primary">Subscribe</button>
       </form>
     </div>
   </div>
