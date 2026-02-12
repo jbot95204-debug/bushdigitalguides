@@ -1,124 +1,542 @@
-<!doctype html><html lang=en-AU><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=google-site-verification content="VrSLEflHmWwkQH0dExNbDkmHu8PgNJmNOWseQ22vzGg"><title>Home Assistant Garden Automation: A Practical Getting-Started Guide | Bush Digital Guides</title>
-<meta name=description content="Set up Home Assistant garden automation with soil moisture sensors, automated irrigation, weather integration and ESPHome DIY sensors."><link rel=canonical href=https://bushdigitalguides.com.au/blog/home-assistant-garden-automation/><link rel=stylesheet href=/css/style.css><meta property="og:url" content="https://bushdigitalguides.com.au/blog/home-assistant-garden-automation/"><meta property="og:site_name" content="Bush Digital Guides"><meta property="og:title" content="Home Assistant Garden Automation: A Practical Getting-Started Guide"><meta property="og:description" content="Set up Home Assistant garden automation with soil moisture sensors, automated irrigation, weather integration and ESPHome DIY sensors."><meta property="og:locale" content="en_au"><meta property="og:type" content="article"><meta property="article:section" content="blog"><meta property="article:published_time" content="2026-02-11T00:00:00+00:00"><meta property="article:modified_time" content="2026-02-11T00:00:00+00:00"><meta property="article:tag" content="Home Assistant"><meta property="article:tag" content="Garden Automation"><meta property="article:tag" content="Smart Irrigation"><meta property="article:tag" content="ESPHome"><meta property="article:tag" content="Soil Moisture Sensor"><meta property="article:tag" content="Automated Watering"><meta name=twitter:card content="summary"><meta name=twitter:title content="Home Assistant Garden Automation: A Practical Getting-Started Guide"><meta name=twitter:description content="Set up Home Assistant garden automation with soil moisture sensors, automated irrigation, weather integration and ESPHome DIY sensors."><script type=application/ld+json>[{"@context":"https://schema.org","@type":["BlogPosting","Article"],"headline":"Home Assistant Garden Automation: A Practical Getting-Started Guide","description":"Set up Home Assistant garden automation with soil moisture sensors, automated irrigation, weather integration and ESPHome DIY sensors.","datePublished":"2026-02-11T00:00:00Z","dateModified":"2026-02-11T00:00:00Z","author":{"@type":"Organization","name":"Bush Digital Guides","url":"https://bushdigitalguides.com.au/"},"publisher":{"@type":"Organization","name":"Bush Digital Guides","url":"https://bushdigitalguides.com.au/"},"mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/bushdigitalguides.com.au\/blog\/home-assistant-garden-automation\/"},"wordCount":"2197","timeRequired":"PT11M","inLanguage":"en-AU","keywords":"Home Assistant, garden automation, smart irrigation, ESPHome, soil moisture sensor, automated watering","isPartOf":{"@type":"Book","name":"Set and Forget: The Aussie Guide to Automated Gardening","author":{"@type":"Organization","name":"Bush Digital Guides"}}},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/bushdigitalguides.com.au\/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https:\/\/bushdigitalguides.com.au\/blog/"},{"@type":"ListItem","position":3,"name":"Home Assistant Garden Automation: A Practical Getting-Started Guide","item":"https:\/\/bushdigitalguides.com.au\/blog\/home-assistant-garden-automation\/"}]}]</script></head><body><header class=site-header><div class=container><a href=/ class=site-logo>Bush<span>Digital</span>Guides</a><nav class=site-nav><a href=/>Home</a>
-<a href=/books/>Books</a>
-<a href=/blog/>Blog</a>
-<a href=/about/>About</a></nav></div></header><main><section class=post-header><div class=section-label style=text-align:center;margin-bottom:8px>Set and Forget: The Aussie Guide to Automated Gardening</div><h1>Home Assistant Garden Automation: A Practical Getting-Started Guide</h1><div class=post-meta>11 February 2026 · 11 min read</div></section><article class=post-content><p>There&rsquo;s a certain kind of person who looks at their garden irrigation timer and thinks, &ldquo;Yeah, but what if my garden could check the weather forecast, read the soil moisture, and decide for itself whether to water?&rdquo; If that sounds like you, welcome to the rabbit hole. <strong>Home Assistant garden automation</strong> is where smart home tech meets practical horticulture, and once you start, you won&rsquo;t look at a dumb timer the same way again.</p><p>This guide walks you through the practical setup — from getting Home Assistant running, to building DIY soil moisture sensors with ESPHome, to creating automations that actually save water and grow better plants. It&rsquo;s written for people who want results, not people who want to tinker endlessly (though if you&rsquo;re the tinkering type, there&rsquo;s plenty here for you too).</p><h2 id=why-home-assistant-for-garden-automation>Why Home Assistant for Garden Automation?</h2><p>You might be wondering why you need a whole home automation platform just to water plants. Fair question. Here&rsquo;s why Home Assistant beats dedicated smart irrigation controllers:</p><h3 id=it-connects-everything>It Connects Everything</h3><p>Dedicated irrigation controllers (Hunter Hydrawise, Orbit B-Hyve, Rachio) do one thing — control zones on a schedule, maybe with a weather adjustment. Home Assistant connects your irrigation to <strong>everything else</strong>: soil moisture sensors, rain sensors, weather forecasts, temperature readings, tank water levels, even your home&rsquo;s energy system (water during off-peak solar hours, anyone?).</p><h3 id=its-local>It&rsquo;s Local</h3><p>No cloud dependency. Your garden automations run on a little box in your house, not on some company&rsquo;s server that might go down, get hacked, or shut down their API when they pivot to a different business model. When Insteon died, their users lost everything. Your Home Assistant will still be watering your tomatoes.</p><h3 id=its-free-software-wise>It&rsquo;s Free (Software-wise)</h3><p>Home Assistant is open-source. Free forever. The hardware to run it costs $50-200 depending on what you use, but there are no subscriptions, no premium tiers, no &ldquo;pay $5/month to unlock advanced scheduling.&rdquo;</p><h3 id=its-ridiculously-flexible>It&rsquo;s Ridiculously Flexible</h3><p>Want to water Zone 3 only when soil moisture drops below 40%, it hasn&rsquo;t rained in the last 24 hours, the forecast shows no rain in the next 12 hours, and it&rsquo;s not currently above 38°C? That&rsquo;s about 10 lines of automation config. Try doing that with a $50 irrigation timer.</p><h2 id=getting-started-what-you-need>Getting Started: What You Need</h2><h3 id=the-home-assistant-hub>The Home Assistant Hub</h3><p>You need something to run Home Assistant on. Options from simplest to most flexible:</p><p><strong>Home Assistant Green (~$150 AUD)</strong></p><ul><li>Purpose-built hardware, plug-and-play</li><li>Best for beginners who just want it to work</li><li>Plenty powerful for garden automation</li></ul><p><strong>Raspberry Pi 4/5 ($80-$130 AUD + SD card/SSD)</strong></p><ul><li>The classic DIY option</li><li>Works great but SD cards can fail — use an SSD for reliability</li><li>Massive community support</li></ul><p><strong>Old PC or Intel NUC ($0-$200)</strong></p><ul><li>If you&rsquo;ve got an old mini-PC lying around, install Home Assistant OS on it</li><li>More powerful than you&rsquo;ll ever need for garden automation</li><li>Good option if you plan to expand into full home automation</li></ul><p><strong>Virtual Machine</strong></p><ul><li>If you already run a home server (Proxmox, Unraid, etc.), just spin up a VM</li><li>Most flexible option for tech-savvy users</li></ul><h3 id=irrigation-control-hardware>Irrigation Control Hardware</h3><p>You need a way for Home Assistant to actually turn water on and off. Several approaches:</p><p><strong>Smart Solenoid Valves (WiFi/Zigbee)</strong></p><ul><li>Replace your existing solenoid valves with smart ones</li><li>Brands: Moes Zigbee valve, Shelly-controlled standard solenoids</li><li>Direct Home Assistant integration</li></ul><p><strong>Smart Relay Controlling Existing Solenoids</strong></p><ul><li>Keep your existing 24V AC solenoid valves</li><li>Use a Shelly relay, Sonoff, or ESP32-based relay board to switch them</li><li>Cheapest option if you already have solenoids installed (~$15-30 per zone)</li></ul><p><strong>All-in-One Smart Irrigation Controllers</strong></p><ul><li>OpenSprinkler — open-source, excellent Home Assistant integration</li><li>Runs its own firmware but plays nicely with HA</li><li>~$200 AUD for a unit that handles 8+ zones</li></ul><p><strong>DIY ESP32 + Relay Board</strong></p><ul><li>Build your own multi-zone controller with an ESP32 and relay module</li><li>Total cost: ~$20-40 for up to 8 zones</li><li>Full ESPHome integration (covered below)</li><li>Maximum flexibility, requires some soldering and basic electronics</li></ul><h3 id=soil-moisture-sensors>Soil Moisture Sensors</h3><p>This is where garden automation gets genuinely smart. Instead of watering on a schedule, you water based on what the soil actually needs.</p><p><strong>Capacitive Soil Moisture Sensors + ESPHome (DIY)</strong></p><ul><li>Cost: ~$3-8 per sensor</li><li>Requires an ESP32 board (~$10-15) to read and transmit data</li><li>The most cost-effective option by far</li><li>Detailed build guide below</li></ul><p><strong>Xiaomi/Miflora Plant Sensors</strong></p><ul><li>~$15-25 each</li><li>Bluetooth — works with Home Assistant via ESPHome Bluetooth proxy or direct</li><li>Measures moisture, temperature, light, and soil conductivity</li><li>Decent for pot plants, less reliable for garden beds (short probe)</li></ul><p><strong>Ecowitt Soil Moisture Sensors</strong></p><ul><li>~$20-30 each</li><li>915MHz wireless — good range for garden setups</li><li>Works with Ecowitt gateway → Home Assistant integration</li><li>Reliable and weatherproof</li></ul><h2 id=building-diy-soil-moisture-sensors-with-esphome>Building DIY Soil Moisture Sensors with ESPHome</h2><p>ESPHome is a firmware framework for ESP32/ESP8266 microcontrollers that integrates natively with Home Assistant. If you&rsquo;re new to it — don&rsquo;t panic. It&rsquo;s way easier than it sounds.</p><h3 id=what-you-need-per-sensor-node>What You Need (Per Sensor Node)</h3><ul><li>1x ESP32 development board (~$10-15 from AliExpress or Core Electronics)</li><li>1-4x Capacitive soil moisture sensors (~$3-8 each)</li><li>1x Waterproof enclosure (~$5-10)</li><li>USB power supply or 18650 battery + solar panel for wireless</li><li>Dupont jumper wires</li></ul><p><strong>Total cost per sensor node: $20-40</strong> (can monitor 1-4 zones per node)</p><h3 id=esphome-configuration>ESPHome Configuration</h3><p>Here&rsquo;s a basic ESPHome config for a soil moisture sensor:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>esphome</span>:
-</span></span><span style=display:flex><span>  <span style=color:#f92672>name</span>: <span style=color:#ae81ff>garden-moisture-01</span>
-</span></span><span style=display:flex><span>  <span style=color:#f92672>platform</span>: <span style=color:#ae81ff>ESP32</span>
-</span></span><span style=display:flex><span>  <span style=color:#f92672>board</span>: <span style=color:#ae81ff>esp32dev</span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#f92672>wifi</span>:
-</span></span><span style=display:flex><span>  <span style=color:#f92672>ssid</span>: <span style=color:#e6db74>&#34;YourWiFiName&#34;</span>
-</span></span><span style=display:flex><span>  <span style=color:#f92672>password</span>: <span style=color:#e6db74>&#34;YourWiFiPassword&#34;</span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#f92672>api</span>:
-</span></span><span style=display:flex><span>  <span style=color:#f92672>encryption</span>:
-</span></span><span style=display:flex><span>    <span style=color:#f92672>key</span>: <span style=color:#e6db74>&#34;your-generated-api-key&#34;</span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#f92672>ota</span>:
-</span></span><span style=display:flex><span>  <span style=color:#f92672>platform</span>: <span style=color:#ae81ff>esphome</span>
-</span></span><span style=display:flex><span>  <span style=color:#f92672>password</span>: <span style=color:#e6db74>&#34;your-ota-password&#34;</span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#f92672>sensor</span>:
-</span></span><span style=display:flex><span>  - <span style=color:#f92672>platform</span>: <span style=color:#ae81ff>adc</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>pin</span>: <span style=color:#ae81ff>GPIO34</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>name</span>: <span style=color:#e6db74>&#34;Veggie Bed Soil Moisture&#34;</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>update_interval</span>: <span style=color:#ae81ff>300s</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>unit_of_measurement</span>: <span style=color:#e6db74>&#34;%&#34;</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>attenuation</span>: <span style=color:#ae81ff>11db</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>filters</span>:
-</span></span><span style=display:flex><span>      - <span style=color:#f92672>calibrate_linear</span>:
-</span></span><span style=display:flex><span>          - <span style=color:#ae81ff>2.85</span> -<span style=color:#ae81ff>&gt; 0.0   </span> <span style=color:#75715e># Sensor in dry air</span>
-</span></span><span style=display:flex><span>          - <span style=color:#ae81ff>1.28</span> -<span style=color:#ae81ff>&gt; 100.0 </span> <span style=color:#75715e># Sensor in water</span>
-</span></span><span style=display:flex><span>      - <span style=color:#f92672>lambda</span>: |-<span style=color:#e6db74>
-</span></span></span><span style=display:flex><span><span style=color:#e6db74>          if (x &lt; 0) return 0.0;
-</span></span></span><span style=display:flex><span><span style=color:#e6db74>          if (x &gt; 100) return 100.0;
-</span></span></span><span style=display:flex><span><span style=color:#e6db74>          return x;</span>
-</span></span></code></pre></div><h3 id=calibrating-your-sensors>Calibrating Your Sensors</h3><p>The <code>calibrate_linear</code> values above are examples. You need to calibrate each sensor:</p><ol><li><strong>Dry reading:</strong> Hold the sensor in dry air and note the raw ADC value (shown in HA logs)</li><li><strong>Wet reading:</strong> Submerge the sensor in a glass of water and note the value</li><li><strong>Update your config</strong> with these two reference points</li></ol><p>Capacitive sensors aren&rsquo;t laboratory instruments, but they&rsquo;re accurate enough to tell you &ldquo;dry,&rdquo; &ldquo;moist,&rdquo; or &ldquo;wet&rdquo; — which is all you need for irrigation decisions.</p><h3 id=weatherproofing>Weatherproofing</h3><p>Your ESP32 and connections need to survive outdoors. Here&rsquo;s what works:</p><ul><li><strong>Waterproof enclosure:</strong> IP65 or better junction box from Bunnings ($8-15)</li><li><strong>Cable glands:</strong> For where wires enter the enclosure</li><li><strong>Conformal coating:</strong> Spray the ESP32 board with conformal coating for extra protection</li><li><strong>Elevate the enclosure:</strong> Mount it off the ground on a stake or fence post</li><li><strong>Solar option:</strong> A small 6V solar panel + TP4056 charge controller + 18650 battery can power a sensor node indefinitely</li></ul><h2 id=weather-integration>Weather Integration</h2><p>Home Assistant can pull weather data from multiple sources and use it in your garden automations:</p><h3 id=bureau-of-meteorology-bom>Bureau of Meteorology (BoM)</h3><p>The <code>bom</code> integration gives you current conditions and forecasts from your nearest BoM weather station. This is Australian-specific data, which is far more useful than global weather services for local garden decisions.</p><p>Install via HACS (Home Assistant Community Store) — search for &ldquo;Bureau of Meteorology.&rdquo;</p><h3 id=openweathermap>OpenWeatherMap</h3><p>Free tier gives you current weather, 5-day forecast, and rain probability. Good supplement to BoM data.</p><h3 id=personal-weather-stations>Personal Weather Stations</h3><p>If you have an Ecowitt, Ambient Weather, or Davis weather station, integrate it directly. Local microclimate data from your actual property is always better than data from the nearest BoM station 20km away.</p><h3 id=weather-data-you-want-for-garden-automation>Weather Data You Want for Garden Automation</h3><ul><li><strong>Rain in last 24 hours</strong> (don&rsquo;t water if it&rsquo;s already rained)</li><li><strong>Rain forecast next 12-24 hours</strong> (don&rsquo;t water if it&rsquo;s about to rain)</li><li><strong>Current temperature</strong> (don&rsquo;t water in extreme heat — water evaporates before it helps)</li><li><strong>Wind speed</strong> (sprinklers in high wind = wasted water)</li><li><strong>Evapotranspiration (ET)</strong> (advanced: adjusts watering volume based on how fast water is lost)</li></ul><h2 id=building-your-dashboard>Building Your Dashboard</h2><p>A good garden automation dashboard gives you at-a-glance status without needing to dig through menus. Here&rsquo;s a practical layout:</p><h3 id=section-1-current-conditions>Section 1: Current Conditions</h3><ul><li>Soil moisture for each zone (gauge cards — green/yellow/red)</li><li>Last watering time and duration per zone</li><li>Current weather conditions</li><li>Rain forecast (next 24 hours)</li></ul><h3 id=section-2-controls>Section 2: Controls</h3><ul><li>Manual override buttons for each irrigation zone</li><li>Master enable/disable toggle for all automations</li><li>&ldquo;Water everything now&rdquo; emergency button (for heatwave days)</li></ul><h3 id=section-3-history>Section 3: History</h3><ul><li>Soil moisture graphs over the past week (line chart)</li><li>Watering history (when each zone ran and for how long)</li><li>Rainfall history</li></ul><h3 id=example-dashboard-card-yaml>Example Dashboard Card (YAML)</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>type</span>: <span style=color:#ae81ff>gauge</span>
-</span></span><span style=display:flex><span><span style=color:#f92672>entity</span>: <span style=color:#ae81ff>sensor.veggie_bed_soil_moisture</span>
-</span></span><span style=display:flex><span><span style=color:#f92672>name</span>: <span style=color:#ae81ff>Veggie Bed</span>
-</span></span><span style=display:flex><span><span style=color:#f92672>min</span>: <span style=color:#ae81ff>0</span>
-</span></span><span style=display:flex><span><span style=color:#f92672>max</span>: <span style=color:#ae81ff>100</span>
-</span></span><span style=display:flex><span><span style=color:#f92672>severity</span>:
-</span></span><span style=display:flex><span>  <span style=color:#f92672>green</span>: <span style=color:#ae81ff>40</span>
-</span></span><span style=display:flex><span>  <span style=color:#f92672>yellow</span>: <span style=color:#ae81ff>25</span>
-</span></span><span style=display:flex><span>  <span style=color:#f92672>red</span>: <span style=color:#ae81ff>0</span>
-</span></span></code></pre></div><h2 id=example-automations>Example Automations</h2><p>Here&rsquo;s where the magic happens. These are real automations you can adapt:</p><h3 id=automation-1-water-when-dry-basic>Automation 1: Water When Dry (Basic)</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>alias</span>: <span style=color:#e6db74>&#34;Water veggie bed when dry&#34;</span>
-</span></span><span style=display:flex><span><span style=color:#f92672>trigger</span>:
-</span></span><span style=display:flex><span>  - <span style=color:#f92672>platform</span>: <span style=color:#ae81ff>numeric_state</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>entity_id</span>: <span style=color:#ae81ff>sensor.veggie_bed_soil_moisture</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>below</span>: <span style=color:#ae81ff>35</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>for</span>:
-</span></span><span style=display:flex><span>      <span style=color:#f92672>minutes</span>: <span style=color:#ae81ff>30</span>
-</span></span><span style=display:flex><span><span style=color:#f92672>condition</span>:
-</span></span><span style=display:flex><span>  - <span style=color:#f92672>condition</span>: <span style=color:#ae81ff>time</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>after</span>: <span style=color:#e6db74>&#34;06:00:00&#34;</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>before</span>: <span style=color:#e6db74>&#34;09:00:00&#34;</span>
-</span></span><span style=display:flex><span>  - <span style=color:#f92672>condition</span>: <span style=color:#ae81ff>state</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>entity_id</span>: <span style=color:#ae81ff>input_boolean.irrigation_enabled</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>state</span>: <span style=color:#e6db74>&#34;on&#34;</span>
-</span></span><span style=display:flex><span><span style=color:#f92672>action</span>:
-</span></span><span style=display:flex><span>  - <span style=color:#f92672>service</span>: <span style=color:#ae81ff>switch.turn_on</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>target</span>:
-</span></span><span style=display:flex><span>      <span style=color:#f92672>entity_id</span>: <span style=color:#ae81ff>switch.irrigation_zone_1</span>
-</span></span><span style=display:flex><span>  - <span style=color:#f92672>delay</span>:
-</span></span><span style=display:flex><span>      <span style=color:#f92672>minutes</span>: <span style=color:#ae81ff>15</span>
-</span></span><span style=display:flex><span>  - <span style=color:#f92672>service</span>: <span style=color:#ae81ff>switch.turn_off</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>target</span>:
-</span></span><span style=display:flex><span>      <span style=color:#f92672>entity_id</span>: <span style=color:#ae81ff>switch.irrigation_zone_1</span>
-</span></span></code></pre></div><p>This waters Zone 1 for 15 minutes when soil moisture drops below 35%, but only during the morning window and only if irrigation is globally enabled.</p><h3 id=automation-2-skip-watering-if-rain-expected>Automation 2: Skip Watering if Rain Expected</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>alias</span>: <span style=color:#e6db74>&#34;Cancel watering if rain forecast&#34;</span>
-</span></span><span style=display:flex><span><span style=color:#f92672>trigger</span>:
-</span></span><span style=display:flex><span>  - <span style=color:#f92672>platform</span>: <span style=color:#ae81ff>time</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>at</span>: <span style=color:#e6db74>&#34;05:30:00&#34;</span>
-</span></span><span style=display:flex><span><span style=color:#f92672>condition</span>:
-</span></span><span style=display:flex><span>  - <span style=color:#f92672>condition</span>: <span style=color:#ae81ff>numeric_state</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>entity_id</span>: <span style=color:#ae81ff>sensor.bom_rain_chance_today</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>above</span>: <span style=color:#ae81ff>70</span>
-</span></span><span style=display:flex><span>  - <span style=color:#f92672>condition</span>: <span style=color:#ae81ff>numeric_state</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>entity_id</span>: <span style=color:#ae81ff>sensor.bom_rain_amount_forecast</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>above</span>: <span style=color:#ae81ff>5</span>
-</span></span><span style=display:flex><span><span style=color:#f92672>action</span>:
-</span></span><span style=display:flex><span>  - <span style=color:#f92672>service</span>: <span style=color:#ae81ff>input_boolean.turn_off</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>target</span>:
-</span></span><span style=display:flex><span>      <span style=color:#f92672>entity_id</span>: <span style=color:#ae81ff>input_boolean.irrigation_enabled</span>
-</span></span><span style=display:flex><span>  - <span style=color:#f92672>service</span>: <span style=color:#ae81ff>notify.mobile_app</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>data</span>:
-</span></span><span style=display:flex><span>      <span style=color:#f92672>message</span>: <span style=color:#e6db74>&#34;Irrigation skipped — BoM forecasts &gt;5mm rain today ({{ states(&#39;sensor.bom_rain_chance_today&#39;) }}% chance)&#34;</span>
-</span></span></code></pre></div><p>At 5:30am each day, this checks the BoM forecast. If there&rsquo;s more than a 70% chance of at least 5mm of rain, it disables irrigation for the day and sends you a notification.</p><h3 id=automation-3-heatwave-protection>Automation 3: Heatwave Protection</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>alias</span>: <span style=color:#e6db74>&#34;Extra watering on extreme heat days&#34;</span>
-</span></span><span style=display:flex><span><span style=color:#f92672>trigger</span>:
-</span></span><span style=display:flex><span>  - <span style=color:#f92672>platform</span>: <span style=color:#ae81ff>numeric_state</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>entity_id</span>: <span style=color:#ae81ff>sensor.outside_temperature</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>above</span>: <span style=color:#ae81ff>40</span>
-</span></span><span style=display:flex><span><span style=color:#f92672>condition</span>:
-</span></span><span style=display:flex><span>  - <span style=color:#f92672>condition</span>: <span style=color:#ae81ff>time</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>after</span>: <span style=color:#e6db74>&#34;05:00:00&#34;</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>before</span>: <span style=color:#e6db74>&#34;07:00:00&#34;</span>
-</span></span><span style=display:flex><span><span style=color:#f92672>action</span>:
-</span></span><span style=display:flex><span>  - <span style=color:#f92672>service</span>: <span style=color:#ae81ff>switch.turn_on</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>target</span>:
-</span></span><span style=display:flex><span>      <span style=color:#f92672>entity_id</span>: <span style=color:#ae81ff>switch.irrigation_zone_all</span>
-</span></span><span style=display:flex><span>  - <span style=color:#f92672>delay</span>:
-</span></span><span style=display:flex><span>      <span style=color:#f92672>minutes</span>: <span style=color:#ae81ff>20</span>
-</span></span><span style=display:flex><span>  - <span style=color:#f92672>service</span>: <span style=color:#ae81ff>switch.turn_off</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>target</span>:
-</span></span><span style=display:flex><span>      <span style=color:#f92672>entity_id</span>: <span style=color:#ae81ff>switch.irrigation_zone_all</span>
-</span></span><span style=display:flex><span>  - <span style=color:#f92672>service</span>: <span style=color:#ae81ff>notify.mobile_app</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>data</span>:
-</span></span><span style=display:flex><span>      <span style=color:#f92672>message</span>: <span style=color:#e6db74>&#34;🔥 Heatwave watering triggered — all zones for 20min ({{ states(&#39;sensor.outside_temperature&#39;) }}°C)&#34;</span>
-</span></span></code></pre></div><p>When the temperature hits 40°C during early morning hours, hit everything with a good soak. Your plants will thank you.</p><h3 id=automation-4-tank-water-level-warning>Automation 4: Tank Water Level Warning</h3><p>If you&rsquo;re irrigating from a rainwater tank (common in Australian garden setups):</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>alias</span>: <span style=color:#e6db74>&#34;Tank low water warning&#34;</span>
-</span></span><span style=display:flex><span><span style=color:#f92672>trigger</span>:
-</span></span><span style=display:flex><span>  - <span style=color:#f92672>platform</span>: <span style=color:#ae81ff>numeric_state</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>entity_id</span>: <span style=color:#ae81ff>sensor.water_tank_level</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>below</span>: <span style=color:#ae81ff>20</span>
-</span></span><span style=display:flex><span><span style=color:#f92672>action</span>:
-</span></span><span style=display:flex><span>  - <span style=color:#f92672>service</span>: <span style=color:#ae81ff>notify.mobile_app</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>data</span>:
-</span></span><span style=display:flex><span>      <span style=color:#f92672>message</span>: <span style=color:#e6db74>&#34;⚠️ Water tank is at {{ states(&#39;sensor.water_tank_level&#39;) }}%. Consider switching to mains or reducing irrigation.&#34;</span>
-</span></span><span style=display:flex><span>  - <span style=color:#f92672>service</span>: <span style=color:#ae81ff>input_number.set_value</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>target</span>:
-</span></span><span style=display:flex><span>      <span style=color:#f92672>entity_id</span>: <span style=color:#ae81ff>input_number.irrigation_duration_multiplier</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>data</span>:
-</span></span><span style=display:flex><span>      <span style=color:#f92672>value</span>: <span style=color:#ae81ff>0.5</span>
-</span></span></code></pre></div><p>When the tank drops below 20%, it alerts you and automatically halves all irrigation durations. Smart water management without lifting a finger.</p><h2 id=the-learning-curve-being-honest>The Learning Curve: Being Honest</h2><p>Let&rsquo;s not pretend this is plug-and-play. Home Assistant garden automation has a learning curve:</p><p><strong>Easy (Week 1):</strong></p><ul><li>Installing Home Assistant</li><li>Adding a smart plug or relay to control a single irrigation zone</li><li>Basic time-based automation (&ldquo;water at 6am for 15 minutes&rdquo;)</li></ul><p><strong>Medium (Week 2-4):</strong></p><ul><li>Setting up ESPHome sensors</li><li>Calibrating soil moisture readings</li><li>Weather integration</li><li>Multi-zone scheduling with conditions</li></ul><p><strong>Advanced (Month 2+):</strong></p><ul><li>Evapotranspiration-based watering calculations</li><li>Solar-powered wireless sensor nodes</li><li>Multi-garden-bed orchestration (water beds sequentially to maintain pressure)</li><li>Historical data analysis to optimise watering schedules</li></ul><p>You don&rsquo;t need to do it all at once. Start with one zone, one sensor, one automation. Get that working reliably, then expand.</p><h2 id=what-it-costs-the-full-breakdown>What It Costs: The Full Breakdown</h2><table><thead><tr><th>Component</th><th>Cost (AUD)</th></tr></thead><tbody><tr><td>Home Assistant hardware (HA Green or RPi)</td><td>$80-$150</td></tr><tr><td>ESP32 board + capacitive sensor (1 zone)</td><td>$15-25</td></tr><tr><td>Smart relay for solenoid (1 zone)</td><td>$15-30</td></tr><tr><td>Waterproof enclosure + sundries</td><td>$10-20</td></tr><tr><td><strong>Total for 1-zone starter setup</strong></td><td><strong>$120-$225</strong></td></tr><tr><td>Each additional zone (sensor + relay)</td><td>$25-50</td></tr><tr><td><strong>Full 4-zone setup</strong></td><td><strong>$200-$375</strong></td></tr></tbody></table><p>Compare that to a Hydrawise 6-zone controller at $350+ (without soil moisture sensors), and the DIY route is competitive on price while being infinitely more flexible.</p><h2 id=tips-from-the-trenches>Tips From the Trenches</h2><p><strong>Start simple.</strong> Your first automation should be basic. Get reliable before getting clever.</p><p><strong>Use <code>input_boolean</code> toggles.</strong> Always have a global &ldquo;irrigation enabled&rdquo; toggle. When something goes wrong (and it will, at first), you want a single switch to turn everything off.</p><p><strong>Monitor before automating.</strong> Run your soil moisture sensors for 2-3 weeks before creating automations. Understand what &ldquo;normal&rdquo; looks like for your garden — different beds, different soil, different sun exposure will all read differently.</p><p><strong>Waterproof everything twice.</strong> Australian conditions are harsh. Heat, UV, rain, and possums will all test your installations. Over-engineer the weatherproofing.</p><p><strong>Keep a manual backup.</strong> Your irrigation system should still work manually if Home Assistant goes down. A physical valve or tap bypass is essential.</p><p><strong>Log everything.</strong> Home Assistant&rsquo;s recorder and history components let you track soil moisture, watering events, and weather data over time. This data is gold for understanding your garden&rsquo;s needs across seasons.</p><h2 id=going-further>Going Further</h2><p>This guide gets you from zero to a functional automated garden. But there&rsquo;s a lot more you can do — drip irrigation optimisation, building wicking bed auto-fill systems, integrating with rainwater harvesting, and using machine learning to predict your garden&rsquo;s water needs.</p><p><a href=/books/set-and-forget/><em>Set and Forget: The Aussie Guide to Automated Gardening</em></a> covers the complete system, from sensor selection through to advanced automations that handle an entire food production garden with minimal human intervention. If you&rsquo;ve got the Home Assistant bug and a garden that needs looking after, it&rsquo;s the logical next step.</p><p>Now go build something. Your tomatoes are waiting.</p><div class=post-book-cta><div class=emoji>📚</div><div><strong>Want the full picture?</strong>
-This post is a taste of what's in <em>Set and Forget: The Aussie Guide to Automated Gardening</em>. The book goes deeper — with more data, more strategies, and zero filler.<br><a href=/books/set-and-forget/>See the full book →</a></div></div><div class=related-posts><h3>You might also like</h3><ul><li><a href=/blog/smart-irrigation-controllers-australia/>Best Smart Irrigation Controllers in Australia (2026 Compared)</a> — 9 min read</li><li><a href=/blog/wicking-bed-guide-australia/>How to Build a Wicking Bed in Australia: The Complete Guide</a> — 11 min read</li></ul></div></article></main><footer class=site-footer><div class=container><div class=footer-grid><div class=footer-col><h4>Bush Digital Guides</h4><p>Practical guides for Australians who'd rather do things properly than read corporate fluff. Written from Adelaide.</p><p style=margin-top:12px><a href=mailto:hello@bushdigitalguides.com.au>hello@bushdigitalguides.com.au</a></p></div><div class=footer-col><h4>Books</h4><ul><li><a href=/books/off-grid-but-online/>Off-Grid but Online</a></li><li><a href=/books/automate-everything/>Automate Everything</a></li><li><a href=/books/set-and-forget/>Set and Forget</a></li><li><a href=/books/value-add-property-playbook/>The Property Playbook</a></li></ul></div><div class=footer-col><h4>Resources</h4><ul><li><a href=/blog/>Blog</a></li><li><a href=/about/>About</a></li></ul></div></div><div class=footer-bottom><span>© 2026 Bush Digital Guides</span>
-<span>Adelaide, South Australia</span></div></div></footer></body></html>
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5T575V1N67"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-5T575V1N67');
+  </script>
+  <meta name="google-site-verification" content="VrSLEflHmWwkQH0dExNbDkmHu8PgNJmNOWseQ22vzGg" />
+  <title>Home Assistant Garden Automation: A Practical Getting-Started Guide | Bush Digital Guides</title>
+  <meta name="description" content="Set up Home Assistant garden automation with soil moisture sensors, automated irrigation, weather integration and ESPHome DIY sensors.">
+  <link rel="canonical" href="https://bushdigitalguides.com.au/blog/home-assistant-garden-automation/">
+  <link rel="stylesheet" href="/css/style.css">
+  <meta property="og:url" content="https://bushdigitalguides.com.au/blog/home-assistant-garden-automation/">
+  <meta property="og:site_name" content="Bush Digital Guides">
+  <meta property="og:title" content="Home Assistant Garden Automation: A Practical Getting-Started Guide">
+  <meta property="og:description" content="Set up Home Assistant garden automation with soil moisture sensors, automated irrigation, weather integration and ESPHome DIY sensors.">
+  <meta property="og:locale" content="en_au">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2026-02-11T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-02-11T00:00:00+00:00">
+    <meta property="article:tag" content="Home Assistant">
+    <meta property="article:tag" content="Garden Automation">
+    <meta property="article:tag" content="Smart Irrigation">
+    <meta property="article:tag" content="ESPHome">
+    <meta property="article:tag" content="Soil Moisture Sensor">
+    <meta property="article:tag" content="Automated Watering">
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Home Assistant Garden Automation: A Practical Getting-Started Guide">
+  <meta name="twitter:description" content="Set up Home Assistant garden automation with soil moisture sensors, automated irrigation, weather integration and ESPHome DIY sensors.">
+
+  
+  
+  <script type="application/ld+json">
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": ["BlogPosting", "Article"],
+      "headline": "Home Assistant Garden Automation: A Practical Getting-Started Guide",
+      "description": "Set up Home Assistant garden automation with soil moisture sensors, automated irrigation, weather integration and ESPHome DIY sensors.",
+      "datePublished": "2026-02-11T00:00:00Z",
+      "dateModified": "2026-02-11T00:00:00Z",
+      "author": {
+        "@type": "Organization",
+        "name": "Bush Digital Guides",
+        "url": "https://bushdigitalguides.com.au/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Bush Digital Guides",
+        "url": "https://bushdigitalguides.com.au/"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https:\/\/bushdigitalguides.com.au\/blog\/home-assistant-garden-automation\/"
+      },
+      "wordCount": "2197",
+      "timeRequired": "PT11M",
+      "inLanguage": "en-AU",
+      "keywords": "Home Assistant, garden automation, smart irrigation, ESPHome, soil moisture sensor, automated watering",
+      "isPartOf": {
+        "@type": "Book",
+        "name": "Set and Forget: The Aussie Guide to Automated Gardening",
+        "author": { "@type": "Organization", "name": "Bush Digital Guides" }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https:\/\/bushdigitalguides.com.au\/" },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https:\/\/bushdigitalguides.com.au\/blog/" },
+        { "@type": "ListItem", "position": 3, "name": "Home Assistant Garden Automation: A Practical Getting-Started Guide", "item": "https:\/\/bushdigitalguides.com.au\/blog\/home-assistant-garden-automation\/" }
+      ]
+    }
+  ]
+  </script>
+  
+</head>
+<body>
+  <header class="site-header">
+  <div class="container">
+    <a href="/" class="site-logo">Bush<span>Digital</span>Guides</a>
+    <nav class="site-nav">
+      
+        <a href="/">Home</a>
+      
+        <a href="/books/">Books</a>
+      
+        <a href="/blog/">Blog</a>
+      
+        <a href="/about/">About</a>
+      
+    </nav>
+  </div>
+</header>
+
+  <main>
+    
+
+
+
+<section class="post-header">
+  <div class="section-label" style="text-align:center; margin-bottom:8px;">Set and Forget: The Aussie Guide to Automated Gardening</div>
+  <h1>Home Assistant Garden Automation: A Practical Getting-Started Guide</h1>
+  <div class="post-meta">11 February 2026 · 11 min read</div>
+</section>
+<article class="post-content">
+  <p>There&rsquo;s a certain kind of person who looks at their garden irrigation timer and thinks, &ldquo;Yeah, but what if my garden could check the weather forecast, read the soil moisture, and decide for itself whether to water?&rdquo; If that sounds like you, welcome to the rabbit hole. <strong>Home Assistant garden automation</strong> is where smart home tech meets practical horticulture, and once you start, you won&rsquo;t look at a dumb timer the same way again.</p>
+<p>This guide walks you through the practical setup — from getting Home Assistant running, to building DIY soil moisture sensors with ESPHome, to creating automations that actually save water and grow better plants. It&rsquo;s written for people who want results, not people who want to tinker endlessly (though if you&rsquo;re the tinkering type, there&rsquo;s plenty here for you too).</p>
+<h2 id="why-home-assistant-for-garden-automation">Why Home Assistant for Garden Automation?</h2>
+<p>You might be wondering why you need a whole home automation platform just to water plants. Fair question. Here&rsquo;s why Home Assistant beats dedicated smart irrigation controllers:</p>
+<h3 id="it-connects-everything">It Connects Everything</h3>
+<p>Dedicated irrigation controllers (Hunter Hydrawise, Orbit B-Hyve, Rachio) do one thing — control zones on a schedule, maybe with a weather adjustment. Home Assistant connects your irrigation to <strong>everything else</strong>: soil moisture sensors, rain sensors, weather forecasts, temperature readings, tank water levels, even your home&rsquo;s energy system (water during off-peak solar hours, anyone?).</p>
+<h3 id="its-local">It&rsquo;s Local</h3>
+<p>No cloud dependency. Your garden automations run on a little box in your house, not on some company&rsquo;s server that might go down, get hacked, or shut down their API when they pivot to a different business model. When Insteon died, their users lost everything. Your Home Assistant will still be watering your tomatoes.</p>
+<h3 id="its-free-software-wise">It&rsquo;s Free (Software-wise)</h3>
+<p>Home Assistant is open-source. Free forever. The hardware to run it costs $50-200 depending on what you use, but there are no subscriptions, no premium tiers, no &ldquo;pay $5/month to unlock advanced scheduling.&rdquo;</p>
+<h3 id="its-ridiculously-flexible">It&rsquo;s Ridiculously Flexible</h3>
+<p>Want to water Zone 3 only when soil moisture drops below 40%, it hasn&rsquo;t rained in the last 24 hours, the forecast shows no rain in the next 12 hours, and it&rsquo;s not currently above 38°C? That&rsquo;s about 10 lines of automation config. Try doing that with a $50 irrigation timer.</p>
+<h2 id="getting-started-what-you-need">Getting Started: What You Need</h2>
+<h3 id="the-home-assistant-hub">The Home Assistant Hub</h3>
+<p>You need something to run Home Assistant on. Options from simplest to most flexible:</p>
+<p><strong>Home Assistant Green (~$150 AUD)</strong></p>
+<ul>
+<li>Purpose-built hardware, plug-and-play</li>
+<li>Best for beginners who just want it to work</li>
+<li>Plenty powerful for garden automation</li>
+</ul>
+<p><strong>Raspberry Pi 4/5 ($80-$130 AUD + SD card/SSD)</strong></p>
+<ul>
+<li>The classic DIY option</li>
+<li>Works great but SD cards can fail — use an SSD for reliability</li>
+<li>Massive community support</li>
+</ul>
+<p><strong>Old PC or Intel NUC ($0-$200)</strong></p>
+<ul>
+<li>If you&rsquo;ve got an old mini-PC lying around, install Home Assistant OS on it</li>
+<li>More powerful than you&rsquo;ll ever need for garden automation</li>
+<li>Good option if you plan to expand into full home automation</li>
+</ul>
+<p><strong>Virtual Machine</strong></p>
+<ul>
+<li>If you already run a home server (Proxmox, Unraid, etc.), just spin up a VM</li>
+<li>Most flexible option for tech-savvy users</li>
+</ul>
+<h3 id="irrigation-control-hardware">Irrigation Control Hardware</h3>
+<p>You need a way for Home Assistant to actually turn water on and off. Several approaches:</p>
+<p><strong>Smart Solenoid Valves (WiFi/Zigbee)</strong></p>
+<ul>
+<li>Replace your existing solenoid valves with smart ones</li>
+<li>Brands: Moes Zigbee valve, Shelly-controlled standard solenoids</li>
+<li>Direct Home Assistant integration</li>
+</ul>
+<p><strong>Smart Relay Controlling Existing Solenoids</strong></p>
+<ul>
+<li>Keep your existing 24V AC solenoid valves</li>
+<li>Use a Shelly relay, Sonoff, or ESP32-based relay board to switch them</li>
+<li>Cheapest option if you already have solenoids installed (~$15-30 per zone)</li>
+</ul>
+<p><strong>All-in-One Smart Irrigation Controllers</strong></p>
+<ul>
+<li>OpenSprinkler — open-source, excellent Home Assistant integration</li>
+<li>Runs its own firmware but plays nicely with HA</li>
+<li>~$200 AUD for a unit that handles 8+ zones</li>
+</ul>
+<p><strong>DIY ESP32 + Relay Board</strong></p>
+<ul>
+<li>Build your own multi-zone controller with an ESP32 and relay module</li>
+<li>Total cost: ~$20-40 for up to 8 zones</li>
+<li>Full ESPHome integration (covered below)</li>
+<li>Maximum flexibility, requires some soldering and basic electronics</li>
+</ul>
+<h3 id="soil-moisture-sensors">Soil Moisture Sensors</h3>
+<p>This is where garden automation gets genuinely smart. Instead of watering on a schedule, you water based on what the soil actually needs.</p>
+<p><strong>Capacitive Soil Moisture Sensors + ESPHome (DIY)</strong></p>
+<ul>
+<li>Cost: ~$3-8 per sensor</li>
+<li>Requires an ESP32 board (~$10-15) to read and transmit data</li>
+<li>The most cost-effective option by far</li>
+<li>Detailed build guide below</li>
+</ul>
+<p><strong>Xiaomi/Miflora Plant Sensors</strong></p>
+<ul>
+<li>~$15-25 each</li>
+<li>Bluetooth — works with Home Assistant via ESPHome Bluetooth proxy or direct</li>
+<li>Measures moisture, temperature, light, and soil conductivity</li>
+<li>Decent for pot plants, less reliable for garden beds (short probe)</li>
+</ul>
+<p><strong>Ecowitt Soil Moisture Sensors</strong></p>
+<ul>
+<li>~$20-30 each</li>
+<li>915MHz wireless — good range for garden setups</li>
+<li>Works with Ecowitt gateway → Home Assistant integration</li>
+<li>Reliable and weatherproof</li>
+</ul>
+<h2 id="building-diy-soil-moisture-sensors-with-esphome">Building DIY Soil Moisture Sensors with ESPHome</h2>
+<p>ESPHome is a firmware framework for ESP32/ESP8266 microcontrollers that integrates natively with Home Assistant. If you&rsquo;re new to it — don&rsquo;t panic. It&rsquo;s way easier than it sounds.</p>
+<h3 id="what-you-need-per-sensor-node">What You Need (Per Sensor Node)</h3>
+<ul>
+<li>1x ESP32 development board (~$10-15 from AliExpress or Core Electronics)</li>
+<li>1-4x Capacitive soil moisture sensors (~$3-8 each)</li>
+<li>1x Waterproof enclosure (~$5-10)</li>
+<li>USB power supply or 18650 battery + solar panel for wireless</li>
+<li>Dupont jumper wires</li>
+</ul>
+<p><strong>Total cost per sensor node: $20-40</strong> (can monitor 1-4 zones per node)</p>
+<h3 id="esphome-configuration">ESPHome Configuration</h3>
+<p>Here&rsquo;s a basic ESPHome config for a soil moisture sensor:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">esphome</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">name</span>: <span style="color:#ae81ff">garden-moisture-01</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">platform</span>: <span style="color:#ae81ff">ESP32</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">board</span>: <span style="color:#ae81ff">esp32dev</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">wifi</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">ssid</span>: <span style="color:#e6db74">&#34;YourWiFiName&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">password</span>: <span style="color:#e6db74">&#34;YourWiFiPassword&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">api</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">encryption</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">key</span>: <span style="color:#e6db74">&#34;your-generated-api-key&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">ota</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">platform</span>: <span style="color:#ae81ff">esphome</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">password</span>: <span style="color:#e6db74">&#34;your-ota-password&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">sensor</span>:
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">platform</span>: <span style="color:#ae81ff">adc</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">pin</span>: <span style="color:#ae81ff">GPIO34</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">name</span>: <span style="color:#e6db74">&#34;Veggie Bed Soil Moisture&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">update_interval</span>: <span style="color:#ae81ff">300s</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">unit_of_measurement</span>: <span style="color:#e6db74">&#34;%&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">attenuation</span>: <span style="color:#ae81ff">11db</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">filters</span>:
+</span></span><span style="display:flex;"><span>      - <span style="color:#f92672">calibrate_linear</span>:
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">2.85</span> -<span style="color:#ae81ff">&gt; 0.0   </span> <span style="color:#75715e"># Sensor in dry air</span>
+</span></span><span style="display:flex;"><span>          - <span style="color:#ae81ff">1.28</span> -<span style="color:#ae81ff">&gt; 100.0 </span> <span style="color:#75715e"># Sensor in water</span>
+</span></span><span style="display:flex;"><span>      - <span style="color:#f92672">lambda</span>: |-<span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">          if (x &lt; 0) return 0.0;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">          if (x &gt; 100) return 100.0;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">          return x;</span>
+</span></span></code></pre></div><h3 id="calibrating-your-sensors">Calibrating Your Sensors</h3>
+<p>The <code>calibrate_linear</code> values above are examples. You need to calibrate each sensor:</p>
+<ol>
+<li><strong>Dry reading:</strong> Hold the sensor in dry air and note the raw ADC value (shown in HA logs)</li>
+<li><strong>Wet reading:</strong> Submerge the sensor in a glass of water and note the value</li>
+<li><strong>Update your config</strong> with these two reference points</li>
+</ol>
+<p>Capacitive sensors aren&rsquo;t laboratory instruments, but they&rsquo;re accurate enough to tell you &ldquo;dry,&rdquo; &ldquo;moist,&rdquo; or &ldquo;wet&rdquo; — which is all you need for irrigation decisions.</p>
+<h3 id="weatherproofing">Weatherproofing</h3>
+<p>Your ESP32 and connections need to survive outdoors. Here&rsquo;s what works:</p>
+<ul>
+<li><strong>Waterproof enclosure:</strong> IP65 or better junction box from Bunnings ($8-15)</li>
+<li><strong>Cable glands:</strong> For where wires enter the enclosure</li>
+<li><strong>Conformal coating:</strong> Spray the ESP32 board with conformal coating for extra protection</li>
+<li><strong>Elevate the enclosure:</strong> Mount it off the ground on a stake or fence post</li>
+<li><strong>Solar option:</strong> A small 6V solar panel + TP4056 charge controller + 18650 battery can power a sensor node indefinitely</li>
+</ul>
+<h2 id="weather-integration">Weather Integration</h2>
+<p>Home Assistant can pull weather data from multiple sources and use it in your garden automations:</p>
+<h3 id="bureau-of-meteorology-bom">Bureau of Meteorology (BoM)</h3>
+<p>The <code>bom</code> integration gives you current conditions and forecasts from your nearest BoM weather station. This is Australian-specific data, which is far more useful than global weather services for local garden decisions.</p>
+<p>Install via HACS (Home Assistant Community Store) — search for &ldquo;Bureau of Meteorology.&rdquo;</p>
+<h3 id="openweathermap">OpenWeatherMap</h3>
+<p>Free tier gives you current weather, 5-day forecast, and rain probability. Good supplement to BoM data.</p>
+<h3 id="personal-weather-stations">Personal Weather Stations</h3>
+<p>If you have an Ecowitt, Ambient Weather, or Davis weather station, integrate it directly. Local microclimate data from your actual property is always better than data from the nearest BoM station 20km away.</p>
+<h3 id="weather-data-you-want-for-garden-automation">Weather Data You Want for Garden Automation</h3>
+<ul>
+<li><strong>Rain in last 24 hours</strong> (don&rsquo;t water if it&rsquo;s already rained)</li>
+<li><strong>Rain forecast next 12-24 hours</strong> (don&rsquo;t water if it&rsquo;s about to rain)</li>
+<li><strong>Current temperature</strong> (don&rsquo;t water in extreme heat — water evaporates before it helps)</li>
+<li><strong>Wind speed</strong> (sprinklers in high wind = wasted water)</li>
+<li><strong>Evapotranspiration (ET)</strong> (advanced: adjusts watering volume based on how fast water is lost)</li>
+</ul>
+<h2 id="building-your-dashboard">Building Your Dashboard</h2>
+<p>A good garden automation dashboard gives you at-a-glance status without needing to dig through menus. Here&rsquo;s a practical layout:</p>
+<h3 id="section-1-current-conditions">Section 1: Current Conditions</h3>
+<ul>
+<li>Soil moisture for each zone (gauge cards — green/yellow/red)</li>
+<li>Last watering time and duration per zone</li>
+<li>Current weather conditions</li>
+<li>Rain forecast (next 24 hours)</li>
+</ul>
+<h3 id="section-2-controls">Section 2: Controls</h3>
+<ul>
+<li>Manual override buttons for each irrigation zone</li>
+<li>Master enable/disable toggle for all automations</li>
+<li>&ldquo;Water everything now&rdquo; emergency button (for heatwave days)</li>
+</ul>
+<h3 id="section-3-history">Section 3: History</h3>
+<ul>
+<li>Soil moisture graphs over the past week (line chart)</li>
+<li>Watering history (when each zone ran and for how long)</li>
+<li>Rainfall history</li>
+</ul>
+<h3 id="example-dashboard-card-yaml">Example Dashboard Card (YAML)</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">type</span>: <span style="color:#ae81ff">gauge</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">entity</span>: <span style="color:#ae81ff">sensor.veggie_bed_soil_moisture</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">name</span>: <span style="color:#ae81ff">Veggie Bed</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">min</span>: <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">max</span>: <span style="color:#ae81ff">100</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">severity</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">green</span>: <span style="color:#ae81ff">40</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">yellow</span>: <span style="color:#ae81ff">25</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">red</span>: <span style="color:#ae81ff">0</span>
+</span></span></code></pre></div><h2 id="example-automations">Example Automations</h2>
+<p>Here&rsquo;s where the magic happens. These are real automations you can adapt:</p>
+<h3 id="automation-1-water-when-dry-basic">Automation 1: Water When Dry (Basic)</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">alias</span>: <span style="color:#e6db74">&#34;Water veggie bed when dry&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">trigger</span>:
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">platform</span>: <span style="color:#ae81ff">numeric_state</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">entity_id</span>: <span style="color:#ae81ff">sensor.veggie_bed_soil_moisture</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">below</span>: <span style="color:#ae81ff">35</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">for</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">minutes</span>: <span style="color:#ae81ff">30</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">condition</span>:
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">condition</span>: <span style="color:#ae81ff">time</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">after</span>: <span style="color:#e6db74">&#34;06:00:00&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">before</span>: <span style="color:#e6db74">&#34;09:00:00&#34;</span>
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">condition</span>: <span style="color:#ae81ff">state</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">entity_id</span>: <span style="color:#ae81ff">input_boolean.irrigation_enabled</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">state</span>: <span style="color:#e6db74">&#34;on&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">action</span>:
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">service</span>: <span style="color:#ae81ff">switch.turn_on</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">target</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">entity_id</span>: <span style="color:#ae81ff">switch.irrigation_zone_1</span>
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">delay</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">minutes</span>: <span style="color:#ae81ff">15</span>
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">service</span>: <span style="color:#ae81ff">switch.turn_off</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">target</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">entity_id</span>: <span style="color:#ae81ff">switch.irrigation_zone_1</span>
+</span></span></code></pre></div><p>This waters Zone 1 for 15 minutes when soil moisture drops below 35%, but only during the morning window and only if irrigation is globally enabled.</p>
+<h3 id="automation-2-skip-watering-if-rain-expected">Automation 2: Skip Watering if Rain Expected</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">alias</span>: <span style="color:#e6db74">&#34;Cancel watering if rain forecast&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">trigger</span>:
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">platform</span>: <span style="color:#ae81ff">time</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">at</span>: <span style="color:#e6db74">&#34;05:30:00&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">condition</span>:
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">condition</span>: <span style="color:#ae81ff">numeric_state</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">entity_id</span>: <span style="color:#ae81ff">sensor.bom_rain_chance_today</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">above</span>: <span style="color:#ae81ff">70</span>
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">condition</span>: <span style="color:#ae81ff">numeric_state</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">entity_id</span>: <span style="color:#ae81ff">sensor.bom_rain_amount_forecast</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">above</span>: <span style="color:#ae81ff">5</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">action</span>:
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">service</span>: <span style="color:#ae81ff">input_boolean.turn_off</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">target</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">entity_id</span>: <span style="color:#ae81ff">input_boolean.irrigation_enabled</span>
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">service</span>: <span style="color:#ae81ff">notify.mobile_app</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">data</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">message</span>: <span style="color:#e6db74">&#34;Irrigation skipped — BoM forecasts &gt;5mm rain today ({{ states(&#39;sensor.bom_rain_chance_today&#39;) }}% chance)&#34;</span>
+</span></span></code></pre></div><p>At 5:30am each day, this checks the BoM forecast. If there&rsquo;s more than a 70% chance of at least 5mm of rain, it disables irrigation for the day and sends you a notification.</p>
+<h3 id="automation-3-heatwave-protection">Automation 3: Heatwave Protection</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">alias</span>: <span style="color:#e6db74">&#34;Extra watering on extreme heat days&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">trigger</span>:
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">platform</span>: <span style="color:#ae81ff">numeric_state</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">entity_id</span>: <span style="color:#ae81ff">sensor.outside_temperature</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">above</span>: <span style="color:#ae81ff">40</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">condition</span>:
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">condition</span>: <span style="color:#ae81ff">time</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">after</span>: <span style="color:#e6db74">&#34;05:00:00&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">before</span>: <span style="color:#e6db74">&#34;07:00:00&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">action</span>:
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">service</span>: <span style="color:#ae81ff">switch.turn_on</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">target</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">entity_id</span>: <span style="color:#ae81ff">switch.irrigation_zone_all</span>
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">delay</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">minutes</span>: <span style="color:#ae81ff">20</span>
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">service</span>: <span style="color:#ae81ff">switch.turn_off</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">target</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">entity_id</span>: <span style="color:#ae81ff">switch.irrigation_zone_all</span>
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">service</span>: <span style="color:#ae81ff">notify.mobile_app</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">data</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">message</span>: <span style="color:#e6db74">&#34;🔥 Heatwave watering triggered — all zones for 20min ({{ states(&#39;sensor.outside_temperature&#39;) }}°C)&#34;</span>
+</span></span></code></pre></div><p>When the temperature hits 40°C during early morning hours, hit everything with a good soak. Your plants will thank you.</p>
+<h3 id="automation-4-tank-water-level-warning">Automation 4: Tank Water Level Warning</h3>
+<p>If you&rsquo;re irrigating from a rainwater tank (common in Australian garden setups):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">alias</span>: <span style="color:#e6db74">&#34;Tank low water warning&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">trigger</span>:
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">platform</span>: <span style="color:#ae81ff">numeric_state</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">entity_id</span>: <span style="color:#ae81ff">sensor.water_tank_level</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">below</span>: <span style="color:#ae81ff">20</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">action</span>:
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">service</span>: <span style="color:#ae81ff">notify.mobile_app</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">data</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">message</span>: <span style="color:#e6db74">&#34;⚠️ Water tank is at {{ states(&#39;sensor.water_tank_level&#39;) }}%. Consider switching to mains or reducing irrigation.&#34;</span>
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">service</span>: <span style="color:#ae81ff">input_number.set_value</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">target</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">entity_id</span>: <span style="color:#ae81ff">input_number.irrigation_duration_multiplier</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">data</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">value</span>: <span style="color:#ae81ff">0.5</span>
+</span></span></code></pre></div><p>When the tank drops below 20%, it alerts you and automatically halves all irrigation durations. Smart water management without lifting a finger.</p>
+<h2 id="the-learning-curve-being-honest">The Learning Curve: Being Honest</h2>
+<p>Let&rsquo;s not pretend this is plug-and-play. Home Assistant garden automation has a learning curve:</p>
+<p><strong>Easy (Week 1):</strong></p>
+<ul>
+<li>Installing Home Assistant</li>
+<li>Adding a smart plug or relay to control a single irrigation zone</li>
+<li>Basic time-based automation (&ldquo;water at 6am for 15 minutes&rdquo;)</li>
+</ul>
+<p><strong>Medium (Week 2-4):</strong></p>
+<ul>
+<li>Setting up ESPHome sensors</li>
+<li>Calibrating soil moisture readings</li>
+<li>Weather integration</li>
+<li>Multi-zone scheduling with conditions</li>
+</ul>
+<p><strong>Advanced (Month 2+):</strong></p>
+<ul>
+<li>Evapotranspiration-based watering calculations</li>
+<li>Solar-powered wireless sensor nodes</li>
+<li>Multi-garden-bed orchestration (water beds sequentially to maintain pressure)</li>
+<li>Historical data analysis to optimise watering schedules</li>
+</ul>
+<p>You don&rsquo;t need to do it all at once. Start with one zone, one sensor, one automation. Get that working reliably, then expand.</p>
+<h2 id="what-it-costs-the-full-breakdown">What It Costs: The Full Breakdown</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Component</th>
+          <th>Cost (AUD)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Home Assistant hardware (HA Green or RPi)</td>
+          <td>$80-$150</td>
+      </tr>
+      <tr>
+          <td>ESP32 board + capacitive sensor (1 zone)</td>
+          <td>$15-25</td>
+      </tr>
+      <tr>
+          <td>Smart relay for solenoid (1 zone)</td>
+          <td>$15-30</td>
+      </tr>
+      <tr>
+          <td>Waterproof enclosure + sundries</td>
+          <td>$10-20</td>
+      </tr>
+      <tr>
+          <td><strong>Total for 1-zone starter setup</strong></td>
+          <td><strong>$120-$225</strong></td>
+      </tr>
+      <tr>
+          <td>Each additional zone (sensor + relay)</td>
+          <td>$25-50</td>
+      </tr>
+      <tr>
+          <td><strong>Full 4-zone setup</strong></td>
+          <td><strong>$200-$375</strong></td>
+      </tr>
+  </tbody>
+</table>
+<p>Compare that to a Hydrawise 6-zone controller at $350+ (without soil moisture sensors), and the DIY route is competitive on price while being infinitely more flexible.</p>
+<h2 id="tips-from-the-trenches">Tips From the Trenches</h2>
+<p><strong>Start simple.</strong> Your first automation should be basic. Get reliable before getting clever.</p>
+<p><strong>Use <code>input_boolean</code> toggles.</strong> Always have a global &ldquo;irrigation enabled&rdquo; toggle. When something goes wrong (and it will, at first), you want a single switch to turn everything off.</p>
+<p><strong>Monitor before automating.</strong> Run your soil moisture sensors for 2-3 weeks before creating automations. Understand what &ldquo;normal&rdquo; looks like for your garden — different beds, different soil, different sun exposure will all read differently.</p>
+<p><strong>Waterproof everything twice.</strong> Australian conditions are harsh. Heat, UV, rain, and possums will all test your installations. Over-engineer the weatherproofing.</p>
+<p><strong>Keep a manual backup.</strong> Your irrigation system should still work manually if Home Assistant goes down. A physical valve or tap bypass is essential.</p>
+<p><strong>Log everything.</strong> Home Assistant&rsquo;s recorder and history components let you track soil moisture, watering events, and weather data over time. This data is gold for understanding your garden&rsquo;s needs across seasons.</p>
+<h2 id="going-further">Going Further</h2>
+<p>This guide gets you from zero to a functional automated garden. But there&rsquo;s a lot more you can do — drip irrigation optimisation, building wicking bed auto-fill systems, integrating with rainwater harvesting, and using machine learning to predict your garden&rsquo;s water needs.</p>
+<p><a href="/books/set-and-forget/"><em>Set and Forget: The Aussie Guide to Automated Gardening</em></a> covers the complete system, from sensor selection through to advanced automations that handle an entire food production garden with minimal human intervention. If you&rsquo;ve got the Home Assistant bug and a garden that needs looking after, it&rsquo;s the logical next step.</p>
+<p>Now go build something. Your tomatoes are waiting.</p>
+
+  
+  
+  <div class="post-book-cta">
+    <div class="emoji">📚</div>
+    <div>
+      <strong>Want the full picture?</strong>
+      This post is a taste of what's in <em>Set and Forget: The Aussie Guide to Automated Gardening</em>. The book goes deeper — with more data, more strategies, and zero filler.
+      <br><a href="/books/set-and-forget/">See the full book →</a>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  <div class="related-posts">
+    <h3>You might also like</h3>
+    <ul>
+      
+      <li><a href="/blog/smart-irrigation-controllers-australia/">Best Smart Irrigation Controllers in Australia (2026 Compared)</a> — 9 min read</li>
+      
+      <li><a href="/blog/wicking-bed-guide-australia/">How to Build a Wicking Bed in Australia: The Complete Guide</a> — 11 min read</li>
+      
+    </ul>
+  </div>
+  
+</article>
+
+
+
+
+  </main>
+  <footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>Bush Digital Guides</h4>
+        <p>Practical guides for Australians who'd rather do things properly than read corporate fluff. Written from Adelaide.</p>
+        <p style="margin-top: 12px;"><a href="mailto:hello@bushdigitalguides.com.au">hello@bushdigitalguides.com.au</a></p>
+      </div>
+      <div class="footer-col">
+        <h4>Books</h4>
+        <ul>
+          <li><a href="/books/off-grid-but-online/">Off-Grid but Online</a></li>
+          <li><a href="/books/automate-everything/">Automate Everything</a></li>
+          <li><a href="/books/set-and-forget/">Set and Forget</a></li>
+          <li><a href="/books/value-add-property-playbook/">The Property Playbook</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/about/">About</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Bush Digital Guides</span>
+      <span>Adelaide, South Australia</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

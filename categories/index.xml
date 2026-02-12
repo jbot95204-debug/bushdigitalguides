@@ -1,1 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on Bush Digital Guides</title><link>https://bushdigitalguides.com.au/categories/</link><description>Recent content in Categories on Bush Digital Guides</description><generator>Hugo</generator><language>en-au</language><lastBuildDate>Wed, 11 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bushdigitalguides.com.au/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>Business</title><link>https://bushdigitalguides.com.au/categories/business/</link><pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate><guid>https://bushdigitalguides.com.au/categories/business/</guid><description/></item><item><title>Business Automation</title><link>https://bushdigitalguides.com.au/categories/business-automation/</link><pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate><guid>https://bushdigitalguides.com.au/categories/business-automation/</guid><description/></item><item><title>Connectivity</title><link>https://bushdigitalguides.com.au/categories/connectivity/</link><pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate><guid>https://bushdigitalguides.com.au/categories/connectivity/</guid><description/></item><item><title>Garden</title><link>https://bushdigitalguides.com.au/categories/garden/</link><pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate><guid>https://bushdigitalguides.com.au/categories/garden/</guid><description/></item><item><title>Gardening</title><link>https://bushdigitalguides.com.au/categories/gardening/</link><pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate><guid>https://bushdigitalguides.com.au/categories/gardening/</guid><description/></item><item><title>Property</title><link>https://bushdigitalguides.com.au/categories/property/</link><pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate><guid>https://bushdigitalguides.com.au/categories/property/</guid><description/></item><item><title>Solar</title><link>https://bushdigitalguides.com.au/categories/solar/</link><pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate><guid>https://bushdigitalguides.com.au/categories/solar/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Bush Digital Guides</title>
+    <link>https://bushdigitalguides.com.au/categories/</link>
+    <description>Recent content in Categories on Bush Digital Guides</description>
+    <generator>Hugo</generator>
+    <language>en-au</language>
+    <lastBuildDate>Wed, 11 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://bushdigitalguides.com.au/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Business</title>
+      <link>https://bushdigitalguides.com.au/categories/business/</link>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://bushdigitalguides.com.au/categories/business/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Business Automation</title>
+      <link>https://bushdigitalguides.com.au/categories/business-automation/</link>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://bushdigitalguides.com.au/categories/business-automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Connectivity</title>
+      <link>https://bushdigitalguides.com.au/categories/connectivity/</link>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://bushdigitalguides.com.au/categories/connectivity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Garden</title>
+      <link>https://bushdigitalguides.com.au/categories/garden/</link>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://bushdigitalguides.com.au/categories/garden/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gardening</title>
+      <link>https://bushdigitalguides.com.au/categories/gardening/</link>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://bushdigitalguides.com.au/categories/gardening/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Property</title>
+      <link>https://bushdigitalguides.com.au/categories/property/</link>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://bushdigitalguides.com.au/categories/property/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Solar</title>
+      <link>https://bushdigitalguides.com.au/categories/solar/</link>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://bushdigitalguides.com.au/categories/solar/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

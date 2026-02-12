@@ -1,3 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Irrigation on Bush Digital Guides</title><link>https://bushdigitalguides.com.au/tags/smart-irrigation/</link><description>Recent content in Smart Irrigation on Bush Digital Guides</description><generator>Hugo</generator><language>en-au</language><lastBuildDate>Wed, 11 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bushdigitalguides.com.au/tags/smart-irrigation/index.xml" rel="self" type="application/rss+xml"/><item><title>Best Smart Irrigation Controllers in Australia (2026 Compared)</title><link>https://bushdigitalguides.com.au/blog/smart-irrigation-controllers-australia/</link><pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate><guid>https://bushdigitalguides.com.au/blog/smart-irrigation-controllers-australia/</guid><description>&lt;p>There&amp;rsquo;s a particular frustration that comes with staring at brown patches in summer, knowing you forgot to run the sprinklers. Or worse — copping a water bill because the timer ran through a week of rain.&lt;/p>
-&lt;p>Smart irrigation controllers fix both problems. They connect to weather data, adjust automatically, and let you control everything from your phone. But which one actually works in Australia?&lt;/p>
-&lt;p>Not American units that technically ship here but have no local weather support — the ones that work with our climate data, our water restrictions, and our conditions. Here are the four worth your money in 2026.&lt;/p></description></item><item><title>Home Assistant Garden Automation: A Practical Getting-Started Guide</title><link>https://bushdigitalguides.com.au/blog/home-assistant-garden-automation/</link><pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate><guid>https://bushdigitalguides.com.au/blog/home-assistant-garden-automation/</guid><description>&lt;p>There&amp;rsquo;s a certain kind of person who looks at their garden irrigation timer and thinks, &amp;ldquo;Yeah, but what if my garden could check the weather forecast, read the soil moisture, and decide for itself whether to water?&amp;rdquo; If that sounds like you, welcome to the rabbit hole. &lt;strong>Home Assistant garden automation&lt;/strong> is where smart home tech meets practical horticulture, and once you start, you won&amp;rsquo;t look at a dumb timer the same way again.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Smart Irrigation on Bush Digital Guides</title>
+    <link>https://bushdigitalguides.com.au/tags/smart-irrigation/</link>
+    <description>Recent content in Smart Irrigation on Bush Digital Guides</description>
+    <generator>Hugo</generator>
+    <language>en-au</language>
+    <lastBuildDate>Wed, 11 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://bushdigitalguides.com.au/tags/smart-irrigation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Best Smart Irrigation Controllers in Australia (2026 Compared)</title>
+      <link>https://bushdigitalguides.com.au/blog/smart-irrigation-controllers-australia/</link>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://bushdigitalguides.com.au/blog/smart-irrigation-controllers-australia/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s a particular frustration that comes with staring at brown patches in summer, knowing you forgot to run the sprinklers. Or worse — copping a water bill because the timer ran through a week of rain.&lt;/p&gt;&#xA;&lt;p&gt;Smart irrigation controllers fix both problems. They connect to weather data, adjust automatically, and let you control everything from your phone. But which one actually works in Australia?&lt;/p&gt;&#xA;&lt;p&gt;Not American units that technically ship here but have no local weather support — the ones that work with our climate data, our water restrictions, and our conditions. Here are the four worth your money in 2026.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Home Assistant Garden Automation: A Practical Getting-Started Guide</title>
+      <link>https://bushdigitalguides.com.au/blog/home-assistant-garden-automation/</link>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://bushdigitalguides.com.au/blog/home-assistant-garden-automation/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s a certain kind of person who looks at their garden irrigation timer and thinks, &amp;ldquo;Yeah, but what if my garden could check the weather forecast, read the soil moisture, and decide for itself whether to water?&amp;rdquo; If that sounds like you, welcome to the rabbit hole. &lt;strong&gt;Home Assistant garden automation&lt;/strong&gt; is where smart home tech meets practical horticulture, and once you start, you won&amp;rsquo;t look at a dumb timer the same way again.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
