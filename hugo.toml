@@ -16,7 +16,7 @@ theme = 'bdg'
     slug = "off-grid-but-online"
     words = "72,000"
     chapters = "24"
-    price = "$6.99 USD"
+    price = "$4.99 AUD"
     color = "#2d5016"
     emoji = "🔆"
     kdpLink = "#"
@@ -26,7 +26,7 @@ theme = 'bdg'
     slug = "automate-everything"
     words = "37,000"
     chapters = "17"
-    price = "$4.99 USD"
+    price = "$4.99 AUD"
     color = "#1e40af"
     emoji = "⚡"
     kdpLink = "#"
@@ -36,7 +36,7 @@ theme = 'bdg'
     slug = "set-and-forget"
     words = "91,000"
     chapters = "22"
-    price = "$6.99 USD"
+    price = "$4.99 AUD"
     color = "#15803d"
     emoji = "🌱"
     kdpLink = "#"
@@ -46,7 +46,7 @@ theme = 'bdg'
     slug = "value-add-property-playbook"
     words = "62,000"
     chapters = "15"
-    price = "$6.99 USD"
+    price = "$4.99 AUD"
     color = "#9a3412"
     emoji = "🏠"
     kdpLink = "#"
@@ -76,3 +76,17 @@ theme = 'bdg'
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[related]
+  includeNewer = true
+  threshold = 50
+  toLower = true
+  [[related.indices]]
+    name = "tags"
+    weight = 80
+  [[related.indices]]
+    name = "book"
+    weight = 60
+  [[related.indices]]
+    name = "date"
+    weight = 10

@@ -37,3 +37,7 @@ More coming. If you've got a topic you'd like covered, [drop us a line](mailto:h
 ### Based In
 
 Adelaide, South Australia. But useful everywhere in Australia (and mostly relevant to NZ, UK, and beyond).
+
+### Get in Touch
+
+📧 [hello@bushdigitalguides.com.au](mailto:hello@bushdigitalguides.com.au)

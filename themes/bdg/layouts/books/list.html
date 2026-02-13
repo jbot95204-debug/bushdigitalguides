@@ -1,0 +1,51 @@
+{{ define "main" }}
+
+<section class="hero" style="padding: 60px 0 40px;">
+  <div class="container">
+    <div class="section-label">THE LIBRARY</div>
+    <h1>Books that earn their page count.</h1>
+    <p class="lead">Every chapter researched, sourced, and written for Australian conditions. No filler. No fluff.</p>
+  </div>
+</section>
+
+<section class="books-section" style="padding-top: 20px;">
+  <div class="container">
+    <div class="book-grid">
+
+      {{ range .Pages }}
+      <a href="{{ .Permalink }}" class="book-card">
+        <div class="book-card-cover" style="background: linear-gradient(145deg, {{ with .Params.color }}{{ . }}{{ else }}#111{{ end }}, {{ with .Params.colorEnd }}{{ . }}{{ else }}#333{{ end }});">
+          {{ .Params.emoji }}
+        </div>
+        <div class="book-card-body">
+          <h3>{{ .Title }}</h3>
+          <div class="subtitle">{{ .Params.subtitle }}</div>
+          <div class="excerpt">{{ .Description }}</div>
+          <div class="book-card-meta">
+            <span>{{ .Params.words }} words</span>
+            <span>{{ .Params.chapters }} chapters</span>
+            <span>{{ .Params.price }}</span>
+          </div>
+        </div>
+      </a>
+      {{ end }}
+
+    </div>
+  </div>
+</section>
+
+<section class="newsletter-section">
+  <div class="container">
+    <div class="newsletter-inner">
+      <div class="section-label">Stay in the loop</div>
+      <h2>Get notified about new releases.</h2>
+      <p>Be the first to know when new books and guides drop. No spam.</p>
+      <form name="newsletter" method="POST" data-netlify="true" class="newsletter-form">
+        <input type="email" name="email" placeholder="your@email.com" required>
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+{{ end }}

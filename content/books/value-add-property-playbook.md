@@ -4,7 +4,7 @@ subtitle: "Granny Flats, Subdivisions, Dual Occs & Creative Strategies to Build 
 description: "Stop waiting for the market. Create equity yourself with granny flats, duplexes, subdivisions and more."
 words: "62,000"
 chapters: "15"
-price: "$6.99 USD"
+price: "$4.99 AUD"
 emoji: "🏠"
 color: "#9a3412"
 colorEnd: "#ea580c"

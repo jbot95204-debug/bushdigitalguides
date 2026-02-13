@@ -4,11 +4,11 @@ subtitle: "The Small Business Owner's Guide to Working Less and Earning More"
 description: "Stop drowning in admin. Automate the boring stuff so you can focus on actual work."
 words: "37,000"
 chapters: "17"
-price: "$4.99 USD"
+price: "$5.67 AUD"
 emoji: "⚡"
 color: "#1e40af"
 colorEnd: "#3b82f6"
-kdpLink: "#"
+kdpLink: "https://www.amazon.com.au/dp/B0GMWG56VX"
 draft: false
 ---
 

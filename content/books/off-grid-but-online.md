@@ -4,11 +4,11 @@ subtitle: "The Australian Guide to Self-Sufficient Living with Modern Tech"
 description: "The complete guide to going off-grid in Australia without giving up the internet, Netflix, or your morning coffee."
 words: "72,000"
 chapters: "24"
-price: "$6.99 USD"
+price: "$4.99 AUD"
 emoji: "🔆"
 color: "#2d5016"
 colorEnd: "#4a7c28"
-kdpLink: "#"
+kdpLink: "https://www.amazon.com.au/dp/B0GMVBDWJR"
 draft: false
 ---
 
