@@ -1,10 +1,30 @@
 <header class="site-header">
   <div class="container">
     <a href="/" class="site-logo">Bush<span>Digital</span>Guides</a>
-    <nav class="site-nav">
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" id="site-nav">
       {{ range .Site.Menus.main }}
         <a href="{{ .URL }}">{{ .Name }}</a>
       {{ end }}
     </nav>
   </div>
 </header>
+<script>
+(function(){
+  var btn=document.getElementById('hamburger'),nav=document.getElementById('site-nav');
+  btn.addEventListener('click',function(){
+    var open=nav.classList.toggle('open');
+    btn.classList.toggle('open');
+    btn.setAttribute('aria-expanded',open);
+  });
+  nav.querySelectorAll('a').forEach(function(a){
+    a.addEventListener('click',function(){
+      nav.classList.remove('open');
+      btn.classList.remove('open');
+      btn.setAttribute('aria-expanded','false');
+    });
+  });
+})();
+</script>
