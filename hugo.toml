@@ -69,6 +69,12 @@ theme = 'bdg'
     url = "/about/"
     weight = 4
 
+enableRobotsTXT = false
+
+[sitemap]
+  changefreq = 'weekly'
+  priority = 0.5
+
 [outputs]
   home = ["HTML", "RSS"]
 

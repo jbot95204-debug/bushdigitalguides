@@ -18,7 +18,7 @@ Let's be clear: automation doesn't mean replacing people. For most small busines
 
 Common examples:
 
-- Invoices that send themselves when a job is marked complete
+- Invoices that send themselves when a job is marked complete (see our [guide to automating invoice chasing](/blog/automate-invoice-chasing-small-business/))
 - Customer enquiries answered instantly by a chatbot at 2am
 - Social media posts scheduled a month in advance
 - Expense receipts scanned and categorised automatically
@@ -66,7 +66,7 @@ If customers book appointments, consultations, or services with you, stop going 
 Let clients self-book into your available time slots. Integrates with Google Calendar, sends automatic reminders, and reduces no-shows by up to 30%.
 
 ### ServiceM8 (from $29/month)
-If you're a tradie or field service business, ServiceM8 handles job scheduling, dispatch, quoting, invoicing, and customer communication in one platform. It's Australian-made and built for how Aussie trades businesses actually operate.
+If you're a tradie or field service business, ServiceM8 handles job scheduling, dispatch, quoting, invoicing, and customer communication in one platform. It's Australian-made and built for how Aussie trades businesses actually operate. We compare it head-to-head with other options in our [best job management software for tradies](/blog/best-job-management-software-tradies/) review.
 
 ### Zapier or Make (from free)
 These are the "glue" tools that connect apps together. Examples:

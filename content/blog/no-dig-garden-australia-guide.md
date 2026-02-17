@@ -108,10 +108,12 @@ Here's where no-dig gardening gets really powerful: once the bed is built, you c
 Lay drip irrigation tape or 13mm poly pipe with drippers directly on the soil surface, under the mulch layer. Connect to a battery-powered timer (available from Bunnings for $30–$60) and set it to water every 2–3 days in summer, weekly in winter.
 
 ### Soil Moisture Sensors
-For smarter watering, add a soil moisture sensor that connects to your irrigation timer. This ensures you only water when the soil actually needs it — saving water and preventing overwatering (which causes root rot, a common killer in raised beds).
+For smarter watering, add a soil moisture sensor that connects to your irrigation timer — we compare the best options in our [smart irrigation controllers guide](/blog/smart-irrigation-controllers-australia/). This ensures you only water when the soil actually needs it — saving water and preventing overwatering (which causes root rot, a common killer in raised beds).
 
 ### Wicking Beds
-For the ultimate set-and-forget approach, build your no-dig bed as a wicking bed: a self-watering system with a water reservoir in the base that draws moisture up through capillary action. Wicking beds can go 1–2 weeks between top-ups in mild weather.
+For the ultimate set-and-forget approach, build your no-dig bed as a [wicking bed](/blog/wicking-bed-guide-australia/): a self-watering system with a water reservoir in the base that draws moisture up through capillary action. Wicking beds can go 1–2 weeks between top-ups in mild weather.
+
+For a deeper dive into Home Assistant-based garden automation, see our [Home Assistant garden automation guide](/blog/home-assistant-garden-automation/).
 
 ### Self-Seeding and Perennial Planting
 Plant a few self-seeding annuals (lettuce, rocket, cherry tomatoes) and perennials (rosemary, oregano, chives, rhubarb) to reduce replanting each season. A well-established no-dig bed with perennial herbs and self-sowing greens needs almost no intervention.

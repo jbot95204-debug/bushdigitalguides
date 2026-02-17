@@ -14,11 +14,11 @@ But with over 30 brands on the market, wildly different price points, and specs 
 
 Three things have changed the equation:
 
-1. **The Cheaper Home Batteries Program**: Launched 1 July 2025, this federal scheme provides approximately **$350 per usable kWh** in rebates via Small-scale Technology Certificates (STCs). On a 13.5 kWh battery, that's roughly **$4,700 off** the installed price.
+1. **The Cheaper Home Batteries Program**: Launched 1 July 2025, this federal scheme provides approximately **$350 per usable kWh** in rebates via Small-scale Technology Certificates (STCs). On a 13.5 kWh battery, that's roughly **$4,700 off** the installed price. (We break down the full rebate calculations in our [solar battery STC rebate guide](/blog/solar-battery-stc-rebate-2026/).)
 2. **State incentives stack on top**: NSW offers $1,600–$2,400 in additional rebates. Victoria, South Australia, and Queensland each have their own programs. Check your state's energy website for current offers.
 3. **Battery prices have dropped ~15% year-on-year**: Lithium-ion cells continue to fall in cost. A battery that cost $14,000 installed in 2023 might now come in under $10,000 after rebates.
 
-The combination means payback periods have shortened from 10+ years to as little as 5–7 years for many households.
+The combination means payback periods have shortened from 10+ years to as little as 5–7 years for many households. If you're racing the clock on the May deadline, read our piece on [what the battery rebate deadline means for homeowners](/blog/battery-rebate-deadline-may-2026-what-australians-need-to-know/).
 
 ## The Top 5 Solar Batteries in Australia (2026)
 
@@ -116,7 +116,7 @@ A common mistake is buying more battery than you need. Here's a simple approach:
 - **AC-coupled**: Works with any existing solar inverter. Best for adding a battery to a system you already have. Slightly less efficient but far more flexible.
 - **DC-coupled**: Connects directly to your solar panels via a hybrid inverter. More efficient but usually requires a compatible inverter (or replacing your current one).
 
-If you've already got solar panels and a working inverter, AC-coupled is usually the smarter choice. If you're installing solar and battery at the same time, DC-coupled gives you slightly better efficiency.
+If you've already got solar panels and a working inverter, AC-coupled is usually the smarter choice. If you're installing solar and battery at the same time, DC-coupled gives you slightly better efficiency. For a full cost breakdown of off-grid setups, see our guide to [off-grid solar system costs in Australia](/blog/off-grid-solar-system-cost-australia-2026/).
 
 ## Virtual Power Plants (VPPs): Free Money or Lock-In?
 

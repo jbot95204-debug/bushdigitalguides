@@ -1,30 +1,44 @@
 <header class="site-header">
   <div class="container">
     <a href="/" class="site-logo">Bush<span>Digital</span>Guides</a>
-    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
-    <nav class="site-nav" id="site-nav">
+    <nav class="site-nav desktop-nav">
       {{ range .Site.Menus.main }}
         <a href="{{ .URL }}">{{ .Name }}</a>
       {{ end }}
     </nav>
+    <button class="hamburger" id="menu-toggle" aria-label="Open menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+      </svg>
+    </button>
   </div>
 </header>
+
+<div class="mobile-menu" id="mobile-menu">
+  <div class="mobile-menu-top">
+    <a href="/" class="site-logo">Bush<span>Digital</span>Guides</a>
+    <button class="mobile-menu-x" id="menu-close" aria-label="Close menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+      </svg>
+    </button>
+  </div>
+  <nav class="mobile-menu-links">
+    {{ range .Site.Menus.main }}
+      <a href="{{ .URL }}">{{ .Name }}</a>
+    {{ end }}
+  </nav>
+</div>
+
 <script>
 (function(){
-  var btn=document.getElementById('hamburger'),nav=document.getElementById('site-nav');
-  btn.addEventListener('click',function(){
-    var open=nav.classList.toggle('open');
-    btn.classList.toggle('open');
-    btn.setAttribute('aria-expanded',open);
-  });
-  nav.querySelectorAll('a').forEach(function(a){
-    a.addEventListener('click',function(){
-      nav.classList.remove('open');
-      btn.classList.remove('open');
-      btn.setAttribute('aria-expanded','false');
-    });
+  var toggle = document.getElementById('menu-toggle');
+  var menu = document.getElementById('mobile-menu');
+  var close = document.getElementById('menu-close');
+  toggle.addEventListener('click', function(){ menu.classList.add('is-open'); document.body.style.overflow='hidden'; });
+  close.addEventListener('click', function(){ menu.classList.remove('is-open'); document.body.style.overflow=''; });
+  menu.querySelectorAll('.mobile-menu-links a').forEach(function(a){
+    a.addEventListener('click', function(){ menu.classList.remove('is-open'); document.body.style.overflow=''; });
   });
 })();
 </script>

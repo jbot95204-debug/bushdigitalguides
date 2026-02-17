@@ -34,7 +34,7 @@ The number one mistake new hobby farmers make is trying to do everything at once
 
 A solid starting combination:
 
-1. **A vegie garden** — Raised beds or no-dig beds are the fastest way to start producing food. They work on poor soil, are easier on your back, and can be set up in a weekend.
+1. **A vegie garden** — Raised beds or [no-dig beds](/blog/no-dig-garden-australia-guide/) are the fastest way to start producing food. They work on poor soil, are easier on your back, and can be set up in a weekend.
 2. **Chickens** — Six to ten laying hens will keep a family in eggs and help with pest control. Check local council limits.
 3. **Fruit trees** — Plant these early because they take 2–3 years to produce. Citrus, stone fruit, and figs do well across most of Australia.
 
@@ -52,7 +52,7 @@ For growing food, you'll need a reliable irrigation setup. Options include:
 
 ### Power
 
-If you're on-grid, you're sorted. If you're remote or want energy independence, a standalone solar system is the go. A basic off-grid setup (5kW solar + 10kWh battery + inverter) starts around $20,000–$30,000 for a small property. Larger systems for a full household run $35,000–$60,000.
+If you're on-grid, you're sorted. If you're remote or want energy independence, a standalone solar system is the go. (Check our [off-grid solar cost breakdown](/blog/off-grid-solar-system-cost-australia-2026/) for 2026 pricing.) A basic off-grid setup (5kW solar + 10kWh battery + inverter) starts around $20,000–$30,000 for a small property. Larger systems for a full household run $35,000–$60,000.
 
 For detailed guidance on designing and living with off-grid power — including battery sizing, backup generators, and staying connected with Starlink — [*Off-Grid but Online*](https://www.amazon.com.au/dp/B0GMVBDWJR) covers everything for just $5 on Amazon.
 
@@ -73,7 +73,7 @@ If you're going beyond chooks, here's a rough guide:
 Here's where modern hobby farming differs from your grandparents' version. Technology can take the drudgery out of daily tasks:
 
 - **Automatic chicken coop doors** — Solar-powered doors that open at dawn and close at dusk. No more forgetting to lock the chooks in.
-- **Smart irrigation** — Drip systems on timers with soil moisture sensors. Water only when and where it's needed.
+- **Smart irrigation** — Drip systems on timers with soil moisture sensors. Water only when and where it's needed. (See our [smart irrigation controller comparison](/blog/smart-irrigation-controllers-australia/) for the best options.)
 - **Weather stations** — A basic home weather station helps you plan planting, watering, and harvesting.
 - **Solar-powered electric fencing** — Keep stock in and foxes out without running mains power to the paddock.
 

@@ -41,7 +41,7 @@ This is where the real cost sits. Batteries typically account for **40–50% of 
 
 **Lithium Iron Phosphate (LiFePO4)** is now the standard for off-grid. It's safer, lasts longer, and handles deep cycling better than other lithium chemistries.
 
-Approximate battery costs in 2026:
+For a detailed comparison of the top battery brands, see our [best solar battery systems guide](/blog/best-solar-battery-system-australia-2026/). Approximate battery costs in 2026:
 
 | Battery | Usable Capacity | Installed Cost |
 |---------|----------------|----------------|
@@ -85,7 +85,7 @@ Remote locations add travel costs, accommodation for installers, and potentially
 Solar panels and batteries in off-grid systems are eligible for STCs, which provide an upfront discount. The value depends on your system size and location, but typically knocks **$3,000–$6,000** off a residential off-grid system.
 
 ### Cheaper Home Batteries Program
-Launched 1 July 2025, this program provides approximately **$350 per usable kWh** in battery rebates via STCs. On a 20 kWh battery, that's roughly $7,000 in discounts.
+Launched 1 July 2025, this program provides approximately **$350 per usable kWh** in battery rebates via STCs. On a 20 kWh battery, that's roughly $7,000 in discounts. We walk through the full STC calculation in our [solar battery STC rebate guide](/blog/solar-battery-stc-rebate-2026/).
 
 ### State Programs
 - **Victoria**: Solar Homes Program provides rebates and interest-free loans
@@ -136,6 +136,8 @@ Off-grid systems are relatively low-maintenance:
 - **Generator**: Regular servicing (oil, filters). Budget $200–$500/year if used frequently.
 
 Total ongoing costs: roughly $500–$1,500/year, compared to $2,000–$3,000+ for grid electricity.
+
+If you're going off-grid, you'll also want reliable internet — our [Starlink vs NBN comparison](/blog/starlink-vs-nbn-rural-australia/) covers your options for rural connectivity.
 
 ## Getting Started
 

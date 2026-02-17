@@ -78,7 +78,7 @@ Example:
 Where zoning allows, adding a second dwelling — whether a granny flat, duplex, or subdivided rear block — can transform the economics of a single property.
 
 ### Granny flats
-- Cost: $120,000–$200,000 for a quality build (or less for kit homes)
+- Cost: $120,000–$200,000 for a quality build (or less for kit homes) — see our [granny flat investment state-by-state guide](/blog/granny-flat-investment-australia-2026-state-by-state-guide/) for detailed costs and rules
 - Rental return: $300–$450/week depending on location
 - In NSW, complying development approval can be done in weeks rather than months
 
@@ -88,7 +88,7 @@ Where zoning allows, adding a second dwelling — whether a granny flat, duplex,
 - Tip: Look for corner blocks and long narrow blocks — they're the easiest to subdivide
 
 ### Dual occupancy builds
-- Purpose-built duplex on a single title
+- Purpose-built duplex on a single title — we break down [real duplex build costs](/blog/duplex-build-costs-australia-2026/) in a separate guide
 - Higher upfront cost but generates two income streams
 - Particularly strong in growth corridors where house-and-land packages are priced out of reach for many buyers
 
@@ -114,7 +114,8 @@ The smartest investors in 2026 aren't relying on gut feel or real estate agent h
 
 1. **Don't renovate for your taste** — Renovate for the market. What you love doesn't matter; what buyers and tenants will pay for does.
 2. **Beware off-the-plan in oversupplied areas** — Some new-build corridors (particularly apartment precincts) face oversupply. Check the construction pipeline before committing.
-3. **Get the structure right** — Talk to a property-savvy accountant about ownership structures (personal, trust, company, SMSF) before you buy. Restructuring after purchase is expensive or impossible.
+3. **Watch for CGT changes** — The [proposed CGT discount changes](/blog/cgt-discount-changes-what-property-investors-need-to-know-2026/) could significantly affect investor returns.
+4. **Get the structure right** — Talk to a property-savvy accountant about ownership structures (personal, trust, company, SMSF) before you buy. Restructuring after purchase is expensive or impossible.
 4. **Don't ignore holding costs** — Interest, rates, insurance, management fees, vacancy, and maintenance add up. Model these realistically before buying.
 5. **Material cost blowouts** — In 2026, with material costs elevated, get detailed quotes and add a 15–20% contingency buffer.
 

@@ -20,6 +20,8 @@ Before we get into the state-specific stuff, let's talk about why granny flats a
 
 **The yield argument is hard to ignore.** A typical 60 square metre granny flat in Melbourne costs around $220,000 to build and can pull in $24,000 to $26,000 per year in rent. That's a gross yield of roughly 10–11% on the construction cost alone — way ahead of the 3–4% gross yield you'd get buying a standalone investment property in the same suburb.
 
+For more on how granny flats fit into a broader investment strategy, see our guide to [property investment strategies in Australia 2026](/blog/property-investment-strategies-australia-2026/).
+
 **Property value uplift is real too.** Quality granny flats are adding $90,000 to $120,000 in value to properties, according to independent valuations. So you build for $220K, add $100K in value on day one, and then start collecting rent on top.
 
 **Supply shortage isn't going anywhere.** The RBA lifted the cash rate to 3.85% at its first meeting of 2026, but the real driver of the Australian property market isn't interest rates — it's the chronic undersupply of housing. Population growth remains strong, and we're nowhere near building enough homes to keep up. Granny flats are part of the solution, and governments know it.
@@ -137,7 +139,7 @@ The granny flat wins on yield by a country mile, and you haven't had to stump up
 
 **3. Building too cheap.** A bargain-basement granny flat that looks and feels cheap will attract budget tenants and create maintenance headaches. Invest in quality where it counts — waterproofing, ventilation, and kitchen/bathroom fixtures.
 
-**4. Ignoring the approval pathway.** Going straight to a builder without understanding whether you need a CDC or DA (or whether your block even qualifies) is asking for expensive surprises.
+**4. Ignoring the approval pathway.** (For duplex builds specifically, see our [duplex build costs guide](/blog/duplex-build-costs-australia-2026/).) Going straight to a builder without understanding whether you need a CDC or DA (or whether your block even qualifies) is asking for expensive surprises.
 
 **5. Forgetting about access.** Your granny flat tenants need their own access path, parking considerations, and ideally a separate entrance. Plan this from the start.
 
@@ -158,7 +160,7 @@ If you tick most of those boxes, it's worth getting a feasibility assessment fro
 
 Granny flat investment in Australia in 2026 is one of the best value-add strategies available to property investors. The combination of relatively low build costs (compared to buying a whole new property), strong rental yields, and property value uplift makes it a compelling play — especially in a market where housing supply can't keep up with demand.
 
-The key is doing your homework on your specific state's rules, getting your approval pathway sorted early, and building something that tenants actually want to live in. Get those things right, and your backyard could become one of your best-performing assets.
+Also keep an eye on [CGT discount changes](/blog/cgt-discount-changes-what-property-investors-need-to-know-2026/) that could affect your tax position. The key is doing your homework on your specific state's rules, getting your approval pathway sorted early, and building something that tenants actually want to live in. Get those things right, and your backyard could become one of your best-performing assets.
 
 ---
 
