@@ -129,4 +129,4 @@ The smartest investors in 2026 aren't relying on gut feel or real estate agent h
 4. Build your team: buyers' agent, mortgage broker, accountant, and building inspector
 5. Start with one property, execute well, and build from there
 
-**For a detailed, step-by-step framework for finding, analysing, and executing value-add property deals — including renovation budgeting templates, suburb analysis checklists, and real-world case studies — grab [*The Value-Add Property Playbook*](https://www.amazon.com.au/dp/B0GN537PN3) on Amazon for just $7 AUD. It's the practical blueprint for building property wealth in the Australian market.**
+**For a detailed, step-by-step framework for finding, analysing, and executing value-add property deals — including renovation budgeting templates, suburb analysis checklists, and real-world case studies — grab [*The Value-Add Property Playbook*](https://www.amazon.com.au/dp/B0GN537PN3?tag=bushdigital-22) on Amazon for just $7 AUD. It's the practical blueprint for building property wealth in the Australian market.**

@@ -120,7 +120,7 @@ For a deeper dive into Home Assistant-based garden automation, see our [Home Ass
 ### Self-Seeding and Perennial Planting
 Plant a few self-seeding annuals (lettuce, rocket, cherry tomatoes) and perennials (rosemary, oregano, chives, rhubarb) to reduce replanting each season. A well-established no-dig bed with perennial herbs and self-sowing greens needs almost no intervention.
 
-**For a complete walkthrough of automated irrigation setups, wicking bed construction, soil sensor integration, and seasonal planting calendars, grab [*Set and Forget: The Automated Gardening Guide*](https://www.amazon.com.au/dp/B0GN3RYDSC) on Amazon for $7 AUD. It covers everything you need to build a food garden that practically runs itself.**
+**For a complete walkthrough of automated irrigation setups, wicking bed construction, soil sensor integration, and seasonal planting calendars, grab [*Set and Forget: The Automated Gardening Guide*](https://www.amazon.com.au/dp/B0GN3RYDSC?tag=bushdigital-22) on Amazon for $7 AUD. It covers everything you need to build a food garden that practically runs itself.**
 
 ## Common Mistakes to Avoid
 

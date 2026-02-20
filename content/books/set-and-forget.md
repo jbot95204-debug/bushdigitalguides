@@ -10,7 +10,7 @@ cover: "/images/covers/set-and-forget.jpg"
 images: ["/images/covers/set-and-forget.jpg"]
 color: "#15803d"
 colorEnd: "#22c55e"
-kdpLink: "https://www.amazon.com.au/dp/B0GN3RYDSC"
+kdpLink: "https://www.amazon.com.au/dp/B0GN3RYDSC?tag=bushdigital-22"
 keywords: ["automated gardening australia", "smart garden irrigation", "smart irrigation controller australia", "water-efficient gardening"]
 faq:
   - q: "What is automated gardening and how does it work in Australia?"

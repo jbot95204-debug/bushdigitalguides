@@ -1,0 +1,41 @@
+{{ define "main" }}
+
+<section style="padding:80px 0 40px; text-align:center;">
+  <div class="container">
+    <div class="section-label">FREE SAMPLES</div>
+    <h1 style="max-width:700px; margin:0 auto 16px;">Try Before You Buy</h1>
+    <p style="max-width:520px; margin:0 auto; color:var(--gray-500); font-size:1.1rem;">Download the first chapter of any of our books — free. No email required. Just click and read.</p>
+  </div>
+</section>
+
+<section style="padding:40px 0 100px;">
+  <div class="container" style="max-width:900px;">
+
+    {{ range $key, $book := .Site.Params.books }}
+    <div class="sample-card">
+      <div class="sample-cover">
+        <img src="/images/covers/{{ $book.slug | default (replace $book.title " " "-" | lower) }}.jpg" alt="{{ $book.title }} cover" loading="lazy" onerror="this.style.display='none'; this.parentElement.innerHTML='<span style=font-size:3rem>{{ $book.emoji }}</span>';">
+      </div>
+      <div class="sample-body">
+        <h3>{{ $book.title }}</h3>
+        <p style="color:var(--gray-500); font-size:0.92rem; margin-bottom:4px;">{{ $book.subtitle }}</p>
+        <p style="color:var(--gray-400); font-size:0.82rem;">{{ $book.words }} words · {{ $book.chapters }} chapters · {{ $book.price }}</p>
+        <div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:12px;">
+          <a href="/samples/{{ $book.slug }}-chapter1.pdf" class="btn btn-primary btn-sm">📥 Download Chapter 1</a>
+          <a href="/books/{{ $book.slug }}/" class="btn btn-outline btn-sm">See full book →</a>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+
+    <div style="text-align:center; margin-top:48px; padding:32px; background:var(--gray-50); border-radius:12px;">
+      <p style="color:var(--gray-500); font-size:0.95rem; margin-bottom:0;">📝 <strong>Sample PDFs coming soon.</strong> Sign up below to get notified when they're ready — plus a free bonus chapter from every book.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- Email Signup -->
+{{ partial "email-capture.html" . }}
+
+{{ end }}

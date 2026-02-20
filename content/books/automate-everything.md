@@ -10,7 +10,7 @@ cover: "/images/covers/automate-everything.jpg"
 images: ["/images/covers/automate-everything.jpg"]
 color: "#1e40af"
 colorEnd: "#3b82f6"
-kdpLink: "https://www.amazon.com.au/dp/B0GMWG56VX"
+kdpLink: "https://www.amazon.com.au/dp/B0GMWG56VX?tag=bushdigital-22"
 keywords: ["small business automation australia", "AI business tools", "automate small business", "business automation tools australia"]
 faq:
   - q: "What can I automate in my small business in Australia?"

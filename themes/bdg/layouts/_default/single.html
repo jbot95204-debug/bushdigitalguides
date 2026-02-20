@@ -48,7 +48,7 @@
           <span>📑 {{ .Params.chapters }} chapters</span>
           <span>✍️ Bush Digital Guides</span>
         </div>
-        {{ with .Params.kdpLink }}<a href="{{ . }}" class="btn btn-accent">Buy on Amazon — {{ $.Params.price }}</a>{{ end }}
+        {{ with .Params.kdpLink }}{{ $link := . }}{{ if strings.Contains $link "amazon.com" }}{{ $link = printf "%s?tag=bushdigital-22" $link }}{{ end }}<a href="{{ $link }}" class="btn btn-accent">Buy on Amazon — {{ $.Params.price }}</a>{{ end }}
       </div>
       <div>
         {{ with .Params.cover }}
@@ -67,6 +67,9 @@
     {{ .Content }}
   </div>
 </section>
+
+{{ partial "email-capture.html" . }}
+{{ partial "cross-promo.html" . }}
 
 {{ else }}
 <!-- Default Page -->

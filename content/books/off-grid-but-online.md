@@ -10,7 +10,7 @@ cover: "/images/covers/off-grid-but-online.jpg"
 images: ["/images/covers/off-grid-but-online.jpg"]
 color: "#2d5016"
 colorEnd: "#4a7c28"
-kdpLink: "https://www.amazon.com.au/dp/B0GMVBDWJR"
+kdpLink: "https://www.amazon.com.au/dp/B0GMVBDWJR?tag=bushdigital-22"
 keywords: ["off grid solar guide australia", "self-sufficient living australia", "off-grid living australia", "solar battery system australia"]
 faq:
   - q: "How much does it cost to go off-grid in Australia in 2026?"

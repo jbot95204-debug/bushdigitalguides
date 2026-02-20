@@ -50,13 +50,13 @@ For growing food, you'll need a reliable irrigation setup. Options include:
 - **Bore water** — Can cost $5,000–$15,000 to drill, but provides a reliable year-round supply.
 - **Dam** — If your property has the right contour, a farm dam is a fantastic asset. Council permits may be required.
 
-**Pro tip**: Automate your irrigation from the start. Smart irrigation controllers connected to soil moisture sensors can cut your water usage by 30–50% and save you hours of manual watering each week. For a full walkthrough of setting up automated watering systems — including drip irrigation, timers, and soil sensors — grab a copy of [*Set and Forget: The Automated Gardening Guide*](https://www.amazon.com.au/dp/B0GN3RYDSC) on Amazon.
+**Pro tip**: Automate your irrigation from the start. Smart irrigation controllers connected to soil moisture sensors can cut your water usage by 30–50% and save you hours of manual watering each week. For a full walkthrough of setting up automated watering systems — including drip irrigation, timers, and soil sensors — grab a copy of [*Set and Forget: The Automated Gardening Guide*](https://www.amazon.com.au/dp/B0GN3RYDSC?tag=bushdigital-22) on Amazon.
 
 ### Power
 
 If you're on-grid, you're sorted. If you're remote or want energy independence, a standalone solar system is the go. (Check our [off-grid solar cost breakdown](/blog/off-grid-solar-system-cost-australia-2026/) for 2026 pricing.) A basic off-grid setup (5kW solar + 10kWh battery + inverter) starts around $20,000–$30,000 for a small property. Larger systems for a full household run $35,000–$60,000.
 
-For detailed guidance on designing and living with off-grid power — including battery sizing, backup generators, and staying connected with Starlink — [*Off-Grid but Online*](https://www.amazon.com.au/dp/B0GMVBDWJR) covers everything for just $5 on Amazon.
+For detailed guidance on designing and living with off-grid power — including battery sizing, backup generators, and staying connected with Starlink — [*Off-Grid but Online*](https://www.amazon.com.au/dp/B0GMVBDWJR?tag=bushdigital-22) covers everything for just $5 on Amazon.
 
 ## Step 4: Think About Livestock
 
@@ -79,7 +79,7 @@ Here's where modern hobby farming differs from your grandparents' version. Techn
 - **Weather stations** — A basic home weather station helps you plan planting, watering, and harvesting.
 - **Solar-powered electric fencing** — Keep stock in and foxes out without running mains power to the paddock.
 
-The key philosophy is "set and forget" — invest time upfront building good systems so you're not a slave to daily chores. Both [*Set and Forget*](https://www.amazon.com.au/dp/B0GN3RYDSC) and [*Off-Grid but Online*](https://www.amazon.com.au/dp/B0GMVBDWJR) dig deep into this approach.
+The key philosophy is "set and forget" — invest time upfront building good systems so you're not a slave to daily chores. Both [*Set and Forget*](https://www.amazon.com.au/dp/B0GN3RYDSC?tag=bushdigital-22) and [*Off-Grid but Online*](https://www.amazon.com.au/dp/B0GMVBDWJR?tag=bushdigital-22) dig deep into this approach.
 
 ## Step 6: Know the Legal Stuff
 
@@ -96,4 +96,4 @@ You don't need 50 acres to begin. If you've got a suburban backyard, start with 
 
 The best hobby farms grow organically (in every sense). Start small, learn as you go, and add new projects each season.
 
-**For the full guide on automated growing systems that practically run themselves, grab [*Set and Forget*](https://www.amazon.com.au/dp/B0GN3RYDSC) on Amazon ($7 AUD). And if you're setting up off-grid power, water, and internet on your property, [*Off-Grid but Online*](https://www.amazon.com.au/dp/B0GMVBDWJR) is your complete playbook for just $5.**
+**For the full guide on automated growing systems that practically run themselves, grab [*Set and Forget*](https://www.amazon.com.au/dp/B0GN3RYDSC?tag=bushdigital-22) on Amazon ($7 AUD). And if you're setting up off-grid power, water, and internet on your property, [*Off-Grid but Online*](https://www.amazon.com.au/dp/B0GMVBDWJR?tag=bushdigital-22) is your complete playbook for just $5.**

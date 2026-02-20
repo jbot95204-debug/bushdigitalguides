@@ -19,10 +19,10 @@ Based in Adelaide, South Australia, we focus on books that are thoroughly resear
 
 | Book | Words | Chapters | Amazon Link |
 |------|-------|----------|-------------|
-| [Off-Grid but Online](/books/off-grid-but-online/) | 72,000 | 24 | [Buy on Amazon](https://www.amazon.com.au/dp/B0GMVBDWJR) |
-| [Automate Everything](/books/automate-everything/) | 37,000 | 17 | [Buy on Amazon](https://www.amazon.com.au/dp/B0GMWG56VX) |
-| [Set and Forget](/books/set-and-forget/) | 91,000 | 22 | [Buy on Amazon](https://www.amazon.com.au/dp/B0GN3RYDSC) |
-| [The Value-Add Property Playbook](/books/value-add-property-playbook/) | 62,000 | 15 | [Buy on Amazon](https://www.amazon.com.au/dp/B0GN537PN3) |
+| [Off-Grid but Online](/books/off-grid-but-online/) | 72,000 | 24 | [Buy on Amazon](https://www.amazon.com.au/dp/B0GMVBDWJR?tag=bushdigital-22) |
+| [Automate Everything](/books/automate-everything/) | 37,000 | 17 | [Buy on Amazon](https://www.amazon.com.au/dp/B0GMWG56VX?tag=bushdigital-22) |
+| [Set and Forget](/books/set-and-forget/) | 91,000 | 22 | [Buy on Amazon](https://www.amazon.com.au/dp/B0GN3RYDSC?tag=bushdigital-22) |
+| [The Value-Add Property Playbook](/books/value-add-property-playbook/) | 62,000 | 15 | [Buy on Amazon](https://www.amazon.com.au/dp/B0GN537PN3?tag=bushdigital-22) |
 | [AI for Tradies](/books/ai-for-tradies/) | 45,000 | 18 | Coming Soon |
 
 ---

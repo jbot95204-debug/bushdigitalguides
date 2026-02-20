@@ -10,7 +10,7 @@ cover: "/images/covers/value-add-playbook.jpg"
 images: ["/images/covers/value-add-playbook.jpg"]
 color: "#9a3412"
 colorEnd: "#ea580c"
-kdpLink: "https://www.amazon.com.au/dp/B0GN537PN3"
+kdpLink: "https://www.amazon.com.au/dp/B0GN537PN3?tag=bushdigital-22"
 keywords: ["value add property australia", "property investment guide", "granny flat investment australia", "duplex build cost australia"]
 faq:
   - q: "What is value-add property investment in Australia?"

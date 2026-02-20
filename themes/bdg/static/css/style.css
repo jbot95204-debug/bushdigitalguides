@@ -718,3 +718,128 @@ a:hover { color: var(--accent-hover); }
 .related-posts li a {
   font-weight: 600;
 }
+
+/* ================================================
+   EMAIL CAPTURE / LEAD MAGNET
+   ================================================ */
+.email-capture-section {
+  padding: 80px 0;
+  background: var(--gray-50);
+}
+.email-capture-inner {
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+}
+.email-capture-inner h2 { margin-bottom: 12px; }
+.email-capture-inner > p { color: var(--gray-500); font-size: 1.05rem; margin-bottom: 32px; }
+.email-capture-form .form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.email-capture-form .form-row .form-group:last-child {
+  grid-column: 1 / -1;
+}
+.email-capture-form input,
+.email-capture-form select {
+  width: 100%;
+  padding: 14px 18px;
+  border: 2px solid var(--gray-200);
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-family: var(--font-body);
+  color: var(--black);
+  background: var(--white);
+  transition: var(--transition);
+}
+.email-capture-form input:focus,
+.email-capture-form select:focus { outline: none; border-color: var(--accent); }
+.email-capture-form input::placeholder { color: var(--gray-400); }
+
+/* ================================================
+   CONSULTING PAGE
+   ================================================ */
+.consulting-features { display:grid; gap:24px; }
+.consulting-feature { display:flex; gap:16px; align-items:flex-start; }
+.consulting-icon { font-size:1.5rem; flex-shrink:0; margin-top:2px; }
+.consulting-form .form-group { margin-bottom: 16px; }
+.consulting-form label {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--black);
+  margin-bottom: 6px;
+}
+.consulting-form input,
+.consulting-form select,
+.consulting-form textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid var(--gray-200);
+  border-radius: 8px;
+  font-size: 0.92rem;
+  font-family: var(--font-body);
+  color: var(--black);
+  transition: var(--transition);
+}
+.consulting-form input:focus,
+.consulting-form select:focus,
+.consulting-form textarea:focus { outline:none; border-color:var(--accent); }
+.consulting-form textarea { resize: vertical; }
+
+/* ================================================
+   SAMPLES PAGE
+   ================================================ */
+.sample-card {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 24px;
+  padding: 28px;
+  border: 1px solid var(--gray-200);
+  border-radius: 12px;
+  margin-bottom: 16px;
+  align-items: center;
+  transition: var(--transition);
+}
+.sample-card:hover {
+  border-color: var(--gray-300);
+  box-shadow: 0 8px 24px -8px rgba(0,0,0,0.08);
+}
+.sample-cover {
+  width: 120px;
+  height: 170px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.sample-cover img { width:100%; height:100%; object-fit:cover; }
+
+/* ================================================
+   SOCIAL PROOF / REVIEWS
+   ================================================ */
+.reviews-placeholder {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.reviews-coming-soon {
+  text-align: center;
+  padding: 48px 32px;
+  background: var(--gray-50);
+  border: 2px dashed var(--gray-200);
+  border-radius: 16px;
+}
+
+/* ================================================
+   RESPONSIVE — NEW COMPONENTS
+   ================================================ */
+@media (max-width: 900px) {
+  .consulting-hero + section .container > div { grid-template-columns: 1fr !important; }
+  .sample-card { grid-template-columns: 80px 1fr; gap: 16px; padding: 20px; }
+  .sample-cover { width: 80px; height: 115px; }
+}
+@media (max-width: 640px) {
+  .email-capture-form .form-row { grid-template-columns: 1fr; }
+}

@@ -67,7 +67,7 @@ If customers book appointments, consultations, or services with you, stop going 
 ### Calendly or TidyCal (free – $12/month)
 Let clients self-book into your available time slots. Integrates with Google Calendar, sends automatic reminders, and reduces no-shows by up to 30%.
 
-### ServiceM8 (from $29/month)
+### [ServiceM8](https://www.servicem8.com/?ref=bushdigital) (from $29/month)
 If you're a tradie or field service business, ServiceM8 handles job scheduling, dispatch, quoting, invoicing, and customer communication in one platform. It's Australian-made and built for how Aussie trades businesses actually operate. We compare it head-to-head with other options in our [best job management software for tradies](/blog/best-job-management-software-tradies/) review.
 
 ### Zapier or Make (from free)
@@ -154,4 +154,4 @@ If you're feeling overwhelmed, here's your priority list:
 3. **Create one Zapier automation** connecting two tools you already use
 4. **Spend an hour exploring ChatGPT** for your business — draft emails, brainstorm marketing ideas, create a FAQ list
 
-**For a complete, step-by-step system for automating every part of your small business — including templates, tool recommendations, and implementation checklists — grab [*Automate Everything: Small Business Automation*](https://www.amazon.com.au/dp/B0GMWG56VX) on Amazon for just $5.67 AUD. It's written specifically for Australian small business owners who want to work smarter, not harder.**
+**For a complete, step-by-step system for automating every part of your small business — including templates, tool recommendations, and implementation checklists — grab [*Automate Everything: Small Business Automation*](https://www.amazon.com.au/dp/B0GMWG56VX?tag=bushdigital-22) on Amazon for just $5.67 AUD. It's written specifically for Australian small business owners who want to work smarter, not harder.**

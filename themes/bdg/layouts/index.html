@@ -137,19 +137,24 @@
   </div>
 </section>
 
-<!-- Newsletter -->
-<section class="newsletter-section">
+<!-- Social Proof -->
+<section style="padding:80px 0; background:var(--white);">
   <div class="container">
-    <div class="newsletter-inner">
-      <div class="section-label">Stay in the loop</div>
-      <h2>Get the good stuff first.</h2>
-      <p>New guides, market updates, and free resources. No spam — just genuinely useful emails, a couple of times a month.</p>
-      <form name="newsletter" method="POST" data-netlify="true" class="newsletter-form">
-        <input type="email" name="email" placeholder="your@email.com" required>
-        <button type="submit" class="btn btn-primary">Subscribe</button>
-      </form>
+    <div class="section-header">
+      <div class="section-label">Social Proof</div>
+      <h2>What readers are saying</h2>
+    </div>
+    <div class="reviews-placeholder">
+      <div class="reviews-coming-soon">
+        <span style="font-size:2.5rem; margin-bottom:16px; display:block;">⭐️⭐️⭐️⭐️⭐️</span>
+        <p style="font-family:var(--font-display); font-size:1.3rem; color:var(--black); margin-bottom:8px; font-style:italic;">"Reviews coming soon"</p>
+        <p style="color:var(--gray-400); font-size:0.92rem; margin-bottom:0;">We're collecting feedback from readers. Check back soon — or <a href="/readers/">leave your review</a>.</p>
+      </div>
     </div>
   </div>
 </section>
+
+<!-- Email Capture Lead Magnet -->
+{{ partial "email-capture.html" . }}
 
 {{ end }}

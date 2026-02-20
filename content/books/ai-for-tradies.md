@@ -16,7 +16,7 @@ faq:
   - q: "Do I need to be good with computers to use AI tools as a tradie?"
     a: "No. If you can use a smartphone and send a text, you can use the tools in this book. Most AI tools have simple apps requiring no coding or technical knowledge."
   - q: "What AI tools do you recommend for Australian tradies?"
-    a: "The book covers ChatGPT and Claude for writing quotes, ServiceM8 and Tradify for job management with AI features, Xero for automated invoicing, and free Google AI tools for marketing."
+    a: "The book covers ChatGPT and Claude for writing quotes, [ServiceM8](https://www.servicem8.com/?ref=bushdigital) and Tradify for job management with AI features, Xero for automated invoicing, and free Google AI tools for marketing."
   - q: "Will AI replace tradies?"
     a: "No. AI can't wire a switchboard or fix a leaking pipe. It handles the admin — quoting, invoicing, scheduling, and follow-ups — so tradies have more time for billable work."
   - q: "How much does it cost to set up AI automation for a trade business?"
@@ -67,7 +67,7 @@ No. If you can use a smartphone and send a text, you can use the tools in this b
 
 ### What AI tools do you recommend for Australian tradies?
 
-The book covers a range of tools depending on your needs: ChatGPT and Claude for writing quotes and emails, ServiceM8 and Tradify for job management with AI features, Xero for automated invoicing, and free tools like Google's AI features for marketing. Everything is tested against Australian conditions and pricing.
+The book covers a range of tools depending on your needs: ChatGPT and Claude for writing quotes and emails, [ServiceM8](https://www.servicem8.com/?ref=bushdigital) and Tradify for job management with AI features, Xero for automated invoicing, and free tools like Google's AI features for marketing. Everything is tested against Australian conditions and pricing.
 
 ### Will AI replace tradies?
 

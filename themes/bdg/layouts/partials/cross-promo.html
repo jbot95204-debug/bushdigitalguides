@@ -1,0 +1,30 @@
+{{ $current := .RelPermalink }}
+{{ $books := where .Site.RegularPages "Section" "books" }}
+{{ $others := where $books ".RelPermalink" "!=" $current }}
+{{ with $others }}
+<section style="padding:60px 0; border-top:1px solid var(--gray-200);">
+  <div class="container" style="max-width:900px;">
+    <div class="section-header" style="margin-bottom:32px;">
+      <div class="section-label">You Might Also Like</div>
+      <h2>More from Bush Digital Guides</h2>
+    </div>
+    <div class="book-grid">
+      {{ range . }}
+      <a href="{{ .RelPermalink }}" class="book-card">
+        <div class="book-card-cover">
+          {{ with .Params.cover }}<img src="{{ . }}" alt="{{ $.Title }} cover" loading="lazy">{{ else }}<span style="font-size:3rem;">{{ .Params.emoji }}</span>{{ end }}
+        </div>
+        <div class="book-card-body">
+          <h3>{{ .Title }}</h3>
+          <div class="subtitle">{{ .Params.subtitle }}</div>
+          <div class="book-card-meta">
+            <span>{{ .Params.words }} words</span>
+            <span>{{ .Params.chapters }} chapters</span>
+          </div>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

@@ -148,4 +148,4 @@ If you're going off-grid, you'll also want reliable internet — our [Starlink v
 3. **Check rebates** — Visit energy.gov.au and your state energy department
 4. **Plan for expansion** — Choose a system architecture that lets you add capacity later
 
-**For a complete guide to designing, installing, and living with an off-grid solar system — including detailed sizing calculations, battery management, internet connectivity with Starlink, and practical tips from real off-grid Australians — grab [*Off-Grid but Online*](https://www.amazon.com.au/dp/B0GMVBDWJR) on Amazon for just $5 AUD. It covers everything from your first site assessment to daily life off the grid.**
+**For a complete guide to designing, installing, and living with an off-grid solar system — including detailed sizing calculations, battery management, internet connectivity with Starlink, and practical tips from real off-grid Australians — grab [*Off-Grid but Online*](https://www.amazon.com.au/dp/B0GMVBDWJR?tag=bushdigital-22) on Amazon for just $5 AUD. It covers everything from your first site assessment to daily life off the grid.**
