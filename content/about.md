@@ -38,6 +38,12 @@ More coming. If you've got a topic you'd like covered, [drop us a line](mailto:h
 
 Adelaide, South Australia. But useful everywhere in Australia (and mostly relevant to NZ, UK, and beyond).
 
+### Contact
+
+**Email:** [hello@bushdigitalguides.com.au](mailto:hello@bushdigitalguides.com.au)  
+**Location:** Adelaide, South Australia  
+**ABN:** 31 983 947 670
+
 ### Get in Touch
 
 📧 [hello@bushdigitalguides.com.au](mailto:hello@bushdigitalguides.com.au)

@@ -51,9 +51,13 @@
         {{ with .Params.kdpLink }}<a href="{{ . }}" class="btn btn-accent">Buy on Amazon — {{ $.Params.price }}</a>{{ end }}
       </div>
       <div>
+        {{ with .Params.cover }}
+        <img src="{{ . }}" alt="{{ $.Title }} book cover" class="book-hero-cover" loading="lazy">
+        {{ else }}
         <div class="book-cover-placeholder">
-          {{ .Params.emoji }}
+          {{ $.Params.emoji }}
         </div>
+        {{ end }}
       </div>
     </div>
   </div>

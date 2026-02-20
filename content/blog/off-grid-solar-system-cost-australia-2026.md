@@ -4,6 +4,8 @@ date: 2026-02-13
 description: "A realistic breakdown of off-grid solar system costs in Australia for 2026 — including panels, batteries, inverters, installation, and ongoing maintenance. Plus how to reduce costs with smart design."
 tags: ["off-grid solar", "solar power", "solar cost", "energy independence", "off-grid living", "australia"]
 categories: ["Solar & Energy"]
+book: "Off-Grid but Online"
+bookLink: "/books/off-grid-but-online/"
 ---
 
 Going off-grid in Australia has never been more achievable. Battery prices have dropped significantly, solar panel technology keeps improving, and with grid connection costs running $30,000–$100,000+ for remote properties, an off-grid solar system is increasingly the smarter financial choice — not just the green one.

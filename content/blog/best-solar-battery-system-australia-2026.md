@@ -4,6 +4,8 @@ date: 2026-02-13
 description: "An independent comparison of the best solar battery systems available in Australia in 2026, including pricing, warranties, rebates, and real-world performance."
 tags: ["solar battery", "home battery", "solar power", "energy storage", "off-grid", "australia"]
 categories: ["Solar & Energy"]
+book: "Off-Grid but Online"
+bookLink: "/books/off-grid-but-online/"
 ---
 
 Solar batteries have gone from niche tech-geek territory to genuinely mainstream in Australia. With electricity prices still climbing, generous federal rebates now in play, and battery prices dropping year on year, 2026 is shaping up as the best time yet to add storage to your solar setup — or to go fully off-grid.

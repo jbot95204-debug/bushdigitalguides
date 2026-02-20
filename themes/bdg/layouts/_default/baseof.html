@@ -12,14 +12,49 @@
     gtag('config', 'G-5T575V1N67');
   </script>
   <meta name="google-site-verification" content="VrSLEflHmWwkQH0dExNbDkmHu8PgNJmNOWseQ22vzGg" />
-  <title>{{ if .IsHome }}Bush Digital Guides | Australian Books on Off-Grid Living, Small Business &amp; Property Investment{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+  <title>{{ if .IsHome }}Bush Digital Guides — Australian Guides on Solar, Property, Gardening &amp; Business Automation{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  {{ with .Params.keywords }}<meta name="keywords" content="{{ delimit . ", " }}">{{ end }}
   <link rel="canonical" href="{{ .Permalink }}">
   <link rel="stylesheet" href="/css/style.css">
   {{ template "_internal/opengraph.html" . }}
   {{ template "_internal/twitter_cards.html" . }}
-  <!-- Schema.org -->
-  {{ if and (eq .Section "blog") (not .IsHome) }}
+  <!-- Organization Schema (all pages) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Bush Digital Guides",
+    "url": "https://www.bushdigitalguides.com.au/",
+    "email": "hello@bushdigitalguides.com.au",
+    "description": "{{ .Site.Params.description }}",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Adelaide",
+      "addressRegion": "SA",
+      "addressCountry": "AU"
+    },
+    "taxID": "ABN 31983947670"
+  }
+  </script>
+  <!-- Page-specific Schema -->
+  {{ if .IsHome }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "{{ .Site.Title }}",
+    "url": "{{ .Site.BaseURL }}",
+    "description": "{{ .Site.Params.description }}",
+    "publisher": { "@type": "Organization", "name": "Bush Digital Guides" },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.bushdigitalguides.com.au/blog/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+  {{ else if and (eq .Section "blog") (not .IsNode) }}
   <script type="application/ld+json">
   [
     {
@@ -32,12 +67,12 @@
       "author": {
         "@type": "Organization",
         "name": "Bush Digital Guides",
-        "url": "https://bushdigitalguides.com.au/"
+        "url": "https://www.bushdigitalguides.com.au/"
       },
       "publisher": {
         "@type": "Organization",
         "name": "Bush Digital Guides",
-        "url": "https://bushdigitalguides.com.au/"
+        "url": "https://www.bushdigitalguides.com.au/"
       },
       "mainEntityOfPage": {
         "@type": "WebPage",
@@ -64,7 +99,7 @@
     }
   ]
   </script>
-  {{ else if and (eq .Section "books") (not .IsHome) }}
+  {{ else if and (eq .Section "books") (not .IsNode) }}
   <script type="application/ld+json">
   [
     {
@@ -76,8 +111,8 @@
       "publisher": { "@type": "Organization", "name": "Bush Digital Guides" },
       "inLanguage": "en-AU",
       "numberOfPages": "{{ .Params.chapters }} chapters",
-      "bookFormat": "https://schema.org/EBook"{{ with .Params.kdpLink }},
-      "url": "{{ . }}"{{ end }}
+      "bookFormat": "https://schema.org/EBook"{{ with .Params.kdpLink }}{{ if ne . "" }},
+      "url": "{{ . }}"{{ end }}{{ end }}
     },
     {
       "@context": "https://schema.org",
@@ -87,18 +122,33 @@
         { "@type": "ListItem", "position": 2, "name": "Books", "item": "{{ .Site.BaseURL }}books/" },
         { "@type": "ListItem", "position": 3, "name": "{{ .Title }}", "item": "{{ .Permalink }}" }
       ]
-    }
+    }{{ with .Params.faq }},
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {{ range $i, $q := . }}{{ if $i }},{{ end }}
+        {
+          "@type": "Question",
+          "name": {{ $q.q | jsonify }},
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": {{ $q.a | jsonify }}
+          }
+        }{{ end }}
+      ]
+    }{{ end }}
   ]
   </script>
   {{ else }}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "{{ .Site.Title }}",
-    "url": "{{ .Site.BaseURL }}",
-    "description": "{{ .Site.Params.description }}",
-    "publisher": { "@type": "Organization", "name": "Bush Digital Guides" }
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ .Site.BaseURL }}" },
+      { "@type": "ListItem", "position": 2, "name": "{{ .Title }}", "item": "{{ .Permalink }}" }
+    ]
   }
   </script>
   {{ end }}

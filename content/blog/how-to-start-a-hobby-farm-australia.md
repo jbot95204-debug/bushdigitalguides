@@ -4,6 +4,8 @@ date: 2026-02-13
 description: "Everything you need to know about starting a hobby farm in Australia — from choosing land and livestock to setting up water, power, and automated growing systems."
 tags: ["hobby farm", "small farm", "self-sufficient living", "gardening", "off-grid", "australia"]
 categories: ["Farming & Homesteading"]
+book: "Off-Grid but Online"
+bookLink: "/books/off-grid-but-online/"
 ---
 
 Dreaming of wide paddocks, a chook pen out the back, and rows of fresh vegies you grew yourself? You're not alone. The hobby farm movement in Australia has exploded over the past few years, fuelled by rising food costs, a growing appetite for self-sufficiency, and the shift to remote work making a tree-change genuinely possible.

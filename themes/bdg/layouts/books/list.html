@@ -14,8 +14,8 @@
 
       {{ range .Pages }}
       <a href="{{ .Permalink }}" class="book-card">
-        <div class="book-card-cover" style="background: linear-gradient(145deg, {{ with .Params.color }}{{ . }}{{ else }}#111{{ end }}, {{ with .Params.colorEnd }}{{ . }}{{ else }}#333{{ end }});">
-          {{ .Params.emoji }}
+        <div class="book-card-cover"{{ if not .Params.cover }} style="background: linear-gradient(145deg, {{ with .Params.color }}{{ . }}{{ else }}#111{{ end }}, {{ with .Params.colorEnd }}{{ . }}{{ else }}#333{{ end }});"{{ end }}>
+          {{ with .Params.cover }}<img src="{{ . }}" alt="{{ $.Title }} book cover" loading="lazy">{{ else }}{{ $.Params.emoji }}{{ end }}
         </div>
         <div class="book-card-body">
           <h3>{{ .Title }}</h3>

@@ -4,6 +4,8 @@ date: 2026-02-13
 description: "Practical automation strategies for Australian small businesses — from invoicing and scheduling to AI-powered customer service. Save 10+ hours per week without a big budget."
 tags: ["business automation", "small business", "AI tools", "productivity", "australia"]
 categories: ["Business & Automation"]
+book: "Automate Everything"
+bookLink: "/books/automate-everything/"
 ---
 
 If you're running a small business in Australia, chances are you're spending half your week on tasks a computer could handle: chasing invoices, scheduling appointments, answering the same customer questions, posting on social media, reconciling books. It's exhausting, and it's keeping you from the work that actually grows your business.

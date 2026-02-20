@@ -4,6 +4,8 @@ date: 2026-02-13
 description: "Proven property investment strategies for the Australian market in 2026 — including value-add renovations, hybrid yield strategies, and the data-driven approaches smart investors are using."
 tags: ["property investment", "real estate", "renovation", "value add", "australia", "2026"]
 categories: ["Property & Investment"]
+book: "The Value-Add Property Playbook"
+bookLink: "/books/value-add-property-playbook/"
 ---
 
 The Australian property market in 2026 looks fundamentally different from the speculative frenzy of 2021–22. Interest rates have stabilised, affordability pressures remain real, and the easy-money days of bidding on anything with four walls are over.

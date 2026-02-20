@@ -4,6 +4,8 @@ date: 2026-02-13
 description: "How to build no-dig garden beds in Australia — step-by-step instructions, best materials, what to plant by season, and how to automate watering for a low-maintenance food garden."
 tags: ["no-dig garden", "raised garden beds", "vegetable garden", "gardening australia", "organic gardening"]
 categories: ["Gardening"]
+book: "Set and Forget"
+bookLink: "/books/set-and-forget/"
 ---
 
 No-dig gardening has become one of the most popular ways to grow food in Australia — and for good reason. It works on terrible soil, it's easier on your body, it builds soil health over time, and you can set one up in a single weekend. Whether you're in a suburban backyard or on acreage, a no-dig bed is the fastest way to go from bare ground to fresh produce.
