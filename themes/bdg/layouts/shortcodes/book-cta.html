@@ -1,0 +1,26 @@
+{{/* Usage: {{< book-cta book="Off-Grid but Online" >}} or auto-detects from frontmatter */}}
+{{ $bookName := .Get "book" | default .Page.Params.book }}
+{{ $bookLink := .Get "link" | default .Page.Params.bookLink }}
+{{ $bookData := false }}
+
+{{ range $key, $b := .Page.Site.Params.books }}
+  {{ if eq $b.title $bookName }}
+    {{ $bookData = $b }}
+  {{ end }}
+{{ end }}
+
+{{ with $bookData }}
+<div class="book-cta-box" style="margin:32px 0; padding:24px; background:linear-gradient(135deg, {{ .color }}11, {{ .color }}08); border:1px solid {{ .color }}33; border-radius:12px; display:flex; gap:20px; align-items:center; flex-wrap:wrap;">
+  <div style="flex-shrink:0;">
+    <img src="/images/covers/{{ .slug }}.jpg" alt="{{ .title }} cover" style="width:80px; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,0.15);" loading="lazy" onerror="this.style.display='none'; this.parentElement.innerHTML='<span style=font-size:2.5rem>{{ .emoji }}</span>';">
+  </div>
+  <div style="flex:1; min-width:200px;">
+    <p style="margin:0 0 4px; font-weight:600; font-size:1rem;">📚 Want the full guide?</p>
+    <p style="margin:0 0 8px; color:var(--gray-500); font-size:0.9rem;">This post covers the highlights. <em>{{ .title }}</em> goes deeper — {{ .words }} words of practical, no-BS Australian advice.</p>
+    <div style="display:flex; gap:10px; flex-wrap:wrap;">
+      {{ with .kdpLink }}{{ if . }}<a href="{{ . }}" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Get the Book — {{ $bookData.price }}</a>{{ end }}{{ end }}
+      <a href="/books/{{ .slug }}/" class="btn btn-outline btn-sm">Learn more →</a>
+    </div>
+  </div>
+</div>
+{{ end }}

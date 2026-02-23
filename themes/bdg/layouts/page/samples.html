@@ -4,7 +4,7 @@
   <div class="container">
     <div class="section-label">FREE SAMPLES</div>
     <h1 style="max-width:700px; margin:0 auto 16px;">Try Before You Buy</h1>
-    <p style="max-width:520px; margin:0 auto; color:var(--gray-500); font-size:1.1rem;">Download the first chapter of any of our books — free. No email required. Just click and read.</p>
+    <p style="max-width:520px; margin:0 auto; color:var(--gray-500); font-size:1.1rem;">Get the first chapter of any book sent straight to your inbox — free.</p>
   </div>
 </section>
 
@@ -20,22 +20,23 @@
         <h3>{{ $book.title }}</h3>
         <p style="color:var(--gray-500); font-size:0.92rem; margin-bottom:4px;">{{ $book.subtitle }}</p>
         <p style="color:var(--gray-400); font-size:0.82rem;">{{ $book.words }} words · {{ $book.chapters }} chapters · {{ $book.price }}</p>
-        <div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:12px;">
-          <a href="/samples/{{ $book.slug }}-chapter1.pdf" class="btn btn-primary btn-sm">📥 Download Chapter 1</a>
-          <a href="/books/{{ $book.slug }}/" class="btn btn-outline btn-sm">See full book →</a>
-        </div>
+        <form action="https://formspree.io/f/xcontact" method="POST" style="display:flex; gap:8px; flex-wrap:wrap; margin-top:12px; align-items:flex-end;">
+          <input type="email" name="email" placeholder="your@email.com" required style="padding:8px 12px; border:1px solid var(--gray-200); border-radius:6px; font-size:0.9rem; min-width:200px; flex:1;">
+          <input type="hidden" name="_subject" value="Sample request: {{ $book.title }}">
+          <input type="hidden" name="book" value="{{ $book.title }}">
+          <input type="hidden" name="type" value="sample_chapter">
+          <button type="submit" class="btn btn-primary btn-sm">📥 Send Me Chapter 1</button>
+        </form>
+        <p style="color:var(--gray-400); font-size:0.75rem; margin-top:6px;">You'll also get weekly tips on solar, automation & working smarter. Unsubscribe anytime.</p>
       </div>
     </div>
     {{ end }}
 
     <div style="text-align:center; margin-top:48px; padding:32px; background:var(--gray-50); border-radius:12px;">
-      <p style="color:var(--gray-500); font-size:0.95rem; margin-bottom:0;">📝 <strong>Sample PDFs coming soon.</strong> Sign up below to get notified when they're ready — plus a free bonus chapter from every book.</p>
+      <p style="color:var(--gray-500); font-size:0.95rem; margin-bottom:0;">🔒 <strong>We respect your inbox.</strong> No spam, no selling your data. Just a free chapter and genuinely useful tips.</p>
     </div>
 
   </div>
 </section>
-
-<!-- Email Signup -->
-{{ partial "email-capture.html" . }}
 
 {{ end }}

@@ -11,15 +11,41 @@
   {{ .Content }}
   
   {{ with .Params.book }}
-  <div class="post-book-cta">
-    <div class="emoji">📚</div>
-    <div>
-      <strong>Want the full picture?</strong>
-      This post is a taste of what's in <em>{{ . }}</em>. The book goes deeper — with more data, more strategies, and zero filler.
-      {{ with $.Params.bookLink }}<br><a href="{{ . }}">See the full book →</a>{{ end }}
+  {{ $bookName := . }}
+  {{ $bookData := false }}
+  {{ range $key, $b := $.Site.Params.books }}
+    {{ if eq $b.title $bookName }}
+      {{ $bookData = $b }}
+    {{ end }}
+  {{ end }}
+  {{ with $bookData }}
+  <div style="margin:40px 0; padding:28px; background:linear-gradient(135deg, {{ .color }}15, {{ .color }}08); border:2px solid {{ .color }}44; border-radius:16px; display:flex; gap:24px; align-items:center; flex-wrap:wrap;">
+    <div style="flex-shrink:0;">
+      <img src="/images/covers/{{ .slug }}.jpg" alt="{{ .title }} cover" style="width:100px; border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.2);" loading="lazy" onerror="this.style.display='none'; this.parentElement.innerHTML='<span style=font-size:3rem>{{ .emoji }}</span>';">
+    </div>
+    <div style="flex:1; min-width:220px;">
+      <p style="margin:0 0 6px; font-weight:700; font-size:1.15rem;">📚 This post just scratches the surface</p>
+      <p style="margin:0 0 12px; color:var(--gray-500); font-size:0.95rem;"><em>{{ .title }}</em> goes way deeper — {{ .words }} words of practical, no-BS Australian advice across {{ .chapters }} chapters. Everything you need to know, nothing you don't.</p>
+      <div style="display:flex; gap:12px; flex-wrap:wrap;">
+        {{ with .kdpLink }}{{ if . }}<a href="{{ . }}" class="btn btn-primary" target="_blank" rel="noopener">Get the Book — {{ $bookData.price }}</a>{{ end }}{{ end }}
+        <a href="/samples/" class="btn btn-outline">Try a free chapter →</a>
+      </div>
     </div>
   </div>
   {{ end }}
+  {{ end }}
+
+  <!-- Email Capture -->
+  <div style="margin:40px 0; padding:24px; background:var(--gray-50); border-radius:12px; text-align:center;">
+    <p style="font-weight:600; margin:0 0 8px;">🔔 Get weekly tips on solar, automation & working smarter</p>
+    <form action="https://formspree.io/f/xcontact" method="POST" style="display:flex; gap:8px; justify-content:center; flex-wrap:wrap; max-width:450px; margin:0 auto;">
+      <input type="email" name="email" placeholder="your@email.com" required style="padding:8px 12px; border:1px solid var(--gray-200); border-radius:6px; font-size:0.9rem; flex:1; min-width:200px;">
+      <input type="hidden" name="_subject" value="Blog subscriber — Bush Digital Guides">
+      <input type="hidden" name="type" value="blog_subscribe">
+      <button type="submit" class="btn btn-accent btn-sm">Subscribe</button>
+    </form>
+    <p style="color:var(--gray-400); font-size:0.75rem; margin:6px 0 0;">No spam. Unsubscribe anytime.</p>
+  </div>
 
   <!-- Related Posts -->
   {{ $related := first 3 (where (.Site.RegularPages.Related .) "Section" "blog") }}
