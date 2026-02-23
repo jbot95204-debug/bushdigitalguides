@@ -49,6 +49,8 @@ Here's the kicker — even if you decide today that you want a battery before Ma
 
 According to SolarQuotes, reputable battery installers across Australia have been **booked out through to May** since early February. The December 2025 announcement of the changes triggered a flood of enquiries that hasn't let up.
 
+
+{{< book-cta book="Off-Grid but Online" >}}
 Troy Coburn from Reef Solar & Electrical in Queensland put it bluntly: *"The issue isn't interest, it's capacity."* His team saw an immediate and sustained surge once the news dropped, and battery demand quickly exceeded what they could deliver before the deadline.
 
 This isn't just a Queensland thing. Installers in every state are reporting the same crunch. Battery jobs are more complex than standard solar installs — longer install times, more commissioning, and more variables that can blow out schedules.

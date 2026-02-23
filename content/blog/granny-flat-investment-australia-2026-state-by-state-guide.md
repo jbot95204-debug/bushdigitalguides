@@ -71,6 +71,8 @@ Melbourne's tight rental market makes granny flats attractive. With median rents
 
 **Build costs in Melbourne:** Expect to pay $2,200 to $3,000 per square metre depending on finishes, or roughly $130,000 to $180,000 for a basic 60 square metre flat, up to $220,000+ for higher-spec builds.
 
+
+{{< book-cta book="The Value-Add Property Playbook" >}}
 ### South Australia
 
 SA has been making moves to encourage infill development, and granny flats are part of that push. The Planning and Design Code that replaced individual council development plans has streamlined the rules across the state.

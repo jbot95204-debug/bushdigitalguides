@@ -56,6 +56,8 @@ The Grattan Institute, which supports reform, even accepts that a halving of the
 
 ## What This Means for Value-Add Investors
 
+
+{{< book-cta book="The Value-Add Property Playbook" >}}
 Here's where I reckon value-add investors are actually better positioned than most. Let me explain why.
 
 ### 1. Value-Add Strategies Become Relatively More Attractive

@@ -164,6 +164,8 @@ The `calibrate_linear` values above are examples. You need to calibrate each sen
 
 Capacitive sensors aren't laboratory instruments, but they're accurate enough to tell you "dry," "moist," or "wet" — which is all you need for irrigation decisions.
 
+
+{{< book-cta book="Set and Forget: The Aussie Guide to Automated Gardening" >}}
 ### Weatherproofing
 
 Your ESP32 and connections need to survive outdoors. Here's what works:

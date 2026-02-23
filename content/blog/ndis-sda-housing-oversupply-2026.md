@@ -71,6 +71,8 @@ SDA housing isn't like normal rental property. You can't just list it on Domain 
 
 **3. Geographic mismatches**
 
+
+{{< book-cta book="The Value-Add Property Playbook" >}}
 Developers built where land was cheap, not necessarily where SDA participants live or want to live. A brand-new SDA apartment complex in an outer suburb might tick every design box, but if there are no eligible participants who want to live there, it doesn't matter.
 
 **4. The NDIS isn't a bottomless pit**

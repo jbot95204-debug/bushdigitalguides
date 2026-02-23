@@ -80,6 +80,8 @@ Two dwellings on one lot, either side by side or one behind the other. Can be at
 
 ### When It Makes Sense
 
+
+{{< book-cta book="The Value-Add Property Playbook" >}}
 Duplexes are the **mid-range powerhouse** of value-add strategy. They work when:
 
 - You have a block of **600m² or more** (varies by council, but that's a common minimum)

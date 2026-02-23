@@ -100,6 +100,8 @@ Let's look at three actual duplex developments across different markets.
 - **Gross profit:** $208,000-$308,000 (before tax and selling costs)
 - **Net profit (after GST, CGT, agent fees):** Roughly $100,000-$180,000
 
+
+{{< book-cta book="The Value-Add Property Playbook" >}}
 Not bad, but a long way from the "make $500k building a duplex" articles you see on property forums. The margin is there, but it's tighter than most people expect.
 
 ### Case Study 2: Glen Waverley, Melbourne

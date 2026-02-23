@@ -57,6 +57,8 @@ Alpha ESS has become an installer favourite thanks to competitive pricing and so
 - **Price range**: $$ (competitive)
 - **Best for**: Larger installations, future expansion, harsh weather locations
 
+
+{{< book-cta book="Off-Grid but Online" >}}
 Sigenergy is newer to the Australian market (launched 2023) but comes with impressive specs. The IP66 weather rating is among the highest available, making it suitable for exposed outdoor installations.
 
 ### 4. Sungrow SBR Series

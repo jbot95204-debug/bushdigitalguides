@@ -63,6 +63,8 @@ The 7cm colour touchscreen makes on-device programming painless, and the built-i
 **App:** Web interface + mobile app  
 **Connection:** Wi-Fi or wired Ethernet
 
+
+{{< book-cta book="Set and Forget" >}}
 OpenSprinkler is the tinkerer's dream. It's open-source hardware and software, meaning you can modify everything from the firmware to the watering algorithms. It now has an Australian distributor, so you're not paying international shipping or dealing with voltage adapters.
 
 The current V3.4 model includes built-in Wi-Fi, an OLED display, and support for practically every type of solenoid valve you'll find in Australia — 24VAC, DC, latching, even motorised ball valves. It integrates natively with Home Assistant through MQTT, making it the obvious choice for anyone already running a smart home hub.

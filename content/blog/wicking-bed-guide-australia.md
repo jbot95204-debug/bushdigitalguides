@@ -103,6 +103,8 @@ Timber wicking beds give you full control over size and look a lot more polished
 | Soil Mix | $40-60 | $80-120 |
 | **Total** | **$155-260** | **$380-610** |
 
+
+{{< book-cta book="Set and Forget: The Aussie Guide to Automated Gardening" >}}
 The IBC is clearly cheaper, but the timber bed gives you roughly twice the growing area. Per square metre of growing space, they're actually pretty comparable.
 
 ## Step-by-Step: How to Build a Timber Wicking Bed

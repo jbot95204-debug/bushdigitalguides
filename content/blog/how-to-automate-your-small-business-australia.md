@@ -67,6 +67,8 @@ If customers book appointments, consultations, or services with you, stop going 
 ### Calendly or TidyCal (free – $12/month)
 Let clients self-book into your available time slots. Integrates with Google Calendar, sends automatic reminders, and reduces no-shows by up to 30%.
 
+
+{{< book-cta book="Automate Everything" >}}
 ### [ServiceM8](https://www.servicem8.com/?ref=bushdigital) (from $29/month)
 If you're a tradie or field service business, ServiceM8 handles job scheduling, dispatch, quoting, invoicing, and customer communication in one platform. It's Australian-made and built for how Aussie trades businesses actually operate. We compare it head-to-head with other options in our [best job management software for tradies](/blog/best-job-management-software-tradies/) review.
 

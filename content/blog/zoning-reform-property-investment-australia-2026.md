@@ -55,6 +55,8 @@ The investors who made serious money in Sydney's granny flat boom of the 2010s d
 
 Here's the flip side nobody's talking about enough. If 67,000 extra homes hit the market each year in established suburbs, that's a genuine supply increase in areas where scarcity has been propping up prices.
 
+
+{{< book-cta book="The Value-Add Property Playbook" >}}
 If you own a standard three-bedroom house in a middle-ring suburb and three townhouse developments pop up on your street, your property's relative appeal as a rental or sale could take a hit. More supply in the same area means more competition for tenants and buyers.
 
 This doesn't mean values will crash — demand is still strong — but the days of lazy capital growth from simply holding an established house in a good suburb might be numbered.

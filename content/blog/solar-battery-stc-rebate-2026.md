@@ -82,6 +82,8 @@ Let's run the numbers for a common scenario: a **13.5kWh battery** installed in 
 - STCs earned: 13.5 × 8.4 = **113 STCs**
 - STC value at $39 each: **$4,407**
 
+
+{{< book-cta book="Off-Grid but Online" >}}
 ### If you install AFTER May 2026 (estimated new rate of ~6.5 per kWh):
 
 - Battery capacity: 13.5kWh

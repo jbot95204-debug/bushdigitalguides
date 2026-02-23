@@ -76,6 +76,8 @@ At $55/user/month, a team of 10 is $550/month — approaching simPRO territory. 
 
 **Price:** Starting from $55/user/month AUD (basic plan) → higher tiers available with additional features
 
+
+{{< book-cta book="Automate Everything" >}}
 **The pitch:** "The profit-focused job management app." Strong emphasis on understanding your margins.
 
 **What it does well:**

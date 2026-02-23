@@ -107,6 +107,8 @@ This is where it gets properly powerful. Zapier and Make (formerly Integromat) l
 4. Wait 7 more days → Create task for personal phone call (Day 21)
 5. Day 30+ → Generate formal letter of demand from template
 
+
+{{< book-cta book="Automate Everything" >}}
 ### Setting Up a Zapier Workflow (Xero Example)
 
 Here's a practical walkthrough for a basic Zapier automation:

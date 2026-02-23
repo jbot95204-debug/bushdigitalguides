@@ -64,6 +64,8 @@ The inverter converts DC power from panels and batteries into AC power for your 
 
 Key brands: Victron, Selectronic, SMA, Sungrow, Fronius (for hybrid setups).
 
+
+{{< book-cta book="Off-Grid but Online" >}}
 **Sizing**: Your inverter needs to handle your peak load. If you're running an air conditioner (2–3 kW), a kettle (2.4 kW), and general loads simultaneously, you might need an 8 kVA or larger inverter. Undersizing the inverter is a common and expensive mistake.
 
 ### Backup Generator: $3,000–$10,000

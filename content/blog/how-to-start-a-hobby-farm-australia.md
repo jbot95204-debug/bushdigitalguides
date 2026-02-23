@@ -44,6 +44,8 @@ A solid starting combination:
 
 ### Water
 
+
+{{< book-cta book="Off-Grid but Online" >}}
 For growing food, you'll need a reliable irrigation setup. Options include:
 
 - **Rainwater tanks** — A 22,500L tank is a good starting point. Budget $2,000–$4,000 installed.

@@ -103,6 +103,8 @@ Improved over Sky Muster but still noticeably higher than Starlink or Fixed Wire
 
 ## Data Caps: The Silent Deal-Breaker
 
+
+{{< book-cta book="Off-Grid but Online" >}}
 ### Starlink
 Officially unlimited, but there's a caveat. Starlink uses a **"best effort" deprioritisation** system during peak hours. In congested areas, users who've consumed significant amounts of data may see reduced speeds during busy periods. In practice, most regular users won't notice this. If you're running a business that uploads terabytes per month, you might.
 

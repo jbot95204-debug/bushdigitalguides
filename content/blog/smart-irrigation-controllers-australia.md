@@ -78,6 +78,8 @@ Budget-conscious homeowners who want smart features without the premium price. S
 
 ## Netro Pixie
 
+
+{{< book-cta book="Set and Forget: The Aussie Guide to Automated Gardening" >}}
 **Price:** $200–$280 AUD (6 or 12 zones)
 
 Netro is the newcomer that's built a solid following with a different approach — it's fully cloud-based and uses machine learning to optimise your watering schedule over time.

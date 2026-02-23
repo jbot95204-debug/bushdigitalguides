@@ -61,6 +61,8 @@ You can build on grass, compacted clay, concrete, gravel — almost anything. Th
 - Spread a 5cm layer of aged manure (not fresh — fresh manure will burn plant roots)
 - Wet it down
 
+
+{{< book-cta book="Set and Forget" >}}
 ### Step 4: Repeat the Layers
 - Add another 10cm straw layer
 - Add another 5cm manure layer

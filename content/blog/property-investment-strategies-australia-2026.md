@@ -60,6 +60,8 @@ Pure capital growth strategies require patience and deep pockets. Pure yield pla
 - **Suburbs within 5–15km of capital city CBDs** where rezoning or infrastructure projects are planned
 - **Properties with a value-add angle** — a tired house in a good street that you can renovate to lift both rent and value
 
+
+{{< book-cta book="The Value-Add Property Playbook" >}}
 ### Running the Numbers
 
 For a hybrid strategy to work, your numbers need to stack up:
