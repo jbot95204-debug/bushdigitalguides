@@ -3,11 +3,56 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.bushdigitalguides.com.au/blog/</loc>
-    <lastmod>2026-02-25T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.bushdigitalguides.com.au/</loc>
+    <lastmod>2026-02-26T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/tags/australian-gardening/</loc>
+    <lastmod>2026-02-25T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/tags/diy-garden-automation/</loc>
+    <lastmod>2026-02-25T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/blog/diy-soil-moisture-sensors-home-assistant-garden-automation/</loc>
+    <lastmod>2026-02-25T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/tags/esp32/</loc>
+    <lastmod>2026-02-25T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/tags/home-assistant/</loc>
+    <lastmod>2026-02-25T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/tags/smart-irrigation/</loc>
+    <lastmod>2026-02-25T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/tags/soil-moisture-sensor/</loc>
+    <lastmod>2026-02-25T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/tags/</loc>
+    <lastmod>2026-02-25T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/tags/water-saving/</loc>
     <lastmod>2026-02-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -43,11 +88,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.bushdigitalguides.com.au/tags/small-business-australia/</loc>
-    <lastmod>2026-02-24T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.bushdigitalguides.com.au/tags/</loc>
     <lastmod>2026-02-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -117,22 +157,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.bushdigitalguides.com.au/tags/home-assistant/</loc>
-    <lastmod>2026-02-18T08:30:00+10:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.bushdigitalguides.com.au/tags/irrigation/</loc>
     <lastmod>2026-02-18T08:30:00+10:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.bushdigitalguides.com.au/tags/smart-garden/</loc>
-    <lastmod>2026-02-18T08:30:00+10:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.bushdigitalguides.com.au/tags/water-saving/</loc>
     <lastmod>2026-02-18T08:30:00+10:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -417,11 +447,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.bushdigitalguides.com.au/tags/australian-gardening/</loc>
-    <lastmod>2026-02-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.bushdigitalguides.com.au/tags/australian-property/</loc>
     <lastmod>2026-02-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -593,16 +618,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.bushdigitalguides.com.au/tags/servicem8/</loc>
-    <lastmod>2026-02-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.bushdigitalguides.com.au/tags/smart-irrigation/</loc>
-    <lastmod>2026-02-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.bushdigitalguides.com.au/tags/soil-moisture-sensor/</loc>
     <lastmod>2026-02-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
