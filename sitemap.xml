@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.bushdigitalguides.com.au/blog/</loc>
-    <lastmod>2026-02-28T00:00:00+00:00</lastmod>
+    <loc>https://www.bushdigitalguides.com.au/tags/agentic-ai/</loc>
+    <lastmod>2026-02-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.bushdigitalguides.com.au/</loc>
-    <lastmod>2026-02-28T00:00:00+00:00</lastmod>
+    <loc>https://www.bushdigitalguides.com.au/blog/agentic-ai-workflows-personal-productivity-2026/</loc>
+    <lastmod>2026-02-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -17,7 +17,37 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://www.bushdigitalguides.com.au/tags/ai-productivity/</loc>
+    <lastmod>2026-02-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://www.bushdigitalguides.com.au/tags/ai-tools/</loc>
+    <lastmod>2026-02-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/tags/ai-tools-2026/</loc>
+    <lastmod>2026-02-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/tags/ai-workflows/</loc>
+    <lastmod>2026-02-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/tags/autonomous-ai-agents/</loc>
+    <lastmod>2026-02-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/blog/</loc>
+    <lastmod>2026-02-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/</loc>
     <lastmod>2026-02-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -33,6 +63,11 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.bushdigitalguides.com.au/tags/job-management/</loc>
+    <lastmod>2026-02-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/tags/personal-productivity/</loc>
     <lastmod>2026-02-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
