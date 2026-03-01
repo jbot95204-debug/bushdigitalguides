@@ -1,2 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DIY Garden Automation on Bush Digital Guides</title><link>https://www.bushdigitalguides.com.au/tags/diy-garden-automation/</link><description>Recent content in DIY Garden Automation on Bush Digital Guides</description><generator>Hugo</generator><language>en-au</language><lastBuildDate>Wed, 25 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.bushdigitalguides.com.au/tags/diy-garden-automation/index.xml" rel="self" type="application/rss+xml"/><item><title>DIY Soil Moisture Sensors with Home Assistant: Stop Guessing, Start Growing</title><link>https://www.bushdigitalguides.com.au/blog/diy-soil-moisture-sensors-home-assistant-garden-automation/</link><pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate><guid>https://www.bushdigitalguides.com.au/blog/diy-soil-moisture-sensors-home-assistant-garden-automation/</guid><description>&lt;p>Here&amp;rsquo;s a fun fact that&amp;rsquo;ll make you wince: the average Australian household uses more water outdoors than on showers, washing machines, and dishwashers &lt;em>combined&lt;/em>. As a recent &lt;a href="https://www.abc.net.au/news/2026-02-01/sprinkler-water-resources-garden-green-desert-reticulation/106244818">ABC investigation&lt;/a> put it, automated watering systems have made it dangerously easy to ignore how much water we&amp;rsquo;re actually chucking on the garden.&lt;/p>
-&lt;p>But what if your garden could &lt;em>tell you&lt;/em> when it&amp;rsquo;s thirsty? Not on a timer. Not because the calendar says it&amp;rsquo;s Tuesday. Because the soil is actually dry.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DIY Garden Automation on Bush Digital Guides</title>
+    <link>https://www.bushdigitalguides.com.au/tags/diy-garden-automation/</link>
+    <description>Recent content in DIY Garden Automation on Bush Digital Guides</description>
+    <generator>Hugo</generator>
+    <language>en-au</language>
+    <lastBuildDate>Wed, 25 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.bushdigitalguides.com.au/tags/diy-garden-automation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DIY Soil Moisture Sensors with Home Assistant: Stop Guessing, Start Growing</title>
+      <link>https://www.bushdigitalguides.com.au/blog/diy-soil-moisture-sensors-home-assistant-garden-automation/</link>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.bushdigitalguides.com.au/blog/diy-soil-moisture-sensors-home-assistant-garden-automation/</guid>
+      <description>&lt;p&gt;Here&amp;rsquo;s a fun fact that&amp;rsquo;ll make you wince: the average Australian household uses more water outdoors than on showers, washing machines, and dishwashers &lt;em&gt;combined&lt;/em&gt;. As a recent &lt;a href=&#34;https://www.abc.net.au/news/2026-02-01/sprinkler-water-resources-garden-green-desert-reticulation/106244818&#34;&gt;ABC investigation&lt;/a&gt; put it, automated watering systems have made it dangerously easy to ignore how much water we&amp;rsquo;re actually chucking on the garden.&lt;/p&gt;&#xA;&lt;p&gt;But what if your garden could &lt;em&gt;tell you&lt;/em&gt; when it&amp;rsquo;s thirsty? Not on a timer. Not because the calendar says it&amp;rsquo;s Tuesday. Because the soil is actually dry.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
