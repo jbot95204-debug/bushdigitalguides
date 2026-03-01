@@ -2,13 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.bushdigitalguides.com.au/tags/australia/</loc>
+    <lastmod>2026-03-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/tags/batteries/</loc>
+    <lastmod>2026-03-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://www.bushdigitalguides.com.au/blog/</loc>
-    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
+    <lastmod>2026-03-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.bushdigitalguides.com.au/</loc>
-    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
+    <lastmod>2026-03-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/tags/energy-storage/</loc>
+    <lastmod>2026-03-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/tags/lithium/</loc>
+    <lastmod>2026-03-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/tags/off-grid/</loc>
+    <lastmod>2026-03-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/tags/sodium-ion/</loc>
+    <lastmod>2026-03-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/blog/sodium-ion-vs-lithium-batteries-off-grid-australia-2026/</loc>
+    <lastmod>2026-03-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/tags/solar/</loc>
+    <lastmod>2026-03-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/tags/</loc>
+    <lastmod>2026-03-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -68,11 +113,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.bushdigitalguides.com.au/tags/personal-productivity/</loc>
-    <lastmod>2026-02-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.bushdigitalguides.com.au/tags/</loc>
     <lastmod>2026-02-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -252,11 +292,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.bushdigitalguides.com.au/tags/australia/</loc>
-    <lastmod>2026-02-18T08:30:00+10:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.bushdigitalguides.com.au/blog/best-smart-irrigation-controller-australia-2026/</loc>
     <lastmod>2026-02-18T08:30:00+10:30</lastmod>
     <changefreq>weekly</changefreq>
@@ -273,16 +308,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.bushdigitalguides.com.au/tags/battery-rebate/</loc>
-    <lastmod>2026-02-16T08:30:00+10:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.bushdigitalguides.com.au/tags/energy-storage/</loc>
-    <lastmod>2026-02-16T08:30:00+10:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.bushdigitalguides.com.au/tags/off-grid/</loc>
     <lastmod>2026-02-16T08:30:00+10:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
