@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.bushdigitalguides.com.au/blog/</loc>
-    <lastmod>2026-03-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.bushdigitalguides.com.au/</loc>
-    <lastmod>2026-03-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.bushdigitalguides.com.au/tags/ai-automation/</loc>
+    <lastmod>2026-03-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/tags/airbnb-australia-2026/</loc>
+    <lastmod>2026-03-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/blog/airbnb-short-term-rental-rules-australia-2026/</loc>
     <lastmod>2026-03-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -27,7 +27,27 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://www.bushdigitalguides.com.au/tags/australian-property/</loc>
+    <lastmod>2026-03-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://www.bushdigitalguides.com.au/blog/best-job-management-software-tradies-australia-2026/</loc>
+    <lastmod>2026-03-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/blog/</loc>
+    <lastmod>2026-03-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/</loc>
+    <lastmod>2026-03-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/categories/</loc>
     <lastmod>2026-03-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -52,6 +72,26 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://www.bushdigitalguides.com.au/categories/property/</loc>
+    <lastmod>2026-03-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/tags/property-investment/</loc>
+    <lastmod>2026-03-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/tags/rental-yield/</loc>
+    <lastmod>2026-03-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/tags/short-term-rental-rules/</loc>
+    <lastmod>2026-03-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://www.bushdigitalguides.com.au/tags/small-business/</loc>
     <lastmod>2026-03-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -72,12 +112,22 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://www.bushdigitalguides.com.au/tags/str-regulations/</loc>
+    <lastmod>2026-03-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://www.bushdigitalguides.com.au/tags/</loc>
     <lastmod>2026-03-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.bushdigitalguides.com.au/tags/tradies/</loc>
+    <lastmod>2026-03-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/tags/value-add/</loc>
     <lastmod>2026-03-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -242,22 +292,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.bushdigitalguides.com.au/tags/property-investment/</loc>
-    <lastmod>2026-02-26T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.bushdigitalguides.com.au/tags/rental-yield/</loc>
-    <lastmod>2026-02-26T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.bushdigitalguides.com.au/tags/secondary-dwelling/</loc>
-    <lastmod>2026-02-26T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.bushdigitalguides.com.au/tags/value-add/</loc>
     <lastmod>2026-02-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -298,11 +333,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.bushdigitalguides.com.au/tags/business-tools/</loc>
-    <lastmod>2026-02-24T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.bushdigitalguides.com.au/categories/</loc>
     <lastmod>2026-02-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -353,11 +383,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.bushdigitalguides.com.au/privacy/</loc>
-    <lastmod>2026-02-19T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.bushdigitalguides.com.au/categories/property/</loc>
     <lastmod>2026-02-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -618,11 +643,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.bushdigitalguides.com.au/tags/accounts-receivable/</loc>
-    <lastmod>2026-02-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.bushdigitalguides.com.au/tags/australian-property/</loc>
     <lastmod>2026-02-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
