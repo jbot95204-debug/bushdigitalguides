@@ -12,6 +12,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://www.bushdigitalguides.com.au/tags/australian-garden/</loc>
+    <lastmod>2026-03-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://www.bushdigitalguides.com.au/blog/best-job-management-software-tradies-australia-2026/</loc>
     <lastmod>2026-03-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -27,7 +32,17 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://www.bushdigitalguides.com.au/tags/esphome/</loc>
+    <lastmod>2026-03-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://www.bushdigitalguides.com.au/tags/field-service/</loc>
+    <lastmod>2026-03-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/tags/home-assistant/</loc>
     <lastmod>2026-03-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -42,12 +57,42 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://www.bushdigitalguides.com.au/tags/smart-irrigation/</loc>
+    <lastmod>2026-03-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/blog/smart-sensors-wicking-beds-automated-garden-australia/</loc>
+    <lastmod>2026-03-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/tags/soil-sensors/</loc>
+    <lastmod>2026-03-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://www.bushdigitalguides.com.au/tags/</loc>
     <lastmod>2026-03-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.bushdigitalguides.com.au/tags/tradies/</loc>
+    <lastmod>2026-03-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/tags/water-saving/</loc>
+    <lastmod>2026-03-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/tags/wicking-beds/</loc>
+    <lastmod>2026-03-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/tags/zigbee/</loc>
     <lastmod>2026-03-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -237,22 +282,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.bushdigitalguides.com.au/tags/home-assistant/</loc>
-    <lastmod>2026-02-25T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.bushdigitalguides.com.au/tags/smart-irrigation/</loc>
-    <lastmod>2026-02-25T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.bushdigitalguides.com.au/tags/soil-moisture-sensor/</loc>
-    <lastmod>2026-02-25T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.bushdigitalguides.com.au/tags/water-saving/</loc>
     <lastmod>2026-02-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -662,11 +692,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.bushdigitalguides.com.au/tags/esphome/</loc>
-    <lastmod>2026-02-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.bushdigitalguides.com.au/categories/garden/</loc>
     <lastmod>2026-02-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -798,11 +823,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.bushdigitalguides.com.au/tags/water-efficient-gardening/</loc>
-    <lastmod>2026-02-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.bushdigitalguides.com.au/tags/wicking-beds/</loc>
     <lastmod>2026-02-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

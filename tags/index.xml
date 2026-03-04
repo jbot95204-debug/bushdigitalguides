@@ -23,10 +23,31 @@
       <description></description>
     </item>
     <item>
+      <title>Australian Garden</title>
+      <link>https://www.bushdigitalguides.com.au/tags/australian-garden/</link>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.bushdigitalguides.com.au/tags/australian-garden/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ESPHome</title>
+      <link>https://www.bushdigitalguides.com.au/tags/esphome/</link>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.bushdigitalguides.com.au/tags/esphome/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Field Service</title>
       <link>https://www.bushdigitalguides.com.au/tags/field-service/</link>
       <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://www.bushdigitalguides.com.au/tags/field-service/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Home Assistant</title>
+      <link>https://www.bushdigitalguides.com.au/tags/home-assistant/</link>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.bushdigitalguides.com.au/tags/home-assistant/</guid>
       <description></description>
     </item>
     <item>
@@ -44,10 +65,45 @@
       <description></description>
     </item>
     <item>
+      <title>Smart Irrigation</title>
+      <link>https://www.bushdigitalguides.com.au/tags/smart-irrigation/</link>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.bushdigitalguides.com.au/tags/smart-irrigation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Soil Sensors</title>
+      <link>https://www.bushdigitalguides.com.au/tags/soil-sensors/</link>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.bushdigitalguides.com.au/tags/soil-sensors/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Tradies</title>
       <link>https://www.bushdigitalguides.com.au/tags/tradies/</link>
       <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://www.bushdigitalguides.com.au/tags/tradies/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Water Saving</title>
+      <link>https://www.bushdigitalguides.com.au/tags/water-saving/</link>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.bushdigitalguides.com.au/tags/water-saving/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wicking Beds</title>
+      <link>https://www.bushdigitalguides.com.au/tags/wicking-beds/</link>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.bushdigitalguides.com.au/tags/wicking-beds/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zigbee</title>
+      <link>https://www.bushdigitalguides.com.au/tags/zigbee/</link>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.bushdigitalguides.com.au/tags/zigbee/</guid>
       <description></description>
     </item>
     <item>
@@ -268,31 +324,10 @@
       <description></description>
     </item>
     <item>
-      <title>Home Assistant</title>
-      <link>https://www.bushdigitalguides.com.au/tags/home-assistant/</link>
-      <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.bushdigitalguides.com.au/tags/home-assistant/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Smart Irrigation</title>
-      <link>https://www.bushdigitalguides.com.au/tags/smart-irrigation/</link>
-      <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.bushdigitalguides.com.au/tags/smart-irrigation/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Soil Moisture Sensor</title>
       <link>https://www.bushdigitalguides.com.au/tags/soil-moisture-sensor/</link>
       <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
       <guid>https://www.bushdigitalguides.com.au/tags/soil-moisture-sensor/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Water Saving</title>
-      <link>https://www.bushdigitalguides.com.au/tags/water-saving/</link>
-      <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.bushdigitalguides.com.au/tags/water-saving/</guid>
       <description></description>
     </item>
     <item>
@@ -674,13 +709,6 @@
       <description></description>
     </item>
     <item>
-      <title>ESPHome</title>
-      <link>https://www.bushdigitalguides.com.au/tags/esphome/</link>
-      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.bushdigitalguides.com.au/tags/esphome/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Garden Automation</title>
       <link>https://www.bushdigitalguides.com.au/tags/garden-automation/</link>
       <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
@@ -811,13 +839,6 @@
       <link>https://www.bushdigitalguides.com.au/tags/water-efficient-gardening/</link>
       <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
       <guid>https://www.bushdigitalguides.com.au/tags/water-efficient-gardening/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Wicking Beds</title>
-      <link>https://www.bushdigitalguides.com.au/tags/wicking-beds/</link>
-      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.bushdigitalguides.com.au/tags/wicking-beds/</guid>
       <description></description>
     </item>
     <item>

@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Wicking Beds on Bush Digital Guides</title>
-    <link>https://www.bushdigitalguides.com.au/tags/wicking-beds/</link>
-    <description>Recent content in Wicking Beds on Bush Digital Guides</description>
+    <title>Zigbee on Bush Digital Guides</title>
+    <link>https://www.bushdigitalguides.com.au/tags/zigbee/</link>
+    <description>Recent content in Zigbee on Bush Digital Guides</description>
     <generator>Hugo</generator>
     <language>en-au</language>
     <lastBuildDate>Wed, 04 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.bushdigitalguides.com.au/tags/wicking-beds/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.bushdigitalguides.com.au/tags/zigbee/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Smart Sensors Meet Wicking Beds: The Ultimate Set-and-Forget Garden for Aussie Backyards</title>
       <link>https://www.bushdigitalguides.com.au/blog/smart-sensors-wicking-beds-automated-garden-australia/</link>
       <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://www.bushdigitalguides.com.au/blog/smart-sensors-wicking-beds-automated-garden-australia/</guid>
       <description>&lt;p&gt;There&amp;rsquo;s a certain magic to walking out to your veggie patch after a week away and finding everything thriving. No wilted tomatoes. No crispy basil. Just happy, healthy plants that somehow watered themselves while you were at the beach.&lt;/p&gt;&#xA;&lt;p&gt;That&amp;rsquo;s the dream, right? And in 2026, it&amp;rsquo;s genuinely achievable — even on a modest Aussie budget. The secret is combining two technologies that were practically made for each other: &lt;strong&gt;wicking beds&lt;/strong&gt; for passive, water-efficient growing, and &lt;strong&gt;smart soil sensors&lt;/strong&gt; to monitor everything from your phone (or let Home Assistant handle it entirely).&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>How to Build a Wicking Bed in Australia: The Complete Guide</title>
-      <link>https://www.bushdigitalguides.com.au/blog/wicking-bed-guide-australia/</link>
-      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.bushdigitalguides.com.au/blog/wicking-bed-guide-australia/</guid>
-      <description>&lt;p&gt;If you&amp;rsquo;ve ever watched your raised garden beds turn into a dusty wasteland during an Aussie summer, wicking beds might just change your life. They&amp;rsquo;re not new — people have been building them for years — but they&amp;rsquo;re having a proper moment right now, and for good reason. When water restrictions tighten up and your council starts sending passive-aggressive letters about hose usage, a garden that waters itself from the bottom up starts looking pretty bloody clever.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
