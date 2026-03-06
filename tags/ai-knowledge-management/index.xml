@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>AI Productivity on Bush Digital Guides</title>
-    <link>https://www.bushdigitalguides.com.au/tags/ai-productivity/</link>
-    <description>Recent content in AI Productivity on Bush Digital Guides</description>
+    <title>AI Knowledge Management on Bush Digital Guides</title>
+    <link>https://www.bushdigitalguides.com.au/tags/ai-knowledge-management/</link>
+    <description>Recent content in AI Knowledge Management on Bush Digital Guides</description>
     <generator>Hugo</generator>
     <language>en-au</language>
     <lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.bushdigitalguides.com.au/tags/ai-productivity/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.bushdigitalguides.com.au/tags/ai-knowledge-management/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Your AI Second Brain Is Broken — Here&#39;s How to Actually Fix It</title>
       <link>https://www.bushdigitalguides.com.au/blog/ai-second-brain-fragmentation-fix-2026/</link>
       <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://www.bushdigitalguides.com.au/blog/ai-second-brain-fragmentation-fix-2026/</guid>
       <description>&lt;p&gt;There&amp;rsquo;s a viral Reddit post that went up a few days ago in the Obsidian community. The title: &lt;em&gt;&amp;ldquo;I&amp;rsquo;m trying to build an AI Second Brain and I&amp;rsquo;m losing mine doing it.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;The person had a solid setup — Obsidian for notes, Claude Pro for thinking, NotebookLM for their documents, Gamma for presentations. Good tools, all of them. But here&amp;rsquo;s the thing they kept running into:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Claude remembers convos. NotebookLM knows my uploads. My actual brain lives somewhere else entirely. Classic fragmentation.&amp;rdquo;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Agentic AI Workflows: How Autonomous AI Is Replacing Your To-Do List in 2026</title>
-      <link>https://www.bushdigitalguides.com.au/blog/agentic-ai-workflows-personal-productivity-2026/</link>
-      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.bushdigitalguides.com.au/blog/agentic-ai-workflows-personal-productivity-2026/</guid>
-      <description>&lt;p&gt;There&amp;rsquo;s a moment every knowledge worker hits. You&amp;rsquo;re staring at your task manager — forty-seven items, twelve overdue, three marked &amp;ldquo;urgent&amp;rdquo; that have been urgent for a week — and you think: &lt;em&gt;surely there&amp;rsquo;s a better way.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Turns out, there is. And it&amp;rsquo;s not another productivity app. It&amp;rsquo;s not a better Pomodoro timer or a fancier Kanban board. It&amp;rsquo;s AI that actually &lt;em&gt;does the work&lt;/em&gt; instead of just helping you organise it.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
