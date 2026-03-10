@@ -6,8 +6,15 @@
     <description>Recent content in ESP32 on Bush Digital Guides</description>
     <generator>Hugo</generator>
     <language>en-au</language>
-    <lastBuildDate>Wed, 25 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.bushdigitalguides.com.au/tags/esp32/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Smart Composting in 2026: Electric Kitchen Composters vs DIY Sensor Monitoring for Aussie Gardens</title>
+      <link>https://www.bushdigitalguides.com.au/blog/smart-composting-electric-composters-vs-diy-monitoring-australia/</link>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.bushdigitalguides.com.au/blog/smart-composting-electric-composters-vs-diy-monitoring-australia/</guid>
+      <description>&lt;p&gt;Australia has a food waste problem. A big one. According to the federal government&amp;rsquo;s National Food Waste Strategy, we chuck out around &lt;strong&gt;7.6 million tonnes of food every year&lt;/strong&gt; — about 312 kilograms per person. A huge portion of that ends up in landfill, where it rots anaerobically and pumps out methane, a greenhouse gas roughly 25 times more potent than CO2.&lt;/p&gt;&#xA;&lt;p&gt;The fix is composting. We all know this. The problem is that traditional composting is&amp;hellip; well, a bit of a hassle. Turning piles, getting the carbon-to-nitrogen ratio right, dealing with the smell when things go wrong, and waiting months for usable compost. It&amp;rsquo;s hardly &amp;ldquo;set and forget.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>DIY Soil Moisture Sensors with Home Assistant: Stop Guessing, Start Growing</title>
       <link>https://www.bushdigitalguides.com.au/blog/diy-soil-moisture-sensors-home-assistant-garden-automation/</link>
