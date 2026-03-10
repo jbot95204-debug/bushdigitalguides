@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.bushdigitalguides.com.au/blog/</loc>
+    <lastmod>2026-03-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.bushdigitalguides.com.au/</loc>
+    <lastmod>2026-03-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://www.bushdigitalguides.com.au/blog/automate-trade-business-weekend-setup-guide-2026/</loc>
     <lastmod>2026-03-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -18,16 +28,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.bushdigitalguides.com.au/tags/automation/</loc>
-    <lastmod>2026-03-09T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.bushdigitalguides.com.au/blog/</loc>
-    <lastmod>2026-03-09T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.bushdigitalguides.com.au/</loc>
     <lastmod>2026-03-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
