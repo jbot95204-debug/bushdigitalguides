@@ -1,9 +1,9 @@
 ---
 title: "About Bush Digital Guides"
-description: "Practical web services for regional South Australian businesses."
+description: "Practical digital services for regional South Australian businesses."
 ---
 
-## Practical web help for regional businesses
+## Practical digital help for regional businesses
 
 Bush Digital Guides helps local businesses improve the parts of their online presence that actually affect enquiries: websites, local search, Google Business Profile, reviews, contact forms, and follow-up.
 
