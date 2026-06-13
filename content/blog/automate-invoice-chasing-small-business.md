@@ -1,9 +1,9 @@
 ---
-title: "How to Automate Invoice Chasing for Your Small Business in Australia"
+title: "How to Automate Invoice Chasing for Small Businesses in Australia"
 date: 2026-02-11
-description: "Stop manually chasing invoices. Set up automated payment reminders in Xero, MYOB, Zapier & Make for your Australian small business."
-tags: ["invoice automation", "small business Australia", "Xero", "MYOB", "accounts receivable", "Zapier"]
-categories: ["Business Automation"]
+description: "A practical guide to invoice follow-up systems for Australian small businesses, tradies, and regional service businesses using Xero, MYOB, reminders, and simple workflows."
+tags: ["invoice follow-up", "business automation", "tradie admin", "cash flow", "Xero", "MYOB", "regional business"]
+categories: ["Digital Systems", "Business Automation"]
 book: "Automate Everything"
 bookLink: "/books/automate-everything/"
 draft: false

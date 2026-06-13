@@ -5,7 +5,7 @@ description: "Press resources, media kit, and information about Bush Digital Gui
 
 ## About Bush Digital Guides
 
-Bush Digital Guides publishes practical, research-driven books for Australians on topics including off-grid solar living, property investment, automated gardening, AI for tradies, and small business automation.
+Bush Digital Guides publishes practical, research-driven guides for Australian small businesses, with a focus on regional business growth, tradie systems, enquiry conversion, reviews, quote follow-up, and small business automation.
 
 Based in Adelaide, South Australia, we focus on books that are thoroughly researched, properly sourced, and written specifically for Australian conditions — not adapted from American content.
 
@@ -19,10 +19,7 @@ Based in Adelaide, South Australia, we focus on books that are thoroughly resear
 
 | Book | Words | Chapters | Amazon Link |
 |------|-------|----------|-------------|
-| [Off-Grid but Online](/books/off-grid-but-online/) | 72,000 | 24 | [Buy on Amazon](https://www.amazon.com.au/dp/B0GMVBDWJR?tag=bushdigital-22) |
 | [Automate Everything](/books/automate-everything/) | 37,000 | 17 | [Buy on Amazon](https://www.amazon.com.au/dp/B0GMWG56VX?tag=bushdigital-22) |
-| [Set and Forget](/books/set-and-forget/) | 91,000 | 22 | [Buy on Amazon](https://www.amazon.com.au/dp/B0GN3RYDSC?tag=bushdigital-22) |
-| [The Value-Add Property Playbook](/books/value-add-property-playbook/) | 62,000 | 15 | [Buy on Amazon](https://www.amazon.com.au/dp/B0GN537PN3?tag=bushdigital-22) |
 | [AI for Tradies](/books/ai-for-tradies/) | 45,000 | 18 | Coming Soon |
 
 ---
@@ -32,7 +29,7 @@ Based in Adelaide, South Australia, we focus on books that are thoroughly resear
 We're happy to provide:
 
 - **Review copies** of any of our books (digital)
-- **Expert quotes** on off-grid living, property investment, garden automation, or small business automation in Australia
+- **Expert quotes** on regional business growth, tradie admin systems, local SEO, enquiry conversion, reviews, quote follow-up, or small business automation in Australia
 - **Data and statistics** from our research (all properly sourced)
 - **Guest posts** for relevant Australian publications
 

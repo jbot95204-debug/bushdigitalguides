@@ -1,9 +1,9 @@
 ---
 title: "Best Job Management Software for Tradies in Australia (2026 Honest Review)"
 date: 2026-02-11
-description: "Honest comparison of the best job management apps for Australian tradies. ServiceM8, Tradify, Fergus, Jobber, AroFlo & simPRO reviewed."
-tags: ["job management", "tradie software", "ServiceM8", "Tradify", "business automation"]
-categories: ["Business"]
+description: "A practical comparison of job management software for Australian tradies, with a focus on quoting, scheduling, invoicing, enquiry handling, and follow-up."
+tags: ["job management", "tradie software", "ServiceM8", "Tradify", "quote follow-up", "business automation", "tradie systems"]
+categories: ["Digital Systems", "Tradie Business"]
 book: "Automate Everything"
 bookLink: "/books/automate-everything/"
 draft: false

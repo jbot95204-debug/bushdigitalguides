@@ -4,3 +4,6 @@ resources/
 
 # Internal prospecting/customer acquisition assets (do not publish)
 prospecting/
+
+# Local archive of removed off-niche content (not published)
+content-archive/

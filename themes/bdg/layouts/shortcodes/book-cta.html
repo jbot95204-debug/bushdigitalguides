@@ -1,4 +1,4 @@
-{{/* Mid-article book CTA shortcode. Usage: {{< book-cta book="Off-Grid but Online" >}} */}}
+{{/* Mid-article book CTA shortcode. Usage: {{< book-cta book="Automate Everything" >}} */}}
 {{ $bookName := .Get "book" }}
 {{ range $key, $b := .Site.Params.books }}
   {{ if eq $b.title $bookName }}

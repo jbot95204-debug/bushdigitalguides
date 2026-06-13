@@ -1,11 +1,12 @@
 ---
-title: "How to Automate Your Small Business in Australia: A 2026 Guide"
+title: "How to Automate Your Small Business in Australia: A Practical 2026 Guide"
 date: 2026-02-13
-description: "Practical automation strategies for Australian small businesses — from invoicing and scheduling to AI-powered customer service. Save 10+ hours per week without a big budget."
-tags: ["business automation", "small business", "AI tools", "productivity", "australia"]
-categories: ["Business & Automation"]
+description: "A practical automation guide for Australian small businesses covering enquiry capture, quote follow-up, reviews, invoicing, admin workflows, and customer communication."
+tags: ["business automation", "small business Australia", "digital systems", "quote follow-up", "enquiries", "reviews", "regional business"]
+categories: ["Digital Systems", "Business Automation"]
 book: "Automate Everything"
 bookLink: "/books/automate-everything/"
+draft: false
 ---
 
 If you're running a small business in Australia, chances are you're spending half your week on tasks a computer could handle: chasing invoices, scheduling appointments, answering the same customer questions, posting on social media, reconciling books. It's exhausting, and it's keeping you from the work that actually grows your business.
