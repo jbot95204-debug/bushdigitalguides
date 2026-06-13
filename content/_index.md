@@ -1,4 +1,4 @@
 ---
-title: "Bush Digital Guides — Digital Services for Regional South Australian Businesses"
-description: "Practical digital services for regional South Australian businesses: websites, local SEO, Google profile improvements, reviews, enquiry forms, and follow-up systems."
+title: "Bush Digital Guides — Local Growth Systems for Regional Businesses"
+description: "Practical local growth support for regional South Australian businesses: websites, Google visibility, reviews, enquiry forms, quote follow-up, and simple business systems."
 ---

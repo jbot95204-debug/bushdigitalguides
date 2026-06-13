@@ -1169,6 +1169,7 @@ h3 { letter-spacing: -0.035em; }
 
 .bdg-feature-grid { display:grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap:16px; }
 .bdg-feature-grid.three { grid-template-columns: repeat(3, minmax(0,1fr)); }
+.bdg-feature-grid.four { grid-template-columns: repeat(2, minmax(0,1fr)); }
 .bdg-premium-card {
   background: #fff;
   border-radius: 16px;
@@ -1268,7 +1269,7 @@ h3 { letter-spacing: -0.035em; }
 @media (max-width: 980px) {
   .bdg-hero-grid, .bdg-split, .bdg-form-grid { grid-template-columns: 1fr; gap:42px; }
   .bdg-hero { padding: 78px 0 58px; }
-  .bdg-feature-grid, .bdg-feature-grid.three { grid-template-columns: 1fr; }
+  .bdg-feature-grid, .bdg-feature-grid.three, .bdg-feature-grid.four { grid-template-columns: 1fr; }
   .bdg-service-row { grid-template-columns: 1fr; gap:14px; }
   .bdg-process-line { grid-template-columns: repeat(2, minmax(0,1fr)); }
   .bdg-cta-panel { grid-template-columns: 1fr; }

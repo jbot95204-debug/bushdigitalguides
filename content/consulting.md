@@ -1,6 +1,6 @@
 ---
-title: "Digital Services for Regional Businesses"
-description: "Book a free digital review with Bush Digital Guides. Practical help with websites, local SEO, Google profiles, reviews, enquiry forms, and follow-up systems."
-keywords: ["regional business digital services", "website designer Victor Harbor", "local SEO regional Australia", "trade business websites", "Google Business Profile help", "Fleurieu Peninsula web services"]
+title: "Local Growth Services for Regional Businesses"
+description: "Book a Local Growth Check with Bush Digital Guides. Practical help with websites, Google visibility, reviews, enquiry forms, quote follow-up, and simple business systems."
+keywords: ["regional business digital services", "local growth systems", "website designer Victor Harbor", "local SEO regional Australia", "Google Business Profile help", "Fleurieu Peninsula business systems"]
 layout: consulting
 ---

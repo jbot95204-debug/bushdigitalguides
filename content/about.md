@@ -1,11 +1,11 @@
 ---
 title: "About Bush Digital Guides"
-description: "Practical digital services for regional South Australian businesses."
+description: "Practical local growth support for regional South Australian businesses."
 ---
 
-## Practical digital help for regional businesses
+## Practical local growth help for regional businesses
 
-Bush Digital Guides helps local businesses improve the parts of their online presence that actually affect enquiries: websites, local search, Google Business Profile, reviews, contact forms, and follow-up.
+Bush Digital Guides helps local businesses improve the digital pieces that actually affect growth: websites, Google visibility, reviews, enquiry forms, quote follow-up, and simple business systems.
 
 We are focused on regional South Australia, starting around Victor Harbor, Port Elliot, Goolwa, Encounter Bay, Hayborough, Mount Barker, Murray Bridge, and the broader Fleurieu Peninsula.
 
