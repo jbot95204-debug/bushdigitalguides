@@ -4,8 +4,8 @@ title = 'Bush Digital Guides'
 theme = 'bdg'
 
 [params]
-  description = "AI-powered digital services for regional Australian businesses — local SEO, lead conversion, admin automation, websites, and practical growth systems."
-  tagline = "Practical digital improvements for regional businesses."
+  description = "Practical web services for regional South Australian businesses — websites, local SEO, Google profile improvements, enquiry forms, reviews, and follow-up systems."
+  tagline = "Practical web services for regional businesses."
   author = "Bush Digital Guides"
   email = "hello@bushdigitalguides.com.au"
   abn = "31983947670"
@@ -69,29 +69,21 @@ theme = 'bdg'
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "Books"
-    url = "/books/"
+    name = "Services"
+    url = "/consulting/"
     weight = 2
   [[menu.main]]
-    name = "Blog"
-    url = "/blog/"
+    name = "Website Review"
+    url = "/consulting/#book"
     weight = 3
   [[menu.main]]
     name = "About"
     url = "/about/"
     weight = 4
   [[menu.main]]
-    name = "Consulting"
-    url = "/consulting/"
+    name = "Blog"
+    url = "/blog/"
     weight = 5
-  [[menu.main]]
-    name = "Samples"
-    url = "/samples/"
-    weight = 6
-  [[menu.main]]
-    name = "Press"
-    url = "/press/"
-    weight = 7
 
 enableRobotsTXT = false
 

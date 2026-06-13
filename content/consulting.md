@@ -1,6 +1,6 @@
 ---
-title: "Digital Growth Help for Regional Businesses"
-description: "Book a free 15-minute growth audit with Bush Digital Guides. Practical help with local SEO, Google profiles, reviews, AI admin automation, websites, and lead conversion."
-keywords: ["regional business digital services", "AI consulting tradies", "local SEO regional Australia", "trade business automation", "ServiceM8 setup", "Google Business Profile help"]
+title: "Web Services for Regional Businesses"
+description: "Book a free website review with Bush Digital Guides. Practical help with websites, local SEO, Google profiles, reviews, enquiry forms, and follow-up systems."
+keywords: ["regional business web services", "website designer Victor Harbor", "local SEO regional Australia", "trade business websites", "Google Business Profile help", "Fleurieu Peninsula websites"]
 layout: consulting
 ---

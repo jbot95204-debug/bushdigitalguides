@@ -1,49 +1,44 @@
 ---
 title: "About Bush Digital Guides"
-description: "Who we are and why we write books that don't waste your time."
+description: "Practical web services for regional South Australian businesses."
 ---
 
-## The Short Version
+## Practical web help for regional businesses
 
-We write practical guides for Australians. No filler. No corporate speak. Just stuff that actually helps.
+Bush Digital Guides helps local businesses improve the parts of their online presence that actually affect enquiries: websites, local search, Google Business Profile, reviews, contact forms, and follow-up.
 
-## The Slightly Longer Version
+We are focused on regional South Australia, starting around Victor Harbor, Port Elliot, Goolwa, Encounter Bay, Hayborough, Mount Barker, Murray Bridge, and the broader Fleurieu Peninsula.
 
-Bush Digital Guides started because we were tired of reading books that promised everything and delivered nothing. You know the type — 200 pages that could've been a blog post, padded with motivational quotes and "mindset" chapters that say the same thing five different ways.
+## What we do
 
-We decided to write the books we wished existed. Books packed with real data, real product comparisons, real Australian prices, and real stories from people who've actually done the thing.
+We help businesses make it easier for customers to:
 
-### What Makes Our Books Different
+- understand what you do
+- see where you work
+- trust your business
+- call or request a quote
+- find you on Google
+- follow up without leads going missing
 
-**📊 Real data, properly sourced.** Every statistic in our books has an attribution. CoreLogic for property data. Bureau of Meteorology for climate data. ABS for population stats. If we can't source it, we don't print it.
+That usually starts with the website, because it is the most visible part of the customer journey. From there, we can improve local SEO, Google profile details, review requests, enquiry forms, and simple follow-up systems.
 
-**🇦🇺 Written for Australia.** Not adapted from American content with "metres" swapped in for "feet." Our books reference Australian products, Australian regulations, Australian prices, and Australian conditions. State-by-state where it matters.
+## How we work
 
-**💬 Community voices included.** We've trawled Reddit, Whirlpool, PropertyChat, Home Assistant forums, and YouTube to find real experiences from real Australians. Short quotes, properly attributed, used to show what actually happens — not just what the marketing material promises.
+We keep things practical and approval-first.
 
-**⚖️ Copyright clean.** Every book goes through a copyright scan. Quotes are attributed. Data is sourced. Case studies are composited and anonymised. We take this seriously because our readers deserve to trust what they're reading.
+- No public website changes without approval
+- No DNS/domain changes without approval
+- No customer messages without approval
+- No advertising spend without approval
+- No contracts, invoices, or billing without approval
 
-**🔍 Proofread to death.** Every calculation checked. Every cross-reference verified. Every claim fact-checked. We've found and fixed errors that other publishers would ship.
+The goal is not to make things complicated. The goal is to help good local businesses look more professional online, get found more easily, and turn more visitors into real enquiries.
 
-### The Library So Far
+## Based in
 
-1. **Off-Grid but Online** — 72,000 words on self-sufficient living with modern tech
-2. **Automate Everything** — 37,000 words on small business automation for tradies and small operators
-3. **Set and Forget** — 91,000 words on automated gardening for Australian conditions
-4. **The Value-Add Property Playbook** — 62,000 words on property investment strategies with real data
+Victor Harbor / Fleurieu Peninsula / Regional South Australia.
 
-More coming. If you've got a topic you'd like covered, [drop us a line](mailto:hello@bushdigitalguides.com.au).
-
-### Based In
-
-Adelaide, South Australia. But useful everywhere in Australia (and mostly relevant to NZ, UK, and beyond).
-
-### Contact
+## Contact
 
 **Email:** [hello@bushdigitalguides.com.au](mailto:hello@bushdigitalguides.com.au)  
-**Location:** Adelaide, South Australia  
 **ABN:** 31 983 947 670
-
-### Get in Touch
-
-📧 [hello@bushdigitalguides.com.au](mailto:hello@bushdigitalguides.com.au)
