@@ -1,125 +1,161 @@
 {{ define "main" }}
 
-<!-- Hero — Clean, bold, James Clear style -->
-<section class="hero">
+<section class="hero hero-business">
   <div class="container">
-    <h1>Practical guides for people who <em>actually do things.</em></h1>
-    <p class="lead">Five Australian guides on off-grid solar, property investment, automated gardening, AI for tradies, and small business automation. No filler. No fluff. Just stuff that works.</p>
-    <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
-      <a href="/books/" class="btn btn-primary">Browse the Books →</a>
-      <a href="/blog/" class="btn btn-outline">Read the Blog</a>
+    <div class="section-label">AI-powered digital help for regional Australia</div>
+    <h1>Helping regional businesses win more work, waste less time, and compete with the city operators.</h1>
+    <p class="lead">Bush Digital Guides helps trade and regional service businesses improve revenue, visibility, follow-up, and admin efficiency with practical AI-powered systems. Websites are one tool — the goal is measurable business growth.</p>
+    <div class="hero-actions">
+      <a href="/consulting/" class="btn btn-primary">Book a Free Growth Audit →</a>
+      <a href="#services" class="btn btn-outline">See What We Fix</a>
+    </div>
+    <p class="approval-note">Human-approved work only: no outreach, publishing, DNS changes, advertising, invoices, or customer communications without sign-off.</p>
+  </div>
+</section>
+
+<section class="proof-strip">
+  <div class="container">
+    <div class="stats-row">
+      <div class="stat">
+        <div class="stat-number">Regional</div>
+        <div class="stat-label">Australian Focus</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number">AI + Human</div>
+        <div class="stat-label">Approval-Gated Delivery</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number">307k</div>
+        <div class="stat-label">Words of Practical Guides</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number">Outcome</div>
+        <div class="stat-label">Not Deliverable Led</div>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- Stats Bar -->
-<div class="container">
-  <div class="stats-row">
-    <div class="stat">
-      <div class="stat-number">5</div>
-      <div class="stat-label">Books</div>
-    </div>
-    <div class="stat">
-      <div class="stat-number">307k</div>
-      <div class="stat-label">Words Written</div>
-    </div>
-    <div class="stat">
-      <div class="stat-number">96</div>
-      <div class="stat-label">Chapters</div>
-    </div>
-    <div class="stat">
-      <div class="stat-number">0</div>
-      <div class="stat-label">Filler Pages</div>
-    </div>
-  </div>
-</div>
-
-<!-- Books Section -->
-<section class="books-section">
+<section class="problem-section">
   <div class="container">
     <div class="section-header">
-      <div class="section-label">The Library</div>
-      <h2>Books that earn their page count.</h2>
-      <p>Every chapter, every statistic, every recommendation — researched, sourced, and written for Australian conditions.</p>
+      <div class="section-label">The gap</div>
+      <h2>Good regional businesses lose work online every week.</h2>
+      <p>Not because the work is bad — because the digital basics are usually half-finished, hard to measure, or never followed up.</p>
     </div>
-    <div class="book-grid">
-
-      <a href="/books/off-grid-but-online/" class="book-card">
-        <div class="book-card-cover"><img src="/images/covers/off-grid-but-online.jpg" alt="Off-Grid but Online — Australian guide to self-sufficient living with solar, water and internet" loading="lazy"></div>
-        <div class="book-card-body">
-          <h3>Off-Grid but Online</h3>
-          <div class="subtitle">Self-sufficient living with modern tech</div>
-          <div class="excerpt">Solar, batteries, water, internet — everything you need to go off-grid without going offline. Written for Australian conditions.</div>
-          <div class="book-card-meta">
-            <span>72k words</span>
-            <span>24 chapters</span>
-          </div>
-        </div>
-      </a>
-
-      <a href="/books/automate-everything/" class="book-card">
-        <div class="book-card-cover"><img src="/images/covers/automate-everything.jpg" alt="Automate Everything — small business automation guide for Australian tradies and operators" loading="lazy"></div>
-        <div class="book-card-body">
-          <h3>Automate Everything</h3>
-          <div class="subtitle">Work less. Earn more. Stop drowning in admin.</div>
-          <div class="excerpt">For tradies, consultants, and small business owners who'd rather do actual work than chase invoices at 10pm.</div>
-          <div class="book-card-meta">
-            <span>37k words</span>
-            <span>17 chapters</span>
-          </div>
-        </div>
-      </a>
-
-      <a href="/books/set-and-forget/" class="book-card">
-        <div class="book-card-cover"><img src="/images/covers/set-and-forget.jpg" alt="Set and Forget — automated gardening guide for Australian gardens with smart irrigation" loading="lazy"></div>
-        <div class="book-card-body">
-          <h3>Set and Forget</h3>
-          <div class="subtitle">The Aussie guide to automated gardening</div>
-          <div class="excerpt">Smart irrigation, soil sensors, and Home Assistant automations. Every drop counts when you're gardening in Australia.</div>
-          <div class="book-card-meta">
-            <span>91k words</span>
-            <span>22 chapters</span>
-          </div>
-        </div>
-      </a>
-
-      <a href="/books/value-add-property-playbook/" class="book-card">
-        <div class="book-card-cover"><img src="/images/covers/value-add-playbook.jpg" alt="The Value-Add Property Playbook — Australian property investment guide for granny flats subdivisions and duplexes" loading="lazy"></div>
-        <div class="book-card-body">
-          <h3>The Value-Add Property Playbook</h3>
-          <div class="subtitle">Granny flats, subdivisions & creative strategies</div>
-          <div class="excerpt">Real data, real case studies, real Australian markets. Including the NDIS chapter everyone needs to read before investing.</div>
-          <div class="book-card-meta">
-            <span>62k words</span>
-            <span>15 chapters</span>
-          </div>
-        </div>
-      </a>
-
-      <a href="/books/ai-for-tradies/" class="book-card">
-        <div class="book-card-cover"><img src="/images/covers/ai-for-tradies.jpg" alt="AI for Tradies — practical AI tools guide for Australian tradies and trade businesses" loading="lazy"></div>
-        <div class="book-card-body">
-          <h3>AI for Tradies</h3>
-          <div class="subtitle">Win more jobs. Work smarter. Use AI without the jargon.</div>
-          <div class="excerpt">Practical AI tools for Australian tradies — quoting, scheduling, invoicing, and marketing automation that actually works on the tools.</div>
-          <div class="book-card-meta">
-            <span>45k words</span>
-            <span>18 chapters</span>
-          </div>
-        </div>
-      </a>
-
+    <div class="service-grid three">
+      <div class="service-card">
+        <h3>Invisible locally</h3>
+        <p>Weak local SEO, thin service pages, poor Google Business Profile signals, and no suburb strategy.</p>
+      </div>
+      <div class="service-card">
+        <h3>Leads fall through cracks</h3>
+        <p>Quotes are not followed up, reviews are not requested, and repeat customers are not nurtured.</p>
+      </div>
+      <div class="service-card">
+        <h3>Admin eats the week</h3>
+        <p>Manual quoting, scheduling, invoicing, safety paperwork, and customer updates waste expensive owner time.</p>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- Blog Section -->
+<section id="services" class="services-section">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">Services</div>
+      <h2>Affordable digital improvements that should pay for themselves.</h2>
+      <p>Start small, measure the result, then automate what works.</p>
+    </div>
+    <div class="service-grid">
+      <div class="service-card featured">
+        <div class="service-kicker">Best first step</div>
+        <h3>Local Growth Audit</h3>
+        <p>A fast audit of your website, SEO, Google profile, reviews, enquiry path, and follow-up system. You get a plain-English action list ranked by revenue impact.</p>
+        <ul>
+          <li>Website and conversion review</li>
+          <li>Local SEO and visibility gaps</li>
+          <li>Priority fixes before any big rebuild</li>
+        </ul>
+      </div>
+      <div class="service-card">
+        <div class="service-kicker">Save time</div>
+        <h3>AI Admin Automation</h3>
+        <p>Set up practical automations for quoting, scheduling, invoice chasing, customer replies, review requests, and job paperwork.</p>
+        <ul>
+          <li>ServiceM8 / job workflow setup</li>
+          <li>Email and SMS follow-ups</li>
+          <li>Owner dashboard and SOPs</li>
+        </ul>
+      </div>
+      <div class="service-card">
+        <div class="service-kicker">Get found</div>
+        <h3>Local SEO, GBP & Reviews</h3>
+        <p>Improve how your business appears when locals search for the work you already do.</p>
+        <ul>
+          <li>Metadata and schema</li>
+          <li>Service and suburb pages</li>
+          <li>Review request system</li>
+        </ul>
+      </div>
+      <div class="service-card">
+        <div class="service-kicker">Convert better</div>
+        <h3>Website & Lead Conversion</h3>
+        <p>Fix or rebuild the pages that turn visitors into phone calls, quote requests, and booked jobs.</p>
+        <ul>
+          <li>Clear offers and calls to action</li>
+          <li>Fast mobile-first pages</li>
+          <li>Tracking and enquiry forms</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="process-section">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">How it works</div>
+      <h2>Simple process. Measurable work. Approval at the risky parts.</h2>
+    </div>
+    <div class="process-grid">
+      <div><span>1</span><h3>Audit</h3><p>Find the revenue, visibility, conversion, and admin bottlenecks.</p></div>
+      <div><span>2</span><h3>Prioritise</h3><p>Rank fixes by impact, effort, risk, and automation potential.</p></div>
+      <div><span>3</span><h3>Build</h3><p>Create the simplest system that solves the problem first.</p></div>
+      <div><span>4</span><h3>Measure</h3><p>Track leads, replies, booked jobs, time saved, and customer feedback.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="books-section resource-section">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">Proof of thinking</div>
+      <h2>Practical guides behind the service work.</h2>
+      <p>The original Bush Digital Guides library stays as a resource base for tradies, property owners, solar, automation, and practical Australian business operations.</p>
+    </div>
+    <div class="book-grid compact-books">
+      <a href="/books/ai-for-tradies/" class="book-card">
+        <div class="book-card-cover"><img src="/images/covers/ai-for-tradies.jpg" alt="AI for Tradies — practical AI tools guide for Australian tradies and trade businesses" loading="lazy"></div>
+        <div class="book-card-body"><h3>AI for Tradies</h3><div class="subtitle">Win more jobs. Work smarter.</div><div class="excerpt">Practical AI tools for quoting, scheduling, invoicing, and marketing automation.</div></div>
+      </a>
+      <a href="/books/automate-everything/" class="book-card">
+        <div class="book-card-cover"><img src="/images/covers/automate-everything.jpg" alt="Automate Everything — small business automation guide" loading="lazy"></div>
+        <div class="book-card-body"><h3>Automate Everything</h3><div class="subtitle">Work less. Earn more.</div><div class="excerpt">Small business automation without enterprise software or vague AI hype.</div></div>
+      </a>
+    </div>
+    <div style="text-align:center; margin-top:32px;">
+      <a href="/books/" class="btn btn-outline btn-sm">Browse all guides →</a>
+    </div>
+  </div>
+</section>
+
 <section class="blog-section">
   <div class="container">
     <div class="section-header">
-      <div class="section-label">From the Blog</div>
-      <h2>Free guides & market updates</h2>
-      <p>The stuff that didn't fit in the books — plus timely updates on rules, rebates, and rates.</p>
+      <div class="section-label">Free resources</div>
+      <h2>Useful reads for operators who want practical fixes.</h2>
+      <p>Guides on automation, job management, AI tools, solar, property, and systems that suit Australian conditions.</p>
     </div>
     <div class="blog-grid">
       {{ range first 6 (where .Site.RegularPages "Section" "blog") }}
@@ -131,30 +167,20 @@
       </a>
       {{ end }}
     </div>
-    <div style="text-align: center; margin-top: 40px;">
-      <a href="/blog/" class="btn btn-outline btn-sm">View all posts →</a>
-    </div>
   </div>
 </section>
 
-<!-- Social Proof -->
-<section style="padding:80px 0; background:var(--white);">
+<section class="cta-band">
   <div class="container">
-    <div class="section-header">
-      <div class="section-label">Social Proof</div>
-      <h2>What readers are saying</h2>
-    </div>
-    <div class="reviews-placeholder">
-      <div class="reviews-coming-soon">
-        <span style="font-size:2.5rem; margin-bottom:16px; display:block;">⭐️⭐️⭐️⭐️⭐️</span>
-        <p style="font-family:var(--font-display); font-size:1.3rem; color:var(--black); margin-bottom:8px; font-style:italic;">"Reviews coming soon"</p>
-        <p style="color:var(--gray-400); font-size:0.92rem; margin-bottom:0;">We're collecting feedback from readers. Check back soon — or <a href="/readers/">leave your review</a>.</p>
+    <div class="cta-panel">
+      <div>
+        <div class="section-label">Start here</div>
+        <h2>Want to know where the money is leaking?</h2>
+        <p>Book a free 15-minute call. We will look at the obvious digital bottlenecks and tell you whether there is a practical fix worth doing.</p>
       </div>
+      <a href="/consulting/" class="btn btn-primary">Book a Free Growth Audit →</a>
     </div>
   </div>
 </section>
-
-<!-- Email Capture Lead Magnet -->
-{{ partial "email-capture.html" . }}
 
 {{ end }}

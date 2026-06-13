@@ -12,7 +12,7 @@
     gtag('config', 'G-5T575V1N67');
   </script>
   <meta name="google-site-verification" content="VrSLEflHmWwkQH0dExNbDkmHu8PgNJmNOWseQ22vzGg" />
-  <title>{{ if .IsHome }}Bush Digital Guides — Australian Guides on Solar, Property, Gardening &amp; Business Automation{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+  <title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   {{ with .Params.keywords }}<meta name="keywords" content="{{ delimit . ", " }}">{{ end }}
   <link rel="canonical" href="{{ .Permalink }}">

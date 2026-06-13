@@ -672,6 +672,10 @@ a:hover { color: var(--accent-hover); }
   .blog-grid { grid-template-columns: 1fr 1fr; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
   .stats-row { gap: 40px; }
+  .service-grid,
+  .service-grid.three,
+  .process-grid { grid-template-columns: 1fr 1fr; }
+  .cta-panel { flex-direction: column; align-items: flex-start; }
 }
 
 @media (max-width: 640px) {
@@ -689,6 +693,12 @@ a:hover { color: var(--accent-hover); }
   .newsletter-form { flex-direction: column; }
   .stats-row { flex-wrap: wrap; gap: 32px; }
   .section-header { margin-bottom: 36px; }
+  .service-grid,
+  .service-grid.three,
+  .process-grid { grid-template-columns: 1fr; }
+  .service-card,
+  .process-grid > div,
+  .cta-panel { padding: 24px; }
 
   /* Mobile: show hamburger, hide desktop nav */
   .hamburger { display: block; }
@@ -758,6 +768,93 @@ a:hover { color: var(--accent-hover); }
 .email-capture-form input:focus,
 .email-capture-form select:focus { outline: none; border-color: var(--accent); }
 .email-capture-form input::placeholder { color: var(--gray-400); }
+
+/* ================================================
+   BUSINESS GROWTH HOMEPAGE
+   ================================================ */
+.hero-business {
+  background: linear-gradient(180deg, var(--accent-light) 0%, var(--white) 72%);
+}
+.hero-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.approval-note {
+  max-width: 720px;
+  margin: 22px auto 0;
+  color: var(--gray-500);
+  font-size: 0.92rem;
+}
+.proof-strip { padding: 24px 0 56px; }
+.problem-section,
+.services-section,
+.process-section,
+.resource-section,
+.cta-band { padding: 80px 0; }
+.problem-section,
+.process-section { background: var(--gray-50); }
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+.service-grid.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.service-card {
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 10px 30px -20px rgba(0,0,0,0.25);
+}
+.service-card.featured { border: 2px solid var(--accent); }
+.service-kicker {
+  color: var(--accent);
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.service-card ul { margin-left: 1.1rem; margin-top: 16px; }
+.service-card li { margin-bottom: 6px; }
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+}
+.process-grid > div {
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  border-radius: 16px;
+  padding: 26px;
+}
+.process-grid span {
+  display: inline-flex;
+  width: 34px;
+  height: 34px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--white);
+  font-weight: 800;
+  margin-bottom: 18px;
+}
+.compact-books { max-width: 920px; margin: 0 auto; }
+.cta-panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  background: var(--black);
+  color: var(--white);
+  border-radius: 22px;
+  padding: 44px;
+}
+.cta-panel h2 { color: var(--white); }
+.cta-panel p { color: var(--gray-300); margin-bottom: 0; }
 
 /* ================================================
    CONSULTING PAGE
