@@ -73,8 +73,8 @@ theme = 'bdg'
     url = "/consulting/"
     weight = 2
   [[menu.main]]
-    name = "Growth Check"
-    url = "/consulting/#book"
+    name = "Free Review"
+    url = "/free-review/"
     weight = 3
   [[menu.main]]
     name = "About"

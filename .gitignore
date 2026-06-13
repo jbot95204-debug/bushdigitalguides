@@ -1,3 +1,6 @@
 public/
 resources/
 .hugo_build.lock
+
+# Internal prospecting/customer acquisition assets (do not publish)
+prospecting/

@@ -1234,6 +1234,7 @@ h3 { letter-spacing: -0.035em; }
 .bdg-cta-panel .btn-primary { background:#fff; color:#171717; border-color:#fff; }
 
 .bdg-process-line { display:grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap:12px; position:relative; }
+.bdg-process-line.three { grid-template-columns: repeat(3, minmax(0,1fr)); }
 .bdg-process-line div { padding:28px; border-radius:16px; background:#fff; box-shadow: var(--bdg-shadow); }
 .bdg-process-line span { font-family:'Geist Mono', monospace; color:#0068d6; font-size:.78rem; }
 .bdg-process-line h3 { margin:18px 0 10px; }
@@ -1272,6 +1273,7 @@ h3 { letter-spacing: -0.035em; }
   .bdg-feature-grid, .bdg-feature-grid.three, .bdg-feature-grid.four { grid-template-columns: 1fr; }
   .bdg-service-row { grid-template-columns: 1fr; gap:14px; }
   .bdg-process-line { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .bdg-process-line.three { grid-template-columns: repeat(2, minmax(0,1fr)); }
   .bdg-cta-panel { grid-template-columns: 1fr; }
 }
 @media (max-width: 640px) {
@@ -1284,5 +1286,6 @@ h3 { letter-spacing: -0.035em; }
   .bdg-section { padding: 68px 0; }
   .bdg-premium-card, .bdg-form-card, .bdg-cta-panel { padding:24px; }
   .bdg-process-line { grid-template-columns: 1fr; }
+  .bdg-process-line.three { grid-template-columns: 1fr; }
   .bdg-cta { padding-bottom: 68px; }
 }
