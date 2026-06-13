@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.bushdigitalguides.com.au/sitemap.xml
