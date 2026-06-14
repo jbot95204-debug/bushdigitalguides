@@ -159,5 +159,29 @@
     {{ block "main" . }}{{ end }}
   </main>
   {{ partial "footer.html" . }}
+  <script>
+  (function () {
+    document.addEventListener('click', function (event) {
+      var link = event.target.closest && event.target.closest('a');
+      if (!link || typeof window.gtag !== 'function') return;
+
+      var href = link.getAttribute('href') || '';
+      var eventName = '';
+      if (href.indexOf('/free-review/') === 0 || href.indexOf('{{ absURL "free-review/" }}') === 0) {
+        eventName = 'cta_free_review_click';
+      } else if (href.indexOf('mailto:hello@bushdigitalguides.com.au') === 0) {
+        eventName = 'cta_email_click';
+      } else if (href.indexOf('/sample-local-growth-review/') === 0 || href.indexOf('{{ absURL "sample-local-growth-review/" }}') === 0) {
+        eventName = 'cta_sample_review_click';
+      }
+
+      if (!eventName) return;
+      window.gtag('event', eventName, {
+        link_url: link.href,
+        link_text: (link.textContent || '').trim()
+      });
+    });
+  })();
+  </script>
 </body>
 </html>

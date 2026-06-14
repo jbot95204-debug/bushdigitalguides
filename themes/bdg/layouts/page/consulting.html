@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{ $reviewMailto := "mailto:hello@bushdigitalguides.com.au?subject=Free%20Local%20Growth%20Review%20request&body=Business%20name:%0AWebsite%20or%20Google%20Profile:%0AMain%20service%20area:%0AThe%20kind%20of%20enquiries%20I%20want%20more%20of:%0AAnything%20I%20already%20know%20needs%20improving:%0A" }}
 
 <section class="bdg-hero bdg-services-hero">
   <div class="container bdg-hero-grid">
@@ -91,18 +92,14 @@
 
     <div class="bdg-form-card">
       <h3>Request review</h3>
-      <p>Use this as the starting point. Paid work is scoped after the review.</p>
-      <p><strong>Form endpoint note:</strong> confirm the Formspree endpoint before relying on this form for live enquiries.</p>
-      <form action="https://formspree.io/f/xcontact" method="POST" class="consulting-form">
-        <div class="form-group"><label for="name">Name</label><input type="text" id="name" name="name" required placeholder="Your name"></div>
-        <div class="form-group"><label for="email">Email</label><input type="email" id="email" name="email" required placeholder="your@email.com"></div>
-        <div class="form-group"><label for="phone">Phone</label><input type="tel" id="phone" name="phone" placeholder="04XX XXX XXX"></div>
-        <div class="form-group"><label for="business">Business / Trade</label><input type="text" id="business" name="business" placeholder="e.g. landscaper, plumber, builder"></div>
-        <div class="form-group"><label for="current-site">Website / Google Profile</label><input type="url" id="current-site" name="current_site" placeholder="https://..."></div>
-        <div class="form-group"><label for="message">What do you want improved?</label><textarea id="message" name="message" rows="3" placeholder="e.g. more local enquiries, Google profile, website, reviews, quote follow-up..."></textarea></div>
-        <input type="hidden" name="_subject" value="New local growth check enquiry — Bush Digital Guides">
-        <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">Book My Free Review →</button>
-      </form>
+      <p>Email is the reliable starting point while we keep the first review lightweight. Paid work is scoped only after the review and your approval.</p>
+      <div class="bdg-review-points">
+        <div><strong>Include the business name</strong><span>The trading name customers search for.</span></div>
+        <div><strong>Add a public link</strong><span>Your website or Google Profile is enough to begin.</span></div>
+        <div><strong>Tell us the service area</strong><span>For example Victor Harbor, Goolwa, Mount Barker, or the wider Fleurieu.</span></div>
+      </div>
+      <a href="{{ $reviewMailto }}" class="btn btn-primary" style="width:100%; justify-content:center; margin-top:18px;">Email Bush Digital Guides →</a>
+      <p class="bdg-form-note">We usually reply within 1 business day.</p>
     </div>
   </div>
 </section>

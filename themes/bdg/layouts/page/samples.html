@@ -20,20 +20,16 @@
         <h3>{{ $book.title }}</h3>
         <p style="color:var(--gray-500); font-size:0.92rem; margin-bottom:4px;">{{ $book.subtitle }}</p>
         <p style="color:var(--gray-400); font-size:0.82rem;">{{ $book.words }} words · {{ $book.chapters }} chapters · {{ $book.price }}</p>
-        <form action="https://formspree.io/f/xcontact" method="POST" style="display:flex; gap:8px; flex-wrap:wrap; margin-top:12px; align-items:flex-end;">
-          <input type="email" name="email" placeholder="your@email.com" required style="padding:8px 12px; border:1px solid var(--gray-200); border-radius:6px; font-size:0.9rem; min-width:200px; flex:1;">
-          <input type="hidden" name="_subject" value="Sample request: {{ $book.title }}">
-          <input type="hidden" name="book" value="{{ $book.title }}">
-          <input type="hidden" name="type" value="sample_chapter">
-          <button type="submit" class="btn btn-primary btn-sm">📥 Send Me Chapter 1</button>
-        </form>
-        <p style="color:var(--gray-400); font-size:0.75rem; margin-top:6px;">You'll also get weekly tips on local growth, automation & working smarter. Unsubscribe anytime.</p>
+        <div style="display:flex; gap:8px; flex-wrap:wrap; margin-top:12px; align-items:flex-end;">
+          <a href="mailto:hello@bushdigitalguides.com.au?subject=Sample%20chapter%20request:%20{{ $book.title | urlquery }}&body=Book:%20{{ $book.title | urlquery }}%0AEmail:%0A" class="btn btn-primary btn-sm">Request Chapter 1</a>
+        </div>
+        <p style="color:var(--gray-400); font-size:0.75rem; margin-top:6px;">Email is used for sample requests until a confirmed download form is available.</p>
       </div>
     </div>
     {{ end }}
 
     <div style="text-align:center; margin-top:48px; padding:32px; background:var(--gray-50); border-radius:12px;">
-      <p style="color:var(--gray-500); font-size:0.95rem; margin-bottom:0;">🔒 <strong>We respect your inbox.</strong> No spam, no selling your data. Just a free chapter and genuinely useful tips.</p>
+      <p style="color:var(--gray-500); font-size:0.95rem; margin-bottom:0;"><strong>Privacy note.</strong> No spam and no selling your data. Email requests go directly to Bush Digital Guides.</p>
     </div>
 
   </div>

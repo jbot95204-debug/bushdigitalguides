@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{ $reviewMailto := "mailto:hello@bushdigitalguides.com.au?subject=Free%20Local%20Growth%20Review%20request&body=Business%20name:%0AWebsite%20or%20Google%20Profile:%0AMain%20service%20area:%0AThe%20kind%20of%20enquiries%20I%20want%20more%20of:%0AAnything%20I%20already%20know%20needs%20improving:%0A" }}
 
 <section class="bdg-hero">
   <div class="container bdg-hero-grid">
@@ -7,10 +8,10 @@
       <h1>Free Local Growth Review</h1>
       <p class="bdg-lead">A practical look at how your business appears to local customers, where trust is being built or lost, and whether enquiries are easy to make and follow up.</p>
       <div class="hero-actions bdg-actions">
-        <a href="mailto:hello@bushdigitalguides.com.au?subject=Free%20Local%20Growth%20Review%20request" class="btn btn-primary">Request the Free Review -></a>
+        <a href="{{ $reviewMailto }}" class="btn btn-primary">Request the Free Review →</a>
         <a href="#what-we-check" class="btn btn-outline">See What We Check</a>
       </div>
-      <p class="bdg-microcopy">Nothing is changed, sent, published, or sold into without your approval.</p>
+      <p class="bdg-microcopy">We usually reply within 1 business day. Nothing is changed, sent, published, or sold into without your approval.</p>
     </div>
 
     <div class="bdg-showcase compact" aria-label="Local growth review snapshot">
@@ -132,7 +133,7 @@
     <div>
       <div class="section-label">Email CTA</div>
       <h2>Request your Free Local Growth Review.</h2>
-      <p>Email the details below and we will use them to review the public-facing parts of your customer journey.</p>
+      <p>Email the details below and we will use them to review the public-facing parts of your customer journey. We usually reply within 1 business day.</p>
       <div class="bdg-review-points">
         <div><strong>Business name</strong><span>The trading name customers search for.</span></div>
         <div><strong>Website or Google Profile link</strong><span>Send whichever public link best represents the business.</span></div>
@@ -143,9 +144,9 @@
 
     <div class="bdg-form-card">
       <h3>Send the review request</h3>
-      <p>Use email for now so the request reaches the right inbox reliably.</p>
-      <p><strong>Form endpoint warning:</strong> there is no dedicated form endpoint configured for this page yet. Do not rely on an embedded form here until a live endpoint has been confirmed.</p>
-      <a href="mailto:hello@bushdigitalguides.com.au?subject=Free%20Local%20Growth%20Review%20request&body=Business%20name:%0AWebsite%20or%20Google%20Profile:%0AMain%20service%20area:%0AThe%20kind%20of%20enquiries%20I%20want%20more%20of:%0AAnything%20I%20already%20know%20needs%20improving:%0A" class="btn btn-primary" style="width:100%; justify-content:center;">Email Bush Digital Guides -></a>
+      <p>Use email for now so the request reaches the right inbox reliably. Your email will open with the key details prefilled.</p>
+      <a href="{{ $reviewMailto }}" class="btn btn-primary" style="width:100%; justify-content:center;">Email Bush Digital Guides →</a>
+      <p class="bdg-form-note">We usually reply within 1 business day with either the next question or a clear review timeframe.</p>
     </div>
   </div>
 </section>
