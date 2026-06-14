@@ -1295,6 +1295,38 @@ h3 { letter-spacing: -0.035em; }
   color: #777;
   font-size: .9rem;
 }
+.bdg-stacked-actions {
+  display: grid;
+  gap: 12px;
+  margin-top: 22px;
+}
+.bdg-stacked-actions .btn {
+  justify-content: center;
+  width: 100%;
+}
+.bdg-faq-list {
+  max-width: 880px;
+  margin: 0 auto;
+  display: grid;
+  gap: 14px;
+}
+.bdg-faq-item {
+  padding: 26px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: var(--bdg-shadow);
+}
+.bdg-faq-item h3 {
+  margin-bottom: 8px;
+  font-size: 1.25rem;
+}
+.bdg-faq-item p {
+  margin: 0;
+  color: var(--bdg-muted);
+}
+.bdg-ai-showcase .bdg-score {
+  font-size: 2rem;
+}
 .consulting-form input, .consulting-form textarea, .consulting-form select {
   border: none;
   box-shadow: rgba(0,0,0,.12) 0 0 0 1px;

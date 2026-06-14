@@ -19,22 +19,29 @@
   <link rel="stylesheet" href="/css/style.css">
   {{ template "_internal/opengraph.html" . }}
   {{ template "_internal/twitter_cards.html" . }}
-  <!-- Organization Schema (all pages) -->
+  <!-- Organization / LocalBusiness Schema (all pages) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
+    "@type": ["Organization", "LocalBusiness"],
     "name": "Bush Digital Guides",
     "url": "https://www.bushdigitalguides.com.au/",
     "email": "hello@bushdigitalguides.com.au",
-    "description": "{{ .Site.Params.description }}",
+    "description": {{ .Site.Params.description | jsonify | safeJS }},
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Adelaide",
       "addressRegion": "SA",
       "addressCountry": "AU"
     },
-    "taxID": "ABN 31983947670"
+    "areaServed": [
+      "Victor Harbor",
+      "Fleurieu Peninsula",
+      "Adelaide Hills",
+      "Regional South Australia",
+      "Australia"
+    ],
+    "taxID": "ABN 31983947670",
+    "sameAs": []
   }
   </script>
   <!-- Page-specific Schema -->
@@ -148,6 +155,59 @@
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ .Site.BaseURL }}" },
       { "@type": "ListItem", "position": 2, "name": "{{ .Title }}", "item": "{{ .Permalink }}" }
+    ]
+  }
+  </script>
+  {{ end }}
+  {{ with .Params.serviceSchema }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": {{ .name | jsonify | safeJS }},
+    "description": {{ .description | jsonify | safeJS }},
+    "serviceType": {{ .serviceType | jsonify | safeJS }},
+    "url": "{{ $.Permalink }}",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Bush Digital Guides",
+      "url": "https://www.bushdigitalguides.com.au/",
+      "email": "hello@bushdigitalguides.com.au"
+    },
+    "areaServed": {{ .areaServed | jsonify | safeJS }}{{ with .offers }},
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": {{ .name | jsonify | safeJS }},
+      "itemListElement": [
+        {{ range $i, $offer := .items }}{{ if $i }},{{ end }}
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": {{ $offer.name | jsonify | safeJS }},
+            "description": {{ $offer.description | jsonify | safeJS }}
+          }
+        }{{ end }}
+      ]
+    }{{ end }}
+  }
+  </script>
+  {{ end }}
+  {{ if and .Params.faq (ne .Section "books") }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {{ range $i, $q := .Params.faq }}{{ if $i }},{{ end }}
+      {
+        "@type": "Question",
+        "name": {{ $q.q | jsonify | safeJS }},
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": {{ $q.a | jsonify | safeJS }}
+        }
+      }{{ end }}
     ]
   }
   </script>

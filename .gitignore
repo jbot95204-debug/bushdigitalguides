@@ -8,5 +8,9 @@ prospecting/
 # Local archive of removed off-niche content (not published)
 content-archive/
 
-# Internal audits/research notes (not published)
+# Internal audits/research/operating notes (not published)
 audits/
+research/
+
+# Internal operating docs (not published)
+ops/
