@@ -614,6 +614,45 @@ a:hover { color: var(--accent-hover); }
 .post-book-cta strong { display: block; margin-bottom: 4px; color: var(--black); }
 .post-book-cta a { font-weight: 600; }
 
+.post-growth-cta {
+  margin: 44px 0;
+  padding: 28px;
+  border-radius: 12px;
+  background: #fafafa;
+  box-shadow: var(--bdg-shadow);
+}
+.post-growth-cta p {
+  margin: 0 0 10px;
+}
+.post-growth-cta p:last-child {
+  margin-bottom: 0;
+}
+.post-growth-cta-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 18px;
+}
+
+.bdg-content-panel {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: clamp(28px, 5vw, 56px);
+  border: 1px solid rgba(0,0,0,.08);
+  border-radius: 28px;
+  background: #fff;
+  box-shadow: var(--bdg-shadow);
+}
+.bdg-content-panel h2 {
+  margin-top: 42px;
+  padding-top: 28px;
+  border-top: 1px solid rgba(0,0,0,.08);
+}
+.bdg-content-panel h2:first-child { margin-top: 0; padding-top: 0; border-top: 0; }
+.bdg-content-panel h3 { margin-top: 28px; }
+.bdg-content-panel ul { padding-left: 1.25rem; }
+.bdg-content-panel li { margin-bottom: 8px; }
+
 /* ================================================
    ABOUT PAGE
    ================================================ */
@@ -1251,6 +1290,11 @@ h3 { letter-spacing: -0.035em; }
 .bdg-form-card { padding:32px; }
 .bdg-form-card h3 { font-size:1.8rem; margin-bottom:8px; }
 .bdg-form-card > p { color:#777; font-size:.95rem; }
+.bdg-form-note {
+  margin: 14px 0 0;
+  color: #777;
+  font-size: .9rem;
+}
 .consulting-form input, .consulting-form textarea, .consulting-form select {
   border: none;
   box-shadow: rgba(0,0,0,.12) 0 0 0 1px;
