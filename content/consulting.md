@@ -1,6 +1,6 @@
 ---
 title: "Local Growth Services for Regional Businesses"
-description: "Start with a Free Local Growth Review from Bush Digital Guides. Practical help with websites, Google visibility, reviews, enquiry forms, managed enquiry assistants, safer digital basics, quote follow-up, and simple business systems."
-keywords: ["regional business digital services", "local growth systems", "website designer Victor Harbor", "local SEO regional Australia", "Google Business Profile help", "managed enquiry assistant Australia", "admin assistant system local business", "AI voice call bot regional business", "small business digital safety", "Fleurieu Peninsula business systems"]
+description: "Start with a Free Local Growth Review from Bush Digital Guides. Practical help with local visibility, trustworthy websites, enquiry paths, follow-up, and safer digital basics."
+keywords: ["regional business digital services", "local growth systems", "local SEO regional Australia", "Google Business Profile help", "small business website help", "small business follow-up systems", "small business digital safety"]
 layout: consulting
 ---
