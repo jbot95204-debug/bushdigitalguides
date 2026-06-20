@@ -22,7 +22,7 @@ Let's be clear: automation doesn't mean replacing people. For most small busines
 Common examples:
 
 - Invoices that send themselves when a job is marked complete (see our [guide to automating invoice chasing](/blog/automate-invoice-chasing-small-business/))
-- Customer enquiries answered instantly by a chatbot at 2am
+- Customer enquiries acknowledged after hours with a simple autoresponder, enquiry form, or approved assistant handoff
 - Social media posts scheduled a month in advance
 - Expense receipts scanned and categorised automatically
 - Follow-up emails triggered when a quote hasn't been responded to
@@ -66,7 +66,7 @@ Connect your business bank account to Xero and transactions flow in automaticall
 If customers book appointments, consultations, or services with you, stop going back and forth via email and phone.
 
 ### Calendly or TidyCal (free – $12/month)
-Let clients self-book into your available time slots. Integrates with Google Calendar, sends automatic reminders, and reduces no-shows by up to 30%.
+Let clients self-book into your available time slots. Integrates with Google Calendar, sends automatic reminders, and can help reduce no-shows by sending clear booking confirmations and reminders.
 
 
 {{< book-cta book="Automate Everything" >}}
@@ -112,7 +112,7 @@ ChatGPT, Gemini, and Canva's Magic Write can draft:
 **Important caveat**: AI-generated content needs human editing. Use it as a first draft, then add your voice, check facts, and make it sound like you — not like a robot.
 
 ### Google Business Profile
-Keep your Google listing updated with posts, photos, and responses to reviews. This is free and directly impacts whether locals find you in search results.
+Keep your Google listing updated with posts, photos, and responses to reviews. This is free and can influence how visible and trustworthy your business appears in local search results.
 
 ## Step 6: Automate Your Operations
 

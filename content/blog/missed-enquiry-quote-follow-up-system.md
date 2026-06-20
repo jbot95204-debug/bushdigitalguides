@@ -9,7 +9,7 @@ draft: false
 
 Many local businesses do not need more leads first. They need to stop losing the ones already arriving.
 
-Missed calls, slow quote replies, forgotten follow-ups, vague next steps, and untracked enquiries can quietly cost more than a weak ad campaign. The fix is usually not complicated. You need one clear system for capturing enquiries and following up quotes.
+Missed calls, slow quote replies, forgotten follow-ups, vague next steps, and untracked enquiries can quietly reduce the value of the enquiries already coming in. The fix is usually not complicated. You need one clear system for capturing enquiries and following up quotes.
 
 ## Map every enquiry source
 
@@ -164,6 +164,8 @@ Useful automation:
 
 Keep the human judgement. A high-value customer, complex quote, or sensitive complaint still deserves a personal call.
 
+If missed calls are a regular leak, BDG's [Missed Call Safety Net](/missed-call-safety-net/) gives the phone path a simple fallback: owner-approved messages, safe intake questions, lead logging, and follow-up reminders.
+
 ## A simple setup for a small business
 
 If you are starting from scratch:
@@ -175,6 +177,6 @@ If you are starting from scratch:
 5. Review open quotes twice a week.
 6. Send review requests after completed jobs.
 
-That basic system will outperform a messy inbox and memory.
+That basic system is usually more reliable than a messy inbox and memory.
 
 The goal is not to chase every person forever. The goal is to make sure good enquiries get a timely reply, quotes get a fair chance, and the business owner can see where work is being won or lost.

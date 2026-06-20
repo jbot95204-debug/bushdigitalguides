@@ -1,12 +1,12 @@
 {{ define "main" }}
-{{ $reviewMailto := "mailto:hello@bushdigitalguides.com.au?subject=Free%20Local%20Growth%20Review%20request&body=Business%20name:%0AWebsite%20or%20Google%20Profile:%0AMain%20service%20area:%0AThe%20kind%20of%20enquiries%20I%20want%20more%20of:%0AAnything%20I%20already%20know%20needs%20improving:%0A" }}
+{{ $reviewMailto := "mailto:hello@bushdigitalguides.com.au?subject=Free%20Local%20Growth%20Review%20request&body=Business%20name:%0AWebsite%20or%20Google%20Profile:%0AMain%20service%20area:%0AThe%20kind%20of%20enquiries%20I%20want%20more%20of:%0AAnything%20I%20already%20know%20needs%20improving:%0A%0APlease%20do%20not%20include%20passwords,%20card/bank%20details,%20login%20links,%20private%20customer%20lists,%20or%20urgent%20legal/compliance%20matters%20in%20this%20email.%0A" }}
 
 <section class="bdg-hero">
   <div class="container bdg-hero-grid">
     <div class="bdg-hero-copy">
       <div class="bdg-pill">Free first step for local businesses</div>
       <h1>Free Local Growth Review</h1>
-      <p class="bdg-lead">A practical look at how your business appears to local customers, where trust is being built or lost, and whether enquiries are easy to make and follow up.</p>
+      <p class="bdg-lead">A practical look at how your business appears to local customers, where trust is being built or lost, whether enquiries are easy to make and follow up, and whether obvious digital safety basics need attention.</p>
       <div class="hero-actions bdg-actions">
         <a href="{{ $reviewMailto }}" class="btn btn-primary">Request the Free Review →</a>
         <a href="#what-we-check" class="btn btn-outline">See What We Check</a>
@@ -40,6 +40,7 @@
     <span>Contact Paths</span>
     <span>Quote Requests</span>
     <span>Follow-Up</span>
+    <span>Digital Safety</span>
   </div>
 </section>
 
@@ -48,7 +49,7 @@
     <div class="bdg-section-heading">
       <div class="section-label">What we check</div>
       <h2>The public-facing basics that shape local enquiries.</h2>
-      <p>This is broader than a website review. We look at the customer journey from finding you to trusting you, contacting you, and getting a response.</p>
+      <p>This is broader than a website review. We look at the customer journey from finding you to trusting you, contacting you, getting a response, and avoiding obvious digital safety gaps.</p>
     </div>
     <div class="bdg-feature-grid three">
       <div class="bdg-premium-card">
@@ -65,6 +66,11 @@
         <span class="bdg-icon">Leads</span>
         <h3>Enquiries and follow-up</h3>
         <p>Mobile call paths, quote request friction, contact details, response expectations, review prompts, and simple places where leads can be tracked better.</p>
+      </div>
+      <div class="bdg-premium-card">
+        <span class="bdg-icon">Safe</span>
+        <h3>Digital safety basics</h3>
+        <p>Visible checks for things like HTTPS, contact forms, exposed public information, email/domain trust signals, and whether assistants or automation need stronger approval gates.</p>
       </div>
     </div>
   </div>
@@ -90,7 +96,7 @@
       </div>
       <div class="bdg-service-row">
         <div><span>Scope</span><h3>Broader than websites</h3></div>
-        <p>The recommendation may involve Google visibility, reviews, wording, service pages, enquiry forms, call paths, quote follow-up, or a simple tracking process.</p>
+        <p>The recommendation may involve Google visibility, reviews, wording, service pages, enquiry forms, call paths, quote follow-up, safer email/domain basics, or a simple tracking process.</p>
         <strong>Practical next step</strong>
       </div>
     </div>
@@ -139,6 +145,7 @@
         <div><strong>Website or Google Profile link</strong><span>Send whichever public link best represents the business.</span></div>
         <div><strong>Main service area</strong><span>The suburbs, towns, or region you want enquiries from.</span></div>
         <div><strong>Best enquiries</strong><span>The work, bookings, calls, or quote requests you want more of.</span></div>
+        <div><strong>Safe email only</strong><span>Please do not include passwords, card/bank details, login links, private customer lists, or urgent legal/compliance matters.</span></div>
       </div>
     </div>
 
@@ -146,6 +153,10 @@
       <h3>Send the review request</h3>
       <p>Use email for now so the request reaches the right inbox reliably. Your email will open with the key details prefilled.</p>
       <a href="{{ $reviewMailto }}" class="btn btn-primary" style="width:100%; justify-content:center;">Email Bush Digital Guides →</a>
+      <div class="bdg-stacked-actions">
+        <a href="/our-system/" class="btn btn-outline">See Our System</a>
+        <a href="/contact/" class="btn btn-outline">Contact Us</a>
+      </div>
       <p class="bdg-form-note">We usually reply within 1 business day with either the next question or a clear review timeframe.</p>
     </div>
   </div>

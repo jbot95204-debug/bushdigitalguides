@@ -9,7 +9,7 @@ draft: false
 
 Most businesses do not have a review problem. They have a system problem.
 
-Happy customers are willing to leave reviews, but they are busy. If you ask too late, ask awkwardly, or make them search for the right place, the review usually does not happen.
+Customers with genuine feedback are often willing to leave reviews, but they are busy. If you ask too late, ask awkwardly, or make them search for the right place, the review usually does not happen.
 
 A review request system fixes that by making the request timely, simple, and repeatable.
 
@@ -33,7 +33,7 @@ That is stronger than any claim you can write about yourself.
 
 ## Pick the right review platform
 
-For most regional Australian businesses, Google should be the main review platform. It is visible in Maps, local search, branded search, and mobile results.
+For many regional Australian businesses, Google should be the main review platform. It is visible in Maps, local search, branded search, and mobile results.
 
 You may also collect reviews on Facebook, industry directories, or job platforms, but do not scatter the process too early. Make Google the default unless there is a clear reason not to.
 
@@ -57,7 +57,7 @@ Timing matters more than wording.
 
 Good moments:
 
-- the customer has just said they are happy
+- the customer has just said the job is complete and they are comfortable giving feedback
 - the job is complete and cleaned up
 - the invoice has been sent
 - a repeat customer books again
@@ -79,11 +79,11 @@ SMS works well because it is immediate and easy on mobile.
 
 Template:
 
-> Hi [Name], thanks again for choosing [Business Name]. If you were happy with the work, a quick Google review would really help other local customers find us: [link]
+> Hi [Name], thanks again for choosing [Business Name]. If you have a minute, honest Google feedback would really help other local customers understand what it is like to work with us: [link]
 
 For a more personal version:
 
-> Hi [Name], glad we could help with [job]. If you get a minute, a short Google review would mean a lot to our local business: [link]
+> Hi [Name], glad we could help with [job]. If you get a minute, honest Google feedback would mean a lot to our local business: [link]
 
 Keep it short. Do not over-explain. Do not offer incentives. Do not ask for a specific rating.
 
@@ -96,7 +96,7 @@ Add a review request step to your normal workflow:
 1. Job marked complete.
 2. Final photos or notes saved.
 3. Invoice sent.
-4. Review request sent if the customer is happy.
+4. Review request sent at an appropriate point, without incentives, pressure, or filtering.
 5. Follow-up reminder after three to five days if appropriate.
 
 If you use job management software, add the template there. If you use a spreadsheet, add a "review requested" column. If you use a CRM, create a stage or task.
@@ -107,7 +107,7 @@ The person with the strongest customer relationship should usually ask. For many
 
 For larger teams, make it clear:
 
-- technicians identify happy customers
+- technicians note completed jobs where it is appropriate to request honest feedback
 - admin sends the link
 - owner replies to reviews
 - office tracks review requests weekly
@@ -167,10 +167,16 @@ This gives you marketing insight and operational insight. If customers repeatedl
 
 Every Friday, check the completed jobs for the week and ask:
 
-- Which customers were clearly happy?
+- Which customers reached an appropriate completion point for honest feedback?
 - Has each one received the review link?
 - Did any reviews come in?
 - Have we replied?
 - Is there feedback we need to act on?
 
 That 15-minute habit can build a review profile that competitors struggle to match.
+
+## Want a review system set up safely?
+
+Bush Digital Guides can help turn reviews into a simple, ethical follow-up habit that connects with your Google Business Profile, website proof, and enquiry process.
+
+Start with a [Free Local Growth Review](/free-review/), see the [Review Builder System](/review-builder-system/), or browse [local growth services](/consulting/).

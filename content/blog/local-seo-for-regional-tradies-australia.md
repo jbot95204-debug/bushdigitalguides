@@ -11,7 +11,7 @@ Local SEO is not about tricking Google. For a regional trade or service business
 
 Most regional businesses have the same problem: they are known by word of mouth, but their online presence does not show the same level of trust. The website is thin. The Google Business Profile is half-finished. Reviews are sitting on Facebook instead of Google. Service areas are vague. The contact form feels like an afterthought.
 
-Fix those foundations and local SEO becomes much easier.
+Fixing those foundations usually makes local SEO work more practical.
 
 ## Start with the searches that matter
 
@@ -63,7 +63,7 @@ Poor location content creates near-duplicate pages for every suburb with only th
 
 ## Make your Google Business Profile match your website
 
-Google compares signals across the web. If your Google Business Profile says one thing and your website says another, you make the job harder.
+Google and customers both rely on consistent public information. If your Google Business Profile says one thing and your website says another, you make the job harder.
 
 Check these basics:
 
@@ -80,12 +80,12 @@ Do not stuff keywords into the business name unless they are part of the real re
 
 ## Reviews are part of local SEO
 
-Reviews help customers decide, but they also strengthen your local presence. A business with recent, specific reviews looks active and trusted.
+Reviews help customers decide and can contribute to local visibility and trust signals. A business with recent, specific reviews looks active and trusted.
 
-Ask for reviews at natural moments:
+Ask for honest reviews at natural moments:
 
 - after a job is completed
-- after a quote is accepted and deposit paid
+- after job completion or successful handover
 - after a customer sends positive feedback
 - after a repeat customer books again
 
@@ -104,7 +104,7 @@ Check your site on a phone and ask:
 - Is there a backup path if the form fails?
 - Are missed calls and quote requests tracked somewhere?
 
-A small increase in enquiry conversion can be worth more than a large increase in traffic.
+In many cases, improving enquiry conversion is more useful than chasing traffic alone.
 
 ## Measure practical outcomes
 
@@ -127,6 +127,12 @@ Week 2: Improve your homepage and top service page so customers can quickly unde
 
 Week 3: Add or improve two more service pages. Include real service details, towns covered, proof, photos, and strong calls to action.
 
-Week 4: Start a review request habit and set up a basic enquiry tracking sheet or CRM pipeline.
+Week 4: Start an honest review request habit and set up a basic enquiry tracking sheet or CRM pipeline.
 
 Local SEO works best when it is tied to the whole customer journey. Get found, get trusted, get the enquiry, and follow up properly.
+
+## Want the foundations checked?
+
+Bush Digital Guides can review the local SEO, website enquiry path, Google Business Profile, reviews, and practical safety basics together.
+
+Start with a [Free Local Growth Review](/free-review/) or compare the [local growth services](/consulting/).

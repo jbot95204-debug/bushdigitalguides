@@ -1,6 +1,47 @@
+# Build output
 public/
-resources/
+resources/_gen/
 .hugo_build.lock
+
+# Secrets and local environment
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.csr
+*.kdbx
+
+# Backups / exports / database dumps
+*.bak
+*.backup
+*.old
+*.orig
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+
+# Local tooling
+.DS_Store
+Thumbs.db
+node_modules/
+.cache/
+.tmp/
+.vscode/
+.idea/
+
+# Private BDG operating notes should stay private unless explicitly published
+ops/**
+!ops/**/.gitkeep
 
 # Internal prospecting/customer acquisition assets (do not publish)
 prospecting/
@@ -11,6 +52,3 @@ content-archive/
 # Internal audits/research/operating notes (not published)
 audits/
 research/
-
-# Internal operating docs (not published)
-ops/

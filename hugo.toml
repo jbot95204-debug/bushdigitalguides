@@ -39,20 +39,20 @@ theme = 'bdg'
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "Services"
-    url = "/consulting/"
-    weight = 2
-  [[menu.main]]
-    name = "AI Search"
-    url = "/ai-search-readiness/"
-    weight = 3
-  [[menu.main]]
     name = "Free Review"
     url = "/free-review/"
+    weight = 2
+  [[menu.main]]
+    name = "Services"
+    url = "/consulting/"
+    weight = 3
+  [[menu.main]]
+    name = "Our System"
+    url = "/our-system/"
     weight = 4
   [[menu.main]]
-    name = "About"
-    url = "/about/"
+    name = "Contact"
+    url = "/contact/"
     weight = 5
   [[menu.main]]
     name = "Blog"

@@ -1,0 +1,12 @@
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: DENY
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()
+  Content-Security-Policy: default-src 'self'; img-src 'self' data: https:; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self' https:
+
+https://bushdigitalguides.com.au/*
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+https://www.bushdigitalguides.com.au/*
+  Strict-Transport-Security: max-age=31536000; includeSubDomains

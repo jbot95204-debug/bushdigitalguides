@@ -13,7 +13,7 @@ Every tradie hits the same wall. You're good at your trade, business is growing,
 
 Job management software fixes this. But choosing the wrong one is almost worse than having none — you'll spend weeks setting it up, hate using it, and go back to the notebook within a month.
 
-Here are the six most popular options for Australian tradies in 2026. No sponsorships, no affiliate deals. Honest assessments only.
+Here are the six most popular options for Australian tradies in 2026. Some links may be referral links. The notes below are practical editorial opinions, not paid rankings, and you should check current pricing and features before choosing.
 
 ## The Six Contenders
 
@@ -28,11 +28,11 @@ Let's get into it.
 
 ---
 
-## [ServiceM8](https://www.servicem8.com/?ref=bushdigital)
+## [ServiceM8](https://www.servicem8.com/)
 
 **Price:** Free (for solo operators, limited) → $9/month (Starter) → $29/month (Growing) → $79/month (Premium) → $179/month (Premium Plus). All AUD. Per-job pricing also available.
 
-**The pitch:** Built in Australia for field service businesses. One of the most widely used platforms among Aussie tradies.
+**The pitch:** Built in Australia for field service businesses. A well-known option among Australian field-service and trade businesses.
 
 **What it does well:**
 
@@ -46,7 +46,7 @@ The dispatch board gives a visual overview of who's doing what. Online booking i
 
 ServiceM8 is primarily an iOS app. There's an Android version, but historically it's lagged behind the iPhone version in features and polish. If your team is all on Android, check that the features you need are available.
 
-Inventory management is basic — no proper stock tracking or purchase orders. The pricing structure can get confusing with per-job vs monthly options. And scheduling for larger teams (10+) starts to feel constrained.
+Inventory and purchasing features may be limited compared with heavier platforms, so check whether it supports your stock and purchase-order needs. The pricing structure can get confusing with per-job vs monthly options. And scheduling for larger teams (10+) starts to feel constrained.
 
 **Who it suits:** Solo operators and small teams (1–8 people) doing reactive service work — plumbers, electricians, HVAC, pest control, locksmiths. It's perfect for businesses that are mostly call-out or booking-based work.
 
@@ -100,7 +100,7 @@ The interface can feel cluttered — steeper learning curve than ServiceM8 or Tr
 
 **What it does well:**
 
-The customer-facing experience is where Jobber shines — client hub, online booking, automatic follow-ups, review requests. Makes your business look professional. The quoting system allows multiple options in a single quote ("Option A: basic, Option B: premium"), with customers accepting directly from the email. Mobile app is excellent. Automated quote follow-ups can meaningfully increase your conversion rate.
+The customer-facing experience is where Jobber shines — client hub, online booking, automatic follow-ups, review requests. Makes your business look professional. The quoting system allows multiple options in a single quote ("Option A: basic, Option B: premium"), with customers accepting directly from the email. Mobile app is excellent. Automated quote follow-ups can help make follow-up more consistent.
 
 **What's not great:**
 

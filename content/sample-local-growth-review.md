@@ -73,7 +73,7 @@ Useful fixes:
 
 - Track new enquiry, quote sent, follow-up due, won, lost, and review requested.
 - Set reminders for unaccepted quotes after 2 to 4 business days.
-- Send a review request after completed jobs where the customer is happy.
+- Send a review request after completed jobs at an appropriate time, asking for honest feedback.
 - Review enquiry sources monthly so time is spent on the channels that bring useful local work.
 
 ## Three priority fixes

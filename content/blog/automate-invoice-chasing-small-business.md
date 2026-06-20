@@ -65,7 +65,7 @@ Xero's built-in reminder system is decent for basic chasing. Here's how to set i
 - No SMS reminders (email only)
 - Can't trigger actions in other systems
 - Limited to three reminder stages
-- No escalation beyond email (can't auto-generate a formal letter of demand)
+- No built-in legal escalation workflow; formal debt-recovery documents should be reviewed carefully before use
 
 ### MYOB Invoice Reminders
 
@@ -105,7 +105,7 @@ This is where it gets properly powerful. Zapier and Make (formerly Integromat) l
 2. Wait 7 days → Send SMS reminder (Day 7)
 3. Wait 7 more days → Send second email with firmer tone (Day 14)
 4. Wait 7 more days → Create task for personal phone call (Day 21)
-5. Day 30+ → Generate formal letter of demand from template
+5. Day 30+ → Create a draft escalation task for owner review
 
 
 {{< book-cta book="Automate Everything" >}}
@@ -184,7 +184,7 @@ This dramatically reduces your exposure. If someone doesn't pay the final 10%, y
 
 ### Late Payment Penalties
 
-You absolutely can charge interest on overdue invoices in Australia. Include clear terms on your invoices:
+You may be able to charge interest on overdue invoices if your terms are clear, agreed upfront, and lawful. Include clear terms on your invoices:
 
 > "Payment due within 14 days. Accounts overdue beyond 30 days may incur interest at 2% per month on the outstanding balance."
 
@@ -221,7 +221,7 @@ Here's what a fully automated accounts receivable system looks like for a typica
 - Email with formal tone sent automatically
 
 ### Day 30+ Overdue: Escalation
-- Formal letter of demand auto-generated from template
+- Draft escalation task created for owner review
 - Account flagged in Xero/MYOB
 - Future work for this customer requires upfront payment
 

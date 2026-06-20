@@ -30,7 +30,7 @@ A useful rhythm for many businesses is:
 - same day: acknowledge the enquiry if possible
 - 1 business day: confirm missing details
 - 2 to 4 business days after quote: follow up politely
-- after completion: ask for a review if the customer is happy
+- after completion: invite genuine feedback at an appropriate time
 
 The wording should stay helpful and approval-based. No customer should be contacted through a system the business has not approved.
 
@@ -43,4 +43,6 @@ Your quote form should ask for enough detail to qualify the job without making t
 The Free Local Growth Review checks whether enquiries and quote follow-up are easy to manage alongside your website, Google Profile, and reviews.
 
 [Request a Free Local Growth Review](/free-review/)
+
+If missed calls are the main leak, see the [Missed Call Safety Net](/missed-call-safety-net/) service page.
 

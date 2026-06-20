@@ -19,29 +19,36 @@
   <link rel="stylesheet" href="/css/style.css">
   {{ template "_internal/opengraph.html" . }}
   {{ template "_internal/twitter_cards.html" . }}
-  <!-- Organization / LocalBusiness Schema (all pages) -->
+  <!-- Organization / ProfessionalService Schema (known public facts only) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": ["Organization", "LocalBusiness"],
+    "@type": ["Organization", "LocalBusiness", "ProfessionalService"],
     "name": "Bush Digital Guides",
     "url": "https://www.bushdigitalguides.com.au/",
     "email": "hello@bushdigitalguides.com.au",
     "description": {{ .Site.Params.description | jsonify | safeJS }},
-    "address": {
-      "@type": "PostalAddress",
-      "addressRegion": "SA",
-      "addressCountry": "AU"
-    },
     "areaServed": [
-      "Victor Harbor",
-      "Fleurieu Peninsula",
-      "Adelaide Hills",
-      "Regional South Australia",
-      "Australia"
+      { "@type": "AdministrativeArea", "name": "Regional South Australia" },
+      { "@type": "Place", "name": "Fleurieu Peninsula" },
+      { "@type": "Place", "name": "Victor Harbor" },
+      { "@type": "Country", "name": "Australia" }
+    ],
+    "serviceType": [
+      "Local business website improvement",
+      "Google Business Profile readiness",
+      "Local SEO",
+      "Review process setup",
+      "Enquiry capture and follow-up systems"
     ],
     "taxID": "ABN 31983947670",
-    "sameAs": []
+    "knowsAbout": [
+      "regional business websites",
+      "local visibility",
+      "Google Business Profile readiness",
+      "customer reviews",
+      "enquiry follow-up"
+    ]
   }
   </script>
   <!-- Page-specific Schema -->

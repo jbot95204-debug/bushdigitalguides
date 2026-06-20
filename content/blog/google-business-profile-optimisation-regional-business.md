@@ -32,7 +32,7 @@ Use your real business name. Adding extra keywords to the name can create suspen
 
 ## Choose the closest primary category
 
-Your primary category is one of the strongest signals in the profile. Choose the category that best describes your main work, not every possible service you offer.
+Your primary category is widely considered an important Google Business Profile signal. Choose the category that best describes your main work, not every possible service you offer.
 
 Examples:
 
@@ -93,7 +93,7 @@ Good review request timing:
 
 Send a short SMS:
 
-> Thanks again for choosing us. If you were happy with the job, a quick Google review would really help local customers find us: [review link]
+> Thanks again for choosing us. If you have a minute, honest Google feedback would really help local customers understand what it is like to work with us: [review link]
 
 Keep it simple. Do not ask for a five-star review. Ask for honest feedback.
 
@@ -157,4 +157,10 @@ Use this as a quick audit:
 - Reviews are replied to.
 - Calls and enquiries are tracked outside Google.
 
-A strong Google Business Profile will not fix a weak business, but it can make a good local business much easier to find and trust.
+A strong Google Business Profile will not fix a weak business, but it can help a good local business present clearer information and trust signals.
+
+## Want the profile checked?
+
+Bush Digital Guides can check the profile, website link, review path, service wording, and enquiry flow as one practical local growth review.
+
+Start with a [Free Local Growth Review](/free-review/) or see the [local growth services](/consulting/).
