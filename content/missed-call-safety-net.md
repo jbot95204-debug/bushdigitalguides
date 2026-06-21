@@ -102,7 +102,21 @@ Safer first wording:
 
 We avoid confirmed bookings until service area, travel time, job duration, weather/safety rules, availability, and cancellation rules are approved.
 
-### 4. Follow-up and admin helper
+### 4. Operations-aware voice helper
+
+For businesses with approved systems and rules, the phone assistant can later do more than take a message. It can answer simple approved questions, then route complex questions into a controlled business lookup during a natural “let me check that for you” pause.
+
+Examples:
+
+- check whether an enquiry or photos were received
+- check an approved project or booking status
+- answer from approved FAQ or policy notes
+- create a callback summary for the owner
+- hand off when the answer is uncertain, private, or risky
+
+This is only added after identity checks, privacy wording, blocked-topic rules, and safe response limits are approved. See the [Operations-Aware AI Voice Assistant](/operations-aware-ai-voice-assistant/) service for the more advanced version.
+
+### 5. Follow-up and admin helper
 
 The missed-call details can also feed a simple admin process:
 

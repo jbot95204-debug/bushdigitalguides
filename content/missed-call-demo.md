@@ -94,6 +94,14 @@ Booking confirmed: No
 Owner review required: Yes
 ```
 
+## The more advanced version
+
+Once the safe missed-call version is tested, the assistant can be connected to an approved business gateway for harder questions.
+
+Simple questions stay inside the voice assistant. Complex questions use a natural hold line — “No worries, let me check that for you” — then check only approved knowledge or systems before giving a customer-safe answer. If it is unsure, private, or risky, it hands the issue to a person.
+
+See the [Operations-Aware AI Voice Assistant](/operations-aware-ai-voice-assistant/) service for the version that can check approved business information without exposing private data.
+
 ## What makes this safer than a generic “AI receptionist”
 
 - the business phone still rings first
