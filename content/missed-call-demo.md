@@ -9,10 +9,10 @@ This is the demo flow Bush Digital Guides uses to show the **safe version** of a
 The point is not to replace the owner. The point is to catch useful details when a real customer calls and nobody can answer.
 
 <div class="post-growth-cta">
-  <p><strong>Live phone demo status</strong></p>
-  <p>The public demo number is being connected. Until then, this page shows the exact customer flow, what the owner receives, and the guardrails we use before putting any assistant in front of real customers.</p>
+  <p><strong>Demo status</strong></p>
+  <p>This is a sample flow, not a live public phone number. BDG will only connect a real demo number after the script, privacy wording, lead destination, quick-disable path, and test calls are approved.</p>
   <div class="post-growth-cta-actions">
-    <a href="/contact/" class="btn btn-primary btn-sm">Ask for a Demo →</a>
+    <a href="/free-review/" class="btn btn-primary btn-sm">Start with a Free Review →</a>
     <a href="/missed-call-safety-net/" class="btn btn-outline btn-sm">View the Service</a>
   </div>
 </div>
@@ -78,6 +78,8 @@ The assistant only does the safe first job:
 
 ## What the owner receives
 
+This is the practical value of the safety net: the owner gets enough context to call back properly, without the assistant making commitments for the business.
+
 ```text
 New missed-call enquiry
 Source: missed-call assistant
@@ -91,8 +93,12 @@ Best callback: After 3pm
 Assistant action: Intake only
 Price quoted: No
 Booking confirmed: No
+Sensitive details collected: No
 Owner review required: Yes
+Suggested next action: Call Sarah after 3pm, confirm job details, and decide whether the work is suitable.
 ```
+
+Before a live setup, BDG checks that summaries include the right owner handoff fields and that any request about prices, bookings, complaints, logins, payments, or urgent issues is marked for human review.
 
 ## The more advanced version
 

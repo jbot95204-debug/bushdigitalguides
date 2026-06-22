@@ -166,6 +166,15 @@ Keep the human judgement. A high-value customer, complex quote, or sensitive com
 
 If missed calls are a regular leak, BDG's [Missed Call Safety Net](/missed-call-safety-net/) gives the phone path a simple fallback: owner-approved messages, safe intake questions, lead logging, and follow-up reminders.
 
+<div class="post-growth-cta">
+  <p><strong>Want to see the missed-call part in context?</strong></p>
+  <p>View BDG's sample demo flow to see how a missed-call assistant can collect details and produce an owner summary without quoting, booking, or overpromising. It is a sample flow, not a live public phone number.</p>
+  <div class="post-growth-cta-actions">
+    <a href="/missed-call-demo/" class="btn btn-primary btn-sm">See the Demo Flow →</a>
+    <a href="/free-review/" class="btn btn-outline btn-sm">Start with a Free Review</a>
+  </div>
+</div>
+
 ## A simple setup for a small business
 
 If you are starting from scratch:

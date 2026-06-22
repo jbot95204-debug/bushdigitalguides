@@ -117,6 +117,8 @@ It can:
 
 It should not handle passwords, payment details, complaints, legal issues, or complex judgement calls.
 
+If you want to see the safer shape before connecting anything, view the [sample missed-call demo flow](/missed-call-demo/). It shows the caller script, owner summary, and approval gates without implying a live public phone number.
+
 ## Keep it safe and owner-approved
 
 Before setting up any assistant or automation, confirm:

@@ -160,7 +160,7 @@ Email reminders are good. SMS follow-ups are better. Here's why:
 - **Twilio** — global platform, more technical but very flexible
 - **MessageMedia** — another solid Australian option
 
-**Important:** Under Australian law (Spam Act 2003), you can send transactional messages (including payment reminders) to customers without explicit marketing consent, as long as you have an existing business relationship. Invoice reminders fall squarely into the transactional category.
+**Important:** payment reminders are usually treated differently from marketing messages, but the details matter. Keep reminders factual, identify the business clearly, avoid adding promotions, and get legal advice if you are unsure about consent, wording, or escalation rules.
 
 ## Level 3: Payment Terms That Prevent Late Payments
 
@@ -253,8 +253,23 @@ If you do nothing else after reading this, do these three things:
 2. **Add a payment link to every invoice.** Xero and MYOB both support online payments. Make it stupidly easy to pay you.
 3. **Update your payment terms.** Put them on your invoices, your quotes, and your website. Clear terms set clear expectations.
 
+## Make the system safe before it runs
+
+Invoice reminders are useful, but they still touch customer relationships and money. Before turning on any automated follow-up, check:
+
+- the customer data source is accurate and only the right team members can access it
+- reminders are sent from a verified business email or SMS sender
+- templates are polite, factual, and free from promotions or pressure
+- payment links go to the correct account or payment provider
+- sensitive disputes, complaints, payment plans, and hardship cases are handed to a person
+- escalation steps create draft tasks for owner review rather than sending harsh messages automatically
+
+This is the same practical digital safety principle BDG uses for websites and enquiry systems: automate the boring follow-up, but keep sensitive decisions approval-gated.
+
 ## Going Further
 
-This guide covers the practical basics of automating your invoice chasing. If you want to go deeper — building multi-step workflows, integrating with CRM systems, automating your entire admin stack from quotes through to debt recovery — [*Automate Everything*](/books/automate-everything/) walks through the complete setup for Australian small businesses. It's written for real business owners, not tech bros, and covers Xero, MYOB, Zapier, Make, and a dozen other tools you probably didn't know you needed.
+This guide covers the practical basics of automating invoice chasing. If you want to go deeper — building multi-step workflows, integrating with CRM systems, or connecting quotes through to payment follow-up — [*Automate Everything*](/books/automate-everything/) walks through broader setup options for Australian small businesses.
 
-Stop chasing invoices manually. Set up the system, let it run, and spend your time on the work that actually makes you money.
+If invoices are only one part of a bigger enquiry and follow-up leak, start with a [Free Local Growth Review](/free-review/). Bush Digital Guides can check the path from website enquiry to quote, reminder, review request, and owner handoff, then suggest a simple system you can approve before anything goes live.
+
+Stop chasing invoices manually. Set up the system carefully, let it handle the routine reminders, and keep your personal time for the conversations that actually need you.

@@ -38,8 +38,8 @@ A **Missed Call Safety Net** helps a trade or service business stop missed calls
 It is not about replacing the owner, receptionist, or admin person. It is about making sure genuine enquiries do not disappear into voicemail, memory, or a messy inbox.
 
 <div class="post-growth-cta">
-  <p><strong>Want to hear the style before using it with customers?</strong></p>
-  <p>We are setting up a simple BDG demo call flow that shows how a missed-call assistant can take details without quoting, booking, or overpromising.</p>
+  <p><strong>Want to see the style before using it with customers?</strong></p>
+  <p>View the sample BDG demo flow to see how a missed-call assistant can take details without quoting, booking, or overpromising. It is a sample flow, not a live public phone number.</p>
   <div class="post-growth-cta-actions">
     <a href="/missed-call-demo/" class="btn btn-primary btn-sm">See the Demo Flow →</a>
     <a href="/free-review/" class="btn btn-outline btn-sm">Start with a Free Review</a>
@@ -159,15 +159,23 @@ Before ending:
 
 ```text
 New missed-call enquiry
+Source: missed-call fallback
 Name: Sarah
 Phone: 04xx xxx xxx
 Suburb: Goolwa
 Service: Gutter cleaning
 Issue: Gutters overflowing near the carport
-Urgency: Not urgent, callback today preferred
+Urgency: Normal callback, today preferred
 Best callback: After 3pm
-Handoff: Owner callback required — no price quoted
+Assistant action: Intake only
+Price quoted: No
+Booking confirmed: No
+Sensitive details collected: No
+Owner review required: Yes
+Suggested next action: Call Sarah after 3pm, confirm job details, and decide whether the work is suitable.
 ```
+
+The summary is deliberately plain. It gives the owner enough context to call back properly without the assistant committing the business to a price, time, booking, or risky advice.
 
 ## Good fit for this service
 
@@ -179,6 +187,20 @@ This is a good fit when:
 - enquiries are scattered across phone, email, Google, and social messages
 - quotes are sent but not followed up consistently
 - the business wants a practical first step before a bigger admin or assistant system
+
+## What happens before anything goes live
+
+A safe setup is approved in stages. BDG does not connect a phone number, change routing, or put an assistant in front of customers until the basics are checked.
+
+Typical first-pilot steps:
+
+1. Map the current phone, voicemail, website, email, and Google enquiry path.
+2. Agree what the fallback is allowed to ask, and what must be handed to a person.
+3. Confirm the owner-summary fields, lead destination, and quick-disable process.
+4. Test at least 10 internal scenarios, including price questions, booking requests, urgent issues, vague callers, and sensitive-detail attempts.
+5. Keep the public wording sample-only until the owner approves a real number, privacy wording, routing path, and support rhythm.
+
+That keeps the first version focused on capture and handoff, not risky automation.
 
 ## Best first step
 
