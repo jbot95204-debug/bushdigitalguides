@@ -139,6 +139,23 @@ strong {
   font-weight: 680;
 }
 
+pre,
+code {
+  font-family: var(--font-mono);
+}
+
+pre {
+  max-width: 100%;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.highlight {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
 .container {
   width: 100%;
   max-width: var(--max-width);
