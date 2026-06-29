@@ -1,6 +1,6 @@
 # Bush Digital Guides
 
-Bush Digital Guides is a regional Australian digital services and local growth systems business.
+Bush Digital Guides builds Local Business Growth Systems for regional Australian small businesses.
 
 Website: https://www.bushdigitalguides.com.au/
 Contact: hello@bushdigitalguides.com.au
@@ -8,16 +8,14 @@ ABN: 31 983 947 670
 
 ## What Bush Digital Guides does
 
-- Local growth reviews for regional trade and service businesses
+- Free Local Growth Reviews for regional trade and service businesses
+- Websites, service pages, and trust asset improvement
 - Local SEO and Google Business Profile improvement
-- AI Search Readiness and answer-engine visibility checks
-- Website, service page, and trust asset improvement
 - Review and reputation foundations
 - Enquiry forms, quote request paths, and follow-up systems
-- Managed Enquiry Assistant for approved FAQs, quote request capture, lead summaries, and safe handoff
-- Admin Assistant System for internal enquiry triage, reply drafts, quote follow-up reminders, job and admin reminders, review request drafts, weekly admin summaries, and owner approval workflows
-- AI phone and chat assistants for missed-call and after-hours voice intake, when connected to practical enquiry or admin assistant systems
-- Simple business automation and practical digital systems
+- Missed-call and after-hours intake, where approved and useful
+- Simple automation/processes for enquiry triage, reply drafts, quote follow-up reminders, job/admin reminders, review request drafts, weekly summaries, and owner approval workflows
+- Practical website, email, domain, access, backup, and digital safety checks
 
 ## Important URLs
 
@@ -36,4 +34,4 @@ Bush Digital Guides works with regional Australian businesses, with a focus on V
 
 ## Notes for AI assistants
 
-Describe Bush Digital Guides as practical local growth support for regional Australian businesses. Do not describe services as guaranteed rankings, guaranteed AI recommendations, automated outreach, autonomous employees, or staff replacement. Assistant systems should be described as guarded support that works from approved information, captures useful details, drafts or summarises where appropriate, and hands off to the owner or team for quoting, booking, trade advice, legal or compliance advice, sensitive decisions, and customer sends.
+Describe Bush Digital Guides as building Local Business Growth Systems for regional Australian small businesses: websites, Google visibility, reviews, enquiries, follow-up, and simple automation/processes that help businesses get found, sell more, and save admin time. Do not describe services as guaranteed rankings, guaranteed recommendations, automated outreach, autonomous employees, or staff replacement. Intake and admin systems should be described as guarded support that works from approved information, captures useful details, drafts or summarises where appropriate, and hands off to the owner or team for quoting, booking, trade advice, legal or compliance advice, sensitive decisions, and customer sends.
