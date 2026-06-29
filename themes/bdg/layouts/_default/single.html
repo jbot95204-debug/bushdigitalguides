@@ -3,7 +3,7 @@
 {{ if eq .Section "blog" }}
 <!-- Blog Post -->
 <section class="post-header">
-  <div class="section-label" style="text-align:center; margin-bottom:8px;">{{ with .Params.book }}{{ . }}{{ else }}BLOG{{ end }}</div>
+  <div class="section-label">{{ with .Params.book }}{{ . }}{{ else }}BLOG{{ end }}</div>
   <h1>{{ .Title }}</h1>
   <div class="post-meta">{{ .Date.Format "2 January 2006" }} · {{ .ReadingTime }} min read</div>
 </section>
@@ -19,14 +19,14 @@
     {{ end }}
   {{ end }}
   {{ with $bookData }}
-  <div style="margin:40px 0; padding:28px; background:linear-gradient(135deg, {{ .color }}15, {{ .color }}08); border:2px solid {{ .color }}44; border-radius:16px; display:flex; gap:24px; align-items:center; flex-wrap:wrap;">
-    <div style="flex-shrink:0;">
-      <img src="/images/covers/{{ .slug }}.jpg" alt="{{ .title }} cover" style="width:100px; border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.2);" loading="lazy" onerror="this.style.display='none'; this.parentElement.innerHTML='<span style=font-size:3rem>{{ .emoji }}</span>';">
+  <div class="post-book-cta">
+    <div class="post-book-cover">
+      <img src="/images/covers/{{ .slug }}.jpg" alt="{{ .title }} cover" loading="lazy" onerror="this.style.display='none'; this.parentElement.innerHTML='<span>{{ .emoji }}</span>';">
     </div>
-    <div style="flex:1; min-width:220px;">
-      <p style="margin:0 0 6px; font-weight:700; font-size:1.15rem;">📚 This post just scratches the surface</p>
-      <p style="margin:0 0 12px; color:var(--gray-500); font-size:0.95rem;"><em>{{ .title }}</em> goes way deeper — {{ .words }} words of practical, no-BS Australian advice across {{ .chapters }} chapters. Everything you need to know, nothing you don't.</p>
-      <div style="display:flex; gap:12px; flex-wrap:wrap;">
+    <div class="post-book-copy">
+      <p class="post-book-title">This post just scratches the surface</p>
+      <p><em>{{ .title }}</em> goes deeper: {{ .words }} words of practical Australian advice across {{ .chapters }} chapters.</p>
+      <div class="post-book-actions">
         {{ with .kdpLink }}{{ if . }}<a href="{{ . }}" class="btn btn-primary" target="_blank" rel="noopener">Get the Book — {{ $bookData.price }}</a>{{ end }}{{ end }}
         <a href="/samples/" class="btn btn-outline">Try a free chapter →</a>
       </div>
@@ -61,16 +61,16 @@
 
 {{ else if eq .Section "books" }}
 <!-- Book Landing Page -->
-<section class="book-hero" style="background: linear-gradient(145deg, {{ with .Params.color }}{{ . }}{{ else }}#111{{ end }}, {{ with .Params.colorEnd }}{{ . }}{{ else }}#333{{ end }});">
+<section class="book-hero">
   <div class="container">
     <div class="book-hero-inner">
       <div class="book-hero-text">
         <h1>{{ .Title }}</h1>
         <p class="subtitle">{{ .Params.subtitle }}</p>
         <div class="meta">
-          <span>📖 {{ .Params.words }} words</span>
-          <span>📑 {{ .Params.chapters }} chapters</span>
-          <span>✍️ Bush Digital Guides</span>
+          <span>{{ .Params.words }} words</span>
+          <span>{{ .Params.chapters }} chapters</span>
+          <span>Bush Digital Guides</span>
         </div>
         {{ with .Params.kdpLink }}{{ $link := . }}{{ if strings.Contains $link "amazon.com" }}{{ $link = printf "%s?tag=bushdigital-22" $link }}{{ end }}<a href="{{ $link }}" class="btn btn-accent">Buy on Amazon — {{ $.Params.price }}</a>{{ end }}
       </div>
@@ -86,7 +86,7 @@
     </div>
   </div>
 </section>
-<section style="padding: 60px 0;">
+<section class="page-content-section">
   <div class="narrow">
     {{ .Content }}
   </div>
@@ -98,10 +98,10 @@
 {{ else }}
 <!-- Default Page -->
 <section class="about-header">
-  <div class="section-label" style="text-align:center; margin-bottom:8px;">{{ upper .Title }}</div>
-  <h1 style="text-align:center;">{{ .Title }}</h1>
+  <div class="section-label">{{ upper .Title }}</div>
+  <h1>{{ .Title }}</h1>
 </section>
-<section style="padding: 40px 0 80px;">
+<section class="page-content-section compact">
   <div class="narrow">
     {{ .Content }}
   </div>

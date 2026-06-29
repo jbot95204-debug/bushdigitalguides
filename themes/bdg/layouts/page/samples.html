@@ -1,35 +1,35 @@
 {{ define "main" }}
 
-<section style="padding:80px 0 40px; text-align:center;">
+<section class="simple-page-header">
   <div class="container">
     <div class="section-label">FREE SAMPLES</div>
-    <h1 style="max-width:700px; margin:0 auto 16px;">Try Before You Buy</h1>
-    <p style="max-width:520px; margin:0 auto; color:var(--gray-500); font-size:1.1rem;">Get the first chapter of any book sent straight to your inbox — free.</p>
+    <h1>Try Before You Buy</h1>
+    <p>Get the first chapter of any book sent straight to your inbox.</p>
   </div>
 </section>
 
-<section style="padding:40px 0 100px;">
-  <div class="container" style="max-width:900px;">
+<section class="sample-section">
+  <div class="container narrow-container">
 
     {{ range $key, $book := .Site.Params.books }}
     <div class="sample-card">
       <div class="sample-cover">
-        <img src="/images/covers/{{ $book.slug | default (replace $book.title " " "-" | lower) }}.jpg" alt="{{ $book.title }} cover" loading="lazy" onerror="this.style.display='none'; this.parentElement.innerHTML='<span style=font-size:3rem>{{ $book.emoji }}</span>';">
+        <img src="/images/covers/{{ $book.slug | default (replace $book.title " " "-" | lower) }}.jpg" alt="{{ $book.title }} cover" loading="lazy" onerror="this.style.display='none'; this.parentElement.innerHTML='<span>{{ $book.emoji }}</span>';">
       </div>
       <div class="sample-body">
         <h3>{{ $book.title }}</h3>
-        <p style="color:var(--gray-500); font-size:0.92rem; margin-bottom:4px;">{{ $book.subtitle }}</p>
-        <p style="color:var(--gray-400); font-size:0.82rem;">{{ $book.words }} words · {{ $book.chapters }} chapters · {{ $book.price }}</p>
-        <div style="display:flex; gap:8px; flex-wrap:wrap; margin-top:12px; align-items:flex-end;">
+        <p class="sample-subtitle">{{ $book.subtitle }}</p>
+        <p class="sample-meta">{{ $book.words }} words · {{ $book.chapters }} chapters · {{ $book.price }}</p>
+        <div class="sample-actions">
           <a href="mailto:hello@bushdigitalguides.com.au?subject=Sample%20chapter%20request:%20{{ $book.title | urlquery }}&body=Book:%20{{ $book.title | urlquery }}%0AEmail:%0A" class="btn btn-primary btn-sm">Request Chapter 1</a>
         </div>
-        <p style="color:var(--gray-400); font-size:0.75rem; margin-top:6px;">Email is used for sample requests until a confirmed download form is available.</p>
+        <p class="sample-note">Email is used for sample requests until a confirmed download form is available.</p>
       </div>
     </div>
     {{ end }}
 
-    <div style="text-align:center; margin-top:48px; padding:32px; background:var(--gray-50); border-radius:12px;">
-      <p style="color:var(--gray-500); font-size:0.95rem; margin-bottom:0;"><strong>Privacy note.</strong> No spam and no selling your data. Email requests go directly to Bush Digital Guides.</p>
+    <div class="privacy-note">
+      <p><strong>Privacy note.</strong> No spam and no selling your data. Email requests go directly to Bush Digital Guides.</p>
     </div>
 
   </div>

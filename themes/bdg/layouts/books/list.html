@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<section class="hero" style="padding: 60px 0 40px;">
+<section class="hero library-hero">
   <div class="container">
     <div class="section-label">THE LIBRARY</div>
     <h1>Books that earn their page count.</h1>
@@ -8,14 +8,14 @@
   </div>
 </section>
 
-<section class="books-section" style="padding-top: 20px;">
+<section class="books-section books-section-tight">
   <div class="container">
     <div class="book-grid">
 
       {{ range .Pages }}
       <a href="{{ .Permalink }}" class="book-card">
-        <div class="book-card-cover"{{ if not .Params.cover }} style="background: linear-gradient(145deg, {{ with .Params.color }}{{ . }}{{ else }}#111{{ end }}, {{ with .Params.colorEnd }}{{ . }}{{ else }}#333{{ end }});"{{ end }}>
-          {{ with .Params.cover }}<img src="{{ . }}" alt="{{ $.Title }} book cover" loading="lazy">{{ else }}{{ $.Params.emoji }}{{ end }}
+        <div class="book-card-cover">
+          {{ with .Params.cover }}<img src="{{ . }}" alt="{{ $.Title }} book cover" loading="lazy">{{ else }}<span>{{ $.Params.emoji }}</span>{{ end }}
         </div>
         <div class="book-card-body">
           <h3>{{ .Title }}</h3>

@@ -5,7 +5,7 @@ keywords: ["contact Bush Digital Guides", "local growth support Australia", "reg
 layout: contact
 ---
 
-<section class="bdg-section" style="padding-top:20px;">
+<section class="bdg-section bdg-section-tight">
   <div class="container bdg-form-grid">
     <div>
       <div class="section-label">Contact</div>

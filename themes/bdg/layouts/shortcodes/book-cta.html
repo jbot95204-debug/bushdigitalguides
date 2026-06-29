@@ -2,12 +2,12 @@
 {{ $bookName := .Get "book" }}
 {{ range $key, $b := .Site.Params.books }}
   {{ if eq $b.title $bookName }}
-  <div style="margin:32px 0; padding:20px 24px; background:linear-gradient(135deg, {{ $b.color }}12, {{ $b.color }}06); border-left:4px solid {{ $b.color }}; border-radius:0 12px 12px 0; display:flex; gap:16px; align-items:center; flex-wrap:wrap;">
-    <div style="flex:1; min-width:200px;">
-      <p style="margin:0 0 8px; font-weight:600; font-size:0.95rem;">📖 Want the full guide?</p>
-      <p style="margin:0; color:var(--gray-500); font-size:0.88rem;"><em>{{ $b.title }}</em> covers this topic (and much more) across {{ $b.chapters }} chapters of practical, no-BS Australian advice.</p>
+  <div class="book-shortcode-cta">
+    <div>
+      <p class="book-shortcode-title">Want the full guide?</p>
+      <p><em>{{ $b.title }}</em> covers this topic across {{ $b.chapters }} chapters of practical Australian advice.</p>
     </div>
-    <div style="flex-shrink:0;">
+    <div class="book-shortcode-action">
       {{ with $b.kdpLink }}<a href="{{ . }}" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Get the Book — {{ $b.price }}</a>{{ end }}
     </div>
   </div>
