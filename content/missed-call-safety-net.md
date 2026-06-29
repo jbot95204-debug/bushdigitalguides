@@ -1,10 +1,10 @@
 ---
 title: "Missed Call Safety Net for Local Trades"
-description: "A practical missed-call fallback and enquiry capture setup for local trades and service businesses: human-first call flow, approved assistant handoff, lead summaries, follow-up reminders, and safe owner control."
+description: "A practical missed-call fallback and enquiry capture setup inside a Local Business Growth System: human-first call flow, approved intake wording, lead summaries, follow-up reminders, and safe owner control."
 keywords: ["missed call system tradies", "missed call SMS local business", "AI receptionist alternative", "call forwarding assistant", "lead follow up tradies", "after hours enquiry system"]
 serviceSchema:
   name: "Missed Call Safety Net"
-  description: "A practical missed-call and enquiry capture setup for local trades and service businesses, covering human-first call forwarding, approved assistant wording, lead summaries, follow-up reminders, and owner-approved handoff rules."
+  description: "A practical missed-call and enquiry capture setup inside a Local Business Growth System, covering human-first call forwarding, approved intake wording, lead summaries, follow-up reminders, and owner-approved handoff rules."
   serviceType: "Missed call and enquiry capture system"
   areaServed:
     - "Regional South Australia"
@@ -33,7 +33,7 @@ faq:
 
 Customers often call more than one local business. If a call is missed and nobody follows up quickly, that job may already be gone.
 
-A **Missed Call Safety Net** helps a trade or service business stop missed calls turning into lost jobs. The business phone still rings first. If nobody can answer, a safe fallback captures the customer details and gives the owner a clean summary to follow up.
+A **Missed Call Safety Net** is one part of a Local Business Growth System. It helps a trade or service business stop missed calls turning into lost jobs. The business phone still rings first. If nobody can answer, a safe fallback captures the customer details and gives the owner a clean summary to follow up.
 
 It is not about replacing the owner, receptionist, or admin person. It is about making sure genuine enquiries do not disappear into voicemail, memory, or a messy inbox.
 
@@ -186,7 +186,7 @@ This is a good fit when:
 - voicemail is not producing useful details
 - enquiries are scattered across phone, email, Google, and social messages
 - quotes are sent but not followed up consistently
-- the business wants a practical first step before a bigger admin or assistant system
+- the business wants a practical first step before a bigger admin process or approved intake system
 
 ## When to start smaller
 
@@ -218,6 +218,6 @@ That keeps the first version focused on capture and handoff, not risky automatio
 
 ## Best first step
 
-Start with the [Free Local Growth Review](/free-review/) if you want BDG to check where enquiries may be leaking across your website, Google Profile, phone path, reviews, and follow-up.
+Start with the [Free Local Growth Review](/free-review/) if you want BDG to check where enquiries may be leaking across your website, Google Profile, phone path, reviews, follow-up, and simple admin processes.
 
 If missed calls are already the obvious gap, [contact Bush Digital Guides](/contact/) and include the public website link, main service area, and current phone or enquiry process you want reviewed.

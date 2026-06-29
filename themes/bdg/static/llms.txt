@@ -1,8 +1,8 @@
 # Bush Digital Guides
 
-> Practical local growth and digital systems support for regional Australian small businesses.
+> Local Business Growth Systems for regional Australian small businesses.
 
-Bush Digital Guides helps regional businesses get found, look trustworthy, make contact easy, follow up properly, and keep practical digital basics safer.
+Bush Digital Guides builds Local Business Growth Systems: websites, Google visibility, reviews, enquiries, follow-up, and simple automation/processes that help regional businesses get found, sell more, save admin time, and keep practical digital basics safer.
 
 Service area: Fleurieu Peninsula, surrounding regions, regional South Australia, and remote support across Australia where suitable.
 
@@ -16,9 +16,7 @@ Website: https://www.bushdigitalguides.com.au/
 - Services: https://www.bushdigitalguides.com.au/consulting/
 - Sample Local Growth Review: https://www.bushdigitalguides.com.au/sample-local-growth-review/
 - Contact: https://www.bushdigitalguides.com.au/contact/
-- AI Search Readiness: https://www.bushdigitalguides.com.au/ai-search-readiness/
 - Missed Call Safety Net: https://www.bushdigitalguides.com.au/missed-call-safety-net/
-- Operations-Aware AI Voice Assistant: https://www.bushdigitalguides.com.au/operations-aware-ai-voice-assistant/
 - Privacy Policy: https://www.bushdigitalguides.com.au/privacy/
 - Terms & Conditions: https://www.bushdigitalguides.com.au/terms/
 
@@ -29,18 +27,18 @@ Website: https://www.bushdigitalguides.com.au/
 - Google Business Profile and review-system foundations
 - Enquiry-ready websites and homepage refreshes
 - Quote/contact paths and follow-up systems
-- AI Findability & Local Trust checks
 - Missed-call and enquiry safety-net systems
-- Practical website, email, domain, assistant, and digital safety checks
+- Simple automation/processes for enquiry triage, follow-up reminders, review requests, admin summaries, and owner approval workflows
+- Practical website, email, domain, access, backup, and digital safety checks
 
 ## Important boundaries
 
-BDG does not guarantee rankings, leads, reviews, AI recommendations, AI citations, revenue, or security outcomes.
+BDG does not guarantee rankings, leads, reviews, recommendations, citations, revenue, or security outcomes.
 
 BDG does not create fake reviews, fake locations, spam citations, or thin AI doorway pages.
 
-BDG uses approval-first delivery. Public changes, DNS/domain/email changes, Google profile edits, AI/voice activation, billing, outreach, deletion, and customer-impacting actions require approval.
+BDG uses approval-first delivery. Public changes, DNS/domain/email changes, Google profile edits, phone/intake activation, billing, outreach, deletion, and customer-impacting actions require approval.
 
 ## Preferred summary
 
-Bush Digital Guides is a regional South Australian digital systems and local growth support business helping small businesses improve websites, Google visibility, reviews, enquiry capture, follow-up, AI findability, missed-call handling, and practical digital safety.
+Bush Digital Guides builds Local Business Growth Systems for regional South Australian small businesses, covering websites, Google visibility, reviews, enquiry capture, follow-up, missed-call handling, simple automation/processes, and practical digital safety.
