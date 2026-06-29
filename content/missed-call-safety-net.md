@@ -188,6 +188,20 @@ This is a good fit when:
 - quotes are sent but not followed up consistently
 - the business wants a practical first step before a bigger admin or assistant system
 
+## When to start smaller
+
+A phone assistant or call-forwarding setup is not always the first move. Sometimes the better first step is a simpler enquiry-path cleanup.
+
+Start smaller if:
+
+- the website does not make the phone number, quote path, or service area obvious yet
+- calls are being answered, but notes and follow-up are scattered
+- the business has not agreed what the fallback may ask
+- privacy, recording, or lead-destination wording still needs owner approval
+- the work involves urgent, safety-sensitive, regulated, or complaint-heavy calls
+
+In those cases, BDG can begin with the [Free Local Growth Review](/free-review/), a website contact-path fix, or a simple follow-up checklist before adding any live assistant layer.
+
 ## What happens before anything goes live
 
 A safe setup is approved in stages. BDG does not connect a phone number, change routing, or put an assistant in front of customers until the basics are checked.
@@ -197,7 +211,7 @@ Typical first-pilot steps:
 1. Map the current phone, voicemail, website, email, and Google enquiry path.
 2. Agree what the fallback is allowed to ask, and what must be handed to a person.
 3. Confirm the owner-summary fields, lead destination, and quick-disable process.
-4. Test at least 10 internal scenarios, including price questions, booking requests, urgent issues, vague callers, and sensitive-detail attempts.
+4. Test 11 internal platform calls before live use, including price questions, booking requests, vague callers, sensitive-detail attempts, and a trade safety/property-risk handoff scenario.
 5. Keep the public wording sample-only until the owner approves a real number, privacy wording, routing path, and support rhythm.
 
 That keeps the first version focused on capture and handoff, not risky automation.

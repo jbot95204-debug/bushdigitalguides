@@ -63,6 +63,15 @@ The same follow-up path should be easy to find from:
 
 If the website gets the enquiry but nobody follows up, the marketing problem has only moved further down the line.
 
+<div class="post-growth-cta">
+  <p><strong>Need the missed-call part shown plainly?</strong></p>
+  <p>View BDG's sample missed-call demo flow to see how a fallback can collect useful details and give the owner a clean summary without quoting, booking, or overpromising. It is a sample flow, not a live public phone number.</p>
+  <div class="post-growth-cta-actions">
+    <a href="/missed-call-demo/" class="btn btn-primary btn-sm">See the Demo Flow →</a>
+    <a href="/free-review/" class="btn btn-outline btn-sm">Start with a Free Review</a>
+  </div>
+</div>
+
 ## Practical digital safety for follow-up systems
 
 Customer enquiry details should be treated carefully. A simple system still needs sensible boundaries:
