@@ -1005,13 +1005,88 @@ pre {
 }
 
 .bdg-form-card > p,
-.bdg-form-note {
+.bdg-form-note,
+.bdg-form-status,
+.bdg-safe-form-warning {
   color: var(--muted);
   font-size: 0.94rem;
 }
 
-.bdg-form-note {
+.bdg-form-note,
+.bdg-form-status {
   margin: 14px 0 0;
+}
+
+.bdg-safe-contact-form {
+  display: grid;
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.bdg-safe-contact-form .form-group {
+  display: grid;
+  gap: 6px;
+}
+
+.bdg-safe-contact-form label {
+  color: var(--ink);
+  font-size: 0.84rem;
+  font-weight: 650;
+}
+
+.bdg-safe-contact-form label span {
+  color: var(--faint);
+  font-weight: 520;
+}
+
+.bdg-safe-contact-form input,
+.bdg-safe-contact-form select,
+.bdg-safe-contact-form textarea {
+  width: 100%;
+  min-height: 46px;
+  border: 1px solid rgba(34,31,26,0.16);
+  border-radius: var(--radius-sm);
+  padding: 0 13px;
+  color: var(--ink);
+  background: rgba(255,255,255,0.96);
+  font: inherit;
+}
+
+.bdg-safe-contact-form textarea {
+  min-height: 112px;
+  padding-top: 12px;
+  resize: vertical;
+}
+
+.bdg-safe-contact-form input:focus,
+.bdg-safe-contact-form select:focus,
+.bdg-safe-contact-form textarea:focus {
+  border-color: rgba(36,93,79,0.6);
+  box-shadow: 0 0 0 4px rgba(36,93,79,0.12);
+  outline: none;
+}
+
+.bdg-safe-contact-form button {
+  justify-content: center;
+  width: 100%;
+  border: 0;
+  cursor: pointer;
+}
+
+.bdg-safe-form-warning {
+  margin: 0;
+  padding: 12px 14px;
+  border: 1px solid rgba(196,122,27,0.22);
+  border-radius: var(--radius-sm);
+  background: var(--gold-soft);
+}
+
+.bdg-hidden-field {
+  position: absolute !important;
+  left: -9999px !important;
+  width: 1px !important;
+  height: 1px !important;
+  opacity: 0 !important;
 }
 
 .bdg-stacked-actions {
