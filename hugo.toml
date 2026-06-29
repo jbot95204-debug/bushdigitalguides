@@ -43,17 +43,21 @@ theme = 'bdg'
     url = "/free-review/"
     weight = 2
   [[menu.main]]
-    name = "Services"
+    name = "How We Help"
     url = "/consulting/"
     weight = 3
   [[menu.main]]
-    name = "Example"
+    name = "Example Review"
     url = "/sample-local-growth-review/"
     weight = 4
   [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 5
+  [[menu.main]]
     name = "Contact"
     url = "/contact/"
-    weight = 5
+    weight = 6
 
 enableRobotsTXT = false
 
