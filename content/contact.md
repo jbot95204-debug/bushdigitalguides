@@ -9,7 +9,7 @@ layout: contact
   <div class="container bdg-form-grid">
     <div>
       <div class="section-label">Contact</div>
-      <h2>Tell us what you want fixed.</h2>
+      <h1>Tell us what you want fixed.</h1>
       <p>Use the short form or email directly. The form is deliberately simple and safe: it opens your own email app, so there is no hidden database, no public upload box, and no unverified form service collecting details.</p>
       <div class="bdg-review-points">
         <div><strong>Best first step</strong><span>Most businesses should start with the Free Local Growth Review.</span></div>
