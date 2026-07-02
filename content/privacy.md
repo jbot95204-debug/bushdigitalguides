@@ -5,8 +5,6 @@ layout: "single"
 draft: false
 ---
 
-# Privacy Policy
-
 **Bush Digital Guides**  
 **ABN:** 31 983 947 670  
 **Last updated:** 21 June 2026

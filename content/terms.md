@@ -5,8 +5,6 @@ layout: "single"
 draft: false
 ---
 
-# Terms & Conditions
-
 **Bush Digital Guides**  
 **ABN:** 31 983 947 670  
 **Last updated:** 21 June 2026
@@ -107,7 +105,7 @@ Call recordings, transcripts, chat logs, form entries, SMS, emails, and summarie
 
 We include practical digital safety checks where in scope.
 
-We do not promise that a website, account, assistant, or system is hack-proof, breach-proof, spam-proof, phishing-proof, malware-proof, or fully secure.
+We do not promise that a website, account, assistant, or system is immune to hacking, breaches, spam, phishing, malware, or every security issue.
 
 Full penetration testing, incident response, legal compliance review, device security, staff cyber training, and advanced cybersecurity are excluded unless separately scoped with appropriate specialists.
 

@@ -9,7 +9,7 @@ theme = 'bdg'
   author = "Bush Digital Guides"
   email = "hello@bushdigitalguides.com.au"
   phone = "(08) 9932 0067"
-  phone_href = "tel:+61899320067"
+  phone_href = "tel:0899320067"
   abn = "31983947670"
   images = ["/images/og-default.png"]
 

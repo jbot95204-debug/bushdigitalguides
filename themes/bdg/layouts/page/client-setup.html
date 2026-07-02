@@ -219,7 +219,7 @@
       </div>
       <div class="bdg-sidebar-card">
         <h2>Prefer a call?</h2>
-        <p>Call <a href="{{ .Site.Params.phone_href }}">{{ .Site.Params.phone }}</a> or email <a href="mailto:hello@bushdigitalguides.com.au">hello@bushdigitalguides.com.au</a>.</p>
+        <p>Call <a href="{{ .Site.Params.phone_href | safeURL }}">{{ .Site.Params.phone }}</a> or email <a href="mailto:hello@bushdigitalguides.com.au">hello@bushdigitalguides.com.au</a>.</p>
       </div>
     </aside>
   </div>

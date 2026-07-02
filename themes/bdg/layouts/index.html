@@ -8,7 +8,7 @@
       <p class="bdg-lead">Bush Digital Guides builds Local Business Growth Systems: websites, Google visibility, reviews, enquiries, follow-up, and simple automation/processes that help businesses get found, sell more, and save admin time.</p>
       <div class="hero-actions bdg-actions">
         <a href="/free-review/" class="btn btn-primary">Get a Free Local Growth Review →</a>
-        <a href="{{ .Site.Params.phone_href }}" class="btn btn-outline">Call {{ .Site.Params.phone }}</a>
+        <a href="{{ .Site.Params.phone_href | safeURL }}" class="btn btn-outline">Call {{ .Site.Params.phone }}</a>
         <a href="/contact/" class="btn btn-outline">Send a quick enquiry</a>
       </div>
       <p class="bdg-microcopy">No tech jargon. No pressure. Nothing changed, sent, published, automated, or customer-contacted without approval.</p>
