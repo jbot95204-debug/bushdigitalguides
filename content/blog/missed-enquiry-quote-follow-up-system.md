@@ -168,7 +168,7 @@ If missed calls are a regular leak, BDG's [Missed Call Safety Net](/missed-call-
 
 <div class="post-growth-cta">
   <p><strong>Want to see the missed-call part in context?</strong></p>
-  <p>View BDG's sample demo flow to see how a missed-call assistant can collect details and produce an owner summary without quoting, booking, or overpromising. It is a sample flow, not a live public phone number.</p>
+  <p>View BDG's demo flow to see how a missed-call assistant can collect details and produce an owner summary without quoting, booking, or overpromising. The public test line is available for safe demo testing only, not urgent or sensitive information.</p>
   <div class="post-growth-cta-actions">
     <a href="/missed-call-demo/" class="btn btn-primary btn-sm">See the Demo Flow →</a>
     <a href="/free-review/" class="btn btn-outline btn-sm">Start with a Free Review</a>

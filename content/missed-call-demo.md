@@ -10,7 +10,7 @@ The point is not to replace the owner. The point is to catch useful details when
 
 <div class="post-growth-cta">
   <p><strong>Demo status</strong></p>
-  <p>This is a sample flow, not a live public phone number. BDG will only connect a real demo number after the script, privacy wording, lead destination, quick-disable path, and test calls are approved.</p>
+  <p>The public test line is available for safe demo testing. It is still guarded, approval-first, and not for urgent issues, sensitive information, passwords, payment details, card details, or bank details.</p>
   <div class="post-growth-cta-actions">
     <a href="/free-review/" class="btn btn-primary btn-sm">Start with a Free Review →</a>
     <a href="/missed-call-safety-net/" class="btn btn-outline btn-sm">View the Service</a>

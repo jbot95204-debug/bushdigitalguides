@@ -13,6 +13,7 @@ layout: contact
       <p>Use the short form or email directly. The form is deliberately simple and safe: it opens your own email app, so there is no hidden database, no public upload box, and no unverified form service collecting details.</p>
       <div class="bdg-review-points">
         <div><strong>Best first step</strong><span>Most businesses should start with the Free Local Growth Review.</span></div>
+        <div><strong>Call option</strong><span>Call <a href="tel:+61899320067">(08) 9932 0067</a> or <a href="tel:+61899320067">+61 8 9932 0067</a>. If unavailable, calls may be answered by the BDG missed-call assistant. Please do not share passwords, card details, or bank details by phone.</span></div>
         <div><strong>What we help with</strong><span>Getting found, looking trustworthy, making contact easy, following up properly, and keeping basics safer.</span></div>
         <div><strong>Approval first</strong><span>No website changes, customer contact, Google updates, review requests, automation, or publishing happen without approval.</span></div>
         <div><strong>Safe enquiries</strong><span>Please do not send passwords, card details, bank details, login links, private customer lists, or urgent legal/compliance matters.</span></div>
@@ -64,6 +65,7 @@ layout: contact
         <p class="bdg-form-status" id="bdg-form-status" aria-live="polite"></p>
       </form>
       <div class="bdg-stacked-actions">
+        <a href="tel:+61899320067" class="btn btn-outline">Call (08) 9932 0067</a>
         <a href="/free-review/" class="btn btn-outline">Get a Free Local Growth Review</a>
         <a href="mailto:hello@bushdigitalguides.com.au?subject=Bush%20Digital%20Guides%20enquiry&body=Business%20name:%0AWebsite%20or%20Google%20Profile:%0AMain%20service%20area:%0AWhat%20I%20want%20improved:%0ABest%20way%20to%20reply:%0A%0APlease%20do%20not%20include%20passwords%2C%20card%20or%20bank%20details%2C%20login%20links%2C%20private%20customer%20lists%2C%20or%20urgent%20legal%2Fcompliance%20matters%20in%20this%20email.%0A" class="btn btn-outline">Email hello@ directly</a>
       </div>
