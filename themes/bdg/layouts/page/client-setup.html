@@ -1,0 +1,365 @@
+{{ define "main" }}
+<section class="bdg-client-setup-hero">
+  <div class="container bdg-client-setup-hero-grid">
+    <div>
+      <div class="section-label">Client setup</div>
+      <h1>Tell us the basics once. We’ll guide the safe setup.</h1>
+      <p class="bdg-lead">Use this form after you’ve spoken with Bush Digital Guides or you’re ready to start a Free Local Growth Review. It keeps access, approvals, and passwords separate.</p>
+      <div class="bdg-setup-promise-grid" aria-label="Setup promises">
+        <div><strong>You stay owner</strong><span>We prefer manager/admin invites, not passwords.</span></div>
+        <div><strong>Access is not approval</strong><span>Nothing public changes until you approve the exact update.</span></div>
+        <div><strong>Safe by default</strong><span>No card details, bank details, login links, API keys, or private customer lists.</span></div>
+      </div>
+    </div>
+    <aside class="bdg-setup-side-card">
+      <h2>Best first step</h2>
+      <p>If you’re unsure what you need, choose <strong>Not sure yet</strong>. We’ll route it to a Free Local Growth Review first.</p>
+      <p class="bdg-small-note">This form opens your email app with a prepared message to send to <strong>hello@bushdigitalguides.com.au</strong>. No hidden database or file upload.</p>
+    </aside>
+  </div>
+</section>
+
+<section class="bdg-section bdg-section-tight">
+  <div class="container bdg-client-setup-layout">
+    <form id="bdg-client-setup-form" class="bdg-client-setup-form" novalidate>
+      <input type="text" name="company_website" class="bdg-hidden-field" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+      <fieldset>
+        <legend>1. Business basics</legend>
+        <div class="bdg-form-two">
+          <div class="form-group">
+            <label for="setup-business">Business name *</label>
+            <input id="setup-business" name="business_name" type="text" autocomplete="organization" required>
+          </div>
+          <div class="form-group">
+            <label for="setup-contact">Contact name *</label>
+            <input id="setup-contact" name="contact_name" type="text" autocomplete="name" required>
+          </div>
+          <div class="form-group">
+            <label for="setup-phone">Best phone *</label>
+            <input id="setup-phone" name="best_phone" type="tel" autocomplete="tel" required>
+          </div>
+          <div class="form-group">
+            <label for="setup-email">Best email *</label>
+            <input id="setup-email" name="best_email" type="email" autocomplete="email" required>
+          </div>
+          <div class="form-group">
+            <label for="setup-website">Website URL</label>
+            <input id="setup-website" name="website_url" type="url" inputmode="url" placeholder="https://">
+          </div>
+          <div class="form-group">
+            <label for="setup-google">Google Business Profile URL</label>
+            <input id="setup-google" name="google_profile_url" type="url" inputmode="url" placeholder="https://">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="setup-area">Service area / towns *</label>
+          <textarea id="setup-area" name="service_area" rows="2" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="setup-services">Main services *</label>
+          <textarea id="setup-services" name="main_services" rows="3" required></textarea>
+        </div>
+        <div class="bdg-form-two">
+          <div class="form-group">
+            <label for="setup-more">What do you want more of?</label>
+            <textarea id="setup-more" name="want_more" rows="3" placeholder="Example: better quote enquiries, maintenance jobs, higher-value projects"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="setup-less">What do you want less of?</label>
+            <textarea id="setup-less" name="want_less" rows="3" placeholder="Example: unsuitable jobs, no-shows, price shoppers"></textarea>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="setup-bottleneck">What feels broken or annoying right now?</label>
+          <textarea id="setup-bottleneck" name="primary_bottleneck" rows="3"></textarea>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>2. What do you want help with?</legend>
+        <p class="bdg-field-help">Choose anything that seems relevant. If you’re unsure, choose “Not sure yet”.</p>
+        <div class="bdg-checkbox-grid" data-product-options>
+          <label><input type="checkbox" name="selected_products" value="Free Local Growth Review"> Free Local Growth Review</label>
+          <label><input type="checkbox" name="selected_products" value="Google Business Profile / local visibility" data-section="gbp"> Google Business Profile / local visibility</label>
+          <label><input type="checkbox" name="selected_products" value="Website refresh / enquiry-ready website" data-section="website"> Website refresh / enquiry-ready website</label>
+          <label><input type="checkbox" name="selected_products" value="Review Builder System" data-section="reviews"> Review Builder System</label>
+          <label><input type="checkbox" name="selected_products" value="Missed Call Safety Net" data-section="missed-call"> Missed Call Safety Net</label>
+          <label><input type="checkbox" name="selected_products" value="Quote Follow-Up System" data-section="follow-up"> Quote Follow-Up System</label>
+          <label><input type="checkbox" name="selected_products" value="Voice automation / phone assistant" data-section="voice"> Voice automation / phone assistant</label>
+          <label><input type="checkbox" name="selected_products" value="Website Safety & Growth Check" data-section="safety"> Website Safety & Growth Check</label>
+          <label><input type="checkbox" name="selected_products" value="Complete Local Growth System"> Complete Local Growth System</label>
+          <label><input type="checkbox" name="selected_products" value="Not sure yet"> Not sure yet</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>3. Access comfort</legend>
+        <div class="form-group">
+          <label for="setup-access">How would you prefer to handle access? *</label>
+          <select id="setup-access" name="access_preference" required>
+            <option value="">Choose one</option>
+            <option>I prefer a guided setup call</option>
+            <option>I can add BDG as a manager/admin where needed</option>
+            <option>I am not sure who controls the accounts</option>
+            <option>I think an old agency/staff member controls it</option>
+            <option>I need help recovering access</option>
+          </select>
+        </div>
+        <p class="bdg-safe-form-warning">We usually do not ask for passwords. Best option is a short setup call where we guide you through adding BDG as a manager/admin. You stay the owner.</p>
+      </fieldset>
+
+      <div class="bdg-conditional-sections" aria-live="polite">
+        <section class="bdg-conditional-card" data-conditional="gbp" hidden>
+          <h2>Google Business Profile details</h2>
+          <div class="bdg-form-two">
+            <div class="form-group"><label for="gbp-live">Is the profile already live?</label><select id="gbp-live" name="gbp_live"><option></option><option>Yes</option><option>No</option><option>Unsure</option></select></div>
+            <div class="form-group"><label for="gbp-owner">Who currently manages it?</label><input id="gbp-owner" name="gbp_owner" type="text"></div>
+            <div class="form-group"><label for="gbp-phone">Current public phone</label><input id="gbp-phone" name="gbp_public_phone" type="text"></div>
+            <div class="form-group"><label for="gbp-hours">Hours / appointment expectations</label><input id="gbp-hours" name="gbp_hours" type="text"></div>
+          </div>
+          <div class="form-group"><label for="gbp-services">Services/service areas to show</label><textarea id="gbp-services" name="gbp_services" rows="3"></textarea></div>
+          <div class="form-group"><label for="gbp-access-concerns">Old agency/staff access concerns?</label><textarea id="gbp-access-concerns" name="gbp_access_concerns" rows="2"></textarea></div>
+        </section>
+
+        <section class="bdg-conditional-card" data-conditional="website" hidden>
+          <h2>Website refresh details</h2>
+          <div class="bdg-form-two">
+            <div class="form-group"><label for="web-platform">Website platform, if known</label><input id="web-platform" name="website_platform" type="text" placeholder="WordPress, Wix, Squarespace, unsure..."></div>
+            <div class="form-group"><label for="web-contact-path">Preferred contact path</label><input id="web-contact-path" name="website_contact_path" type="text" placeholder="Phone, email, form, quote request..."></div>
+          </div>
+          <div class="form-group"><label for="web-pages">Pages that need work</label><textarea id="web-pages" name="website_pages" rows="3"></textarea></div>
+          <div class="form-group"><label for="web-proof">Photos, reviews, licences, proof available?</label><textarea id="web-proof" name="website_proof" rows="3"></textarea></div>
+          <div class="form-group"><label for="web-avoid">What should not be promoted or changed?</label><textarea id="web-avoid" name="website_avoid" rows="2"></textarea></div>
+        </section>
+
+        <section class="bdg-conditional-card" data-conditional="reviews" hidden>
+          <h2>Review Builder details</h2>
+          <div class="form-group"><label for="review-link">Google review link, if known</label><input id="review-link" name="review_link" type="url" inputmode="url" placeholder="https://"></div>
+          <div class="form-group"><label for="review-process">When and how should customers be asked?</label><textarea id="review-process" name="review_process" rows="3"></textarea></div>
+          <div class="form-group"><label for="review-use">Can reviews be used on the website? If yes, under what rules?</label><textarea id="review-use" name="review_public_use" rows="2"></textarea></div>
+        </section>
+
+        <section class="bdg-conditional-card" data-conditional="missed-call" hidden>
+          <h2>Missed Call Safety Net details</h2>
+          <div class="bdg-form-two">
+            <div class="form-group"><label for="missed-phone">Main business phone number</label><input id="missed-phone" name="missed_call_phone" type="tel"></div>
+            <div class="form-group"><label for="missed-answers">Who answers now?</label><input id="missed-answers" name="missed_call_answerer" type="text"></div>
+          </div>
+          <div class="form-group"><label for="missed-when">When are calls usually missed?</label><textarea id="missed-when" name="missed_call_timing" rows="2"></textarea></div>
+          <div class="form-group"><label for="missed-rules">What should be accepted, rejected, or handed to a human?</label><textarea id="missed-rules" name="missed_call_rules" rows="3"></textarea></div>
+          <div class="form-group"><label for="missed-summary">Where should lead summaries go?</label><input id="missed-summary" name="missed_call_summary_destination" type="text"></div>
+          <div class="form-group"><label for="missed-safety">Safety/emergency/property-risk handoff rules</label><textarea id="missed-safety" name="missed_call_safety_rules" rows="2"></textarea></div>
+        </section>
+
+        <section class="bdg-conditional-card" data-conditional="follow-up" hidden>
+          <h2>Quote Follow-Up details</h2>
+          <div class="form-group"><label for="follow-sources">Where do enquiries arrive now?</label><textarea id="follow-sources" name="follow_up_sources" rows="2"></textarea></div>
+          <div class="form-group"><label for="follow-system">Job/CRM/spreadsheet system used</label><input id="follow-system" name="follow_up_system" type="text"></div>
+          <div class="form-group"><label for="follow-stages">Current quote stages and follow-up timing</label><textarea id="follow-stages" name="follow_up_stages" rows="3"></textarea></div>
+        </section>
+
+        <section class="bdg-conditional-card" data-conditional="voice" hidden>
+          <h2>Voice automation / phone assistant details</h2>
+          <div class="form-group"><label for="voice-start">Start from missed-call intake or approved FAQ?</label><input id="voice-start" name="voice_starting_point" type="text"></div>
+          <div class="form-group"><label for="voice-answer">What questions may it answer?</label><textarea id="voice-answer" name="voice_allowed_answers" rows="3"></textarea></div>
+          <div class="form-group"><label for="voice-handoff">What must always hand off to a human?</label><textarea id="voice-handoff" name="voice_handoff_rules" rows="3"></textarea></div>
+          <div class="bdg-form-two">
+            <div class="form-group"><label for="voice-destination">Lead summary destination</label><input id="voice-destination" name="voice_summary_destination" type="text"></div>
+            <div class="form-group"><label for="voice-spend">Testing spend cap</label><input id="voice-spend" name="voice_spend_cap" type="text"></div>
+          </div>
+        </section>
+
+        <section class="bdg-conditional-card" data-conditional="safety" hidden>
+          <h2>Website Safety & Growth Check details</h2>
+          <div class="bdg-form-two">
+            <div class="form-group"><label for="safe-host">Known website platform/host</label><input id="safe-host" name="safety_platform_host" type="text"></div>
+            <div class="form-group"><label for="safe-domain">Who owns domain/DNS?</label><input id="safe-domain" name="safety_domain_owner" type="text"></div>
+          </div>
+          <div class="form-group"><label for="safe-issues">Any recent website/email/domain issues?</label><textarea id="safe-issues" name="safety_recent_issues" rows="3"></textarea></div>
+          <p class="bdg-field-help">Default first check is public and non-intrusive only.</p>
+        </section>
+      </div>
+
+      <fieldset>
+        <legend>4. Safe-data and approval acknowledgement</legend>
+        <label class="bdg-ack"><input type="checkbox" name="safe_data_acknowledgement" required> I will not submit passwords, one-time codes, card/bank details, login links, API keys, recovery codes, private customer lists, or urgent legal/safety/compliance matters in this form or email.</label>
+        <label class="bdg-ack"><input type="checkbox" name="approval_acknowledgement" required> I understand giving access lets BDG prepare work only. Website publishing, DNS/email/domain changes, Google Business Profile edits, phone routing, automation, customer messages, billing, or public changes need separate approval first.</label>
+      </fieldset>
+
+      <div class="bdg-form-submit-card">
+        <p class="bdg-safe-form-warning">Before sending: remove passwords, codes, payment details, login links, API keys, recovery codes, and private customer lists.</p>
+        <button type="submit" class="btn btn-primary">Open email to send setup details →</button>
+        <button type="button" class="btn btn-outline" id="bdg-copy-json">Copy safe JSON summary</button>
+        <p class="bdg-form-status" id="bdg-client-setup-status" aria-live="polite"></p>
+      </div>
+    </form>
+
+    <aside class="bdg-client-setup-sidebar">
+      <div class="bdg-sidebar-card">
+        <h2>What happens next</h2>
+        <ol>
+          <li>We review your details.</li>
+          <li>We suggest the simplest next step.</li>
+          <li>If access is needed, we book a Safe Setup Session or send invite instructions.</li>
+          <li>We prepare work privately.</li>
+          <li>You approve exact changes before anything goes live.</li>
+        </ol>
+      </div>
+      <div class="bdg-sidebar-card bdg-warning-card">
+        <h2>Do not send</h2>
+        <ul>
+          <li>Passwords or one-time codes</li>
+          <li>Card or bank details</li>
+          <li>Login links or API keys</li>
+          <li>Recovery codes</li>
+          <li>Private customer lists</li>
+          <li>Urgent legal, safety, or compliance matters</li>
+        </ul>
+      </div>
+      <div class="bdg-sidebar-card">
+        <h2>Prefer a call?</h2>
+        <p>Call <a href="{{ .Site.Params.phone_href }}">{{ .Site.Params.phone }}</a> or email <a href="mailto:hello@bushdigitalguides.com.au">hello@bushdigitalguides.com.au</a>.</p>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<script>
+(function(){
+  var form = document.getElementById('bdg-client-setup-form');
+  var status = document.getElementById('bdg-client-setup-status');
+  var copyButton = document.getElementById('bdg-copy-json');
+  if (!form || !status) return;
+  var started = Date.now();
+  var secretPattern = /(password|passcode|one[-\s]?time code|otp|api key|secret|recovery code|card number|bank account|login link|private customer list)/i;
+
+  function selectedProducts(){
+    return Array.prototype.slice.call(form.querySelectorAll('input[name="selected_products"]:checked')).map(function(input){ return input.value; });
+  }
+
+  function updateConditionalSections(){
+    var active = {};
+    form.querySelectorAll('input[name="selected_products"]:checked').forEach(function(input){
+      var section = input.getAttribute('data-section');
+      if (section) active[section] = true;
+    });
+    form.querySelectorAll('[data-conditional]').forEach(function(section){
+      section.hidden = !active[section.getAttribute('data-conditional')];
+    });
+  }
+
+  function collectData(){
+    var data = new FormData(form);
+    var summary = {};
+    data.forEach(function(value, key){
+      if (key === 'company_website') return;
+      if (key === 'selected_products') return;
+      if (summary[key]) summary[key] += '; ' + String(value).trim();
+      else summary[key] = String(value).trim();
+    });
+    summary.selected_products = selectedProducts();
+    return summary;
+  }
+
+  function validate(summary){
+    var required = ['business_name','contact_name','best_phone','best_email','service_area','main_services','access_preference'];
+    for (var i = 0; i < required.length; i++) {
+      if (!String(summary[required[i]] || '').trim()) return 'Please fill in the required fields first.';
+    }
+    if (!summary.selected_products.length) return 'Please choose at least one thing you want help with. If unsure, choose “Not sure yet”.';
+    if (!form.querySelector('input[name="safe_data_acknowledgement"]:checked') || !form.querySelector('input[name="approval_acknowledgement"]:checked')) return 'Please tick the safe-data and approval acknowledgements.';
+    var blob = JSON.stringify(summary);
+    if (secretPattern.test(blob)) return 'Please remove any password, code, key, login link, payment detail, or private customer data before sending.';
+    return '';
+  }
+
+  function makeBody(summary){
+    var lines = [
+      'BDG Client Setup',
+      '',
+      'Business name: ' + (summary.business_name || ''),
+      'Contact name: ' + (summary.contact_name || ''),
+      'Best phone: ' + (summary.best_phone || ''),
+      'Best email: ' + (summary.best_email || ''),
+      'Website URL: ' + (summary.website_url || ''),
+      'Google Business Profile URL: ' + (summary.google_profile_url || ''),
+      'Service area / towns: ' + (summary.service_area || ''),
+      'Main services: ' + (summary.main_services || ''),
+      'What we want more of: ' + (summary.want_more || ''),
+      'What we want less of: ' + (summary.want_less || ''),
+      'Current bottleneck: ' + (summary.primary_bottleneck || ''),
+      '',
+      'Selected products:',
+      (summary.selected_products || []).map(function(x){ return '- ' + x; }).join('\n') || '- None',
+      '',
+      'Access preference: ' + (summary.access_preference || ''),
+      '',
+      'Product-specific details:',
+      JSON.stringify(summary, null, 2),
+      '',
+      'Acknowledgement: I have not included passwords, one-time codes, card/bank details, login links, API keys, recovery codes, private customer lists, or urgent legal/safety/compliance matters.',
+      'Acknowledgement: Access lets BDG prepare work only. Public/risky changes need separate approval first.'
+    ];
+    return lines.join('\n');
+  }
+
+  form.querySelectorAll('input[name="selected_products"]').forEach(function(input){
+    input.addEventListener('change', updateConditionalSections);
+  });
+  updateConditionalSections();
+
+  form.addEventListener('submit', function(event){
+    event.preventDefault();
+    status.textContent = '';
+    var data = new FormData(form);
+    if ((data.get('company_website') || '').trim()) {
+      status.textContent = 'Thanks. Please email hello@bushdigitalguides.com.au directly if the form does not open.';
+      return;
+    }
+    if (Date.now() - started < 2500) {
+      status.textContent = 'Please check the details, then press send again.';
+      started = Date.now() - 2500;
+      return;
+    }
+    var summary = collectData();
+    var message = validate(summary);
+    if (message) {
+      status.textContent = message;
+      return;
+    }
+    var subject = 'BDG client setup — ' + summary.business_name;
+    window.location.href = 'mailto:hello@bushdigitalguides.com.au?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(makeBody(summary));
+    status.textContent = 'Your email app should open now. Review the message, then press send.';
+  });
+
+  if (copyButton && navigator.clipboard) {
+    copyButton.addEventListener('click', function(){
+      var summary = collectData();
+      var message = validate(summary);
+      if (message) {
+        status.textContent = message;
+        return;
+      }
+      navigator.clipboard.writeText(JSON.stringify(summary, null, 2)).then(function(){
+        status.textContent = 'Safe JSON summary copied. Do not paste it anywhere public.';
+      }, function(){
+        var existing = document.getElementById('bdg-json-fallback');
+        if (!existing) {
+          existing = document.createElement('textarea');
+          existing.id = 'bdg-json-fallback';
+          existing.className = 'bdg-json-fallback';
+          existing.setAttribute('readonly', 'readonly');
+          copyButton.parentNode.appendChild(existing);
+        }
+        existing.value = JSON.stringify(summary, null, 2);
+        existing.hidden = false;
+        existing.focus();
+        existing.select();
+        status.textContent = 'Safe JSON summary shown below. Copy it only into BDG private notes or approved systems.';
+      });
+    });
+  }
+})();
+</script>
+{{ end }}
