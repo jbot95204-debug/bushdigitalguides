@@ -13,7 +13,7 @@ layout: contact
       <p>Use the short form or email directly. The form is deliberately simple and safe: it opens your own email app, so there is no hidden database, no public upload box, and no unverified form service collecting details.</p>
       <div class="bdg-review-points">
         <div><strong>Best first step</strong><span>Most businesses should start with the Free Local Growth Review.</span></div>
-        <div><strong>Call option</strong><span>Call <a href="tel:+61899320067">(08) 9932 0067</a> or <a href="tel:+61899320067">+61 8 9932 0067</a>. If unavailable, calls may be answered by the BDG missed-call assistant. Please do not share passwords, card details, or bank details by phone.</span></div>
+        <div><strong>Call option</strong><span>Call <a href="tel:0899320067">(08) 9932 0067</a> or <a href="tel:+61899320067">+61 8 9932 0067</a>. If unavailable, calls may be answered by the BDG missed-call assistant. Please do not share passwords, card details, or bank details by phone.</span></div>
         <div><strong>What we help with</strong><span>Getting found, looking trustworthy, making contact easy, following up properly, and keeping basics safer.</span></div>
         <div><strong>Approval first</strong><span>No website changes, customer contact, Google updates, review requests, automation, or publishing happen without approval.</span></div>
         <div><strong>Safe enquiries</strong><span>Please do not send passwords, card details, bank details, login links, private customer lists, or urgent legal/compliance matters.</span></div>
