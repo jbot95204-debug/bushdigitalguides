@@ -3,8 +3,8 @@
   <div class="container bdg-client-setup-hero-grid">
     <div>
       <div class="section-label">Client setup</div>
-      <h1>Tell us the basics once. We’ll guide the safe setup.</h1>
-      <p class="bdg-lead">Use this form after you’ve spoken with Bush Digital Guides or you’re ready to start a Free Local Growth Review. It keeps access, approvals, and passwords separate.</p>
+      <h1 id="bdg-client-setup-title">Tell us the basics once. We’ll guide the safe setup.</h1>
+      <p id="bdg-client-setup-lede" class="bdg-lead">Use this form after you’ve spoken with Bush Digital Guides or you’re ready to start a Free Local Growth Review. It keeps access, approvals, and passwords separate.</p>
       <div class="bdg-setup-promise-grid" aria-label="Setup promises">
         <div><strong>You stay owner</strong><span>We prefer manager/admin invites, not passwords.</span></div>
         <div><strong>Access is not approval</strong><span>Nothing public changes until you approve the exact update.</span></div>
@@ -232,6 +232,17 @@
   var copyButton = document.getElementById('bdg-copy-json');
   if (!form || !status) return;
   var started = Date.now();
+  var query = new URLSearchParams(window.location.search);
+  var preparedFor = (query.get('business') || '').trim().slice(0, 120);
+  if (preparedFor) {
+    var businessField = document.getElementById('setup-business');
+    var title = document.getElementById('bdg-client-setup-title');
+    var lede = document.getElementById('bdg-client-setup-lede');
+    if (businessField && !businessField.value) businessField.value = preparedFor;
+    if (title) title.textContent = preparedFor + ' — let’s map the right next steps.';
+    if (lede) lede.textContent = 'This private setup form is prepared for ' + preparedFor + '. Choose the areas you want help with, then we’ll suggest the simplest practical first stage.';
+    document.title = preparedFor + ' Client Setup | Bush Digital Guides';
+  }
   var secretPattern = /(password|passcode|one[-\s]?time code|otp|api key|secret|recovery code|card number|bank account|login link|private customer list)/i;
 
   function selectedProducts(){
