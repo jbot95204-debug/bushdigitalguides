@@ -11,7 +11,7 @@ layout: content-page
       <h1>Practical examples, built around real business problems.</h1>
       <p class="bdg-lead">These are illustrative system concepts. They show the kinds of connected systems we design. They are not measured client work, case studies or guaranteed results.</p>
       <div class="hero-actions bdg-actions">
-        <a href="/fit-call/" class="btn btn-primary">Book a 20-minute Fit Call</a>
+        <a href="/contact/#enquiry-form" class="btn btn-primary">Send an enquiry</a>
         <a href="/what-we-do/" class="btn btn-outline">See What We Do</a>
       </div>
     </div>
@@ -78,11 +78,11 @@ layout: content-page
       <div>
         <p class="section-label light">Next step</p>
         <h2 id="systems-cta">Want to talk through the bottleneck in your business?</h2>
-        <p>Book a Fit Call and we will map whether a connected system is the right next step.</p>
+        <p>Send an email enquiry and we will map whether a connected system is the right next step.</p>
       </div>
       <div class="home-final-cta-actions">
-        <a href="/fit-call/" class="btn btn-primary">Book a 20-minute Fit Call</a>
-        <a href="tel:0899320067" class="btn btn-ghost">Call (08) 9932 0067</a>
+        <a href="/contact/#enquiry-form" class="btn btn-primary">Send an enquiry</a>
+        <a href="/what-we-do/" class="btn btn-ghost">See What We Do</a>
       </div>
     </div>
   </div>

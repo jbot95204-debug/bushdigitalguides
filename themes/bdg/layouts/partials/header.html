@@ -9,10 +9,9 @@
     </a>
     <nav class="site-nav desktop-nav" aria-label="Primary">
       {{ range .Site.Menus.main }}
-        <a href="{{ .URL }}"{{ if eq .Name "Book a Fit Call" }} class="nav-cta"{{ end }}>{{ .Name }}</a>
+        <a href="{{ .URL }}"{{ if or (eq .Name "Send an enquiry") (eq .Name "Contact") (eq .Name "Contact us") }} class="nav-cta"{{ end }}>{{ .Name }}</a>
       {{ end }}
     </nav>
-    <a href="{{ .Site.Params.phone_href | safeURL }}" class="header-phone desktop-phone">{{ .Site.Params.phone }}</a>
     <button class="hamburger" id="menu-toggle" type="button" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
         <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
@@ -37,9 +36,8 @@
     </button>
   </div>
   <nav class="mobile-menu-links" aria-label="Mobile">
-    <a href="{{ .Site.Params.phone_href | safeURL }}" class="mobile-phone-link">{{ .Site.Params.phone }}</a>
     {{ range .Site.Menus.main }}
-      <a href="{{ .URL }}"{{ if eq .Name "Book a Fit Call" }} class="nav-cta"{{ end }}>{{ .Name }}</a>
+      <a href="{{ .URL }}"{{ if or (eq .Name "Send an enquiry") (eq .Name "Contact") (eq .Name "Contact us") }} class="nav-cta"{{ end }}>{{ .Name }}</a>
     {{ end }}
   </nav>
 </div>

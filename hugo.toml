@@ -57,13 +57,9 @@ theme = 'bdg'
     url = "/blog/"
     weight = 5
   [[menu.main]]
-    name = "Contact"
-    url = "/contact/"
+    name = "Send an enquiry"
+    url = "/contact/#enquiry-form"
     weight = 6
-  [[menu.main]]
-    name = "Book a Fit Call"
-    url = "/fit-call/"
-    weight = 7
 
 enableRobotsTXT = false
 

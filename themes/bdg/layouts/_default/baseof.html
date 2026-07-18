@@ -241,8 +241,8 @@
 
       var href = link.getAttribute('href') || '';
       var eventName = '';
-      if (href.indexOf('/fit-call/') === 0 || href.indexOf('{{ absURL "fit-call/" }}') === 0) {
-        eventName = 'cta_fit_call_click';
+      if (href.indexOf('/contact/') === 0 || href.indexOf('{{ absURL "contact/" }}') === 0 || href.indexOf('/contact/#') === 0) {
+        eventName = 'cta_contact_click';
       } else if (href.indexOf('/free-review/') === 0 || href.indexOf('{{ absURL "free-review/" }}') === 0) {
         eventName = 'cta_free_review_click';
       } else if (href.indexOf('mailto:hello@bushdigitalguides.com.au') === 0) {

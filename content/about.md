@@ -13,7 +13,7 @@ layout: content-page
       <p>We understand what it is like when calls arrive while the team is on the tools, quoting competes with finishing jobs, customers want faster answers and important details are spread across phone notes, email, spreadsheets and job software.</p>
       <p>That experience shapes how we work. We are prepared to visit the business, observe the actual process and speak with the people doing the work before recommending technology.</p>
       <div class="hero-actions bdg-actions">
-        <a href="/fit-call/" class="btn btn-primary">Book a 20-minute Fit Call</a>
+        <a href="/contact/#enquiry-form" class="btn btn-primary">Send an enquiry</a>
         <a href="/what-we-do/" class="btn btn-outline">See What We Do</a>
       </div>
     </div>
@@ -54,7 +54,6 @@ layout: content-page
       <h2>Based on the Fleurieu Peninsula.</h2>
       <p>Working with suitable businesses across the Adelaide Hills, southern Adelaide and regional South Australia.</p>
       <p><strong>Email:</strong> <a href="mailto:hello@bushdigitalguides.com.au">hello@bushdigitalguides.com.au</a><br>
-      <strong>Phone:</strong> <a href="tel:0899320067">(08) 9932 0067</a><br>
       <strong>ABN:</strong> 31 983 947 670</p>
     </div>
   </div>
@@ -66,11 +65,11 @@ layout: content-page
       <div>
         <p class="section-label light">Next step</p>
         <h2 id="about-cta">Ready for a practical first conversation?</h2>
-        <p>Book a 20-minute Fit Call to talk through where time or opportunities are being lost.</p>
+        <p>Send a short email enquiry about where time or opportunities are being lost.</p>
       </div>
       <div class="home-final-cta-actions">
-        <a href="/fit-call/" class="btn btn-primary">Book a 20-minute Fit Call</a>
-        <a href="/contact/" class="btn btn-ghost">Contact Us</a>
+        <a href="/contact/#enquiry-form" class="btn btn-primary">Send an enquiry</a>
+        <a href="/systems/" class="btn btn-ghost">See the Systems We Build</a>
       </div>
     </div>
   </div>

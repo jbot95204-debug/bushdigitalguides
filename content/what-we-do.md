@@ -12,7 +12,7 @@ layout: content-page
       <p class="bdg-lead">Bush Digital Guides helps trade and service businesses improve how customers find them, how enquiries are handled and how work moves through the business.</p>
       <p>Rather than selling disconnected marketing and software, we start with the customer journey and operational bottleneck—then build the right combination of brand, website, enquiry and workflow improvements.</p>
       <div class="hero-actions bdg-actions">
-        <a href="/fit-call/" class="btn btn-primary">Book a 20-minute Fit Call</a>
+        <a href="/contact/#enquiry-form" class="btn btn-primary">Send an enquiry</a>
         <a href="/systems/" class="btn btn-outline">See the Systems We Build</a>
       </div>
     </div>
@@ -29,7 +29,7 @@ layout: content-page
     <div class="bdg-service-list">
       <div class="bdg-service-row featured">
         <div><span>Includes</span><h3>What the Blueprint covers</h3></div>
-        <p>Current customer and work-journey map; baseline measures where data is available; key enquiry, follow-up and workflow bottlenecks; top three opportunities ranked by likely value, effort and risk; recommended 90-day implementation plan; and indicative investment and ongoing requirements discussed after the Fit Call.</p>
+        <p>Current customer and work-journey map; baseline measures where data is available; key enquiry, follow-up and workflow bottlenecks; top three opportunities ranked by likely value, effort and risk; recommended 90-day implementation plan; and indicative investment and ongoing requirements discussed after the initial enquiry.</p>
         <strong>Paid diagnostic</strong>
       </div>
     </div>
@@ -125,10 +125,10 @@ layout: content-page
       <div>
         <p class="section-label light">Next step</p>
         <h2 id="what-we-do-cta">Not sure which offer fits?</h2>
-        <p>Start with a Fit Call. We’ll identify the bottleneck and the smallest useful next step.</p>
+        <p>Start with an email enquiry. We’ll identify the bottleneck and the smallest useful next step.</p>
       </div>
       <div class="home-final-cta-actions">
-        <a href="/fit-call/" class="btn btn-primary">Book a 20-minute Fit Call</a>
+        <a href="/contact/#enquiry-form" class="btn btn-primary">Send an enquiry</a>
         <a href="/how-it-works/" class="btn btn-ghost">See How It Works</a>
       </div>
     </div>
