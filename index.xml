@@ -142,38 +142,37 @@
 &lt;li>Anyone who&amp;rsquo;s ever sent 47 duplicate invoices by accident (that&amp;rsquo;s a real story, and it&amp;rsquo;s in the book)&lt;/li>
 &lt;/ul>
 &lt;h3 id="what-youll-learn">What You&amp;rsquo;ll Learn&lt;/h3>
-&lt;p>&lt;strong>Part 1 — The Mindset:&lt;/strong> Where your time actually goes (not where you think it goes), the automation stack explained in plain English, and how to audit your time leaks.&lt;/p></description></item><item><title>Book a 20-minute Fit Call</title><link>https://www.bushdigitalguides.com.au/fit-call/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bushdigitalguides.com.au/fit-call/</guid><description>&lt;section class="bdg-section bdg-section-tight">
- &lt;div class="container bdg-form-grid">
- &lt;div>
- &lt;div class="section-label">Fit Call&lt;/div>
- &lt;h1>Is there a worthwhile problem to solve?&lt;/h1>
- &lt;p>The first step is a focused 20-minute conversation—not a full sales presentation.&lt;/p>
- &lt;p>We’ll ask about the business, the current bottleneck and the outcome you want. If there is likely to be a useful project, we’ll explain the next step. If a simpler fix or another provider makes more sense, we’ll say so.&lt;/p>
- &lt;div class="bdg-review-points">
- &lt;div>&lt;strong>Useful when&lt;/strong>&lt;span>Enquiries are being missed or handled inconsistently; the website or brand is holding back trust; quotes or leads are not followed up reliably; the owner is carrying too much administrative coordination; information is copied between several systems; or you are considering another admin hire and want to examine the workflow first.&lt;/span>&lt;/div>
- &lt;div>&lt;strong>How this page works&lt;/strong>&lt;span>There is no live booking calendar or form backend on this site yet. Completing the fields opens your own email app with a ready draft to &lt;a href="mailto:hello@bushdigitalguides.com.au">hello@bushdigitalguides.com.au&lt;/a>. Review the draft, then send it if you are happy with the content.&lt;/span>&lt;/div>
- &lt;div>&lt;strong>Call option&lt;/strong>&lt;span>Prefer to speak directly? Call &lt;a href="tel:0899320067">(08) 9932 0067&lt;/a> or &lt;a href="tel:+61899320067">+61 8 9932 0067&lt;/a>.&lt;/span>&lt;/div>
+&lt;p>&lt;strong>Part 1 — The Mindset:&lt;/strong> Where your time actually goes (not where you think it goes), the automation stack explained in plain English, and how to audit your time leaks.&lt;/p></description></item><item><title>Client Setup</title><link>https://www.bushdigitalguides.com.au/client-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bushdigitalguides.com.au/client-setup/</guid><description/></item><item><title>Contact</title><link>https://www.bushdigitalguides.com.au/fit-call/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bushdigitalguides.com.au/fit-call/</guid><description>&lt;section class="bdg-section bdg-section-tight">
+ &lt;div class="container" style="max-width:720px;">
+ &lt;div class="section-label">Email first&lt;/div>
+ &lt;h1>Start with an email enquiry.&lt;/h1>
+ &lt;p>This page is kept so older links still work. The normal public path is email-first: send a short enquiry on the contact form.&lt;/p>
+ &lt;p>There is no separate booking form on this page. Use the contact form so the details reach us through your own email app.&lt;/p>
+ &lt;div class="bdg-review-points" style="margin-top:1.5rem;">
+ &lt;div>&lt;strong>Preferred path&lt;/strong>&lt;span>Email enquiry first.&lt;/span>&lt;/div>
+ &lt;div>&lt;strong>How it works&lt;/strong>&lt;span>The contact form opens a draft in your own mail app. Nothing is stored or sent by this website until you press send in that app.&lt;/span>&lt;/div>
  &lt;div>&lt;strong>Safe enquiries&lt;/strong>&lt;span>Please do not send passwords, card details, bank details, login links, private customer lists, or urgent legal/compliance matters.&lt;/span>&lt;/div>
  &lt;/div>
+ &lt;div class="hero-actions" style="margin-top:2rem;">
+ &lt;a href="https://www.bushdigitalguides.com.au/contact/#enquiry-form" class="btn btn-primary">Send an enquiry&lt;/a>
+ &lt;a href="https://www.bushdigitalguides.com.au/systems/" class="btn btn-outline">See the Systems We Build&lt;/a>
  &lt;/div>
- &lt;div class="bdg-form-card">
- &lt;h2>Request a Fit Call&lt;/h2>
- &lt;p>Fill in the basics. When you press the button, your email app opens with the message ready to review and send.&lt;/p></description></item><item><title>Client Setup</title><link>https://www.bushdigitalguides.com.au/client-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bushdigitalguides.com.au/client-setup/</guid><description/></item><item><title>Contact Bush Digital Guides</title><link>https://www.bushdigitalguides.com.au/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bushdigitalguides.com.au/contact/</guid><description>&lt;section class="bdg-section bdg-section-tight">
+ &lt;/div>
+&lt;/section></description></item><item><title>Contact Bush Digital Guides</title><link>https://www.bushdigitalguides.com.au/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bushdigitalguides.com.au/contact/</guid><description>&lt;section class="bdg-section bdg-section-tight">
  &lt;div class="container bdg-form-grid">
  &lt;div>
  &lt;div class="section-label">Contact&lt;/div>
- &lt;h1>Tell us where work is getting stuck.&lt;/h1>
- &lt;p>Use the short form, call directly or send an email. You do not need to know which technology or service you need—describe the business problem and we’ll help identify the sensible next step.&lt;/p>
+ &lt;h1>Email is the normal way to start.&lt;/h1>
+ &lt;p>Send a short enquiry and describe where work is getting stuck. You do not need to know which technology or service you need—email is the preferred first step, and we will help identify the sensible next step.&lt;/p>
  &lt;div class="bdg-review-points">
- &lt;div>&lt;strong>Best first step&lt;/strong>&lt;span>Most suitable businesses should start with a &lt;a href="https://www.bushdigitalguides.com.au/fit-call/">20-minute Fit Call&lt;/a>.&lt;/span>&lt;/div>
- &lt;div>&lt;strong>How this form works&lt;/strong>&lt;span>There is no hidden database or third-party form endpoint on this page. When you press send, your own email app opens with a draft to &lt;a href="mailto:hello@bushdigitalguides.com.au">hello@bushdigitalguides.com.au&lt;/a>. Review it, then send if you are happy with the content.&lt;/span>&lt;/div>
- &lt;div>&lt;strong>Call option&lt;/strong>&lt;span>Call &lt;a href="tel:0899320067">(08) 9932 0067&lt;/a> or &lt;a href="tel:+61899320067">+61 8 9932 0067&lt;/a>. If unavailable, calls may be answered by the BDG missed-call assistant. Please do not share passwords, card details, or bank details by phone.&lt;/span>&lt;/div>
+ &lt;div>&lt;strong>Preferred path&lt;/strong>&lt;span>Most suitable businesses start with a short email enquiry.&lt;/span>&lt;/div>
+ &lt;div>&lt;strong>How this form works&lt;/strong>&lt;span>There is no hidden database or third-party form endpoint on this page. When you press the button, your own email app opens with a draft to &lt;a href="mailto:hello@bushdigitalguides.com.au">hello@bushdigitalguides.com.au&lt;/a>. Review it, then send if you are happy with the content.&lt;/span>&lt;/div>
  &lt;div>&lt;strong>Safe enquiries&lt;/strong>&lt;span>Please do not send passwords, card details, bank details, login links, private customer lists, or urgent legal/compliance matters.&lt;/span>&lt;/div>
  &lt;/div>
  &lt;/div>
- &lt;div class="bdg-form-card">
- &lt;h2>Quick enquiry form&lt;/h2>
- &lt;p>Fill in the basics. When you press send, your email app opens with the message ready to review.&lt;/p></description></item><item><title>Free Local Growth Review</title><link>https://www.bushdigitalguides.com.au/free-review/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bushdigitalguides.com.au/free-review/</guid><description/></item><item><title>Free Sample Chapters</title><link>https://www.bushdigitalguides.com.au/samples/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bushdigitalguides.com.au/samples/</guid><description/></item><item><title>Google Business Profile Help in Victor Harbor</title><link>https://www.bushdigitalguides.com.au/google-business-profile-help-victor-harbor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bushdigitalguides.com.au/google-business-profile-help-victor-harbor/</guid><description>&lt;p>Your Google Business Profile is often the first thing a local customer sees. If it is incomplete, inconsistent, or out of date, people may never reach your website.&lt;/p>
+ &lt;div class="bdg-form-card" id="enquiry-form">
+ &lt;h2>Send an enquiry&lt;/h2>
+ &lt;p>Fill in the basics. When you press the button, your email app opens with the message ready to review.&lt;/p></description></item><item><title>Free Local Growth Review</title><link>https://www.bushdigitalguides.com.au/free-review/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bushdigitalguides.com.au/free-review/</guid><description/></item><item><title>Free Sample Chapters</title><link>https://www.bushdigitalguides.com.au/samples/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bushdigitalguides.com.au/samples/</guid><description/></item><item><title>Google Business Profile Help in Victor Harbor</title><link>https://www.bushdigitalguides.com.au/google-business-profile-help-victor-harbor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bushdigitalguides.com.au/google-business-profile-help-victor-harbor/</guid><description>&lt;p>Your Google Business Profile is often the first thing a local customer sees. If it is incomplete, inconsistent, or out of date, people may never reach your website.&lt;/p>
 &lt;p>Bush Digital Guides helps regional trade and service businesses improve the practical parts of their Google presence without changing anything without approval. The goal is not to chase tricks. It is to help nearby customers understand what you do, where you work, whether you look active, and how to contact you safely.&lt;/p></description></item><item><title>How It Works</title><link>https://www.bushdigitalguides.com.au/how-it-works/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bushdigitalguides.com.au/how-it-works/</guid><description>&lt;section class="bdg-hero">
  &lt;div class="container bdg-hero-grid">
  &lt;div class="bdg-hero-copy">
@@ -181,7 +180,7 @@
  &lt;h1>Process first. Technology second.&lt;/h1>
  &lt;p class="bdg-lead">We begin by understanding how customers and information move through the business. Only then do we recommend a website, workflow, integration or assistant.&lt;/p>
  &lt;div class="hero-actions bdg-actions">
- &lt;a href="https://www.bushdigitalguides.com.au/fit-call/" class="btn btn-primary">Book a 20-minute Fit Call&lt;/a>
+ &lt;a href="https://www.bushdigitalguides.com.au/contact/#enquiry-form" class="btn btn-primary">Send an enquiry&lt;/a>
  &lt;a href="https://www.bushdigitalguides.com.au/what-we-do/" class="btn btn-outline">See What We Do&lt;/a>
  &lt;/div>
  &lt;/div>
@@ -237,7 +236,7 @@
  &lt;h1>Practical examples, built around real business problems.&lt;/h1>
  &lt;p class="bdg-lead">These are illustrative system concepts. They show the kinds of connected systems we design. They are not measured client work, case studies or guaranteed results.&lt;/p>
  &lt;div class="hero-actions bdg-actions">
- &lt;a href="https://www.bushdigitalguides.com.au/fit-call/" class="btn btn-primary">Book a 20-minute Fit Call&lt;/a>
+ &lt;a href="https://www.bushdigitalguides.com.au/contact/#enquiry-form" class="btn btn-primary">Send an enquiry&lt;/a>
  &lt;a href="https://www.bushdigitalguides.com.au/what-we-do/" class="btn btn-outline">See What We Do&lt;/a>
  &lt;/div>
  &lt;/div>
@@ -301,7 +300,7 @@
  &lt;p class="bdg-lead">Bush Digital Guides helps trade and service businesses improve how customers find them, how enquiries are handled and how work moves through the business.&lt;/p>
  &lt;p>Rather than selling disconnected marketing and software, we start with the customer journey and operational bottleneck—then build the right combination of brand, website, enquiry and workflow improvements.&lt;/p>
  &lt;div class="hero-actions bdg-actions">
- &lt;a href="https://www.bushdigitalguides.com.au/fit-call/" class="btn btn-primary">Book a 20-minute Fit Call&lt;/a>
+ &lt;a href="https://www.bushdigitalguides.com.au/contact/#enquiry-form" class="btn btn-primary">Send an enquiry&lt;/a>
  &lt;a href="https://www.bushdigitalguides.com.au/systems/" class="btn btn-outline">See the Systems We Build&lt;/a>
  &lt;/div>
  &lt;/div>
