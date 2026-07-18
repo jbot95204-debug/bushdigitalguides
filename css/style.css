@@ -675,6 +675,37 @@ pre {
   background: var(--ochre);
 }
 
+.service-area-link {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.service-area-link a {
+  color: var(--brand);
+  text-decoration: none;
+}
+
+.service-area-link a:hover,
+.service-area-link a:focus-visible {
+  color: var(--brand-dark);
+  text-decoration: underline;
+}
+
+.journey-result {
+  text-align: center;
+  max-width: 720px;
+  margin: 1.5rem auto 0;
+  color: rgba(247, 245, 239, 0.88);
+  font-size: 1.02rem;
+  line-height: 1.55;
+}
+
+.home-trust-line {
+  margin-top: 1rem;
+  max-width: 48ch;
+}
+
 /* ========== Problem ========== */
 
 .problem-section {
