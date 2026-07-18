@@ -4,8 +4,8 @@ title = 'Bush Digital Guides'
 theme = 'bdg'
 
 [params]
-  description = "Growth systems for small businesses: branding, websites and advertising, enquiry handling, follow-up and practical workflows for regional South Australia."
-  tagline = "More opportunities. Less admin. A business that runs more smoothly."
+  description = "Bush Digital Guides connects websites, enquiries, phone intake, follow-up and everyday workflows for trade and service businesses across regional South Australia."
+  tagline = "More booked work. Less business held in your head."
   author = "Bush Digital Guides"
   email = "hello@bushdigitalguides.com.au"
   phone = "(08) 9932 0067"
@@ -37,25 +37,33 @@ theme = 'bdg'
 
 [menu]
   [[menu.main]]
-    name = "Home"
-    url = "/"
+    name = "What We Do"
+    url = "/what-we-do/"
     weight = 1
   [[menu.main]]
-    name = "Free Growth Review"
-    url = "/free-review/"
+    name = "How It Works"
+    url = "/how-it-works/"
     weight = 2
   [[menu.main]]
-    name = "How We Help"
-    url = "/consulting/"
+    name = "Systems We Build"
+    url = "/systems/"
     weight = 3
   [[menu.main]]
-    name = "Example Review"
-    url = "/sample-local-growth-review/"
+    name = "About"
+    url = "/about/"
     weight = 4
+  [[menu.main]]
+    name = "Insights"
+    url = "/blog/"
+    weight = 5
   [[menu.main]]
     name = "Contact"
     url = "/contact/"
-    weight = 5
+    weight = 6
+  [[menu.main]]
+    name = "Book a Fit Call"
+    url = "/fit-call/"
+    weight = 7
 
 enableRobotsTXT = false
 

@@ -1,6 +1,6 @@
 {{ define "main" }}
 <section class="post-header">
-  <div class="section-label">{{ if eq .Section "blog" }}BLOG{{ else }}{{ upper .Section }}{{ end }}</div>
+  <div class="section-label">{{ if eq .Section "blog" }}INSIGHTS{{ else }}{{ upper .Section }}{{ end }}</div>
   <h1>{{ .Title }}</h1>
   {{ with .Description }}<p class="page-description">{{ . }}</p>{{ end }}
 </section>

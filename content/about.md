@@ -1,51 +1,77 @@
 ---
 title: "About Bush Digital Guides"
-description: "Practical local growth and digital safety support for regional South Australian businesses."
+description: "Practical growth and operations systems for trade and service businesses, built from firsthand experience inside the kind of business we serve."
+layout: content-page
 ---
 
-## Practical local growth help for regional businesses
+<section class="bdg-hero">
+  <div class="container bdg-hero-grid">
+    <div class="bdg-hero-copy">
+      <div class="bdg-pill">About</div>
+      <h1>Practical systems, built by someone who understands the work behind them.</h1>
+      <p class="bdg-lead">Bush Digital Guides was founded from firsthand experience inside trade and service businesses—not from a theory about how those businesses should operate.</p>
+      <p>We understand what it is like when calls arrive while the team is on the tools, quoting competes with finishing jobs, customers want faster answers and important details are spread across phone notes, email, spreadsheets and job software.</p>
+      <p>That experience shapes how we work. We are prepared to visit the business, observe the actual process and speak with the people doing the work before recommending technology.</p>
+      <div class="hero-actions bdg-actions">
+        <a href="/fit-call/" class="btn btn-primary">Book a 20-minute Fit Call</a>
+        <a href="/what-we-do/" class="btn btn-outline">See What We Do</a>
+      </div>
+    </div>
+  </div>
+</section>
 
-Bush Digital Guides helps local businesses improve the digital pieces that actually affect growth: websites, Google visibility, reviews, enquiry forms, safer digital basics, quote follow-up, and simple business systems.
+<section class="bdg-section">
+  <div class="container">
+    <div class="bdg-section-heading">
+      <div class="section-label">Our approach</div>
+      <h2>What we believe about useful systems.</h2>
+    </div>
+    <div class="bdg-feature-grid three">
+      <div class="bdg-premium-card">
+        <h3>Problem before software</h3>
+        <p>The business problem comes before the software. A smaller working improvement is better than an ambitious system nobody trusts.</p>
+      </div>
+      <div class="bdg-premium-card">
+        <h3>Human judgement stays</h3>
+        <p>Automation should remove repetition, not accountability. Important judgement stays with people.</p>
+      </div>
+      <div class="bdg-premium-card">
+        <h3>Client-owned foundations</h3>
+        <p>Clients should own their core accounts and data. Results should be measured against a real baseline.</p>
+      </div>
+      <div class="bdg-premium-card">
+        <h3>Recoverable by design</h3>
+        <p>A system should remain understandable and recoverable when something fails—with a clear owner, alert path and manual fallback.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-We are focused on regional South Australia, starting around Victor Harbor, Port Elliot, Goolwa, Encounter Bay, Hayborough, Mount Barker, Murray Bridge, and the broader Fleurieu Peninsula.
+<section class="bdg-section bdg-muted-section">
+  <div class="container">
+    <div class="bdg-section-heading">
+      <div class="section-label">Location</div>
+      <h2>Based on the Fleurieu Peninsula.</h2>
+      <p>Working with suitable businesses across the Adelaide Hills, southern Adelaide and regional South Australia.</p>
+      <p><strong>Email:</strong> <a href="mailto:hello@bushdigitalguides.com.au">hello@bushdigitalguides.com.au</a><br>
+      <strong>Phone:</strong> <a href="tel:0899320067">(08) 9932 0067</a><br>
+      <strong>ABN:</strong> 31 983 947 670</p>
+    </div>
+  </div>
+</section>
 
-## What we do
-
-We help businesses make it easier for customers to:
-
-- understand what you do
-- see where you work
-- trust your business
-- call or request a quote
-- find you on Google
-- follow up without leads going missing
-- keep website, email, domain, enquiry, and assistant basics safer as online risks change
-
-That usually starts with the website, because it is the most visible part of the customer journey. From there, we can improve local SEO, Google profile details, review requests, enquiry forms, digital safety basics, and simple follow-up systems.
-
-## Digital safety matters
-
-As AI tools become more capable, scammers and bad actors can move faster too. Bush Digital Guides is not a fear-based cybersecurity firm, but our work should help reduce obvious risks for small businesses: exposed website issues, weak form/contact paths, unclear domain or email ownership, missing email trust records, unsafe assistant behaviour, and old access that should be removed.
-
-Where safety is in scope, we aim to provide a plain-English summary of what was checked, what was improved, and what still needs attention.
-
-## How we work
-
-We keep things practical and approval-first.
-
-- No public website changes without approval
-- No DNS/domain changes without approval
-- No customer messages without approval
-- No advertising spend without approval
-- No contracts, invoices, or billing without approval
-
-The goal is not to make things complicated. The goal is to help good local businesses look more professional online, get found more easily, and turn more visitors into real enquiries.
-
-## Based in
-
-Victor Harbor / Fleurieu Peninsula / Regional South Australia.
-
-## Contact
-
-**Email:** [hello@bushdigitalguides.com.au](mailto:hello@bushdigitalguides.com.au)  
-**ABN:** 31 983 947 670
+<section class="home-final-cta" aria-labelledby="about-cta">
+  <div class="container">
+    <div class="home-final-cta-panel">
+      <div>
+        <p class="section-label light">Next step</p>
+        <h2 id="about-cta">Ready for a practical first conversation?</h2>
+        <p>Book a 20-minute Fit Call to talk through where time or opportunities are being lost.</p>
+      </div>
+      <div class="home-final-cta-actions">
+        <a href="/fit-call/" class="btn btn-primary">Book a 20-minute Fit Call</a>
+        <a href="/contact/" class="btn btn-ghost">Contact Us</a>
+      </div>
+    </div>
+  </div>
+</section>

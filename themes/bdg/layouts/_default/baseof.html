@@ -42,18 +42,18 @@
       { "@type": "Country", "name": "Australia" }
     ],
     "serviceType": [
-      "Local business website improvement",
-      "Google Business Profile readiness",
-      "Local SEO",
-      "Review process setup",
-      "Enquiry capture and follow-up systems"
+      "Growth and operations systems for trade businesses",
+      "Brand and enquiry foundation",
+      "Enquiry-to-booked-job systems",
+      "Missed-call and enquiry follow-up systems",
+      "Workflow and handover systems"
     ],
     "taxID": "ABN 31983947670",
     "knowsAbout": [
+      "trade and field-service business systems",
+      "enquiry-to-booked-job workflows",
       "regional business websites",
       "local visibility",
-      "Google Business Profile readiness",
-      "customer reviews",
       "enquiry follow-up"
     ]
   }
@@ -241,7 +241,9 @@
 
       var href = link.getAttribute('href') || '';
       var eventName = '';
-      if (href.indexOf('/free-review/') === 0 || href.indexOf('{{ absURL "free-review/" }}') === 0) {
+      if (href.indexOf('/fit-call/') === 0 || href.indexOf('{{ absURL "fit-call/" }}') === 0) {
+        eventName = 'cta_fit_call_click';
+      } else if (href.indexOf('/free-review/') === 0 || href.indexOf('{{ absURL "free-review/" }}') === 0) {
         eventName = 'cta_free_review_click';
       } else if (href.indexOf('mailto:hello@bushdigitalguides.com.au') === 0) {
         eventName = 'cta_email_click';

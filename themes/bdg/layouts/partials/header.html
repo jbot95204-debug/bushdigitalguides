@@ -9,7 +9,7 @@
     </a>
     <nav class="site-nav desktop-nav" aria-label="Primary">
       {{ range .Site.Menus.main }}
-        <a href="{{ .URL }}"{{ if or (eq .Name "Free Growth Review") (eq .Name "Free Local Growth Review") }} class="nav-cta"{{ end }}>{{ .Name }}</a>
+        <a href="{{ .URL }}"{{ if eq .Name "Book a Fit Call" }} class="nav-cta"{{ end }}>{{ .Name }}</a>
       {{ end }}
     </nav>
     <a href="{{ .Site.Params.phone_href | safeURL }}" class="header-phone desktop-phone">{{ .Site.Params.phone }}</a>
@@ -39,7 +39,7 @@
   <nav class="mobile-menu-links" aria-label="Mobile">
     <a href="{{ .Site.Params.phone_href | safeURL }}" class="mobile-phone-link">{{ .Site.Params.phone }}</a>
     {{ range .Site.Menus.main }}
-      <a href="{{ .URL }}"{{ if or (eq .Name "Free Growth Review") (eq .Name "Free Local Growth Review") }} class="nav-cta"{{ end }}>{{ .Name }}</a>
+      <a href="{{ .URL }}"{{ if eq .Name "Book a Fit Call" }} class="nav-cta"{{ end }}>{{ .Name }}</a>
     {{ end }}
   </nav>
 </div>
