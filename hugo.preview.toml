@@ -1,0 +1,4 @@
+disableAliases = true
+
+[params]
+  preview_noindex = true

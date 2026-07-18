@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  {{ if not .Site.Params.preview_noindex }}
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-5T575V1N67"></script>
   <script>
@@ -12,10 +13,15 @@
     gtag('config', 'G-5T575V1N67');
   </script>
   <meta name="google-site-verification" content="VrSLEflHmWwkQH0dExNbDkmHu8PgNJmNOWseQ22vzGg" />
+  {{ end }}
   <title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   {{ with .Params.keywords }}<meta name="keywords" content="{{ delimit . ", " }}">{{ end }}
+  {{ if .Site.Params.preview_noindex }}
+  <meta name="robots" content="noindex, nofollow">
+  {{ else }}
   {{ with .Params.robots }}<meta name="robots" content="{{ . }}">{{ end }}
+  {{ end }}
   <link rel="canonical" href="{{ .Permalink }}">
   <link rel="stylesheet" href="/css/style.css">
   {{ template "_internal/opengraph.html" . }}

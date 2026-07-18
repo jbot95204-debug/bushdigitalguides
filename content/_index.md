@@ -1,4 +1,4 @@
 ---
-title: "Bush Digital Guides — Local Enquiry Growth for Regional Trade and Service Businesses"
-description: "Practical local growth support for regional Australian trade and service businesses: websites, Google visibility, Maps, reviews, AI search readiness, enquiry forms, quote follow-up, safer digital basics, and simple business systems."
+title: "Bush Digital Guides — Growth Systems for Small Businesses"
+description: "Bush Digital Guides helps small businesses attract the right customers, respond faster and take repetitive work off their plate — with practical systems for websites, enquiries and everyday workflows."
 ---
