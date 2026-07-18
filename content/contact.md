@@ -54,7 +54,6 @@ layout: content-page
           <label for="message">Short note</label>
           <textarea id="message" name="message" rows="4" placeholder="Example: We are a trade business with regular enquiries and follow-up is still sitting with the owner."></textarea>
         </div>
-
         <p class="bdg-safe-form-warning">Do not include passwords, card or bank details, login links, private customer lists, or urgent legal/compliance matters.</p>
         <button type="submit" class="btn btn-primary">Open email to send enquiry →</button>
         <p class="bdg-form-status" id="bdg-form-status" aria-live="polite"></p>
