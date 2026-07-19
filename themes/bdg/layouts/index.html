@@ -16,13 +16,17 @@
     </div>
     <div class="home-hero-media">
       <figure class="home-hero-figure">
-        <img
-          src="/images/bdg-growth-systems-hero.jpg"
-          alt="Conceptual visual of connected growth and operations systems for trade and service businesses"
-          width="1280"
-          height="720"
-          decoding="async"
-          fetchpriority="high">
+        <picture>
+          <source media="(max-width: 900px)" srcset="/images/bdg-growth-systems-hero-mobile.jpg" width="1280" height="620">
+          <source media="(min-width: 901px)" srcset="/images/bdg-growth-systems-hero.jpg" width="1280" height="720">
+          <img
+            src="/images/bdg-growth-systems-hero.jpg"
+            alt="Conceptual visual of connected growth and operations systems for trade and service businesses"
+            width="1280"
+            height="720"
+            decoding="async"
+            fetchpriority="high">
+        </picture>
       </figure>
     </div>
   </div>
@@ -161,16 +165,16 @@
       <h2 id="fit-heading">Built for established service businesses that already have momentum.</h2>
       <p>Bush Digital Guides is generally a good fit when:</p>
     </div>
-    <div class="bdg-feature-grid three">
-      <div class="bdg-premium-card">
+    <div class="fit-criteria">
+      <div class="fit-criterion">
         <h3>Team size</h3>
         <p>You have a team of approximately 3–25 people and enquiries already arrive through calls, email, forms or social channels.</p>
       </div>
-      <div class="bdg-premium-card">
+      <div class="fit-criterion">
         <h3>Known friction</h3>
         <p>Missed calls, slow responses or inconsistent follow-up are costing opportunities, or quoting and handover still rely heavily on the owner.</p>
       </div>
-      <div class="bdg-premium-card">
+      <div class="fit-criterion">
         <h3>Practical intent</h3>
         <p>You already use—or are ready to use—a job-management or CRM system, and want practical improvement rather than technology for its own sake.</p>
       </div>
@@ -186,7 +190,7 @@
       <h2 id="examples-heading">Practical examples, built around real business problems.</h2>
       <p>These are illustrative system concepts. They are not measured client work, case studies or guaranteed results.</p>
     </div>
-    <div class="example-systems">
+    <div class="example-systems editorial-rows">
       <article class="example-system">
         <p class="example-label">Illustrative concept</p>
         <h3>Brand &amp; Enquiry Foundation</h3>
@@ -230,16 +234,16 @@
       <h2 id="measure-heading">A useful system should improve something you can see.</h2>
       <p>Depending on the project, we establish a baseline and track measures such as:</p>
     </div>
-    <div class="bdg-feature-grid three">
-      <div class="bdg-premium-card"><p>Missed enquiries captured</p></div>
-      <div class="bdg-premium-card"><p>Median initial response time</p></div>
-      <div class="bdg-premium-card"><p>Enquiries received with complete information</p></div>
-      <div class="bdg-premium-card"><p>Enquiry-to-booking conversion</p></div>
-      <div class="bdg-premium-card"><p>Quotes awaiting follow-up</p></div>
-      <div class="bdg-premium-card"><p>Quote turnaround time</p></div>
-      <div class="bdg-premium-card"><p>Website enquiry conversion</p></div>
-      <div class="bdg-premium-card"><p>Lead-source attribution</p></div>
-      <div class="bdg-premium-card"><p>Validated administrative time removed</p></div>
+    <div class="measure-ledger" role="list">
+      <div role="listitem"><span>01</span><p>Missed enquiries captured</p></div>
+      <div role="listitem"><span>02</span><p>Median initial response time</p></div>
+      <div role="listitem"><span>03</span><p>Enquiries received with complete information</p></div>
+      <div role="listitem"><span>04</span><p>Enquiry-to-booking conversion</p></div>
+      <div role="listitem"><span>05</span><p>Quotes awaiting follow-up</p></div>
+      <div role="listitem"><span>06</span><p>Quote turnaround time</p></div>
+      <div role="listitem"><span>07</span><p>Website enquiry conversion</p></div>
+      <div role="listitem"><span>08</span><p>Lead-source attribution</p></div>
+      <div role="listitem"><span>09</span><p>Validated administrative time removed</p></div>
     </div>
     <p class="bdg-form-note" style="max-width:720px;margin:1.5rem auto 0;">We do not promise invented percentages or claim time savings without first recording a genuine baseline.</p>
   </div>

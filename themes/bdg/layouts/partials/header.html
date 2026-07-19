@@ -50,6 +50,8 @@
   if (!toggle || !menu || !close) return;
 
   var lastFocus = null;
+  var scrollPosition = 0;
+  var savedBodyStyle = null;
   var FOCUSABLE = 'a[href], button:not([disabled]), textarea, input:not([disabled]), select:not([disabled]), [tabindex]:not([tabindex="-1"])';
 
   function isOpen(){
@@ -75,13 +77,38 @@
     }
   }
 
+  function lockScroll(){
+    scrollPosition = window.scrollY || window.pageYOffset || 0;
+    savedBodyStyle = {
+      overflow: document.body.style.overflow,
+      position: document.body.style.position,
+      top: document.body.style.top,
+      width: document.body.style.width
+    };
+    document.documentElement.classList.add('menu-is-open');
+    document.body.style.overflow = 'hidden';
+    document.body.style.position = 'fixed';
+    document.body.style.top = '-' + scrollPosition + 'px';
+    document.body.style.width = '100%';
+  }
+
+  function unlockScroll(){
+    if (savedBodyStyle) {
+      document.body.style.overflow = savedBodyStyle.overflow;
+      document.body.style.position = savedBodyStyle.position;
+      document.body.style.top = savedBodyStyle.top;
+      document.body.style.width = savedBodyStyle.width;
+    }
+    document.documentElement.classList.remove('menu-is-open');
+    window.scrollTo(0, scrollPosition);
+    savedBodyStyle = null;
+  }
+
   function openMenu(){
     lastFocus = document.activeElement;
     menu.hidden = false;
-    // Force reflow so transition can run after un-hiding
-    void menu.offsetWidth;
     menu.classList.add('is-open');
-    document.body.style.overflow = 'hidden';
+    lockScroll();
     toggle.setAttribute('aria-expanded', 'true');
     toggle.setAttribute('aria-label', 'Close menu');
     setBackgroundInert(true);
@@ -90,18 +117,18 @@
     }, 0);
   }
 
-  function closeMenu(){
+  function closeMenu(restoreFocus){
     if (!isOpen()) return;
     menu.classList.remove('is-open');
-    document.body.style.overflow = '';
+    menu.hidden = true;
+    unlockScroll();
     toggle.setAttribute('aria-expanded', 'false');
     toggle.setAttribute('aria-label', 'Open menu');
     setBackgroundInert(false);
-    window.setTimeout(function(){
-      menu.hidden = true;
-    }, 200);
-    var returnTo = lastFocus && typeof lastFocus.focus === 'function' ? lastFocus : toggle;
-    returnTo.focus();
+    if (restoreFocus !== false) {
+      var returnTo = lastFocus && typeof lastFocus.focus === 'function' ? lastFocus : toggle;
+      returnTo.focus();
+    }
     lastFocus = null;
   }
 
@@ -109,10 +136,10 @@
     if (isOpen()) closeMenu();
     else openMenu();
   });
-  close.addEventListener('click', closeMenu);
+  close.addEventListener('click', function(){ closeMenu(true); });
 
   menu.querySelectorAll('.mobile-menu-links a').forEach(function(a){
-    a.addEventListener('click', closeMenu);
+    a.addEventListener('click', function(){ closeMenu(false); });
   });
 
   document.addEventListener('keydown', function(event){
@@ -120,7 +147,7 @@
 
     if (event.key === 'Escape') {
       event.preventDefault();
-      closeMenu();
+      closeMenu(true);
       return;
     }
 
@@ -145,6 +172,10 @@
       event.preventDefault();
       first.focus();
     }
+  });
+
+  window.addEventListener('resize', function(){
+    if (window.innerWidth > 900 && isOpen()) closeMenu(true);
   });
 })();
 </script>
