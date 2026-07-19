@@ -9,19 +9,17 @@ bookLink: "/books/automate-everything/"
 draft: false
 ---
 
-Let's be real for a second. You didn't start a business to spend your evenings sending awkward "just following up on that invoice" emails. Nobody did. Yet here we are — the Australian Small Business and Family Enterprise Ombudsman reports that late payments cost Australian small businesses over **$115 billion** in outstanding invoices at any given time. The average payment time for small business invoices in Australia sits around **30-35 days** beyond the due date.
+Let's be real for a second. Repeatedly checking overdue invoices and writing follow-up messages can be an awkward part of running a business. Late payments can also make cash-flow planning and supplier commitments harder.
 
-That's not a rounding error. That's your cash flow getting absolutely smashed because you're too busy actually doing the work to chase people who owe you money.
+You can support invoice chasing with scheduled reminders and review tasks. This guide walks through the practical setup — from built-in tools in Xero and MYOB through to workflows using Zapier and Make.
 
-The good news? You can **automate invoice chasing** for your small business, and it's not as complicated as you think. This guide walks you through the practical setup — from built-in tools in Xero and MYOB through to more powerful workflows using Zapier and Make.
-
-## The Real Cost of Late Payments
+## Why Late Payments Need a Clear Process
 
 Before we get into the how, let's talk about why this matters beyond the obvious "I want my money."
 
 ### Cash Flow Is Everything
 
-A 2024 report from CreditorWatch found that **more than 50% of Australian small businesses** experience cash flow issues directly related to late payments. When your customers pay late, you can't pay your suppliers on time, which damages your trade references, increases your costs (late payment penalties flow both ways), and limits your ability to take on new work.
+When customers pay late, the timing mismatch can affect supplier payments, purchasing decisions, and the ability to plan upcoming work. A documented process identifies overdue states, reminder stages, exceptions, and the point where a person must step in.
 
 ### The Hidden Time Cost
 
@@ -33,15 +31,15 @@ Here's the one nobody talks about. Every time you:
 - Send a second reminder
 - Have the awkward conversation
 
-...that's time you're not spending on billable work or growing your business. Most tradies and small business owners I talk to reckon they spend **2-5 hours per week** on payment follow-ups. At even $80/hour, that's $8,000-$20,000 a year in lost productive time.
+...that adds repeated admin to the week. Measure the follow-up work in your own business rather than relying on a general estimate; invoice volume, payment terms, customer mix, and existing systems all affect it.
 
 ### The Emotional Tax
 
-And let's not pretend there isn't an emotional cost. Chasing money is uncomfortable. Plenty of business owners let invoices slide simply because they don't want the confrontation. Automation removes the emotion entirely — it's just a system doing its job.
+Chasing money can also be uncomfortable. Automation can send configured routine reminders, while disputes, hardship, payment plans, and escalation should still be handled by a person.
 
 ## Level 1: Built-In Invoice Reminders (Xero & MYOB)
 
-If you're already using Xero or MYOB (and most Australian small businesses use one or the other), you've got automated reminders built in. Most people just haven't turned them on.
+If you're already using Xero or MYOB, review the reminder features available on your current plan and confirm how they are configured before enabling them.
 
 ### Xero Invoice Reminders
 
@@ -65,7 +63,7 @@ Xero's built-in reminder system is decent for basic chasing. Here's how to set i
 - No SMS reminders (email only)
 - Can't trigger actions in other systems
 - Limited to three reminder stages
-- No built-in legal escalation workflow; formal debt-recovery documents should be reviewed carefully before use
+- No built-in legal escalation workflow; formal collection documents should be reviewed carefully before use
 
 ### MYOB Invoice Reminders
 
@@ -78,9 +76,9 @@ MYOB's approach is similar but slightly different in execution:
 
 MYOB's reminder system is more manual than Xero's — you need to trigger the batch send rather than having it run automatically. For fully automated reminders in MYOB, you'll want to pair it with a workflow tool (covered in Level 2).
 
-### Crafting Reminder Emails That Actually Work
+### Crafting Clear Reminder Emails
 
-The default templates in both Xero and MYOB are... fine. But you can do better. Here's a framework:
+Review the default templates in Xero and MYOB before enabling them. Here is a three-stage framework:
 
 **Reminder 1 (7 days overdue) — The Friendly Nudge:**
 > Hi [Name], just a quick heads-up that invoice #[Number] for $[Amount] was due on [Date]. Might have slipped through — no stress. You can pay directly via the link below. Cheers, [Your name]
@@ -89,13 +87,13 @@ The default templates in both Xero and MYOB are... fine. But you can do better. 
 > Hi [Name], following up on invoice #[Number] for $[Amount], now 14 days past due. Could you let me know when I can expect payment? Happy to chat if there's an issue. Payment link below.
 
 **Reminder 3 (21+ days overdue) — The Business Tone:**
-> Hi [Name], invoice #[Number] for $[Amount] is now [X] days overdue. I need to resolve this to keep my accounts in order. Please arrange payment within 7 days or get in touch to discuss a payment plan. If I don't hear back, I'll need to consider my options for debt recovery.
+> Hi [Name], invoice #[Number] for $[Amount] is now [X] days overdue. I need to resolve this to keep my accounts in order. Please arrange payment within 7 days or get in touch to discuss a payment plan. If I don't hear back, the account may move to our formal collection process.
 
 Notice the escalation? Each reminder gets progressively more direct. The first assumes it's a mistake. The second asks for communication. The third makes it clear there are consequences. All professional, none aggressive.
 
 ## Level 2: Zapier and Make Workflows
 
-This is where it gets properly powerful. Zapier and Make (formerly Integromat) let you build workflows that connect your accounting software to other tools — SMS, Slack, CRM systems, even AI-powered follow-ups.
+Zapier and Make (formerly Integromat) can connect accounting software to other tools such as SMS providers, internal notifications, CRM systems, and draft-assistance tools.
 
 ### The Basic Overdue Invoice Workflow
 
@@ -132,11 +130,9 @@ Here's a practical walkthrough for a basic Zapier automation:
 - Wait additional 7 days
 - Send SMS: "Hi {{Contact Name}}, invoice #{{Invoice Number}} for ${{Amount}} is 14 days overdue. Can you arrange payment? Pay here: {{Payment Link}}"
 
-**Estimated cost:** Zapier Starter plan ($29.99 USD/month) + BurstSMS credits (roughly $0.08-0.09 per SMS)
-
 ### Make (Integromat) Alternative
 
-Make works similarly but offers more complex logic at a lower price point. If you're sending fewer than 1,000 operations per month, Make's free plan might cover you.
+Make works similarly and supports branching logic. Compare current plans, operation limits, integrations, and support with the workflow you need.
 
 The key advantage of Make over Zapier for invoice chasing is **branching logic**. You can build scenarios like:
 
@@ -144,59 +140,54 @@ The key advantage of Make over Zapier for invoice chasing is **branching logic**
 - If invoice is $500-$5,000 → email + SMS
 - If invoice is over $5,000 → email + SMS + Slack notification to you + calendar block for phone call
 
-That kind of conditional logic helps you focus your personal attention on the invoices that actually matter.
+That conditional logic assigns a communication channel and review task according to the invoice amount.
 
-### SMS Follow-Ups: The Secret Weapon
+### SMS Follow-Ups: Additional Considerations
 
-Email reminders are good. SMS follow-ups are better. Here's why:
-
-- **SMS open rates in Australia sit around 95%** (compared to ~20-30% for email)
-- People read texts within minutes, not hours
-- A text feels more personal and harder to ignore
-- Payment links in SMS get clicked at a much higher rate than email links
+SMS can provide another reminder channel, but it is not automatically the right choice for every customer or invoice. Consider consent and legal requirements, sender identification, message costs, accessibility, customer preferences, and how replies will be monitored. Keep a human review step for disputes, hardship, or escalation.
 
 **Australian SMS providers worth looking at:**
-- **BurstSMS** — Australian-owned, great API, competitive pricing (~8-9c per SMS)
+- **BurstSMS** — Australian provider with API options
 - **Twilio** — global platform, more technical but very flexible
 - **MessageMedia** — another solid Australian option
 
 **Important:** payment reminders are usually treated differently from marketing messages, but the details matter. Keep reminders factual, identify the business clearly, avoid adding promotions, and get legal advice if you are unsure about consent, wording, or escalation rules.
 
-## Level 3: Payment Terms That Prevent Late Payments
+## Level 3: Payment-Term Configuration
 
-Automation handles the chasing, but smart payment terms reduce the need for chasing in the first place.
+Payment terms and reminder rules should refer to the same due dates, exceptions, and escalation process.
 
-### Early Payment Discounts
+### Early-Payment Terms
 
-Offer a 2% discount for payment within 7 days. Sounds small, but it works. A $5,000 invoice with a 2% early payment discount means your customer saves $100. Many will take it, especially larger businesses with accounts departments looking to optimise.
+An early-payment term is one option a business can assess with its accountant. A clearly documented term should specify the amount, qualifying payment date, tax treatment, and what happens after that date. Model the cost before offering it and confirm the terms are appropriate for your business.
 
-Format it on your invoices as: **2/7 Net 30** (2% discount if paid within 7 days, otherwise full amount due in 30 days)
+Use wording approved for the business rather than copying shorthand that customers may not understand.
 
 ### Progress Payments
 
 For larger jobs (common in trades, consulting, and project work), don't wait until the end to invoice. Structure payments as:
 
-- 30-50% deposit upfront
+- Agreed deposit before work starts
 - Progress payments at milestones
-- 10-20% on completion
+- Agreed balance on completion
 
-This dramatically reduces your exposure. If someone doesn't pay the final 10%, you've already collected 80-90% of the job value.
+This structure allocates payment across the job rather than leaving the full invoice until completion. Deposits and progress claims must suit the contract, industry rules, tax treatment, and work actually completed.
 
 ### Late Payment Penalties
 
 You may be able to charge interest on overdue invoices if your terms are clear, agreed upfront, and lawful. Include clear terms on your invoices:
 
-> "Payment due within 14 days. Accounts overdue beyond 30 days may incur interest at 2% per month on the outstanding balance."
+> "Payment is due within the period stated on this invoice. Agreed overdue-account terms may apply after that date. Contact us promptly if you dispute the invoice or need to discuss the account."
 
-Will you actually enforce it every time? Probably not. But having it there creates urgency and gives you leverage in conversations.
+Only include a late-payment term if it is lawful, agreed, and something the business is prepared to administer consistently. Get professional advice on the wording and enforcement.
 
 ### Get Paid Before You Start
 
-For new customers without an established relationship, there's nothing wrong with requiring payment upfront or a substantial deposit. Payment platforms like Square, Stripe, and even direct bank transfer make this friction-free.
+For new customers, a business may consider payment upfront or a deposit where the contract and applicable rules allow it. Document the amount, due date, refund terms, payment methods, and accounting treatment.
 
 ## The Automation Stack: Putting It All Together
 
-Here's what a fully automated accounts receivable system looks like for a typical Australian small business:
+Here is an example of a staged accounts-receivable workflow. Treat the timing and channels as configuration examples, not a recommended result; adapt them to the business's terms, customer needs, and review requirements.
 
 ### Day 0: Invoice Sent
 - Xero/MYOB generates and sends invoice with payment link
@@ -204,7 +195,7 @@ Here's what a fully automated accounts receivable system looks like for a typica
 
 ### Day of Due Date: Gentle Pre-Reminder
 - Automated email: "Just a heads-up — invoice #123 is due today. Pay here: [link]"
-- (Many businesses skip this, but it works surprisingly well)
+- Use only if it fits the agreed payment terms and communication approach
 
 ### Day 7 Overdue: First Reminder
 - Automated email with friendly tone
@@ -225,37 +216,37 @@ Here's what a fully automated accounts receivable system looks like for a typica
 - Account flagged in Xero/MYOB
 - Future work for this customer requires upfront payment
 
-### Day 60+ Overdue: Debt Recovery
+### Later Overdue Stage: Formal Collection Review
 - Handoff to debt collection agency or small claims process
 - All communication history documented automatically
 
-The beauty of this system is that **you don't think about it until Day 21.** The first three weeks handle themselves. You only get personally involved when it's genuinely needed.
+In a configured workflow, routine stages can run automatically and create a task when personal review is required. Monitor delivery failures and replies throughout; automation does not remove responsibility for the account or customer relationship.
 
-## Common Objections (And Why They're Wrong)
+## Common Concerns to Consider
 
 **"My customers will think it's impersonal."**
-Your customers get automated reminders from their phone company, electricity provider, and Netflix. Nobody thinks less of those companies. Professional reminders signal that you run a professional business.
+Clear wording, accurate invoice details, an identifiable sender, and an easy way to raise a dispute can make an automated reminder easier to understand. Test the message and tone with the customer relationship in mind.
 
 **"I don't want to upset good customers."**
-Good customers pay on time and won't receive reminders. And the ones who occasionally forget? They'll appreciate the nudge rather than an awkward phone call three weeks later.
+Set rules so reminders are suppressed for disputed invoices, agreed extensions, hardship arrangements, or payments that have not yet reconciled. Provide a monitored reply path.
 
 **"It's too complicated to set up."**
-Xero's built-in reminders take about 15 minutes to configure. That's it. You can get fancier later, but start with the basics.
+Start with the built-in reminder settings and review recipients, timing, templates, payment status, exceptions, and reply handling before switching them on.
 
 **"I don't have enough invoices to justify automation."**
-If you send even 10 invoices a month and 3-4 go overdue, that's potentially hours of chasing per month. The maths works at almost any scale.
+Use your own invoice volume and follow-up history to decide whether automation is worthwhile. A simple built-in reminder may be enough at a small scale.
 
-## Quick Wins: Start Today
+## Initial Configuration Checklist
 
-If you do nothing else after reading this, do these three things:
+For an initial review, use these three items:
 
-1. **Turn on Xero/MYOB invoice reminders right now.** Fifteen minutes. Default templates. Just switch them on.
+1. **Review Xero/MYOB invoice reminder settings.** Check the recipients, timing, templates, payment status, and exceptions before enabling them.
 2. **Add a payment link to every invoice.** Xero and MYOB both support online payments. Make it stupidly easy to pay you.
 3. **Update your payment terms.** Put them on your invoices, your quotes, and your website. Clear terms set clear expectations.
 
 ## Make the system safe before it runs
 
-Invoice reminders are useful, but they still touch customer relationships and money. Before turning on any automated follow-up, check:
+Invoice reminders touch customer relationships and money. Before turning on any automated follow-up, check:
 
 - the customer data source is accurate and only the right team members can access it
 - reminders are sent from a verified business email or SMS sender
@@ -264,7 +255,7 @@ Invoice reminders are useful, but they still touch customer relationships and mo
 - sensitive disputes, complaints, payment plans, and hardship cases are handed to a person
 - escalation steps create draft tasks for owner review rather than sending harsh messages automatically
 
-This is the same practical digital safety principle BDG uses for websites and enquiry systems: automate the boring follow-up, but keep sensitive decisions approval-gated.
+This is the same practical digital safety principle BDG uses for websites and enquiry systems: define routine follow-up steps, but keep sensitive decisions approval-gated.
 
 ## Going Further
 
@@ -272,4 +263,4 @@ This guide covers the practical basics of automating invoice chasing. If you wan
 
 If invoices are only one part of a bigger enquiry and follow-up leak, start with a [Free Local Growth Review](/free-review/). Bush Digital Guides can check the path from website enquiry to quote, reminder, review request, and owner handoff, then suggest a simple system you can approve before anything goes live.
 
-Stop chasing invoices manually. Set up the system carefully, let it handle the routine reminders, and keep your personal time for the conversations that actually need you.
+Set up the system carefully, define the routine reminders, and route disputes, hardship, replies, and escalation to a named person.
