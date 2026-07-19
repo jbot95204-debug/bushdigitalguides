@@ -2,6 +2,7 @@
 title: "Tell Us What You Want to Improve"
 description: "Email Bush Digital Guides about brand, digital growth and practical business systems."
 keywords: ["contact Bush Digital Guides", "email enquiry", "brand digital growth business systems"]
+images: ["/images/bdg-growth-systems-hero.jpg"]
 layout: content-page
 ---
 

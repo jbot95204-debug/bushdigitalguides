@@ -1,6 +1,7 @@
 ---
 title: "Insights"
 description: "Practical guides for established trade and service businesses on enquiries, follow-up, websites, local visibility and connected growth systems."
+images: ["/images/bdg-growth-systems-hero.jpg"]
 ---
 
 Practical guides for established trade and field-service businesses that want more of the right work, cleaner handovers and less repetitive admin.
