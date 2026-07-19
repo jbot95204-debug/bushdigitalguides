@@ -1,6 +1,7 @@
 baseURL = 'https://www.bushdigitalguides.com.au/'
 languageCode = 'en-au'
 title = 'Bush Digital Guides'
+disableKinds = ["taxonomy", "term"]
 theme = 'bdg'
 
 [params]
