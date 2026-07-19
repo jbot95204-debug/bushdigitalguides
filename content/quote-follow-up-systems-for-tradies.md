@@ -65,7 +65,7 @@ If the website gets the enquiry but nobody follows up, the marketing problem has
 
 <div class="post-growth-cta">
   <p><strong>Need the missed-call part shown plainly?</strong></p>
-  <p>View BDG's missed-call demo flow to see how a fallback can collect useful details and give the owner a clean summary without quoting, booking, or overpromising. The public test line is available for safe demo testing only, not urgent or sensitive information.</p>
+  <p>View BDG's illustrative missed-call demo flow to see how a fallback can collect useful details and give the owner a clean summary without quoting, booking, or overpromising. It is not a live public phone service. Any client test number is created only within an approved implementation after its wording, safeguards, and routing are agreed.</p>
   <div class="post-growth-cta-actions">
     <a href="/missed-call-demo/" class="btn btn-primary btn-sm">See the Demo Flow →</a>
     <a href="/free-review/" class="btn btn-outline btn-sm">Start with a Free Review</a>
@@ -106,4 +106,3 @@ The [Free Local Growth Review](/free-review/) checks whether enquiries and quote
 [Request a Free Local Growth Review](/free-review/)
 
 If missed calls are the main leak, see the [Missed Call Safety Net](/missed-call-safety-net/) service page. If you want to talk through the follow-up process first, [contact Bush Digital Guides](/contact/).
-

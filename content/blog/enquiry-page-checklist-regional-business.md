@@ -165,7 +165,7 @@ A simple missed-call text can be enough to restart the conversation:
 
 Only send automated SMS where it suits the business and complies with the tools and consent settings you use. Keep the message helpful, not pushy.
 
-For more detail, read [Missed Call Safety Net for Local Trades](/blog/missed-call-safety-net-local-trades/). You can also view BDG's [sample missed-call flow](/missed-call-demo/) to see the kind of owner summary a safe capture-and-handoff process should produce. The public test line is available for safe demo testing only; the safer first business step is still a [Free Local Growth Review](/free-review/) before any client phone routing or assistant setup is considered.
+For more detail, read [Missed Call Safety Net for Local Trades](/blog/missed-call-safety-net-local-trades/). You can also view BDG's [sample missed-call flow](/missed-call-demo/) to see the kind of owner summary a safe capture-and-handoff process should produce. The sample is illustrative rather than a live public phone service. Any client test number is created only within an approved implementation after its wording, safeguards, and routing are agreed; the safer first business step is still a [Free Local Growth Review](/free-review/).
 
 ## Test the page on a phone
 

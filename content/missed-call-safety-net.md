@@ -39,7 +39,7 @@ It is not about replacing the owner, receptionist, or admin person. It is about 
 
 <div class="post-growth-cta">
   <p><strong>Want to see the style before using it with customers?</strong></p>
-  <p>View the BDG demo flow to see how a missed-call assistant can take details without quoting, booking, or overpromising. The public test line is available for safe demo testing only, not urgent or sensitive information.</p>
+  <p>View the illustrative BDG demo flow to see how a missed-call assistant can take details without quoting, booking, or overpromising. It is an educational example, not a live public phone service. Any client test number is created only within an approved implementation after its safeguards and routing are agreed.</p>
   <div class="post-growth-cta-actions">
     <a href="/missed-call-demo/" class="btn btn-primary btn-sm">See the Demo Flow →</a>
     <a href="/free-review/" class="btn btn-outline btn-sm">Start with a Free Review</a>
