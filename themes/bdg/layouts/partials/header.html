@@ -138,8 +138,42 @@
   });
   close.addEventListener('click', function(){ closeMenu(true); });
 
+  function focusHashDestination(hash){
+    if (!hash) return;
+    var target;
+    try {
+      target = document.querySelector(hash);
+    } catch (error) {
+      return;
+    }
+    if (!target) return;
+    var destination = target.querySelector('h1, h2, h3, h4, [tabindex]') || target;
+    if (!destination.hasAttribute('tabindex')) destination.setAttribute('tabindex', '-1');
+    destination.focus({ preventScroll: true });
+  }
+
   menu.querySelectorAll('.mobile-menu-links a').forEach(function(a){
-    a.addEventListener('click', function(){ closeMenu(false); });
+    a.addEventListener('click', function(event){
+      var destination = new URL(a.href, window.location.href);
+      var isSamePageHash = destination.pathname === window.location.pathname && destination.hash;
+      if (isSamePageHash) event.preventDefault();
+      closeMenu(false);
+      if (isSamePageHash) {
+        window.setTimeout(function(){
+          if (window.history && window.history.pushState) {
+            window.history.pushState(null, '', destination.hash);
+          } else {
+            window.location.hash = destination.hash;
+          }
+          var target;
+          try { target = document.querySelector(destination.hash); } catch (error) { return; }
+          if (target) target.scrollIntoView({ block: 'start' });
+          focusHashDestination(destination.hash);
+        }, 0);
+      } else {
+        toggle.focus();
+      }
+    });
   });
 
   document.addEventListener('keydown', function(event){

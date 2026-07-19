@@ -1,18 +1,18 @@
 ---
-title: "Systems We Build"
-description: "Illustrative growth and operations system concepts for trade and service businesses—brand and enquiry foundations, missed-enquiry safety nets, follow-up and workflow handover systems."
+title: "Systems & Workflows"
+description: "Illustrative concepts that connect brand, digital growth, customer experience and practical business systems."
 layout: content-page
 ---
 
 <section class="bdg-hero">
   <div class="container bdg-hero-grid">
     <div class="bdg-hero-copy">
-      <div class="bdg-pill">Systems we build</div>
-      <h1>Practical examples, built around real business problems.</h1>
-      <p class="bdg-lead">These are illustrative system concepts. They show the kinds of connected systems we design. They are not measured client work, case studies or guaranteed results.</p>
+      <div class="bdg-pill">Systems &amp; workflows</div>
+      <h1>Illustrative ways connected work can take shape.</h1>
+      <p class="bdg-lead">These hypothetical scenarios show possible combinations of brand, digital growth, customer experience and practical business systems. They are scope examples, not client work, results or promises.</p>
       <div class="hero-actions bdg-actions">
-        <a href="/contact/#enquiry-form" class="btn btn-primary">Send an enquiry</a>
-        <a href="/what-we-do/" class="btn btn-outline">See What We Do</a>
+        <a href="/contact/#enquiry-form" class="btn btn-primary">Tell Us What You Want to Improve</a>
+        <a href="/#how-we-help" class="btn btn-outline">See How We Help</a>
       </div>
     </div>
   </div>
@@ -22,53 +22,32 @@ layout: content-page
   <div class="container">
     <div class="bdg-section-heading">
       <div class="section-label">Illustrative concepts</div>
-      <h2 id="systems-examples-heading">Four common system patterns.</h2>
-      <p>These describe the kinds of connected systems we design. They are not measured client results.</p>
+      <h2 id="systems-examples-heading">Four hypothetical ways the pieces can connect.</h2>
+      <p>Each scenario is illustrative scope only.</p>
     </div>
     <div class="example-systems">
       <article class="example-system">
         <p class="example-label">Illustrative concept</p>
-        <h3>Brand &amp; Enquiry Foundation</h3>
-        <p>For businesses whose public presence no longer reflects the quality of their work.</p>
-        <p>This may include clearer positioning, a refined identity, a premium website, local service pages and an enquiry pathway that collects the information needed for a proper response.</p>
-        <p><strong>Typical outcome:</strong> A stronger first impression and better-quality enquiries.</p>
+        <h3>Brand, website and enquiry path</h3>
+        <p>A hypothetical business could clarify its positioning and identity, update key website information, and shape an enquiry path around the details a considered response needs.</p>
       </article>
       <article class="example-system">
         <p class="example-label">Illustrative concept</p>
-        <h3>Missed Enquiry Safety Net</h3>
-        <p>For teams that cannot always answer while they are on the tools, driving or helping another customer.</p>
-        <p>The normal number can ring first. If nobody answers, an approved fallback collects useful details and sends the team a clear summary for follow-up.</p>
-        <p><strong>Typical outcome:</strong> More genuine enquiries captured with enough context to respond properly.</p>
+        <h3>Visibility, landing page and enquiry context</h3>
+        <p>A hypothetical campaign could align useful public information with a focused landing page and an enquiry form that carries relevant context into the next review.</p>
       </article>
       <article class="example-system">
         <p class="example-label">Illustrative concept</p>
-        <h3>Quote &amp; Follow-Up System</h3>
-        <p>For businesses where quotes are sent but the next step depends on someone remembering.</p>
-        <p>The system can show what is waiting, prepare approved follow-up drafts, create reminders and record outcomes without pressuring unsuitable customers.</p>
-        <p><strong>Typical outcome:</strong> Better follow-up coverage and clearer visibility of open opportunities.</p>
+        <h3>Enquiry, considered response and handover</h3>
+        <p>A hypothetical service path could gather an enquiry, prepare the information needed for a person to consider it, and hand agreed details to the appropriate team member or system.</p>
       </article>
       <article class="example-system">
         <p class="example-label">Illustrative concept</p>
-        <h3>Workflow &amp; Handover System</h3>
-        <p>For teams losing time because information must be copied between email, forms, spreadsheets, calendars and job systems.</p>
-        <p>We map the current process, remove avoidable repetition and create a clearer handoff between office, owner and field team.</p>
-        <p><strong>Typical outcome:</strong> Less double handling and fewer jobs waiting on missing information.</p>
+        <h3>Repeated workflow and practical reporting</h3>
+        <p>A hypothetical internal process could map a repeated task, clarify how information moves between people and tools, and provide a simple view for periodic review.</p>
       </article>
     </div>
-    <p class="bdg-form-note" style="max-width:760px;margin:1.75rem auto 0;">Integrity note: replace these examples with genuine case studies as measured client work becomes available. Do not present example systems as client results.</p>
-  </div>
-</section>
-
-<section class="bdg-section bdg-muted-section" aria-labelledby="flagship-heading">
-  <div class="container">
-    <div class="bdg-section-heading">
-      <div class="section-label">Flagship connection</div>
-      <h2 id="flagship-heading">The Enquiry-to-Booked-Job System</h2>
-      <p>The systems above often combine into one connected journey: attract suitable interest, capture useful details, qualify without risky promises, follow up with context, move approved enquiries into the calendar or job system, and improve from real measures.</p>
-    </div>
-    <div class="hero-actions" style="justify-content:center;">
-      <a href="/what-we-do/#enquiry-to-booked-job" class="btn btn-primary">Explore the Enquiry-to-Booked-Job System</a>
-    </div>
+    <p class="bdg-form-note" style="max-width:760px;margin:1.75rem auto 0;">These examples are not case studies or a fixed package. Scope is considered in context.</p>
   </div>
 </section>
 
@@ -77,12 +56,12 @@ layout: content-page
     <div class="home-final-cta-panel">
       <div>
         <p class="section-label light">Next step</p>
-        <h2 id="systems-cta">Want to talk through the bottleneck in your business?</h2>
-        <p>Send an email enquiry and we will map whether a connected system is the right next step.</p>
+        <h2 id="systems-cta">Tell Us What You Want to Improve</h2>
+        <p>Start with a short email about the area you would like to make clearer or more connected.</p>
       </div>
       <div class="home-final-cta-actions">
-        <a href="/contact/#enquiry-form" class="btn btn-primary">Send an enquiry</a>
-        <a href="/what-we-do/" class="btn btn-ghost">See What We Do</a>
+        <a href="/contact/#enquiry-form" class="btn btn-primary">Tell Us What You Want to Improve</a>
+        <a href="/#how-we-help" class="btn btn-ghost">See How We Help</a>
       </div>
     </div>
   </div>

@@ -1,36 +1,32 @@
 # Bush Digital Guides
 
-> Local Business Growth Systems for regional Australian small businesses.
+> Brand, digital growth, customer experience and practical business systems.
 
-Bush Digital Guides builds Local Business Growth Systems: websites, Google visibility, reviews, enquiries, follow-up, and simple automation/processes that help regional businesses get found, sell more, save admin time, and keep practical digital basics safer.
+Bush Digital Guides brings together brand, digital growth, customer experience and practical business systems.
 
-Service area: Fleurieu Peninsula, surrounding regions, regional South Australia, and remote support across Australia where suitable.
+Based in South Australia and working with businesses across Australia.
 
 Contact: hello@bushdigitalguides.com.au
-Phone: (08) 9932 0067
 Website: https://www.bushdigitalguides.com.au/
 
 ## Core pages
 
 - Home: https://www.bushdigitalguides.com.au/
-- Free Local Growth Review: https://www.bushdigitalguides.com.au/free-review/
-- Services: https://www.bushdigitalguides.com.au/consulting/
-- Sample Local Growth Review: https://www.bushdigitalguides.com.au/sample-local-growth-review/
+- How We Help: https://www.bushdigitalguides.com.au/#how-we-help
+- How We Work: https://www.bushdigitalguides.com.au/#how-we-work
+- Systems & Workflows: https://www.bushdigitalguides.com.au/systems/
 - Contact: https://www.bushdigitalguides.com.au/contact/
-- Missed Call Safety Net: https://www.bushdigitalguides.com.au/missed-call-safety-net/
 - Privacy Policy: https://www.bushdigitalguides.com.au/privacy/
 - Terms & Conditions: https://www.bushdigitalguides.com.au/terms/
 
 ## What BDG does
 
-- Free Local Growth Reviews
-- Local visibility and trust improvements
-- Google Business Profile and review-system foundations
-- Enquiry-ready websites and homepage refreshes
-- Quote/contact paths and follow-up systems
-- Missed-call and enquiry safety-net systems
-- Simple automation/processes for enquiry triage, follow-up reminders, review requests, admin summaries, and owner approval workflows
-- Practical website, email, domain, access, backup, and digital safety checks
+- Brand positioning, messaging and identity foundations
+- Websites, landing pages and clear public information
+- Digital visibility and customer experience review
+- Enquiry pathways, considered response and handover support
+- Repeated workflows and practical reporting
+- Practical website, email, domain, access, backup and digital safety checks
 
 ## Important boundaries
 
@@ -42,4 +38,4 @@ BDG uses approval-first delivery. Public changes, DNS/domain/email changes, Goog
 
 ## Preferred summary
 
-Bush Digital Guides builds Local Business Growth Systems for regional South Australian small businesses, covering websites, Google visibility, reviews, enquiry capture, follow-up, missed-call handling, simple automation/processes, and practical digital safety.
+Bush Digital Guides brings together brand, digital growth, customer experience and practical business systems. It is based in South Australia and works with businesses across Australia.

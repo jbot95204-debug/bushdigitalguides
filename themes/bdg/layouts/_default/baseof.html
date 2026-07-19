@@ -36,25 +36,23 @@
     "email": "hello@bushdigitalguides.com.au",
     "description": {{ .Site.Params.description | jsonify | safeJS }},
     "areaServed": [
-      { "@type": "Place", "name": "Fleurieu Peninsula" },
-      { "@type": "AdministrativeArea", "name": "Surrounding regions" },
-      { "@type": "AdministrativeArea", "name": "Regional South Australia" },
+      { "@type": "AdministrativeArea", "name": "South Australia" },
       { "@type": "Country", "name": "Australia" }
     ],
     "serviceType": [
-      "Growth and operations systems for trade businesses",
-      "Brand and enquiry foundation",
-      "Enquiry-to-booked-job systems",
-      "Missed-call and enquiry follow-up systems",
-      "Workflow and handover systems"
+      "Brand and digital growth",
+      "Customer experience",
+      "Practical business systems",
+      "Websites and digital presence",
+      "Workflows and handovers"
     ],
     "taxID": "ABN 31983947670",
     "knowsAbout": [
-      "trade and field-service business systems",
-      "enquiry-to-booked-job workflows",
-      "regional business websites",
-      "local visibility",
-      "enquiry follow-up"
+      "brand strategy",
+      "digital growth",
+      "customer experience",
+      "business systems",
+      "workflows and handovers"
     ]
   }
   </script>
@@ -67,12 +65,7 @@
     "name": "{{ .Site.Title }}",
     "url": "{{ .Site.BaseURL }}",
     "description": "{{ .Site.Params.description }}",
-    "publisher": { "@type": "Organization", "name": "Bush Digital Guides" },
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": "https://www.bushdigitalguides.com.au/blog/?q={search_term_string}",
-      "query-input": "required name=search_term_string"
-    }
+    "publisher": { "@type": "Organization", "name": "Bush Digital Guides" }
   }
   </script>
   {{ else if and (eq .Section "blog") (not .IsNode) }}

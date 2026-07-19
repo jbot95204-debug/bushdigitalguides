@@ -9,28 +9,28 @@ layout: our-system
   <div class="container">
     <div class="bdg-section-heading">
       <div class="section-label">Working proof</div>
-      <h2>We use the same Local Business Growth Systems approach we recommend.</h2>
+      <h1>We use the same Local Business Growth Systems approach we recommend.</h1>
       <p>Bush Digital Guides is being built with the same standards we recommend to regional businesses: clear website proof, Google profile readiness, ethical review requests, reliable enquiry capture, practical digital safety, clean follow-up, and simple processes that reduce admin friction. Some pieces are live now; some are readiness work that will only be published or connected after approval.</p>
     </div>
     <div class="bdg-feature-grid three">
       <div class="bdg-premium-card">
         <span class="bdg-icon">01</span>
-        <h3>Website proof</h3>
+        <h2 class="card-title">Website proof</h2>
         <p>The public site explains the offer, shows practical service paths, includes sample review assets, and gives customers clear next steps without relying on vague agency claims.</p>
       </div>
       <div class="bdg-premium-card">
         <span class="bdg-icon">02</span>
-        <h3>Google readiness</h3>
+        <h2 class="card-title">Google readiness</h2>
         <p>Business profile copy, service categories, photos, service areas, and launch checks are prepared internally. We do not claim a Google Business Profile is live until it has been created, verified, and checked.</p>
       </div>
       <div class="bdg-premium-card">
         <span class="bdg-icon">03</span>
-        <h3>Reviews done ethically</h3>
+        <h2 class="card-title">Reviews done ethically</h2>
         <p>The review process is built around asking real customers after real work, making the request easy, and never gating, filtering, inventing, or incentivising reviews.</p>
       </div>
       <div class="bdg-premium-card">
         <span class="bdg-icon">04</span>
-        <h3>Safety built in</h3>
+        <h2 class="card-title">Safety built in</h2>
         <p>We check practical risks around websites, forms, email/domain records, access, backups, and approval guardrails so useful Local Business Growth Systems stay safer as online abuse changes.</p>
       </div>
     </div>

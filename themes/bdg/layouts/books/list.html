@@ -18,7 +18,7 @@
           {{ with .Params.cover }}<img src="{{ . }}" alt="{{ $.Title }} book cover" loading="lazy">{{ else }}<span>{{ $.Params.emoji }}</span>{{ end }}
         </div>
         <div class="book-card-body">
-          <h3>{{ .Title }}</h3>
+          <h2 class="card-title">{{ .Title }}</h2>
           <div class="subtitle">{{ .Params.subtitle }}</div>
           <div class="excerpt">{{ .Description }}</div>
           <div class="book-card-meta">

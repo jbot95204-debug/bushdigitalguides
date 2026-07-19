@@ -4,14 +4,14 @@ title = 'Bush Digital Guides'
 theme = 'bdg'
 
 [params]
-  description = "Bush Digital Guides connects websites, enquiries, phone intake, follow-up and everyday workflows for trade and service businesses across regional South Australia."
-  tagline = "More booked work. Less business held in your head."
+  description = "Bush Digital Guides brings together brand, digital growth, customer experience and practical business systems. Based in South Australia and working with businesses across Australia."
+  tagline = "Clearer customer experiences. More practical ways of working."
   author = "Bush Digital Guides"
   email = "hello@bushdigitalguides.com.au"
   phone = "(08) 9932 0067"
   phone_href = "tel:0899320067"
   abn = "31983947670"
-  images = ["/images/og-default.png"]
+  images = []
 
 [params.books]
   [params.books.automation]
@@ -37,15 +37,15 @@ theme = 'bdg'
 
 [menu]
   [[menu.main]]
-    name = "What We Do"
-    url = "/what-we-do/"
+    name = "How We Help"
+    url = "/#how-we-help"
     weight = 1
   [[menu.main]]
-    name = "How It Works"
-    url = "/how-it-works/"
+    name = "How We Work"
+    url = "/#how-we-work"
     weight = 2
   [[menu.main]]
-    name = "Systems We Build"
+    name = "Systems & Workflows"
     url = "/systems/"
     weight = 3
   [[menu.main]]
