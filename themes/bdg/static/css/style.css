@@ -2727,6 +2727,14 @@ a.bdg-premium-card:hover {
   font-size: 0.9rem;
 }
 
+.book-hero .affiliate-disclosure {
+  max-width: 52ch;
+  margin-top: 10px;
+  color: rgba(247, 245, 239, 0.78);
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
 .book-hero-cover {
   width: 100%;
   max-width: 240px;

@@ -72,7 +72,15 @@
           <span>{{ .Params.chapters }} chapters</span>
           <span>Bush Digital Guides</span>
         </div>
-        {{ with .Params.kdpLink }}{{ $link := . }}{{ if strings.Contains $link "amazon.com" }}{{ $link = printf "%s?tag=bushdigital-22" $link }}{{ end }}<a href="{{ $link }}" class="btn btn-accent">Buy on Amazon — {{ $.Params.price }}</a>{{ end }}
+        {{ with .Params.kdpLink }}
+          {{ $link := . }}
+          {{ if and (strings.Contains $link "amazon.com") (not (findRE `(?:\?|&)tag=` $link)) }}
+            {{ $separator := cond (strings.Contains $link "?") "&" "?" }}
+            {{ $link = printf "%s%stag=bushdigital-22" $link $separator }}
+          {{ end }}
+          <a href="{{ $link }}" class="btn btn-accent">Buy on Amazon — {{ $.Params.price }}</a>
+          <p class="affiliate-disclosure">Affiliate link: BDG may receive a commission from qualifying purchases.</p>
+        {{ end }}
       </div>
       <div>
         {{ with .Params.cover }}
