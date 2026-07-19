@@ -2410,7 +2410,7 @@ a.bdg-premium-card:hover {
 }
 
 .books-section,
-.newsletter-section,
+.guide-enquiry-section,
 .resource-section,
 .blog-section,
 .email-capture-section,
@@ -2748,7 +2748,7 @@ a.bdg-premium-card:hover {
 }
 
 .email-capture-inner,
-.newsletter-inner {
+.guide-enquiry-inner {
   max-width: 720px;
   margin: 0 auto;
   padding: 36px;
@@ -2759,21 +2759,13 @@ a.bdg-premium-card:hover {
 }
 
 .email-capture-inner h2,
-.newsletter-inner h2 {
+.guide-enquiry-inner h2 {
   margin-bottom: 12px;
 }
 
 .email-capture-inner p,
-.newsletter-inner p {
+.guide-enquiry-inner p {
   color: var(--muted);
-}
-
-.newsletter-form {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
-  margin-top: 18px;
 }
 
 .privacy-note {
